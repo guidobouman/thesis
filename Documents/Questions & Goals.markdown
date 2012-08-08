@@ -8,6 +8,7 @@ What does an internet look like that's able to communicate with the human brain 
 * What is the internet?
 * How does a human brain operate?
 * How does a human brain store information?
+* What are excisting storage technologies for databases?
 * What are the requirements to communicate with the human brain?
 
 
@@ -21,7 +22,7 @@ What does an internet look like that's able to communicate with the human brain 
 
 **Main goal**
 
-Designing a new architecture for the internet & the web that's able to communicate with the human brain.
+Designing a vision for the future of the internet from a technological view.
 
 
 **Sub goals**
