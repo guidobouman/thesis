@@ -1,0 +1,5 @@
+In de toekomst worden we één met het internet. Het internet bestaat dan niet meer uit beeldschermen zoals we het nu kennen, maar het wij zijn het internet. Het internet bestaat niet alleen maar meer uit data, maar ook fysieke dingen. Het internet is dan net als lucht. Iedereen heeft zijn plaats en iedereen is verbonden. 
+
+Het huidige internet zoals wij dat kennen is niet geschikt. De 25 jaar oude protocollen en markups zijn gedateerd en niet bruikbaar in de filosofie. De data zijn bijvoorbeeld slecht tot niet leesbaar door machines en laat staan ons brein.
+
+Wat wij met ons afstuderen willen is het neerzetten van een toekomstvisie van het internet vanuit een technologisch oogpunt. We willen uitzoeken hoe dit gerealiseerd kan worden op gebied van data verwerking. Zo willen we kijken of we datastructuur neer kunnen zetten die op een efficiente manier te gebruiken is tijdens de communicatie met het brein en bruikbaar door machines. 
