@@ -49,6 +49,32 @@ Graduation coordinator:
 
 ##Thesis information
 ###Thesis summary
+The internet, as we currently know it, is composed of devices connecting to a huge network which grant us, the human, access to the web. The way we see the future, the internet will experience an evolution and actual real-life objects will become part of the internet. Even humans will start to exist on the internet as an actual object. Not through proxies like devices (phones) or services (Facebook) which is currently the standard. The internet will be like the air, everything and everyone will have it's place and we will all be connected.
 
+There is one issue, the internet as we currently know it, is not ready for this change. The HTTP protocol has been designed 25 years ago and has it's flaws, it is not ready to support a huge change like the one we are predicting. The data is not efficiently readable by machines and it's far from natively readable by the human brain.
+
+What we want with our thesis is to design a future vision for the internet from a technical point of view while focusing on data processing. We want to find out how this evolution of the internet can be realised. Also we want to look at what a data structure would look like that can be used for the communication with the human brain while at the same time is efficiently usable by machines.
+
+###Main question
+What does an internet look like that's able to communicate with the human brain and vice versa?
+
+###Sub questions
+* What is the internet?
+* How does a human brain operate?
+* How does a human brain store information?
+* What are existing storage technologies for databases?
+* What are the requirements to communicate with the human brain?
+
+###Main goal
+Designing a vision for the future of the internet from a technological view.
+
+###Sub goals
+* Plot down a future vision of the internet
+* Design the concept protocol for a new internet
+* Design a database model that's able to keep up with the human brain
+
+*Utopia, but heck, aim for the stars:*
+* Build a server that's able to operate under the new protocol
+* Create a simulation of the human brain and test the new protocol
 
 ##Thesis planning
