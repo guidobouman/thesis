@@ -1,6 +1,6 @@
 **Competency overview**
 
-* Research							6 Expert
+* Research							6
 * Concepting 					6
 * Design								3
 * Production						3
@@ -9,24 +9,28 @@
 * Communication				3
 * Projectmanagement 	0	
 * Share								0
-* Growth & Refelction		6 Expert
+* Growth & Refelction		6
 
 
 #Research & Innovation
-* Desk research
-* Interviews
-* Research plan
-* Advice
-* Goals
+##Tasks
+We’ll be doing desk research, interviews. 
+##Results
+Interviews, Research plan, Advice/Vision, Goal set.
 
 
 #Concepting
-* A vision
-* Visualisation
-* Presentation of vision
+## Tasks
+Communicating the vision
+## Results
+Visualisation of the vision
+Presentation of the vision
 
 
 #Multimedia Design
+## Tasks
+
+## Results
 * A structure
 * Design document
 * A suggestion for future development of the internet
