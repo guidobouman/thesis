@@ -55,6 +55,23 @@ There is one issue, the internet as we currently know it, is not ready for this 
 
 What we want with our thesis is to design a future vision for the internet from a technical point of view while focusing on data processing. We want to find out how this evolution of the internet can be realised. Also we want to look at what a data structure would look like that can be used for the communication with the human brain while at the same time is efficiently usable by machines.
 
+###The problem
+The internet as we currently know it is not ready to provide an efficient communication line with the human brain.
+
+###Main goal
+Designing a future vision and prototype in four months time which allow a new internet to be developed from a technical point of view on data processing.
+
+(Specify on human brain?)
+
+###Sub goals
+* Plot down a future vision of the internet
+* Design the concept protocol for a new internet
+* Design a database model that's able to keep up with the human brain
+
+*Utopia, but heck, aim for the stars:*
+* Build a server that's able to operate under the new protocol
+* Create a simulation of the human brain and test the new protocol
+
 ###Main question
 What does an internet look like that's able to communicate with the human brain and vice versa?
 
@@ -65,16 +82,7 @@ What does an internet look like that's able to communicate with the human brain 
 * What are existing storage technologies for databases?
 * What are the requirements to communicate with the human brain?
 
-###Main goal
-Designing a vision for the future of the internet from a technological view.
-
-###Sub goals
-* Plot down a future vision of the internet
-* Design the concept protocol for a new internet
-* Design a database model that's able to keep up with the human brain
-
-*Utopia, but heck, aim for the stars:*
-* Build a server that's able to operate under the new protocol
-* Create a simulation of the human brain and test the new protocol
+###Hypothesis
+The internet will go trough an evolution after which it will be able to interact with the human brain.
 
 ##Thesis planning
