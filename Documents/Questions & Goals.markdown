@@ -22,8 +22,7 @@ What does an internet look like that's able to communicate with the human brain 
 
 **Main goal**
 
-Designing a vision for the future of the internet from a technological view.
-
+Designing a future vision and prototype in four months time which allow a new internet to be developed from the technical point view on data processing.
 
 **Sub goals**
 
