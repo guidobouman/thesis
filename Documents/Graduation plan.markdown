@@ -85,4 +85,16 @@ What does an internet look like that's able to communicate with the human brain 
 ###Hypothesis
 The internet will go trough an evolution after which it will be able to interact with the human brain.
 
+##Results
+* Graduation plan
+	* The graduation plan contains our goals, questions and planning for this thesis. 
+* Research plan
+	* In the research plan are the decisions made on how to do the research.
+* Presentation/visualisation of our vision
+	* In order to spread our vision we have to find a way how to communicate it. It maybe in the form of a presentation, a paper, book, concept art or a graphic. We’ll have to choose a congruent way.
+* Prototype
+	* After the research and completion of our vision we’re going to make a prototype. The goal of this prototype is to show a possible feature/enhancement based on our vision. It will not be a way to proof whether it works, but more a hands on presentation of our vision.
+* Thesis 
+	* w/ research, vision and conclusion
+
 ##Thesis planning
