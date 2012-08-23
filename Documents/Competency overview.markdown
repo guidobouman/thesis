@@ -1,30 +1,35 @@
 #Competency overview
-* Research							6
-* Concepting 					6
-* Growth & Refelction		6
-* Design								3
-* Production						3
-* Quality							3
-* Communication				3
-* Multi teamwork			0
-* Projectmanagement 	0	
-* Share								0
+* Research	& Innovation														6
+* Concepting 																		6
+* Growth & Reflection															6
+* Multimedia Design															3
+* Multimedia Production													3
+* Quality Monitoring & Implementation							3
+* Communication																	3
+* Multidisciplinary Teamwork											0
+* Project management 														0	
+* Sharing																				0
 
 
 #Activity per competention
 ##Research & Innovation
 ###Tasks
-We need to gather information about excisting web platforms, structures, databases and thus need to do research. We’ll be collecting this information through interviews and desk research. Prior doing the research we’ll have to write a research and find out how to do proper interviews. As a result of the research we’ll 
+We need to gather information about existing web platforms, structures, databases and thus need to do research. We’ll be collecting this information through interviews and desk research. Prior doing the research we’ll have to write a research and find out how to do proper interviews. This knowledge will be included in the Research plan together with all the choices we make prior to doing the research.
+
 ###Results
-Interviews, Research plan, Advice/Vision, Goal set.
+* Interviews
+* Research plan
+* Advice/Vision 
+* Goal set
 
 
 ##Concepting
 ### Tasks
-After distiling our vision from the research we have to make the vision concrete by making a proper visualisation and concept. The concept should be easy presentable to others.
+After distilling our vision from the research we have to make the vision concrete by making a proper visualisation and concept. The concept should be easy presentable to others with little knowledge.
+
 ### Results
-
-
+* The Vision
+* Vision presentation
 
 ##Multimedia Design
 ### Tasks
@@ -36,22 +41,36 @@ After distiling our vision from the research we have to make the vision concrete
 
 
 ##Multimedia Production
+###  Tasks
+
+### Results
+* A visual presentation of the vision
 * Creating a proof of concept
 
 
 ##Quality Monitoring & Implementation
-* Testing the proof of concept
+### Tasks
+Because we’re going to be rapid prototyping, we’re constantly testing out our product, the vision. This way research will continue while developing and thus constantly improve our product.
+Testing the proof of concept
 * Adjusting vision & proof of concept after testing
-* Rapid prototyping
 
+### Results
+* A logbook full of choices, problems we’ve stumbled upon and their solutions.
 
 ##Communication
+### Tasks
+
+### Results
 * Full thesis in flawless english
 * A presentation
 * A suggestion for future development of the internet
 
 
 ##Growth & Reflection
+### Tasks
+
+
+### Results
 * A conclusion in the thesis
 * Reflection
 * POP
