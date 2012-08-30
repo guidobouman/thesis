@@ -1,6 +1,6 @@
-#Graduation plan
-##General information
-###Student 1
+# Graduation plan
+## General information
+### Student 1
 Jelle Akkerman  
 Voorstreek 20C  
 8911 JP Leeuwarden  
@@ -8,7 +8,7 @@ Voorstreek 20C
 0650436997  
 jelle@jelleakkerman.nl
 
-###Student 2
+### Student 2
 Guido Bouman  
 Grimma Herna 13   
 9101 CV Dokkum  
@@ -16,19 +16,19 @@ Grimma Herna 13
 0642945687  
 info@guidobouman.com
 
-###Teacher
+### Teacher
 Raymond van Dongelen
 
-###Mentor
+### Mentor
 Maarten Kloppenburg
 
-###Start date
+### Start date
 01-09-2012
 
-###End date
+### End date
 01-01-2013
 
-###Approval signatures
+### Approval signatures
 Date:  
   
   
@@ -47,23 +47,23 @@ Mentor:
 Graduation coordinator:  
   
 
-##Thesis information
-###Thesis summary
+## Thesis information
+### Thesis summary
 The internet, as we currently know it, is composed of devices connecting to a huge network which grant us, the human, access to the web. The way we see the future, the internet will experience an evolution and actual real-life objects will become part of the internet. Even humans will start to exist on the internet as an actual object. Not through proxies like devices (phones) or services (Facebook) which is currently the standard. The internet will be like the air, everything and everyone will have it's place and we will all be connected.
 
 There is one issue, the internet as we currently know it, is not ready for this change. The HTTP protocol has been designed 25 years ago and has it's flaws, it is not ready to support a huge change like the one we are predicting. The data is not efficiently readable by machines and it's far from natively readable by the human brain.
 
 What we want with our thesis is to design a future vision for the internet from a technical point of view while focusing on data processing. We want to find out how this evolution of the internet can be realised. Also we want to look at what a data structure would look like that can be used for the communication with the human brain while at the same time is efficiently usable by machines.
 
-###The problem
+### The problem
 The internet as we currently know it is not ready to provide an efficient communication line with the human brain.
 
-###Main goal
+### Main goal
 Designing a future vision and prototype in four months time which allow a new internet to be developed from a technical point of view on data processing.
 
 (Specify on human brain?)
 
-###Sub goals
+### Sub goals
 * Plot down a future vision of the internet
 * Design the concept protocol for a new internet
 * Design a database model that's able to keep up with the human brain
@@ -72,20 +72,20 @@ Designing a future vision and prototype in four months time which allow a new in
 * Build a server that's able to operate under the new protocol
 * Create a simulation of the human brain and test the new protocol
 
-###Main question
+### Main question
 What does an internet look like that's able to communicate with the human brain and vice versa?
 
-###Sub questions
+### Sub questions
 * What is the internet?
 * How does a human brain operate?
 * How does a human brain store information?
 * What are existing storage technologies for databases?
 * What are the requirements to communicate with the human brain?
 
-###Hypothesis
+### Hypothesis
 The internet will go trough an evolution after which it will be able to interact with the human brain.
 
-##Results
+### Results
 * Graduation plan
 	* The graduation plan contains our goals, questions and planning for this thesis. 
 * Research plan
@@ -97,9 +97,37 @@ The internet will go trough an evolution after which it will be able to interact
 * Thesis 
 	* w/ research, vision and conclusion
 
-##Planning thesis
+### Expectations
 
-###Summary
+#### Jelle
+This is my second attempt to do my bachelor thesis. I'm really hard to please and to find it difficult keep focused on one subject. My previous subject got really dull after a while. It just didn't had the innovative ingredient I'm always looking for. So after some problems I decided to ditch it and go for something more mind blowing. I want to leave school with a bang! Not with a dull, dime a dozen, thesis.
+
+This is also my last opportunity to do something completely autonomy and under my own name with the label 'student'. In my opinion it's mostly the 'students' who make a change in this world. So yes, I want to do something which is never done before. I want to be 'arrogant' and say I've designed the new internet, just because I can as a student. I want to design a new internet which is completely neutral, just because I'm a student. I want to enjoy my autonomy now as hard as I can, just because it's my last project as a student.
+
+I like to think about the greater images. Philosophise about hierarchy and taxonomy. When I worked on the OpenBibliotheken (OpenLibraries) project, a project about making public data more accessible I was constant thinking about making that data more persistent. The current web changes so much, things get lost. Such a shame for nice artworks and useful data. I also hated the fact the current net isn't as decentralised, things are still remotely block-able, net neutrality and such. So if been thinking a lot about persistency and how to achieve it. Revisions, proxying, decentralising, mirroring, all sort of possibilities. 
+
+My visit to Dream Industries in Russia added some .. to this. Together with Andrew I discussed the web it's current form. Not only it's persistency but also it's markup and protocol. We concluded the net is connected but not it's data. It's just some loose node's in a mesh connected through DNS names and we, the people, have to interpreted text to be able to navigate through it. It's one big dump of data. One pile of unstructured data. Not usable by machine.
+
+When Andrew started talking about brain implements connected to the internet my mind was blown. Yes, the current web structure is totally not readable by the human brain in it's raw form. The brain would have to surf from page to page to interpreted the info. Which brings the question: how can we make a web structure which is actually readable by the brain?
+
+I have to admit I don't know shit about the neural system. I know the basic about synapses and ... But i've never thought about it in combination with the internet. I want to expand my knowledge about the brain, but also about network, hierarchies and taxonomy and do something with the knowledge by connecting it to the knowledge I have about the current internet protocol. I'm getting fed up with the internet as it is now and want to do something about it.
+
+I want to explore the realms of darknets, all sorts of database structures, semantics, namespacing and protocols to mash all the knowledge together to make a new protocol for the internet!
+
+#### Guido
+What I expect from my thesis is designing a prototype for the new internet. A future vision which will stay relevant for the upcoming years. Something I can actually use for my curriculum vitae. A project which does not get scratched from my CV in one or two years time because it'll be outdated by then. I hope that even by the time that the vision is outdated, I can still look back at with pride. That people will say it was genuinely revolutionary.
+
+In the past few weeks I've been looking at CouchApps, and I truly believe that this is a possible future for building websites / web applications. Even though our focus is not at the future of building web applications, it is a great example of an evolution in the field internet. Another evolution I expect is that the human brain will be connected to the internet on it's own, instead of the proxies (like the phones or laptops) that we're currently using.
+
+Efficient communications is something that has been demanding my attention for quite a while lately. How will our brain communicate with the internet, and how can we lookup and store information in an efficient way? How can we access all information in a structured way while keeping all of it decentralised / autonomous at the same time? Those are some of my interests I expect to work on during this thesis.
+
+My goal for this thesis is to create something that allows people to do things that have never been done before. Something that pushes their imagination and stimulates them to explore the boundaries of what they used to do.
+
+My ultimate goal in life is to be an inspiration to my own generation, and the next ones after. I would truly love to help people push the boundaries of what we thought or hoped was possible through technologies & methods I helped design. This thesis could very well be the first step towards achieving that goal.
+
+## Planning thesis
+
+### Summary
 Our thesis will roughly consist of 4 phases. During the first phase we will collect as much valuable information as possible. During this phase we will be focusing on gathering information on the possibilities, previous results in this field, and what is still lacking. As a part of this phase we will conduct interviews with experts in the fields of Neural Communication, Data Storage and Existing Data Protocols. We are hoping these interviews will help us in creating a strong view of the possibilities as they are right now, and the changes or developments required to realise a better internet.
 
 During the next phase we will start looking at the possible solutions to problems found during the first research phase, and the first version of our vision will be developed. Looking for possible solutions and designing a vision will require us to apply rapid prototyping where we will quickly test our proposed solutions and try the validity of our vision with simulated tests. We don't expect our first vision to be a solid and future proof one. That's why we hope applying rapid prototyping will help us reach our goal of making a vision that will be used as one of the leading documents on the future of the internet, even in 5 to 10 years time.
@@ -108,56 +136,56 @@ To support our future vision, we would really like to design a proof of concept 
 
 For the last phase, we will be finalising our thesis. The thesis summary will be part of our focus. Also will we use this phase to reflect on ourselves and the project. Thinking about what we have learned, and how can we use this knowledge in the upcoming years. This will be our one chance to gain a head start on everyone else in the business.
 
-###Overview
-####Phase 1
+### Overview
+#### Phase 1
 *Pre-research phase (September):*
 
-#####Focus phase 1
+##### Focus phase 1
 * Desk research
 * Interviews
 
-#####Deadlines phase 1
+##### Deadlines phase 1
 * First draft research document
 * List of people to interview (During research & design phases)
 * Scheduled appointments for remaining interviews
 
-####Phase 2
+#### Phase 2
 *Rapid prototyping month (October)*
 
-#####Focus phase 2
+##### Focus phase 2
 * Delayed interviews
 * Finalising the first research document
 * Designing a vision
 * Further research after first version of vision
 * Refined vision
 
-#####Deadlines phase 2
+##### Deadlines phase 2
 * Finalised draft research document
 * Decent draft vision
 
-####Phase 3
+#### Phase 3
 *Hack away month (November)*
 
-#####Focus phase 3
+##### Focus phase 3
 * Designing a structure
 * Creating & testing a proof of concept
 * Interviews
 
-#####Deadlines phase 3:
+##### Deadlines phase 3:
 * Decent draft structure
 * A working proof of concept
 * Scheduling presentation
 
-####Phase 4
+#### Phase 4
 So much to write, yet so little time month (December)
 (OMG, WHY DID MY PRINTER EXPLODE?) 
 
-#####Focus phase 4
+##### Focus phase 4
 * Refining the concept
 * Conclusion
 * Presentations
 
-#####Deadlines phase 4
+##### Deadlines phase 4
 * Final thesis
 * Presentation documents
 * Presentation
@@ -165,7 +193,7 @@ So much to write, yet so little time month (December)
 * Thesis movie for CMD site
 
 ## Competencies
-###Competency overview
+### Competency overview
 * Research	& Innovation														6
 * Concepting 																		6
 * Growth & Reflection															6
@@ -177,15 +205,14 @@ So much to write, yet so little time month (December)
 * Project management 														0	
 * Sharing																				0
 
-
-###Activity per competency
-##Research & Innovation
-###Tasks
+### Activity per competency
+#### Research & Innovation
+##### Tasks
 Before getting started on the thesis we need to find the unambiguous questions behind our problem and setup related goals. This required so we can focus our attention while researching on the core problem.
 
 We need to gather information about existing web platforms, structures, databases and thus need to do research. We’ll be collecting this information through interviews and desk research. Prior to doing the research we’ll have to write a research plan and find out how to do proper interviews. This knowledge will be included in the Research plan together with all the choices we make prior to doing the research.
 
-###Results
+##### Results
 * Interviews
 * Research plan
 * Advice/Vision 
@@ -193,61 +220,58 @@ We need to gather information about existing web platforms, structures, database
 * Thesis plan
 * Research document
 
-
-##Concepting
-### Tasks
+#### Concepting
+##### Tasks
 Based research we are going to create a vision which in account the needs of the intended uses. Because we’re going to use the rapid prototyping method the vision and concept will be thoroughly tested on it’s fitness and improved where needed.
 After distilling our vision from the research we have to make the vision concrete by making a proper concept  and a visualisation of the concept. The concept should be easy to understand by others with little knowledge on the subject. 
 
-### Results
+##### Results
 * Vision document
 * Vision presentation
 
-##Multimedia Design
-### Tasks
+#### Multimedia Design
+##### Tasks
 We’re going to design a structure which should be thoroughly documented so it can easily be implemented by others in the future when technology is ready. Together with the Vision document will the Design document be the main product of our thesis.
 
-### Results
+##### Results
 * The technical design
 * Design document
 * A suggestion for future development of the internet
 
 
-##Multimedia Production
-###  Tasks
+#### Multimedia Production
+#####  Tasks
 We’ll be creating a prototype out of the vision, concept, structure and technical design. 
 
-### Results
+##### Results
 * Creating a prototype/structure
 * Creating a proof of concept
 
-
-##Quality Monitoring & Implementation
-### Tasks
+#### Quality Monitoring & Implementation
+##### Tasks
 Because we’re going to be rapid prototyping, we’re constantly testing out our product, the vision. This way research will continue while developing and thus constantly improve our product.  This will result in an even better vision & proof of concept after testing.
 
-### Results
+##### Results
 * A logbook full of choices, problems we’ve stumbled upon and their solutions.
 * A lot of git commits ;)
 
-##Communication
-### Tasks
+#### Communication
+##### Tasks
 We’ll be writing all documents in English because we want reach a big audience and open source during our process. This way it will be easy for anyone to follow our progression and findings through Github. 
 
-### Results
+##### Results
 * Full thesis in flawless english
 * A presentation
 * A suggestion for future development of the internet
 * All open sourced for the world to see (and use or fork) on Github.
 
-
-##Growth & Reflection
-### Tasks
+#### Growth & Reflection
+##### Tasks
 Prior to starting our thesis we’ve written down our individual expectations and goals. This way we can constantly secure our focus on the progress and make the most out of ourselves as possible. By setting ambitious and bold goals we keep ourselves motivated and will bring a step closer to world domination.
 
 During the thesis we’ll be on our thesis we’ll be reflection on our progression and results. We’ll bundle this afterwards and write a concluding reflection on the whole project.
 
-### Results
+##### Results
 * Thesis plan
 * A conclusion in the thesis
 * Reflection
