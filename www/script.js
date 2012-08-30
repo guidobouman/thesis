@@ -4,9 +4,9 @@ $(document).ready(function() {
 
   var switchPage = function(page){
     data = "";
-    window.history.pushState(data, page.title, "/#/"+page.file+"");
+    window.history.pushState(data, page.title, +"#/"+page.file+"");
     $.ajax({
-      url: page.file,
+      url: "/thesis/"+page.file,
       success: function(data) {
         $('#container').html(converter.makeHtml(data));
       }
