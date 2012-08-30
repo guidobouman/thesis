@@ -11,6 +11,22 @@ body
 
 /* - Semi responsive container - */
 /* - Also for IE5.5+ - */
+
+.menu-list
+{
+  position: absolute;
+  top: 0px;
+  padding: 0px;
+  margin:0px;
+  background-color: white;
+}
+.menu-list li
+{
+  list-style-type: none;
+  margin: 7px;
+  display: inline-block;
+}
+
 #container
 {
   max-width: 500px;
