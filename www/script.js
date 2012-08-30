@@ -32,18 +32,18 @@ $(document).ready(function() {
     html: items.join('')
   }).appendTo('#menu');
 
-  if (window.location.hash === "") {
-    switchPage(docs[0]);
-  } else {
-    finddoc(window.location.hash.replace("#/",""));
-  }
+  var hashGo = function() {
+    console.log("hashgo: "+ window.location.hash);
+    if (window.location.hash === "") {
+      switchPage(docs[0]);
+    } else {
+      finddoc(window.location.hash.replace("#/",""));
+    }
+  };
 
-  $(".menu-list li").click(function(event) {
-    switchPage(docs[event.target.id]);
-  });
+  hashGo();
 
-
-  // on menu tap > switchpage
+  window.onhashchange = hashGo;
 
 })
 
