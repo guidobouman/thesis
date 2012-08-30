@@ -4,7 +4,7 @@ $(document).ready(function() {
 
   var switchPage = function(page){
     data = "";
-    window.history.pushState(data, page.title, +"#/"+page.file+"");
+    window.history.pushState(data, page.title, "#/"+page.file+"");
     $.ajax({
       url: "/thesis/"+page.file,
       success: function(data) {

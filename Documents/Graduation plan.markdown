@@ -64,8 +64,7 @@ Designing a future vision and prototype in four months time which allow a new in
 (Specify on human brain?)
 
 ### Sub goals
-* Plot down a future vision of the internet
-* Design the concept protocol for a new internet
+w* Design the concept protocol for a new internet
 * Design a database model that's able to keep up with the human brain
 
 *Utopia, but heck, aim for the stars:*
