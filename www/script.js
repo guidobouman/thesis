@@ -9,9 +9,19 @@ $(document).ready(function() {
       url: "/thesis/"+page.file,
       success: function(data) {
         $('#container').html(converter.makeHtml(data));
+        makeTOC();
       }
     });
   };
+
+  var makeTOC = function(){
+    var titles = []
+    $("h2,h3").each(function(){
+      var output = '<li class="toc-'+this.nodeName+'"><a href="#'+this.id+'">'+this.textContent+'</a></li>'
+      titles.push(output);
+    })
+    $('#toc').html(titles);
+  }
 
   var finddoc = function(filename){
     for (file in docs){
