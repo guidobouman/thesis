@@ -59,30 +59,27 @@ What we want with our thesis is to design a future vision for the internet from 
 The internet as we currently know it is not ready to provide an efficient communication line with the human brain.
 
 ### Main goal
-Designing a future vision and prototype in four months time which allow a new internet to be developed from a technical point of view on data processing.
-
-(Specify on human brain?)
+Designing a future vision and prototype in four months time which allow a new internet to be developed from a technical point of view on data processing to facilitate communication between the human brain and computers.
 
 ### Sub goals
-w* Design the concept protocol for a new internet
-* Design a database model that's able to keep up with the human brain
-
-*Utopia, but heck, aim for the stars:*
-* Build a server that's able to operate under the new protocol
-* Create a simulation of the human brain and test the new protocol
+* Design a concept/vision for a new internet network structure.
+* Build a prototype of the network structure according to our future concept.
+* (Create a simulation of the human brain and test the new protocol)
 
 ### Main question
-What does an internet look like that's able to communicate with the human brain and vice versa?
+What kind of internet structure is needed to facilitate communication between the human brain and computers without the need for translation?
 
 ### Sub questions
-* What is the internet?
-* How does a human brain operate?
-* How does a human brain store information?
-* What are existing storage technologies for databases?
-* What are the requirements to communicate with the human brain?
+* What does the network structure of the current internet look like?
+* What are the current barriers which block communication & information exchange between the human brain and the internet?
+* What new innovations (in the past 5 year) are there on communication and storage structures?
+* How does information gets stored and exchanged within the human brain according to neurologists?
 
 ### Hypothesis
 The internet will go trough an evolution after which it will be able to interact with the human brain.
+
+### Sub hypothesises
+Yet to come
 
 ### Results
 * Graduation plan
