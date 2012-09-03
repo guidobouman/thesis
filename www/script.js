@@ -15,16 +15,16 @@ $(document).ready(function() {
   };
 
   var makeTOC = function(){
-    var titles = [];
+    var titles = ["<li><strong>Table of Contents</strong>"];
     $("h2,h3").each(function(){
-      var output = '<li class="toc-'+this.nodeName+'"><a href="#'+this.id+'">'+this.textContent+'</a></li>';
+      var output = '<li class="toc-'+this.nodeName+'"><a onclick="$(\'html,body\').animate({scrollTop:$(\'#'+this.id+'\').offset().top}, 500);">'+this.textContent+'</a></li>';
       titles.push(output);
     });
 
-    $('<ul/>', {
+    $('#toc').html($('<ul/>', {
       'class': 'toc-list',
       html: titles.join('')
-    }).appendTo('#toc');
+    }));
   };
 
   var finddoc = function(filename){
@@ -36,7 +36,7 @@ $(document).ready(function() {
   }
 
 
-  items=[];
+  items=["<li><strong>Documents</strong></li>"];
   $.each(docs, function(key, val) {
       items.push('<li><a href="#/'+ val.file +'" id="'+ key +'">' + val.title + '</a></li>');
   });
