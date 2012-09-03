@@ -1,4 +1,4 @@
-$(document).ready(function() { 
+$(document).ready(function() {
   // init Showdown
   var converter = new Showdown.converter();
 
@@ -15,13 +15,17 @@ $(document).ready(function() {
   };
 
   var makeTOC = function(){
-    var titles = []
+    var titles = [];
     $("h2,h3").each(function(){
-      var output = '<li class="toc-'+this.nodeName+'"><a href="#'+this.id+'">'+this.textContent+'</a></li>'
+      var output = '<li class="toc-'+this.nodeName+'"><a href="#'+this.id+'">'+this.textContent+'</a></li>';
       titles.push(output);
-    })
-    $('#toc').html(titles);
-  }
+    });
+
+    $('<ul/>', {
+      'class': 'toc-list',
+      html: titles.join('')
+    }).appendTo('#toc');
+  };
 
   var finddoc = function(filename){
     for (file in docs){
@@ -32,7 +36,7 @@ $(document).ready(function() {
   }
 
 
-  items=[]
+  items=[];
   $.each(docs, function(key, val) {
       items.push('<li><a href="#/'+ val.file +'" id="'+ key +'">' + val.title + '</a></li>');
   });

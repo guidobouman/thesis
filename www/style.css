@@ -1,3 +1,8 @@
+*
+{
+  box-sizing: border-box;
+}
+
 body
 {
   padding: 50px;
@@ -9,29 +14,76 @@ body
   text-shadow: 0 1px 0 #ffffff;
 }
 
+#sidebar
+{
+  overflow: scroll;
+  position: fixed;
+  padding: 1em;
+  top: 0;
+  left: -225px;
+  width: 250px;
+  height: 100%;
+  border-right: 1px solid #303030;
+  line-height: 1.5em;
+  background: #303030;
+  color: #f0f0f0;
+  text-shadow: 0 1px 0 #000000;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#sidebar:hover
+{
+  left: 0;
+}
+
+#sidebar:hover + #container
+{
+  margin-left: 225px;
+}
+
+#sidebar #menu
+{
+  margin-bottom:1em;
+}
+
+#sidebar a
+{
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+#sidebar ul
+{
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar li
+{
+  list-style: none;
+}
+
+#sidebar li.toc-H3
+{
+  padding-left: 1em;
+}
+
 /* - Semi responsive container - */
 /* - Also for IE5.5+ - */
-
-.menu-list
-{
-  position: absolute;
-  top: 0px;
-  padding: 0px;
-  margin:0px;
-  background-color: white;
-}
-.menu-list li
-{
-  list-style-type: none;
-  margin: 7px;
-  display: inline-block;
-}
-
 #container
 {
   max-width: 500px;
   width: auto !important;
   width: 500px;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 h1,h2,h3,h4,h5,h6
