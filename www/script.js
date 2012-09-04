@@ -19,7 +19,7 @@ $(document).ready(function() {
               counter++;
             }
             if (counter == page.files.length){
-              $('#container').append(pagecontent);
+              $('#container').append("<h1>"+page.title+"</h1>"+pagecontent);
               makeTOC();
             }
           }
