@@ -1,7 +1,7 @@
 // This file is for..
 var docs =
   {
-    ThesisPlan: {
+    GraduationPlan: {
       dir: "Documents/GraduationPlan/",
       files: [
         "General information.markdown",
