@@ -18,7 +18,7 @@ body
 {
   overflow: scroll;
   position: fixed;
-  padding: 1em;
+  padding: 50px 25px;
   top: 0;
   left: -225px;
   width: 250px;
@@ -70,6 +70,16 @@ body
 #sidebar li
 {
   list-style: none;
+}
+
+#sidebar #sign
+{
+  padding: 40px 0 0;
+  line-height: 70px;
+  font-size: 100px;
+  text-align: center;
+  color: #2a2a2a;
+  text-shadow: 0 -1px 0 #252525;
 }
 
 #sidebar li.toc-H3
