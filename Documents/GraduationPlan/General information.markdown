@@ -1,5 +1,5 @@
 ## General information
-### Student 1
+#### Student 1
 Jelle Akkerman  
 Voorstreek 20C  
 8911 JP Leeuwarden  
