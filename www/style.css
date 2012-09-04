@@ -86,6 +86,15 @@ body
 {
   padding-left: 1em;
 }
+#sidebar span.title 
+{
+  color: #ff0000;
+  font-weight: bold;
+}
+#sidebar .toc-H3 a
+{
+  color: #B1B1B1;
+}
 
 /* - Semi responsive container - */
 /* - Also for IE5.5+ - */
