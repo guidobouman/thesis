@@ -2,16 +2,20 @@ $(document).ready(function() {
   // init Showdown
   var converter = new Showdown.converter();
 
-  var switchPage = function(page){
-    data = "";
-    window.history.pushState(data, page.title, "#/"+page.file+"");
-    $.ajax({
-      url: "/thesis/"+page.file,
-      success: function(data) {
-        $('#container').html(converter.makeHtml(data));
-        makeTOC();
-      }
-    });
+  var switchPage = function(pagekey){
+    page = docs[pagekey];
+    console.log(page);
+    window.history.pushState("", page.title, "#/"+pagekey+"");
+    $('#container').html("");
+    for (file in page.files) {
+      $.ajax({
+        url: "/thesis/"+page.dir+page.files[file],
+        success: function(data) {
+          $('#container').append(converter.makeHtml(data));
+          makeTOC();
+        }
+      });
+    };
   };
 
   var makeTOC = function(){
@@ -27,18 +31,9 @@ $(document).ready(function() {
     }));
   };
 
-  var finddoc = function(filename){
-    for (file in docs){
-      if (docs[file].file === filename){
-        switchPage(docs[file]);
-      }
-    }
-  }
-
-
   items=["<li><strong>Documents</strong></li>"];
   $.each(docs, function(key, val) {
-      items.push('<li><a href="#/'+ val.file +'" id="'+ key +'">' + val.title + '</a></li>');
+      items.push('<li><a href="#/'+ key +'" id="'+ key +'">' + val.title + '</a></li>');
   });
 
   $('<ul/>', {
@@ -49,9 +44,10 @@ $(document).ready(function() {
   var hashGo = function() {
     console.log("hashgo: "+ window.location.hash);
     if (window.location.hash === "") {
-      switchPage(docs[0]);
+      for (firstdoc in docs) break;
+      switchPage(firstdoc);
     } else {
-      finddoc(window.location.hash.replace("#/",""));
+      switchPage(window.location.hash.replace("#/",""));
     }
   };
 
@@ -61,15 +57,14 @@ $(document).ready(function() {
 
 
   $("body").swipe( {
-  swipeRight:function() {
-    $("#sidebar").addClass("hover");	
-  },
-  swipeLeft:function() {
-    $("#sidebar").removeClass("hover");	
-  },
-  threshold:0
+    swipeRight:function() {
+      $("#sidebar").addClass("hover");	
+    },
+    swipeLeft:function() {
+      $("#sidebar").removeClass("hover");	
+    },
+    threshold:0
   });
-});
 
 })
 
