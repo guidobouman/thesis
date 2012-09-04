@@ -1,82 +1,112 @@
-$(document).ready(function() {
-  // init Showdown
-  var converter = new Showdown.converter();
+// Init Showdown
+var converter = new Showdown.converter();
 
-  var switchPage = function(pagekey){
-    page = docs[pagekey];
-    console.log(page);
-    window.history.pushState("", page.title, "#/"+pagekey+"");
-    $('#container').html("");
-    window.pagecontent = [];
-    for (file in page.files) {
-        (function (file) {$.ajax({
-          url: "/thesis/"+page.dir+page.files[file],
-          success: function(data) {
-            pagecontent[file]=converter.makeHtml(data);
-            counter=0
-            console.log(counter);
-            for (li in pagecontent){
-              counter++;
-            }
-            if (counter == page.files.length){
-              $('#container').append("<h1>"+page.title+"</h1>"+pagecontent);
-              makeTOC();
-            }
-          }
-        });})(file)
-      }
-  };
+// Set is_loading for ajax calls
+var is_loading = false;
 
-  var makeTOC = function(){
-    console.log("make TOC!");
-    var titles = ["<li><strong>Table of Contents</strong>"];
-    $("h2,h3").each(function(){
-      var output = '<li class="toc-'+this.nodeName+'"><a onclick="$(\'html,body\').animate({scrollTop:$(\'#'+this.id+'\').offset().top}, 500);">'+this.textContent+'</a></li>';
-      titles.push(output);
-    });
+var hashGo = function()
+{
+  console.log("hashgo: "+ window.location.hash);
+  if (window.location.hash === "") {
+    for (firstdoc in docs) break;
+    switchPage(firstdoc);
+  } else {
+    switchPage(window.location.hash.replace("#/",""));
+  }
+};
 
-    $('#toc').html($('<ul/>', {
+var switchPage = function(pagekey)
+{
+  is_loading = true;
+
+  page = docs[pagekey];
+  console.log(page);
+
+  //window.history.pushState('', page.title, '#/' + pagekey); // Not needed, as we're using hashchanges.
+
+  pagecontent = [];
+  for (file in page.files)
+  {
+    (function (file)
+    {
+      $.ajax({
+        url: '/thesis/' + page.dir + page.files[file],
+        success: function(data) {
+          pagecontent[file]=converter.makeHtml(data);
+        }
+      });
+    })(file);
+  }
+};
+
+var makeTOC = function()
+{
+  console.log('make TOC!');
+  var titles = ['<li><span clas="title">Table of Contents</span>'];
+
+  $("h2,h3").each(function()
+  {
+    titles.push('<li class="toc-'+this.nodeName+'"><a onclick="$(\'html,body\').animate({scrollTop:$(\'#'+this.id+'\').offset().top}, 500);">'+this.textContent+'</a></li>');
+  });
+
+  $('#toc').html(
+    $('<ul/>', {
       'class': 'toc-list',
       html: titles.join('')
-    }));
-  };
+    })
+  );
+};
 
-  items=["<li><strong>Documents</strong></li>"];
-  $.each(docs, function(key, val) {
+var makeMenu = function()
+{
+  console.log('make Menu!');
+  items=['<li><span class="title">Documents</strong></li>'];
+
+  $.each(docs, function(key, val)
+  {
       items.push('<li><a href="#/'+ key +'" id="'+ key +'">' + val.title + '</a></li>');
   });
 
-  $('<ul/>', {
-    'class': 'menu-list',
-    html: items.join('')
-  }).appendTo('#menu');
+  $('#menu').html(
+    $('<ul/>', {
+      'class': 'menu-list',
+      html: items.join('')
+    })
+  );
+};
 
-  var hashGo = function() {
-    console.log("hashgo: "+ window.location.hash);
-    if (window.location.hash === "") {
-      for (firstdoc in docs) break;
-      switchPage(firstdoc);
-    } else {
-      switchPage(window.location.hash.replace("#/",""));
-    }
-  };
+$(document).ready(function()
+{
 
-  hashGo();
-
+  // Monitor hash changes
   window.onhashchange = hashGo;
 
-
+  // Monitor swipes
   $("body").swipe( {
     swipeRight:function() {
-      $("#sidebar").addClass("hover");	
+      $("#sidebar").addClass("hover");
     },
     swipeLeft:function() {
-      $("#sidebar").removeClass("hover");	
+      $("#sidebar").removeClass("hover");
     },
     threshold:0
   });
 
-})
+  $(document).ajaxStop(function()
+  {
+    if(is_loading)
+    {
+      console.log('All calls done, load page!');
+      $('#container').html('<h1>' + page.title + '</h1>' + pagecontent);
+      makeTOC();
+    }
+    else
+    {
+      console.log('AJAX finished while loader was not active.');
+    }
+  });
 
-
-
+  // Run bitch!
+  hashGo();
+  makeMenu();
+});
