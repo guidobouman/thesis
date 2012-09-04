@@ -4,7 +4,6 @@ var docs =
     ThesisPlan: {
       dir: "Documents/GraduationPlan/",
       files: [
-        "Graduation plan.markdown",
         "Summary thesis.markdown",
         "Motivation & Goals.markdown",
         "Questions & Goals.markdown",

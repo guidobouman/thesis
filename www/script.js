@@ -7,18 +7,28 @@ $(document).ready(function() {
     console.log(page);
     window.history.pushState("", page.title, "#/"+pagekey+"");
     $('#container').html("");
+    window.pagecontent = [];
     for (file in page.files) {
-      $.ajax({
-        url: "/thesis/"+page.dir+page.files[file],
-        success: function(data) {
-          $('#container').append(converter.makeHtml(data));
-          makeTOC();
-        }
-      });
-    };
+        (function (file) {$.ajax({
+          url: "/thesis/"+page.dir+page.files[file],
+          success: function(data) {
+            pagecontent[file]=converter.makeHtml(data);
+            counter=0
+            console.log(counter);
+            for (li in pagecontent){
+              counter++;
+            }
+            if (counter == page.files.length){
+              $('#container').append(pagecontent);
+              makeTOC();
+            }
+          }
+        });})(file)
+      }
   };
 
   var makeTOC = function(){
+    console.log("make TOC!");
     var titles = ["<li><strong>Table of Contents</strong>"];
     $("h2,h3").each(function(){
       var output = '<li class="toc-'+this.nodeName+'"><a onclick="$(\'html,body\').animate({scrollTop:$(\'#'+this.id+'\').offset().top}, 500);">'+this.textContent+'</a></li>';
