@@ -42,7 +42,7 @@ var switchPage = function(pagekey)
 var makeTOC = function()
 {
   console.log('make TOC!');
-  var titles = ['<li><span clas="title">Table of Contents</span>'];
+  var titles = ['<li><span class="title">Table of Contents</span>'];
 
   $("h2,h3").each(function()
   {
