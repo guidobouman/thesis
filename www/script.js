@@ -32,7 +32,7 @@ var switchPage = function(pagekey)
       $.ajax({
         url: '/thesis/' + page.dir + page.files[file],
         success: function(data) {
-          pagecontent[file]=converter.makeHtml(data);
+          pagecontent[file] = converter.makeHtml(data);
         }
       });
     })(file);
@@ -77,7 +77,6 @@ var makeMenu = function()
 
 $(document).ready(function()
 {
-
   // Monitor hash changes
   window.onhashchange = hashGo;
 
@@ -96,8 +95,10 @@ $(document).ready(function()
   {
     if(is_loading)
     {
+      is_loading = false;
+
       console.log('All calls done, load page!');
-      $('#container').html('<h1>' + page.title + '</h1>' + pagecontent);
+      $('#container').html('<h1>' + page.title + '</h1>' + pagecontent.join(''));
       makeTOC();
     }
     else
