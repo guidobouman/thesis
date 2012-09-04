@@ -1,5 +1,3 @@
-#Research plan
-
 
 Desk research on the following topics:
 

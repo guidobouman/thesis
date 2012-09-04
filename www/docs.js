@@ -20,7 +20,7 @@ var docs =
     },
     Thesis: {
       dir: "Documents/Thesis/",
-      files: [""],
+      files: ["Thesis.markdown"],
       title: "Thesis"
     }
   }
