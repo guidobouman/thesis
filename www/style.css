@@ -39,12 +39,12 @@ body
   transition: all 0.5s ease-in-out;
 }
 
-#sidebar:hover
+#sidebar:hover, #sidebar.hover
 {
   left: 0;
 }
 
-#sidebar:hover + #container
+#sidebar:hover + #container, #sidebar.hover + #container
 {
   margin-left: 250px;
 }

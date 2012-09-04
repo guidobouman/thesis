@@ -59,6 +59,18 @@ $(document).ready(function() {
 
   window.onhashchange = hashGo;
 
+
+  $("body").swipe( {
+  swipeRight:function() {
+    $("#sidebar").addClass("hover");	
+  },
+  swipeLeft:function() {
+    $("#sidebar").removeClass("hover");	
+  },
+  threshold:0
+  });
+});
+
 })
 
 
