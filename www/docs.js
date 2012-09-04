@@ -1,13 +1,11 @@
 // This file is for..
-var docs = 
+var docs =
   {
     ThesisPlan: {
       dir: "Documents/GraduationPlan/",
       files: [
         "General information.markdown",
-        "Summary thesis.markdown",
-        "Motivation & Goals.markdown",
-        "Questions & Goals.markdown",
+        "Thesis information.markdown",
         "Planning thesis.markdown",
         "Competency overview.markdown"
       ],

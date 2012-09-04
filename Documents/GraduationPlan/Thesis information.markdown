@@ -45,7 +45,6 @@ Yet to come
 	* w/ research, vision and conclusion
 
 ### Expectations
-
 #### Jelle
 This is my second attempt to do my bachelor thesis. I'm really hard to please and to find it difficult keep focused on one subject. My previous subject got really dull after a while. It just didn't had the innovative ingredient I'm always looking for. So after some problems I decided to ditch it and go for something more mind blowing. I want to leave school with a bang! Not with a dull, dime a dozen, thesis.
 
