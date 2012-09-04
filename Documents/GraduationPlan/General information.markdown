@@ -7,7 +7,7 @@ Voorstreek 20C
 0650436997  
 jelle@jelleakkerman.nl
 
-### Student 2
+#### Student 2
 Guido Bouman  
 Grimma Herna 13   
 9101 CV Dokkum  
@@ -15,19 +15,19 @@ Grimma Herna 13
 0642945687  
 info@guidobouman.com
 
-### Teacher
+#### Teacher
 Raymond van Dongelen
 
-### Mentor
+#### Mentor
 Maarten Kloppenburg
 
-### Start date
+#### Start date
 01-09-2012
 
-### End date
+#### End date
 01-01-2013
 
-### Approval signatures
+#### Approval signatures
 Date:  
   
   
