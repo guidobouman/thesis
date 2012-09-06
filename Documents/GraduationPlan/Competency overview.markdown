@@ -22,7 +22,7 @@ Getting the right information from interviews can be tricky. To make sure we get
 ##### Tasks
 Before getting started on the thesis we need to find the unambiguous questions behind our problem and setup related goals. This is required so we can focus our attention while researching on the core problem.
 
-We need to gather information about existing web platforms, structures, databases and thus need to do research. We’ll be collecting this information through interviews and desk research. Prior to doing the research we’ll have to write a research plan and find out how to do proper interviews. This knowledge will be included in the Research plan together with all the choices we make prior to doing the research.
+We need to gather information about existing web platforms, structures, databases and thus need to do research. We’ll be collecting this information through interviews and desk research. Prior to doing the research we’ll have to write a research plan. To be able to conduct our interviews properly we'll be reading some books about this subject. This knowledge will be included in the Research plan together with all the choices we make prior to doing the research.
 
 ##### Results
 * Interviews
@@ -40,7 +40,8 @@ During this project we'll be applying rapid prototyping. This is not our first t
 Efficiently switching between different phases of rapid prototyping can be really hard. Sticking to our planning, and really switching phases when required will help us overcome this hazard.
 
 ##### Tasks
-Based research we are going to create a vision which in account the needs of the intended uses. Because we’re going to use the rapid prototyping method the vision and concept will be thoroughly tested on it’s fitness and improved where needed.
+Based on our research we are going to create a vision which takes into account the needs of the intended uses. Because we’re going to use the rapid prototyping method the vision and concept will be thoroughly tested on it’s fitness and improved where needed. To be able to efficiently use the rapid prototyping method, we'll have to look into our possible hazards, and on how to dodge them. We will do this by looking online at how seasoned rapid prototype experts have tackled these issues.
+
 After distilling our vision from the research we have to make the vision concrete by making a proper concept  and a visualisation of the concept. The concept should be easy to understand by others with little knowledge on the subject. 
 
 ##### Results
@@ -55,7 +56,9 @@ Our goals is to learn how to create a future vision on an academic level. We wan
 It's hard to think about uninvented technologies on an abstract level. It's easy to drift off, just thinking about all of the possibilities. Constantly reviewing our progression & writing down our ideas will help us sort through the vast amount of ideas we will have.
 
 ##### Tasks
-We’re going to design a structure which should be thoroughly documented so it can easily be implemented by others in the future when technology is ready. Together with the Vision document will the Design document be the main product of our thesis.
+We’re going to design a structure which should be thoroughly documented so it can easily be implemented by others in the future when technology is ready. Together with the vision document will the design document be the main product of our thesis.
+
+To learn how to write such documents on an academic level, we're going to look at how other professionals have done this. We want to learn from their mistakes & achievements.
 
 ##### Results
 * The technical design
@@ -65,13 +68,15 @@ We’re going to design a structure which should be thoroughly documented so it 
 
 #### Multimedia Production
 ##### Goals
-Building a prototype solely on our own ideas
+Building a prototype solely on our own ideas.
 
 ##### Possible Hazards
-We will have to drop features from our prototype even though we designed them our selves. Always putting the value of the final product above our own desires and reviewing made changes with each other will result in the best possible product.
+We will have to drop features from our prototype even though we designed them ourselves. Always putting the value of the final product above our own desires and reviewing made changes with each other will result in the best possible product.
 
 #####  Tasks
-We’ll be creating a prototype out of the vision, concept, structure and technical design. 
+We’ll be creating a prototype out of the vision, concept, structure and technical design.
+
+As we can't currently know what we'll be building, it's hard to plan what we want to learn in advance. Looking into various possible versions of creating a proof of concept could prove useful during this phase of our thesis.
 
 ##### Results
 * Creating a prototype/structure
@@ -87,6 +92,8 @@ Over iterating on trivial features can be very time consuming and delay the proj
 ##### Tasks
 Because we’re going to be rapid prototyping, we’re constantly testing out our product, the vision. This way research will continue while developing and thus constantly improve our product.  This will result in an even better vision & proof of concept after testing.
 
+As we want to improve our testing abilities, we'll look into different methods of testing our vision, concept & prototype. Especially, learning how to test a vision will be an interesting parts of our learning progress.
+
 ##### Results
 * A logbook full of choices, problems we’ve stumbled upon and their solutions.
 * A lot of git commits ;)
@@ -99,7 +106,9 @@ Learning how to write academic english will be of great value to writing our fut
 Because we're writing this thesis in English, it will be more time consuming for us. Which can lead to miscalculations in our planning. It's important that we take this into account in our planning.
 
 ##### Tasks
-We’ll be writing all documents in English because we want reach a big audience and open source during our process. This way it will be easy for anyone to follow our progression and findings through Github. 
+We’ll be writing all documents in English because we want reach a big audience and open source during our process. This way it will be easy for anyone to follow our progression and findings through Github.
+
+During the writing we'll constantly let native academic English writers check our documents. Through constant feedback we will learn from our previous mistakes, and prevent them in the future.
 
 ##### Results
 * Full thesis in flawless english
@@ -108,10 +117,16 @@ We’ll be writing all documents in English because we want reach a big audience
 * All open sourced for the world to see (and use or fork) on Github.
 
 #### Growth & Reflection
+##### Goals
+Improve ourselves on a personal level & project wise.
+
+##### Possible hazards
+Slacking on reflecting regularly will slow down our growth.
+
 ##### Tasks
 Prior to starting our thesis we’ve written down our individual expectations and goals. This way we can constantly secure our focus on the progress and make the most out of ourselves as possible. By setting ambitious and bold goals we keep ourselves motivated and will bring a step closer to world domination.
 
-During the thesis we’ll be on our thesis we’ll be reflection on our progression and results. We’ll bundle this afterwards and write a concluding reflection on the whole project.
+During the thesis we’ll be reflecting on our progression and results. We’ll bundle this afterwards and write a concluding reflection on the whole project.
 
 ##### Results
 * Thesis plan

@@ -2,35 +2,28 @@
 ### Thesis summary
 The internet, as we currently know it, is composed of devices connecting to a huge network which grant us, the human, access to the web. The way we see the future, the internet will experience an evolution and actual real-life objects will become part of the internet. Even humans will start to exist on the internet as an actual object. Not through proxies like devices (phones) or services (Facebook) which is currently the standard. The internet will be like the air, everything and everyone will have it's place and we will all be connected.
 
-There is one issue, the internet as we currently know it, is not ready for this change. The HTTP protocol has been designed 25 years ago and has it's flaws, it is not ready to support a huge change like the one we are predicting. The data is not efficiently readable by machines and it's far from natively readable by the human brain.
-
 What we want with our thesis is to design a future vision for the internet from a technical point of view while focusing on data processing. We want to find out how this evolution of the internet can be realised. Also we want to look at what a data structure would look like that can be used for the communication with the human brain while at the same time is efficiently usable by machines.
-
-### The problem
-The internet as we currently know it is not ready to provide an efficient communication line with the human brain.
 
 ### Main goal
 Designing a future vision and prototype in four months time which allow a new internet to be developed from a technical point of view on data processing to facilitate communication between the human brain and computers.
 
 ### Sub goals
-* Design a concept/vision for a new internet network structure.
+* Write a vision on the needs of the human brain in relation to the internet.
+* Design a concept for a new internet network structure which fits the vision.
 * Build a prototype of the network structure according to our future concept.
 * (Create a simulation of the human brain and test the new protocol)
 
 ### Main question
-What kind of internet structure is needed to facilitate communication between the human brain and computers without the need for translation?
+How does the current internet relate to the needs of the human brain on the aspect of information exchange?
 
 ### Sub questions
-* What does the network structure of the current internet look like?
-* What are the current barriers which block communication & information exchange between the human brain and the internet?
-* What new innovations (in the past 5 year) are there on communication and storage structures?
 * How does information gets stored and exchanged within the human brain according to neurologists?
+* What does the network structure of the current internet look like?
+* What is the current status of communication & information exchange between the human brain and the internet?
+* What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
 
-### Hypothesis
+### Prospect
 The internet will go trough an evolution after which it will be able to interact with the human brain.
-
-### Sub hypothesises
-Yet to come
 
 ### Results
 * Graduation plan
