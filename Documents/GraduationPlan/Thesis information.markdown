@@ -17,7 +17,7 @@ Designing a future vision and prototype in four months time which allow a new in
 How does the current internet relate to the needs of the human brain on the aspect of information exchange?
 
 ### Sub questions
-* How does information gets stored and exchanged within the human brain according to neurologists?
+* How does information gets stored and exchanged within the human brain according to neuroscientists?
 * What does the network structure of the current internet look like?
 * What is the current status of communication & information exchange between the human brain and the internet?
 * What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
