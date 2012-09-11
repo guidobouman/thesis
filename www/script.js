@@ -80,16 +80,6 @@ $(document).ready(function()
   // Monitor hash changes
   window.onhashchange = hashGo;
 
-  // Monitor swipes
-  $("body").swipe( {
-    swipeRight:function() {
-      $("#sidebar").addClass("hover");
-    },
-    swipeLeft:function() {
-      $("#sidebar").removeClass("hover");
-    },
-    threshold:0
-  });
 
   $(document).ajaxStop(function()
   {
