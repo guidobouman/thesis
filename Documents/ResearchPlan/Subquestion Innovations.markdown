@@ -1,18 +1,18 @@
-## What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
+### What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
 
-### Explenation (Verklaring: waarom)
-
-
-### Delimitation (Afbakening: wat)
+#### Explanation (Verklaring: waarom)
 
 
-### Research methods (Onderzoeksmethodieken: hoe)
+#### Delimitation (Afbakening: wat)
 
 
-### Sources (Bronnen / waar gaan we onderzoeken: waar / wie)
+#### Research methods (Onderzoeksmethodieken: hoe)
 
 
-### Planning (Tijdsframe: hoeveel tijd?)
+#### Sources (Bronnen / waar gaan we onderzoeken: waar / wie)
 
 
-### Results (Verwachte resultaten)
+#### Planning (Tijdsframe: hoeveel tijd?)
+
+
+#### Results (Verwachte resultaten)

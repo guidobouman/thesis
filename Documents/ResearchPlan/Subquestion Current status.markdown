@@ -1,18 +1,18 @@
-## What is the current status of communication & information exchange between the human brain and the internet?
+### What is the current status of communication & information exchange between the human brain and the internet?
 
-### Explenation (Verklaring: waarom)
-
-
-### Delimitation (Afbakening: wat)
+#### Explanation (Verklaring: waarom)
 
 
-### Research methods (Onderzoeksmethodieken: hoe)
+#### Delimitation (Afbakening: wat)
 
 
-### Sources (Bronnen / waar gaan we onderzoeken: waar / wie)
+#### Research methods (Onderzoeksmethodieken: hoe)
 
 
-### Planning (Tijdsframe: hoeveel tijd?)
+#### Sources (Bronnen / waar gaan we onderzoeken: waar / wie)
 
 
-### Results (Verwachte resultaten)
+#### Planning (Tijdsframe: hoeveel tijd?)
+
+
+#### Results (Verwachte resultaten)

@@ -1,5 +1,7 @@
 ## Introduction
-### Verklaring
+### Explanation
 
-### Type onderzoek
+### Type of research
 Ontwerpend
+
+## Sub questions
