@@ -1,7 +1,8 @@
 
 http://www.narcis.nl/person/RecordID/PRS1256740
-PROF.DR. J.M.J. MURRE
+PROF.DR. J.M.J. MURRE - Declined doing interviews
 Did research on artificial neural networks, storage capabilities, model hierarchies.
+
 
 http://www.narcis.nl/person/RecordID/PRS1289896
 PROF.DR. C.M.A. PENNARTZ
