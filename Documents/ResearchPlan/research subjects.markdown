@@ -65,3 +65,7 @@ Strategy, startups, future of internet, creativity, brainstorming vs solostormin
 Sebastian Thrun
 (http://robots.stanford.edu/)
 Founder of Google X, which is responsible for Google Glass. Artificial Intelligence, robotics
+
+Kevin Kelly
+(http://kk.org/)
+Writer of the book ‘Out of Control’ which serves as a great inspiration for this research.
