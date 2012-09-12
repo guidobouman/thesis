@@ -14,7 +14,11 @@ var docs =
     ResearchPlan: {
       dir: "Documents/ResearchPlan/",
       files: [
-        "Research plan.markdown"
+        "Research plan general.markdown",
+        "Subquestion Brain and Memory.markdown",
+        "Subquestion Current internet.markdown",
+        "Subquestion Current status.markdown",
+        "Subquestion Innovations.markdown"
       ],
       title: "Research Plan"
     },
