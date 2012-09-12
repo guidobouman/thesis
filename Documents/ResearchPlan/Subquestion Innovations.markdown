@@ -7,7 +7,7 @@
 
 
 #### Research methods (Onderzoeksmethodieken: hoe)
-
+Desk research, interviews.
 
 #### Sources (Bronnen / waar gaan we onderzoeken: waar / wie)
 
