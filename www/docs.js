@@ -19,7 +19,7 @@ var docs =
         "Subquestion Current internet.markdown",
         "Subquestion Current status.markdown",
         "Subquestion Innovations.markdown",
-        "Research planning"
+        "Research planning.markdown"
       ],
       title: "Research Plan"
     },
