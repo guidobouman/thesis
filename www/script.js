@@ -11,6 +11,7 @@ var hashGo = function()
     for (firstdoc in docs) break;
     switchPage(firstdoc);
   } else {
+    _gaq.push(['_trackPageview', window.location.hash.replace("#","")]);
     switchPage(window.location.hash.replace("#/",""));
   }
 };
