@@ -1,18 +1,22 @@
 ### What does the network structure of the current internet look like?
 
-#### Explanation (Verklaring: waarom)
+#### Explanation
+If you want to improve something you’ll have to get in the details first. We want to get a overview on which technologies are used nowadays and the theories behind it. What is usable for our goal and what not?
+
+tekortkomingen
+
+#### Delimitation
 
 
-#### Delimitation (Afbakening: wat)
-
-
-#### Research methods (Onderzoeksmethodieken: hoe)
+#### Research methods
 Desk research
 
-#### Sources (Bronnen / waar gaan we onderzoeken: waar / wie)
+#### Sources
+Books,
+
+#### Planning
 
 
-#### Planning (Tijdsframe: hoeveel tijd?)
-
-
-#### Results (Verwachte resultaten)
+#### Results
+* A global overview of web technologies.
+* An outline of the internet nowadays.
