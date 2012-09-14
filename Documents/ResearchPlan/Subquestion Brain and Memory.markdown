@@ -6,9 +6,6 @@ We need to know how the human brain operates before we can make any predictions 
 We chose information storage and exchange as the two focal points because we want to focus on the needs of the human brain related to the internet.
 
 #### Research methods
-##### Desk research
-There are some books about the subject which cover the basics of the brain and it’s structure. 
-
 ##### Interviews
 We'll be conducting open interviews in conversation form with neuroscientists. These interviews will have strict subjects we want to talk about.
 
@@ -16,6 +13,9 @@ The interviews will contain (but are not limited to) the following subjects:
 * His vision on the internet in relation to the human brain
 * Description about storage/memory of the brain
 * Ideas on how to format the data for exchange with the brain
+
+##### Desk research
+The desk research will be plain and short because we want to retrieve most of the info through interviews because that’s more efficient.
 
 #### Sources
 ##### Books
