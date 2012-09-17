@@ -1,33 +1,38 @@
 ### What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
 
 #### Explanation (Verklaring: waarom)
-
+Once we've found out how the human brain operates and what it's requirements are, we can ask industry leaders which technologies would fit those needs.
 
 #### Delimitation (Afbakening: wat)
 This question can be divided in two sections, the first part will look at the relevant innovations, the other will look at which of hem could fit the needs of the human brain.
 
-Technologies we consider interesting for data storage are [Graph Databases](http://en.wikipedia.org/wiki/Graph_database) or [Document-oriented Databases](http://en.wikipedia.org/wiki/Document-oriented_database). Based on our personal experience we'll exclude all techniques related to [relational databases](http://en.wikipedia.org/wiki/Relational_database) as most type of relational databases don't even support replication or high availability.
+Technologies we consider interesting for data storage are [Graph Databases](http://en.wikipedia.org/wiki/Graph_database) or [Document-oriented Databases](http://en.wikipedia.org/wiki/Document-oriented_database). Based on our personal experience we'll exclude all techniques related to [relational databases](http://en.wikipedia.org/wiki/Relational_database) as most types of relational databases don't even support replication or high availability.
 
-For methods of communication we are interested in anything that can theoretically outperform 
-
-#### Research methods (Onderzoeksmethodieken: hoe)
+#### Research methods
 We'll use a light form of desk research, combined with interviews.
 
-#### Sources (Bronnen / waar gaan we onderzoeken: waar / wie)
-book "World Wide Mind"
+The interviews will be semi structured with the following subjects:
+* Current standards in the interviewee's discipline
+* Why they became the current standard
+* Innovations in the interviewee's discipline
+* What's interesting about those innovations
+* Interviewee's expected future developments
 
-interview with Pennartz
+#### Sources
+Interview with the following people:
+* Werner Vogels (read into Amazon & it's technologies)
+* Dream Industries Employee
 
-#### Planning (Tijdsframe: hoeveel tijd?)
+#### Planning
 A total of one week for the following:
-* Reading World Wide Mind
+* Researching different methods of data storage & communication
 * Preparing for interviews
 * Conducting interviews
 * Transcribing and processing the interview data
-* Researching after interviews (covering sources)
+* Researching new knowledge after interviews
 * Writing a conclusion
 
-#### Results (Verwachte resultaten)
+#### Results
 Two lists of interesting technologies, one with the currently available ones and one with projected / upcoming technologies which are currently in development, or scheduled to be developed soon.
 
 On top of that, one list of evaluated but non-interesting results, with the reasoning why they're not interesting enough.
