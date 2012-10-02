@@ -1,8 +1,11 @@
 ## Thesis information
-### Thesis summary
-The internet, as we currently know it, is composed of devices connecting to a huge network which grant us, the human, access to the web. The way we see the future, the internet will experience an evolution and actual real-life objects will become part of the internet. Even humans will start to exist on the internet as an actual object. Not through proxies like devices (phones) or services (Facebook) which is currently the standard. The internet will be like the air, everything and everyone will have it's place and we will all be connected.
 
-What we want with our thesis is to design a future vision for the internet from a technical point of view while focusing on data processing. We want to find out how this evolution of the internet can be realised. Also we want to look at what a data structure would look like that can be used for the communication with the human brain while at the same time is efficiently usable by machines.
+### Thesis summary
+Lets presume that, based on current advancements in technology, in the nearby future it will be possible to read information from -, and write information to the human brain with computers. With that new technology it would only be a matter of time before the human brain can use services on the internet as extensions of the human brain. Take for example an online encyclopaedia (wikipedia) to quickly access vast amounts of information during conversations, or an online calendar to remember all of our appointments.
+
+This new technology would vastly decrease the need for smartphones or tablets as they currently are our proxies (or windows) to the internet. At the same time this new technology raises a lot of questions. For this thesis we want to focus on one of them: What is the most efficient(?) way to provide the vast amounts of information & services available on the internet to the human brain? Would an restful JSON api suffice, or would a new technology be required?
+
+We hope this thesis will provide you, the reader, with a sound understanding of what's to come in the near future of the internet, and how to prepare for this change.
 
 ### Main goal
 Designing a future vision and prototype in four months time which allow a new internet to be developed from a technical point of view on data processing to facilitate communication between the human brain and computers.
