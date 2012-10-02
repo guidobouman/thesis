@@ -12,11 +12,12 @@ MRI, also known as Magnetic resonance imaging is an other way of reading the bra
 
 The resolution of MRI is greater than EEG’s because its able to see the difference between tissues. The downside of MRI is you will need lots of power and a big magnet. So it’s not portable and it’s very expensive. A MRI scanner costs about one million dollar.
 
-Optogenetics are fairly new and the best suiting technique for reading and writing to the brain. By altering the genetics of individual neurons in the brain scientists are able to see and alter the state of individual neurons through optical wires in combination with lasers. 
+Optogenetics is a fairly new technique and best suiting for reading and writing to the brain. By altering the genetics of individual neurons in the brain scientists are able to see and alter the state of individual neurons with lasers.
 
-Manipulating the brain chemistry
-Devices
+By inserting a controlled virus into the brain, certain neurons will be geneticly modified and will make the neurons light dependent. This allows the neuron to be controlled and read by light. [video][1]
+
+Devices for optogenetics are fairly low cost and it’s possible with a precise laser and some cheap electronics like an arduino. [6]
 
 
-
-Laster
+[1]: http://www.youtube.com/watch?v=QA67v4vSg00 (“Optogenetics: Controlling the brain with light”)
+[6]: http://syntheticneurobiology.org/protocols/protocoldetail/35/9 (“Synthetic Neurobiology Memo #4 (2011) Very Simple Off-The-Shelf Laser and Viral Injector Systems for In Vivo Optical Neuromodulation. Online.”)

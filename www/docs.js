@@ -25,7 +25,10 @@ var docs =
     },
     Thesis: {
       dir: "Documents/Thesis/",
-      files: ["Thesis.markdown"],
+      files: [
+        "Thesis.markdown",
+        //"Brain Computer Interfaces.markdown"
+      ],
       title: "Thesis"
     }
   }
