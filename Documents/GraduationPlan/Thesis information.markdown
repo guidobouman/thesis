@@ -3,9 +3,7 @@
 ### Thesis summary
 Lets presume that, based on current advancements in technology, in the nearby future it will be possible to read information from -, and write information to the human brain with computers. With that new technology it would only be a matter of time before the human brain can use services on the internet as extensions of the human brain. Take for example an online encyclopaedia (wikipedia) to quickly access vast amounts of information during conversations, or an online calendar to remember all of our appointments.
 
-This new technology would vastly decrease the need for smartphones or tablets as they currently are our proxies (or windows) to the internet. At the same time this new technology raises a lot of questions. For this thesis we want to focus on one of them: What is the most efficient(?) way to provide the vast amounts of information & services available on the internet to the human brain? Would an restful JSON api suffice, or would a new technology be required?
-
-We hope this thesis will provide you, the reader, with a sound understanding of what's to come in the near future of the internet, and how to prepare for this change.
+This new technology raises a lot of questions. For this thesis we want to focus on one of them: What is the most efficient way to provide the vast amounts of information & services available on the internet to the human brain? Would an restful JSON api suffice, or would a new technology be required?
 
 ### Main goal
 Designing a future vision and prototype in four months time which allow a new internet to be developed from a technical point of view on data processing to facilitate communication between the human brain and computers.
@@ -21,12 +19,8 @@ How does the current internet relate to the needs of the human brain on the aspe
 
 ### Sub questions
 * How does information gets stored and exchanged within the human brain according to neuroscientists?
-* What does the network structure of the current internet look like?
 * What is the current status of communication & information exchange between the human brain and the internet?
 * What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
-
-### Prospect
-The internet will go trough an evolution after which it will be able to interact with the human brain.
 
 ### Results
 * Graduation plan
@@ -52,14 +46,14 @@ My visit to Dream Industries in Russia added some spice to this. Together with A
 
 When Andrew started talking about brain implements connected to the internet my mind was blown. Yes, the current web structure is totally not readable by the human brain in it's raw form. The brain would have to surf from page to page to interpreted the info. Which brings the question: how can we make a web structure which is actually readable by the brain?
 
-I have to admit I don't know shit about the neural system. I know the basic about synapses and ... But i've never thought about it in combination with the internet. I want to expand my knowledge about the brain, but also about network, hierarchies and taxonomy and do something with the knowledge by connecting it to the knowledge I have about the current internet protocol. I'm getting fed up with the internet as it is now and want to do something about it.
+I have to admit I don't know shit about the neural system. I know the basic about neurons and synapses. But I've never thought about it in combination with the internet. I want to expand my knowledge about the brain, but also about network, hierarchies and taxonomy and do something with the knowledge by connecting it to the knowledge I have about the current internet protocol. I'm getting fed up with the internet as it is now and want to do something about it.
 
 I want to explore the realms of darknets, all sorts of database structures, semantics, namespacing and protocols to mash all the knowledge together to make a new protocol for the internet!
 
 #### Guido
 What I expect from my thesis is designing a prototype for the new internet. A future vision which will stay relevant for the upcoming years. Something I can actually use for my curriculum vitae. A project which does not get scratched from my CV in one or two years time because it'll be outdated by then. I hope that even by the time that the vision is outdated, I can still look back at with pride. That people will say it was genuinely revolutionary.
 
-In the past few weeks I've been looking at CouchApps, and I truly believe that this is a possible future for building websites / web applications. Even though our focus is not at the future of building web applications, it is a great example of an evolution in the field internet. Another evolution I expect is that the human brain will be connected to the internet on it's own, instead of the proxies (like the phones or laptops) that we're currently using.
+In the past few weeks I've been looking at CouchApps, and I truly believe that this is a possible future for building websites and web applications. Even though our focus is not at the future of building web applications, it is a great example of an evolution in the field internet. Another evolution I expect is that the human brain will be connected to the internet on it's own, instead of the proxies (like the phones or laptops) that we're currently using.
 
 Efficient communications is something that has been demanding my attention for quite a while lately. How will our brain communicate with the internet, and how can we lookup and store information in an efficient way? How can we access all information in a structured way while keeping all of it decentralised / autonomous at the same time? Those are some of my interests I expect to work on during this thesis.
 
