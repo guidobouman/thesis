@@ -1,9 +1,9 @@
 ### What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
 
-#### Explanation (Verklaring: waarom)
+#### Explanation
 Once we've found out how the human brain operates and what it's requirements are, we can ask industry leaders which technologies would fit those needs.
 
-#### Delimitation (Afbakening: wat)
+#### Delimitation
 This question can be divided in two sections, the first part will look at the relevant innovations, the other will look at which of hem could fit the needs of the human brain.
 
 Technologies we consider interesting for data storage are [Graph Databases](http://en.wikipedia.org/wiki/Graph_database) or [Document-oriented Databases](http://en.wikipedia.org/wiki/Document-oriented_database). Based on our personal experience we'll exclude all techniques related to [relational databases](http://en.wikipedia.org/wiki/Relational_database) as most types of relational databases don't even support replication or high availability.
