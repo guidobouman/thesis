@@ -18,7 +18,7 @@ var docs =
         "Subquestion Brain and Memory.markdown",
         //"Subquestion Current internet.markdown",
         "Subquestion Current status.markdown",
-        "Subquestion Innovations.markdown"
+        "Subquestion Innovations.markdown",
         "Rapid Prototyping.markdown"
       ],
       title: "Research Plan"
@@ -36,8 +36,7 @@ var docs =
     Thesis: {
       dir: "Documents/Thesis/",
       files: [
-        "Thesis.markdown",
-        //"Brain Computer Interfaces.markdown"
+        "Thesis.markdown"
       ],
       title: "Thesis"
     }
