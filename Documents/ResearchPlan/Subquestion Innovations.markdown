@@ -1,4 +1,5 @@
-### What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
+### Sub Question 3
+#### What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
 
 #### Explanation
 Once we've found out how the human brain operates and what it's requirements are, we can ask industry leaders which technologies would fit those needs.

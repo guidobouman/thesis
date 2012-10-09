@@ -1,4 +1,5 @@
-### How does information gets stored and exchanged within the human brain according to neuroscientists?
+### Sub question 1
+#### How does information get stored and exchanged within the human brain according to neuroscientists?
 
 #### Explanation
 We need to know how the human brain operates before we can make any predictions on this subject. Neuroscientists have formed their theories / knowledge based on studies of factual data, thus can provide us the most relevant & trustworthy information.

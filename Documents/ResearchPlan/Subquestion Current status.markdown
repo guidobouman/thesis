@@ -1,4 +1,5 @@
-### What is the current status of communication & information exchange between the human brain and the internet?
+### Sub question 2
+#### What is the current status of communication & information exchange between the human brain and the internet?
 
 #### Explanation
 We chose this question to find out what progress has already been made on this subject and if we can use it to our advantage.
