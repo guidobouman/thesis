@@ -18,8 +18,8 @@ var docs =
         "Subquestion Brain and Memory.markdown",
         //"Subquestion Current internet.markdown",
         "Subquestion Current status.markdown",
-        "Subquestion Innovations.markdown",
-        "Research planning.markdown"
+        "Subquestion Innovations.markdown"
+        "Rapid Prototyping.markdown"
       ],
       title: "Research Plan"
     },
