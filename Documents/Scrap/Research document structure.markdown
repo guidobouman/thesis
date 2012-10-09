@@ -2,6 +2,8 @@ Sub question 1
 	Neurons
 	Synapses
 	Chemistry
+	Perception & Memory
+	Upstream/Downstream
 	Learning
 	Differences computers and the human brain
 		Size
