@@ -23,6 +23,16 @@ var docs =
       ],
       title: "Research Plan"
     },
+    ResearchDocument: {
+      dir: "Documents/ResearchDocument/",
+      files: [
+        "Introduction.markdown",
+        "Sub Question 1.markdown",
+        "Sub Question 2.markdown",
+        "Sub Question 3.markdown"
+      ],
+      title: "Research Document"
+    },
     Thesis: {
       dir: "Documents/Thesis/",
       files: [
