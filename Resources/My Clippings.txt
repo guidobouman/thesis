@@ -1,0 +1,426 @@
+World Wide Mind (Michael Chorost)
+- Highlight on Page 8 | Loc. 117-18  | Added on Saturday, September 15, 2012, 09:11 AM
+
+It took me months to learn how to interpret the software’s representation of vowels and consonants as English.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 10 | Loc. 141  | Added on Saturday, September 15, 2012, 09:16 AM
+
+The human body improves very slowly.
+==========
+World Wide Mind (Michael Chorost)
+- Note on Page 10 | Loc. 141  | Added on Saturday, September 15, 2012, 09:17 AM
+
+ons menselijk breim ontwikkeld zich trager dan het internet, daarom moet het internet inspelen op het menselijk brein
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 10 | Loc. 139-40  | Added on Saturday, September 15, 2012, 09:17 AM
+
+In 2005, computer manufacturers added an additional MIPS per thousand dollars to their computers every five hours.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 10 | Loc. 144  | Added on Saturday, September 15, 2012, 09:19 AM
+
+There is no Moore’s Law for human beings.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 10 | Loc. 146-48  | Added on Saturday, September 15, 2012, 09:20 AM
+
+The Internet is fast, while humans are slow; capacious, while humans are forgetful. Conversely, humans are self-aware while the Internet isn’t, and humans can interact with the physical world while the Internet can’t.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 13 | Loc. 189-91  | Added on Saturday, September 15, 2012, 09:28 AM
+
+But as I said, the lack of a fast and efficient interface sets inherent limits on how much humans can do with the Internet. If human minds could work directly with the Internet, two grand unifications would happen at once.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 20 | Loc. 303-6  | Added on Sunday, September 16, 2012, 12:33 PM
+
+Computers can “learn” new things instantly by loading a program into memory. But the brain does no such thing. It makes no distinction at all between hardware and software. The way its neurons are wired together is its software. The brain learns by reinforcing existing connections between neurons, making new connections, and unmaking old ones.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 27 | Loc. 402-4  | Added on Sunday, September 16, 2012, 12:54 PM
+
+So while one can’t discount the possibility of one brain learning to “understand” another’s raw, unfiltered output, it would probably take much time and effort. It is more feasible, conceptually speaking, to identify one brain’s high-level interpretations of experience, where the noise and jitter have been filtered out, and evoke equivalent activity in another brain.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 35 | Loc. 526-28  | Added on Thursday, September 20, 2012, 10:33 PM
+
+And it goes the other way around: if a brain’s neural activity can be observed with sufficient resolution and properly interpreted, then it should be possible to know what conscious experiences it is having. It should be possible to “read” a mind.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 35 | Loc. 529  | Added on Thursday, September 20, 2012, 10:33 PM
+
+EEG (electroencephalography) and fMRI (functional magnetic resonance imaging.)
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 36 | Loc. 542  | Added on Thursday, September 20, 2012, 10:39 PM
+
+Stefan Schaffelhofer,
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 40 | Loc. 610  | Added on Thursday, September 20, 2012, 10:46 PM
+
+As we will see, reading a memory is reading a mind’s activity.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 41 | Loc. 623  | Added on Saturday, September 22, 2012, 06:20 PM
+
+“Neurons that fire together wire together.”
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 43 | Loc. 654-55  | Added on Saturday, September 22, 2012, 06:41 PM
+
+But neural traffic coming downstream from higher levels has much more meaning built into it.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 44 | Loc. 667-68  | Added on Saturday, September 22, 2012, 06:47 PM
+
+The implication for brain implants is this: to make someone “see” something, it may be sufficient to trigger a memory of having seen a similar object before.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 45 | Loc. 676-77  | Added on Saturday, September 22, 2012, 06:49 PM
+
+The important point from a mind-reading perspective is this: we want to find that downward flow from stored memories in one brain and evoke equivalent memories in another brain.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 45 | Loc. 687-88  | Added on Saturday, September 22, 2012, 06:51 PM
+
+But a technology called MRI (magnetic resonance imaging) can peer more deeply into the brain than EEG.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 46 | Loc. 691-92  | Added on Saturday, September 22, 2012, 06:54 PM
+
+With fields that strong the machine can change the orientation of specific molecules in a person’s body, letting viewers see various internal structures clearly.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 46 | Loc. 694-96  | Added on Saturday, September 22, 2012, 06:56 PM
+
+By detecting changes in the quantity of deoxyhemoglobin, a molecule involved in transporting oxygen to brain tissue, an MRI machine can infer what parts of the brain are unusually active at any given moment. This way of using the machine is called functional MRI, or fMRI for short.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 47 | Loc. 710-11  | Added on Saturday, September 22, 2012, 06:59 PM
+
+The prefrontal cortex is the newest area of the brain, the youngest in evolutionary terms; it’s where abstract thinking is done.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 49 | Loc. 748-49  | Added on Saturday, September 22, 2012, 07:42 PM
+
+I’m going to call that kind of mind reading blackbox reading, or blackboxing for
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 49 | Loc. 748-49  | Added on Saturday, September 22, 2012, 07:42 PM
+
+I’m going to call that kind of mind reading blackbox reading, or blackboxing for short.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 54 | Loc. 823-27  | Added on Saturday, September 22, 2012, 07:52 PM
+
+Human communication is on the verge of a complete overhaul. We will shortly make much more use of the technology that can send and receive millions of messages, in parallel, with zero error. We will interface with machines through thought signals. We will become nodes on a techno-network. We will be able to communicate with other humans merely by thinking to each other. Speech, as we know it, may well become obsolete. —Kevin Warwick, I, Cyborg (2004)
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 55 | Loc. 836-37  | Added on Saturday, September 22, 2012, 07:54 PM
+
+I learned of an idea that had been proposed by Rodolfo Llinás, a New York University neuroscientist.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 55 | Loc. 841  | Added on Saturday, September 22, 2012, 07:54 PM
+
+Imagine it: a flower blossoming inside the brain, nanometer stalks splitting away from a micrometer stem.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 62 | Loc. 938  | Added on Sunday, September 23, 2012, 10:40 AM
+
+We have wanted a World Wide Mind inchoately, inarticulately, for thousands of years.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 62 | Loc. 937-38  | Added on Sunday, September 23, 2012, 10:41 AM
+
+That desire to have every word we say in the primal darkness listened to with compassionate intensity.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 75 | Loc. 1136-38  | Added on Sunday, September 23, 2012, 11:03 AM
+
+It has dendrites, which are its inputs from other neurons. It has a soma, the main body of the neuron, containing its nucleus. And it has an axon, which is the cell’s output.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 75 | Loc. 1142-44  | Added on Sunday, September 23, 2012, 11:04 AM
+
+A neuron is basically a tiny deciding machine. The number of these tiny deciding machines in your head is in some dispute, but 100 billion is the number most commonly given.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 76 | Loc. 1153  | Added on Sunday, September 23, 2012, 11:07 AM
+
+It’s the synapses, rather than the neurons, that make a brain what it is.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 76 | Loc. 1155-56  | Added on Sunday, September 23, 2012, 11:08 AM
+
+Fundamentally the brain is a chemical network, not an electrical network.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 77 | Loc. 1168-70  | Added on Sunday, September 23, 2012, 11:30 AM
+
+Most of the neurons in the neocortex have between 1,000 and 10,000 synaptic connections with other neurons. Elsewhere in the brain, in the cerebellum, one type of neuron has 150,000 to 200,000 synaptic connections with other neurons.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 79 | Loc. 1210  | Added on Sunday, September 23, 2012, 11:37 AM
+
+For all their speed, computers don’t have the flexibility, originality, and insight of the brain.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 80 | Loc. 1217  | Added on Sunday, September 23, 2012, 11:39 AM
+
+Jeff Hawkins
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 81 | Loc. 1231-33  | Added on Sunday, September 23, 2012, 01:11 PM
+
+Analyzing raw perceptions takes a lot of time and energy. It is much simpler for the brain to invoke the memory you have of the doorknob and let that constitute most of your conscious experience of it.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 81 | Loc. 1233-34  | Added on Sunday, September 23, 2012, 01:11 PM
+
+“What is actually happening flows up, and what you expect to be happening flows down.”
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 82 | Loc. 1249-50  | Added on Sunday, September 23, 2012, 01:23 PM
+
+What this means is, a brain implant that could know what you were seeing could also know what you were remembering.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 85 | Loc. 1295  | Added on Sunday, September 23, 2012, 02:29 PM
+
+Phil Kennedy,
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 106 | Loc. 1624  | Added on Sunday, September 23, 2012, 09:15 PM
+
+Internet is a technology of information distribution.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 106 | Loc. 1624-27  | Added on Sunday, September 23, 2012, 09:15 PM
+
+Putting the two technologies together would let them synergistically amplify each other with simultaneous physical, emotional, verbal, and telempathic communication.14 Rather than reinforcing a “dislike for human physicality,” brain-to-brain technologies would be profoundly humanizing.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 114 | Loc. 1734  | Added on Sunday, September 23, 2012, 09:25 PM
+
+Optogenetics
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 126 | Loc. 1920-23  | Added on Monday, September 24, 2012, 09:20 PM
+
+By inserting channelrhodopsin and GFP genes into a neuron, one can make it fire at will and visually confirm that it has fired, simply by shining light of various wavelengths at it through a fiber-optic cable. The fiber-optic cable lets one activate cells and confirm their firing at the same time. In other words, it makes it possible to “write” to an area of the brain and “read” from it at the same time, using the same cable. That is, to invoke two-way information flow.15
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 120 | Loc. 1836  | Added on Tuesday, October 02, 2012, 11:09 AM
+
+(Channelrhodopsin
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 120 | Loc. 1840-41  | Added on Tuesday, October 02, 2012, 11:09 AM
+
+They now had an ON switch for neurons.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 121 | Loc. 1845-46  | Added on Tuesday, October 02, 2012, 11:10 AM
+
+He found a bacterial gene, halorhodopsin, that had properties suggesting it could do the opposite of channelrhodopsin.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 121 | Loc. 1849  | Added on Tuesday, October 02, 2012, 11:10 AM
+
+Now scientists had the ON and OFF switches they needed to control neural activity with extraordinary precision.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 121 | Loc. 1854-61  | Added on Tuesday, October 02, 2012, 11:10 AM
+
+1. They had an ON switch, the channelrhodopsin gene. 2. They had an OFF switch, the halorhodopsin gene. 3. They had a tool for getting the genes into cells, a tamed virus. 4. They had a way of ensuring that only a specific volume of brain tissue got the genes, by injecting tiny amounts of the virus into it. 5. They had promoters that let them select a cell type. If they wanted channelrhodopsin to work only in, say, parvalbumin-positive fast-spiking interneurons, they could use the promoter for that cell type. 6. They had a way of installing fiber-optic cables through the skull to direct light at the modified tissue.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 125 | Loc. 1907-9  | Added on Tuesday, October 02, 2012, 11:12 AM
+
+In the summer of 2009 primate studies began at Stanford. If those succeeded, they would ask the FDA to approve experimental use in humans. If all went well, they might have commercial devices on the market in five years or so.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 127 | Loc. 1935  | Added on Tuesday, October 02, 2012, 11:15 AM
+
+I use fMRI every day in my work. It’s really exciting, but it just allows me to observe. I would like to observe and intervene.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 130 | Loc. 1990-93  | Added on Tuesday, October 02, 2012, 11:19 AM
+
+To be sure, it’s a bit of a leap to go from the lab technique of optogenetics—whose use so far hasn’t gone further than safety trials in primates—to discussions of manipulating conscious experience and allowing brains to communicate directly over the Internet. But my point is that such things are now conceptually possible and can be seriously discussed in thought experiments.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 131 | Loc. 2003-4  | Added on Tuesday, October 02, 2012, 11:22 AM
+
+This is auto-association: triggering any part of a memory evokes the whole.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 132 | Loc. 2010  | Added on Tuesday, October 02, 2012, 11:25 AM
+
+A given neuron can be part of many different memories and concepts. Furthermore, they are related to each other, often hierarchically.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 132 | Loc. 2012-13  | Added on Tuesday, October 02, 2012, 11:25 AM
+
+In a living brain there would be so many such interrelated circuits that no pattern-matching algorithm could index them, let alone infer how they are meaningfully related to each other.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 132 | Loc. 2019-20  | Added on Tuesday, October 02, 2012, 11:26 AM
+
+The idea I am proposing, basically, is to build implantable computers that are themselves like brains.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 133 | Loc. 2025-26  | Added on Tuesday, October 02, 2012, 11:27 AM
+
+It turns out that brain’s neural geometry exhibits patterns very much like human social networks.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 134 | Loc. 2043-46  | Added on Wednesday, October 03, 2012, 01:22 PM
+
+Engineers around the country are already experimenting with building chips whose architecture imitates the organization of neural systems. For example, at Stanford researchers have built “neuromorphic microchips” whose circuitry self-organizes to resemble the visual cortex of lab animals.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 136 | Loc. 2075-76  | Added on Wednesday, October 03, 2012, 01:30 PM
+
+One could interpret the data using intelligent computers, which would learn the user’s hierarchies of prediction (that is, perception and memory). These computers would probably have many terabytes of memory.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 136 | Loc. 2080-81  | Added on Wednesday, October 03, 2012, 01:31 PM
+
+We’d have to genetically alter parts of the brain with modified viruses and insert LED panels under the skull.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 137 | Loc. 2088-89  | Added on Wednesday, October 03, 2012, 01:32 PM
+
+So it is conceptually feasible to power World Wide Mind circuitry by harvesting energy from the body.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 137 | Loc. 2096-97  | Added on Wednesday, October 03, 2012, 01:33 PM
+
+So let’s set aside surgical concerns for the moment. It’s about time we asked what one gets in exchange for such a radical modification of the
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 137 | Loc. 2096-97  | Added on Wednesday, October 03, 2012, 01:34 PM
+
+So let’s set aside surgical concerns for the moment. It’s about time we asked what one gets in exchange for such a radical modification of the body.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 141 | Loc. 2155-56  | Added on Wednesday, October 03, 2012, 01:39 PM
+
+They developed a search program called the “Remembrance Agent” that watches what each person types and continuously scans their personal notes for files that have those terms.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 142 | Loc. 2169-70  | Added on Wednesday, October 03, 2012, 01:41 PM
+
+We could say that Thad’s rig gives him telepathy, the ability to read another person’s thoughts (i.e., written notes.) But it doesn’t give him telempathy, the ability to experience their emotions and bodily states
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 143 | Loc. 2186-87  | Added on Wednesday, October 03, 2012, 01:46 PM
+
+The hippocampus appears to tell those areas to strengthen specific synaptic connections in order to make a memory permanent.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 143 | Loc. 2187-88  | Added on Wednesday, October 03, 2012, 01:46 PM
+
+Memories, then, are stored in the cortex in the areas where the original events were processed, not in the hippocampus. Visual memories are stored in the visual cortex, auditory memories in the auditory cortex, and so on.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 144 | Loc. 2193-94  | Added on Wednesday, October 03, 2012, 01:47 PM
+
+We can only know when the rat is dreaming about an experience it has just had.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 145 | Loc. 2220-22  | Added on Wednesday, October 03, 2012, 01:50 PM
+
+Tsien could infer which of the three experiences a mouse was having. He had decoded the neural structure of three different but physically interrelated memories. This is the kind of breakthrough that is needed to make any mind-reading technology practical: the functional dissection of parts of memories from each other.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 147 | Loc. 2240-41  | Added on Wednesday, October 03, 2012, 01:54 PM
+
+To put it another way, one now knows the exact neurons that encode a specific mental event.19
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 147 | Loc. 2241-42  | Added on Wednesday, October 03, 2012, 02:38 PM
+
+Optogenetics can also be used to make cliques fire.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 150 | Loc. 2291-94  | Added on Wednesday, October 03, 2012, 02:46 PM
+
+Your implanted computer knows when your clique for “chair” is activated, and my implanted computer knows how to activate my clique for “chair.” To convey the concept of “chair” from one brain to another, all the network has to do is send one short piece of information between them: say, the ID number for “chair.”
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 151 | Loc. 2305-6  | Added on Wednesday, October 03, 2012, 02:48 PM
+
+You would not see exactly the same scene as I do, but as with storytelling, the goal is to come satisfyingly close rather than to attain a perfectly accurate representation.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 151 | Loc. 2310-11  | Added on Wednesday, October 03, 2012, 02:48 PM
+
+Making memories from scratch may turn out to be all but impossible. A shared context is essential. The more memories people have in common, the better.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 152 | Loc. 2324-25  | Added on Wednesday, October 03, 2012, 02:51 PM
+
+Psychologists call this tendency to fill in nonexistent details confabulation. The brain wants to see the world as a coherent place.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 160 | Loc. 2442-43  | Added on Wednesday, October 03, 2012, 03:04 PM
+
+But the French philosopher Pierre Teilhard de Chardin presents a more positive and encouraging theory of collective mind.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 162 | Loc. 2476  | Added on Wednesday, October 03, 2012, 03:58 PM
+
+areas, the Internet is evolving into humanity’s “digital frontal lobes.”
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 173 | Loc. 2653-54  | Added on Wednesday, October 03, 2012, 04:15 PM
+
+The greater share of the World Wide Mind’s bandwidth might be devoted to sharing dreams.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 177 | Loc. 2706-7  | Added on Wednesday, October 03, 2012, 04:18 PM
+
+The Internet hasn’t developed the feedback and feedforward loops that are so crucial to mammalian perception and memory.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 178 | Loc. 2720-22  | Added on Wednesday, October 03, 2012, 04:19 PM
+
+The Internet can’t by itself generate new network configurations or protocols. And even if it could, they would fail. In computer systems, a “mutation” is always deadly: a single incorrect byte in a computer program will bring it to a halt.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 178 | Loc. 2722-24  | Added on Wednesday, October 03, 2012, 04:19 PM
+
+Rodolfo Llinás suggested in 2001 that the Internet might best be compared to a jellyfish, which has no central nervous system and nothing that could be called a “brain.” What a jellyfish does have is a loose network of nerves in its skin called a “nerve net.”
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 179 | Loc. 2736-37  | Added on Wednesday, October 03, 2012, 04:21 PM
+
+Goldberg suggests that search engines such as Google are beginning to perform an analogous integrative function. They are, in other words, nascent digital frontal lobes.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 180 | Loc. 2757-58  | Added on Wednesday, October 03, 2012, 04:22 PM
+
+Google and Wikipedia together can be seen as forming a nascent forebrain, hippocampus, and long-term declarative memory store.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 180 | Loc. 2759-61  | Added on Wednesday, October 03, 2012, 04:26 PM
+
+But it’s not the Internet by itself that’s beginning to look brainlike. It’s a combination of four things: human declarative knowledge, human choices about that knowledge, a computer system that collects votes about those choices, and a high-speed, far-flung communications network that integrates them all.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 181 | Loc. 2769-70  | Added on Wednesday, October 03, 2012, 04:27 PM
+
+With only four billion nodes, the Internet plus its human users isn’t as intelligent as a human. But it could very well be as intelligent as an animal.
+==========
+World Wide Mind (Michael Chorost)
+- Highlight on Page 198 | Loc. 3033-34  | Added on Wednesday, October 03, 2012, 04:50 PM
+
+These are all reasons for concern. But new technology always presents humanity with new threats.
+==========
+
