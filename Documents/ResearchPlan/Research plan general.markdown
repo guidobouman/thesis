@@ -13,5 +13,3 @@ How does the current internet relate to the needs of the human brain on the aspe
 
 ### Type of research
 The type of this research is constructive research, which means we’re going to find a solution to a problem.
-
-## Sub questions
