@@ -58,23 +58,17 @@ var makeTOC = function()
 var makeRefenceList = function()
 {
   reference_list = $('#container').text().match(/\[\#(.*)\]:/g);
-
   references = [];
-  for (var i = 0; i < reference_list.length; i++)
+  for (var i in reference_list)
   {
-    console.log(reference_list[i]);
     references.push(reference_list[i]);
+    $('#container').text()
+    //in_line_refs = $('#container').text().match(/\[(.*)\]\[\#(.*)\]/g);
+    //document.body.innerHTML.replace()
   };
+  console.log(references);
 
-  // in_line_refs = $('#container').text().match(/\[(.*)\]\[\#(.*)\]/g);
-
-  // var reference_list = [];
-
-  // for (var i = 0; i < in_line_refs.length; i++)
-  // {
-  //   reference_list.push(in_line_refs[i]);
-  // }
-
+  //in_line_refs = $('#container').text().match(/\[(.*)\]\[\#(.*)\]/g);
   // console.log($('#container').text().match(/\[\#.*\]:/g));
 };
 
