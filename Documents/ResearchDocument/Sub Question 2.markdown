@@ -16,15 +16,14 @@ Neuromorphic microcontrollers are silicon chips which try to mimic the way the h
 
 The scientists working on the DARPA SyNAPSE program, which is one of the main Neuromorphic chip projects, think this technology could break Moore's law. Looking at their planning they're planning to go roughly five times as fast as Moore's law. Of course this is a new technology where huge leaps can be made in relatively short amount of time. But it seems that they're confident that neuromorphic machines can be the solution to breaking free of Moore's law.  [][#Darpa:2012]
 
-
 ### Future techniques in terms of time
 
 
+### Sources
 [#Boyden:2011]: Boyden, E. (2011). A light switch for neurons. Retrieved from: http://www.ted.com/talks/ed_boyden.html
 
 [#Boyden:2011]: Boyden, E. (2011). A light switch for neurons. Retrieved from: http://www.ted.com/talks/ed_boyden.html
 
 [#SNG:2011]: Synthetic Neurobiology Memo #4. (2011). Very Simple Off-The-Shelf Laser and Viral Injector Systems for In Vivo Optical Neuromodulation. Retrieved from: http://syntheticneurobiology.org/protocols/protocoldetail/35/9
-
 
 [#Darpa:2012]: http://nextbigfuture.com/2012/06/darpa-synapse-project-status.html
