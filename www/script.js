@@ -6,7 +6,6 @@ var is_loading = false;
 
 var hashGo = function()
 {
-  console.log("hashgo: "+ window.location.hash);
   if (window.location.hash === "") {
     for (firstdoc in docs) break;
     switchPage(firstdoc);
@@ -21,7 +20,6 @@ var switchPage = function(pagekey)
   is_loading = true;
 
   page = docs[pagekey];
-  console.log(page);
 
   //window.history.pushState('', page.title, '#/' + pagekey); // Not needed, as we're using hashchanges.
 
@@ -42,7 +40,6 @@ var switchPage = function(pagekey)
 
 var makeTOC = function()
 {
-  console.log('make TOC!');
   var titles = ['<li><span class="title">Table of Contents</span>'];
 
   $("h2,h3").each(function()
@@ -58,9 +55,31 @@ var makeTOC = function()
   );
 };
 
+var makeRefenceList = function()
+{
+  reference_list = $('#container').text().match(/\[\#(.*)\]:/g);
+
+  references = [];
+  for (var i = 0; i < reference_list.length; i++)
+  {
+    console.log(reference_list[i]);
+    references.push(reference_list[i]);
+  };
+
+  // in_line_refs = $('#container').text().match(/\[(.*)\]\[\#(.*)\]/g);
+
+  // var reference_list = [];
+
+  // for (var i = 0; i < in_line_refs.length; i++)
+  // {
+  //   reference_list.push(in_line_refs[i]);
+  // }
+
+  // console.log($('#container').text().match(/\[\#.*\]:/g));
+};
+
 var makeMenu = function()
 {
-  console.log('make Menu!');
   items=['<li><span class="title">Documents</strong></li>'];
 
   $.each(docs, function(key, val)
@@ -88,9 +107,10 @@ $(document).ready(function()
     {
       is_loading = false;
 
-      console.log('All calls done, load page!');
       $('#container').html('<h1>' + page.title + '</h1>' + pagecontent.join(''));
+
       makeTOC();
+      makeRefenceList();
     }
     else
     {
