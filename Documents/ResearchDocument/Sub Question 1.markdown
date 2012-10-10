@@ -22,5 +22,5 @@ Most of the neurons in the neocortex have between 1,000 and 10,000 synaptic conn
 “What is actually happening flows up, and what you expect to be happening flows down.” [p. 89][#Hawkins:2003]
 
 
-[#Chorost:2011]: Michael Chorost - World Wide Mind
-[#Hawkins:2003]: Jeff Hawkins - On intelligence
+[#Chorost:2011]: Michael Chorost - World Wide Mind  
+[#Hawkins:2003]: Jeff Hawkins - On intelligence  
