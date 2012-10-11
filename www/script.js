@@ -78,7 +78,7 @@ var makeRefenceList = function()
     reference_list.push('<a id="' + reference[0] + '">' + reference[1] + '</a>');
   }
 
-  $('#container').html(buffer).append('<h2>Sources</h2><ol><li>' + reference_list.join('</li><li>') + '</li></ol>');
+  $('#container').html(buffer).append('<h2 id="sources">Sources</h2><ol><li>' + reference_list.join('</li><li>') + '</li></ol>');
 
   console.log($('#container').html());
 };
@@ -119,8 +119,8 @@ $(document).ready(function()
 
       $('#container').html('<h1>' + page.title + '</h1>' + pagecontent.join(''));
 
-      makeTOC();
       makeRefenceList();
+      makeTOC();
     }
     else
     {
