@@ -7,7 +7,7 @@ var is_loading = false;
 var hashGo = function()
 {
   if (window.location.hash === "") {
-    for (firstdoc in docs) break;
+    for (var firstdoc in docs) break;
     switchPage(firstdoc);
   } else {
     _gaq.push(['_trackPageview', window.location.hash.replace("#","")]);
@@ -24,7 +24,7 @@ var switchPage = function(pagekey)
   //window.history.pushState('', page.title, '#/' + pagekey); // Not needed, as we're using hashchanges.
 
   pagecontent = [];
-  for (file in page.files)
+  for (var file in page.files)
   {
     (function (file)
     {
@@ -57,19 +57,35 @@ var makeTOC = function()
 
 var makeRefenceList = function()
 {
-  reference_list = $('#container').text().match(/\[\#(.*)\]:/g);
-  references = [];
-  for (var i in reference_list)
-  {
-    references.push(reference_list[i]);
-    $('#container').text()
-    //in_line_refs = $('#container').text().match(/\[(.*)\]\[\#(.*)\]/g);
-    //document.body.innerHTML.replace()
-  };
-  console.log(references);
+  var buffer = $('#container').html();
+  var inline_reference_list = buffer.match(/\[\#(.*)\]:([^<\[]*)/g);
 
-  //in_line_refs = $('#container').text().match(/\[(.*)\]\[\#(.*)\]/g);
-  // console.log($('#container').text().match(/\[\#.*\]:/g));
+  if(inline_reference_list === null)
+    return false;
+
+  references = [];
+  reference_list = [];
+  for(var i in inline_reference_list)
+  {
+    reference_number = parseInt(i, 10) + 1;
+    reference = inline_reference_list[i].replace('[#', '').split(']: ');
+
+    var re = new RegExp('\\[(.*)\\]\\[\\#' + escapeRegEx(reference[0]) + '\\]', 'g');
+    buffer = buffer.replace(re, '<sup><a href="#' + reference[0] + '">' + reference_number + '</a></sup>');
+
+    buffer = buffer.replace(inline_reference_list[i], '');
+
+    reference_list.push('<a id="' + reference[0] + '">' + reference[1] + '</a>');
+  }
+
+  $('#container').html(buffer).append('<h2>Sources</h2><ol><li>' + reference_list.join('</li><li>') + '</li></ol>');
+
+  console.log($('#container').html());
+};
+
+var escapeRegEx = function(string)
+{
+  return string.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
 };
 
 var makeMenu = function()
