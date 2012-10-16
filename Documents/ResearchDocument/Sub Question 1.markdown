@@ -3,8 +3,8 @@
 
 ### How does the brain work?
 #### Anatomy of a human brain
-The brain is an immensely complex part of the human body. Figerally it consists out of many wires, called synapses, and ‘tiny deciding machines’, neurons, about 100 billion of them. [p. 75][#Chorost:2011]
-Neurons are wired in a mesh network with via synapses. Neurons are able to fire and enable or disable connected neurons. “The job of a neuron is to accept spikes of electricity—called action potentials—from its dendrites. Depending on that input, it “decides” whether to send an action potential of its own to other neurons via its axon.” [p. 148][#Chorost:2011]
+The brain is an immensely complex part of the human body. It consists out of many wires, called synapses, and ‘tiny deciding machines’, neurons, about 100 billion of them. [p. 75][#Chorost:2011]
+Neurons are wired in a mesh network trough the use of synapses. Neurons are able to fire and enable or disable connected neurons. “The job of a neuron is to accept spikes of electricity—called action potentials—from its dendrites. Depending on that input, it “decides” whether to send an action potential of its own to other neurons via its axon.” [p. 148][#Chorost:2011]
 
 #### Memory storage
 Memories are stored in the brain as hierarchical patterns. For example if you would think of a memory containing an earthquake the pattern could be like this: Startling → Disturbing motion → Shaking → On Church and Market [p. 285][#Chorost:2011] Interpret the objects in this hierarchy as neurons firing each other, the lines as synapses. 
@@ -22,12 +22,12 @@ Past memories and realtime experiences are stored the same in the human brain, a
 Brain plasticity, or neuroplasticity, is the ability of the human brain to change over time. [][#Michelon:2008] This is an amazing feature which allows the human brain to move certain functions to other parts of the brain.
 
 In one of his articles Michelon (2008) writes the following:
-> A surgeon in his 50s suf­fers a stroke. His left arm is par­a­lyzed. During his reha­bil­i­ta­tion, his good arm and hand are immo­bi­lized, and he is set to clean­ing tables. The task is at first impos­si­ble. Then slowly the bad arm remem­bers how too move. He learns to write again, to play ten­nis again: the func­tions of the brain areas killed in the stroke have trans­ferred them­selves to healthy regions!
+> A surgeon in his 50s suffers a stroke. His left arm is paralyzed. During his rehabilitation, his good arm and hand are immobilized, and he is set to cleaning tables. The task is at first impossible. Then slowly the bad arm remembers how too move. He learns to write again, to play tennis again: the functions of the brain areas killed in the stroke have transferred themselves to healthy regions!
 
 While this is a vital function of the brain, this also means any future technology like optogenetics -- we'll talk more about that later on in this research -- can't rely on any of the brain's functions being present in one specific area.
 
 #### Neurogenesis
-Just moving functions from one part of the brain to another part of the brain wouldn't be enough. To help facilitate this, the human brain creates new neurons throughout your whole life. These neurons die away when they're not needed, but while the brain is stimulated / trained, these neurons get a chance to form new connections to other neurons, and thus improve the human brain. [][#Klemm:2008]
+Just moving functions from one part of the brain to another part of the brain wouldn't be enough. To help facilitate this, the human brain creates new neurons throughout your whole life, this is called neurogenesis. These newly created neurons usually die away when they're not needed. But while the brain is stimulated or trained, these neurons get a chance to form new connections to other neurons instead of dying away, and thus improve the human brain. [][#Klemm:2008]
 
 ### Human Brain vs. the Web
 This thesis is about the internet, so let’s take the above knowledge and mash it together with the knowledge we have about the internet and compare them.
