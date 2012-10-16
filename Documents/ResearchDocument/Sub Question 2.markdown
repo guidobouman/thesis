@@ -14,7 +14,7 @@ Devices for Optogenetics are fairly low cost and it’s possible to utilise this
 ### Neuromorphic microcontrollers
 Neuromorphic microcontrollers are silicon chips which try to mimic the way the human brain works by using memristors & bipolar spin neurons. Current progress in this field is a working chip that's able to play pong like a human does, and which is able to complete digits partially drawn by humans.
 
-The scientists working on the DARPA SyNAPSE program, which is one of the main Neuromorphic chip projects, think this technology could break Moore's law. Looking at their planning they're planning to go roughly five times as fast as Moore's law. Of course this is a new technology where huge leaps can be made in relatively short amount of time. But it seems that they're confident that neuromorphic machines can be the solution to breaking free of Moore's law.  [][#Darpa:2012]
+The scientists working on the DARPA SyNAPSE program, which is one of the main Neuromorphic chip projects, think this technology could break Moore's law. Looking at their planning they expect to go roughly five times as fast as Moore's law. Of course this is a new technology where huge leaps can be made in relatively short amount of time. But it seems that they're confident that neuromorphic machines can be the solution to breaking free of Moore's law.  [][#Darpa:2012]
 
 ### Future techniques in terms of time
 
