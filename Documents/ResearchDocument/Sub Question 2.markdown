@@ -10,11 +10,13 @@ Where MRI and EEG are non-intrusive technologies, there are a lot of interesting
 While part of this implant is in fact a neuroprosthetic, this is no implant in the the human brain. The first true brain implants have already been designed, and they are currently being tested. Take for example the hippocampus, the part of your brain that amongst other tasks takes care of storing and retrieving memories. Currently a brain implant is under development that could mimic part of the hippocampus' abilities and help the user store & retrieve new memories again. [][#Berger:2005]
 
 ### Optogenetics
-This is a fairly new technique and best suited for reading and writing to the brain. By altering the genetics of individual neurons in the brain scientists are able to see and alter the state of individual neurons with lasers.
-
-By inserting a controlled virus into the brain, certain neurons will be genetically modified which will in turn make the neurons light dependent. This allows the neuron to be controlled and read by light. [05:55][#Boyden:2011]
+This is a fairly new technique and most likely best suited for reading and writing to the brain. By altering the genetics of individual neurons in the brain, scientists are able to see and alter the state of individual neurons with lasers. By inserting a controlled virus into the brain, certain neurons will be genetically modified which will in turn make the neurons light dependent. This allows the neuron to be controlled and read by light. [05:55][#Boyden:2011]
 
 Devices for Optogenetics are fairly low cost and it’s possible to utilise this technology with with a laser and some cheap electronics like an Arduino. [][#SNG:2011]
+
+This is still quite vague, lets give an example of what this technology is capable of. What it does is switch parts of the brain on or off. In a way you can forcefully enable parts of the brain to trigger for example the idea of an earthquake taking place or that you just achieved a goal. Also by disabling part of the brain, you can prevent a fear reaction from taking place. In Ed Boyden's tests, they stopped a pavlovian conditioned mouse from freezing after hearing a tone. This means that optogenetics can possibly cure harsh forms of phobias. [][#Boyden:2011]
+
+Wether or not we can actually read from and write to the human brain remains to be seen. But repeatedly activating parts of the human brain and strengthening synapses is exactly what defines learning. [][#]
 
 ### Neuromorphic microcontrollers
 Neuromorphic microcontrollers are silicon chips which try to mimic the way the human brain works by using memristors & bipolar spin neurons. Current progress in this field is a working chip that's able to play pong like a human does, and which is able to complete digits partially drawn by humans.
