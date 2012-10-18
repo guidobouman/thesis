@@ -9,6 +9,12 @@ Neurons are wired in a mesh network trough the use of synapses. Neurons are able
 #### Memory storage
 Memories are stored in the brain as hierarchical patterns. For example if you would think of a memory containing an earthquake the pattern could be like this: Startling → Disturbing motion → Shaking → On Church and Market [p. 285][#Chorost:2011] Interpret the objects in this hierarchy as neurons firing each other, the lines as synapses. 
 
+[TODO: sequences, Spatial patterns, patterns]
+
+> Your memory of the alphabet is a sequence of patterns. It isn’t something stored or recalled in an instant or in an arbitrary order.
+
+> An auto-associative memory system is one that can recall complete patterns when given only partial or distorted inputs.
+
 #### Learning
 If you have learned something you have basically made a memory more permanent in your brain. You’ve strengthened the synapses between the neurons which make the pattern of the memory. The strength of a synapse and thus the strength of a memory is expressed in weights [TODO: source].
 If you want to learn something the job is to repeatedly fire the pattern of neurons and strengthen the synapses. This repeating has to be done in order to learn. So instead of what the movie The Matrix states, it’s not possible to learn something, for example learning within seconds how to operate a helicopter. Neurons have to fire repeatedly first. [TODO: add dexter’s lab video]
@@ -36,7 +42,9 @@ This thesis is about the internet, so let’s take the above knowledge and mash 
 ##### Web
 Decentralised
 ##### Storage
-Nodebased storage
+Nodebased storage, Sequences/ patterns
+> Capacity is the first issue. Let’s say the cortex has 32 trillion synapses. If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory. A hard drive on a personal computer today has 100 billion bytes, so we would need about eighty of today’s hard drives to have the same amount of memory as a human cortex.
+
 #### Persistency
 Longterm Shortterm
 google pagerank
@@ -44,6 +52,12 @@ google pagerank
 Plastisticy
 #### Computation
 Parallel
+
+> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second.
+
+> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers.
+
+
 
 [#Chorost:2011]: Michael Chorost - World Wide Mind  
 [#Hawkins:2003]: Jeff Hawkins - On intelligence  
