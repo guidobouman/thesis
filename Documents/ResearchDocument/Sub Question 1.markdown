@@ -9,16 +9,14 @@ Neurons are wired in a mesh network trough the use of synapses. Neurons are able
 #### Memory storage
 Memories are stored in the brain as spatial and sequential patterns. For example if you would think of a memory containing an earthquake the pattern could be like this: Startling → Disturbing motion → Shaking → On Church and Market [p. 285][#Chorost:2011] Interpret the objects in this hierarchy as neurons firing each other, the lines as synapses. 
 
-> Your memory of the alphabet is a sequence of patterns. It isn’t something stored or recalled in an instant or in an arbitrary order. [TODO][#Hawkins:2004]
- Memory sequences are retained[TODO: right word] exactly the way they are learned. Try spelling the alphabet backwards, you’ll find it very hard, just like a child learning language. 
+> Your memory of the alphabet is a sequence of patterns. It isn’t something stored or recalled in an instant or in an arbitrary order. [p. 137][#Hawkins:2004]
+ Memory sequences are retrieved exactly the way they are learned. Try spelling the alphabet backwards, you’ll find it very hard, just like a child learning language. 
  
-> An auto-associative memory system is one that can recall complete patterns when given only partial or distorted inputs. [TODO][#Hawkins:2004] 
-
 #### Learning
 If you have learned something you have basically made a memory more permanent in your brain. You’ve strengthened the synapses between the neurons which make the pattern of the memory. The strength of a synapse and thus the strength of a memory is expressed in weights [TODO: source].
 If you want to learn something the job is to repeatedly fire the pattern of neurons and strengthen the synapses. This repeating has to be done in order to learn. So instead of what the movie The Matrix states, it’s not possible to learn something, for example learning within seconds how to operate a helicopter. Neurons have to fire repeatedly first. [TODO: add dexter’s lab video]
 
-Another thing is when it comes to learning is your reference [TODO: referentiekader] is the limit of what you’re able to learn. This sounds weird because learning is all about broadening your reference. But when you think of it, how you’re able to learn; you’re not able to fire neurons/pattern which aren't there. So if you want to ‘download’ data into the brain you would have to do it with triggering the existing neurons and make new patterns. [TODO: source], [TODO: Gevolgen]
+Another thing is when it comes to learning is your reference is the limit of what you’re able to learn. This sounds weird because learning is all about broadening your reference. But when you think of it, how you’re able to learn; you’re not able to fire neurons/pattern which aren't there. So if you want to ‘download’ data into the brain you would have to do it with triggering the existing neurons and make new patterns. [TODO: source], [TODO: Gevolgen]
 
 The hippocampus plays a big role in the formation of new memories. The hippocampus exists in both parts of the brain and is directly connected to the neocortex. I imagine it as a buffer before writing into the neocortex, the hard drive. Without the hippocampus it is impossible to store new memories, while it’s possible to still remember things before the defect.
 
@@ -39,30 +37,34 @@ While this is a vital function of the brain, this also means any future technolo
 Just moving functions from one part of the brain to another part of the brain wouldn't be enough. To help facilitate this, the human brain creates new neurons throughout your whole life, this is called neurogenesis. These newly created neurons usually die away when they're not needed. But while the brain is stimulated or trained, these neurons get a chance to form new connections to other neurons instead of dying away, and thus improve the human brain. [][#Klemm:2008]
 
 ### Requirements of a intelligent machine
-> According to functionalism, being intelligent or having a mind is purely a property of organization and has nothing inherently to do with what you’re organized out of. A mind exists in any system whose constituent parts have the right causal relationship with each other, but those parts can just as validly be neurons, silicon chips, or something else. [TODO][#Hawkins:2004]
+> According to functionalism, being intelligent or having a mind is purely a property of organization and has nothing inherently to do with what you’re organized out of. A mind exists in any system whose constituent parts have the right causal relationship with each other, but those parts can just as validly be neurons, silicon chips, or something else. [p. 75][#Hawkins:2004]
 
 ### Human Brain vs. the Web
 This thesis is about the internet, so let’s take the above knowledge and mash it together with the knowledge we have about the internet and compare them.
 
 #### Structure
-##### Web
-Decentralised
-
 ##### Storage
 Nodebased storage, Sequences/ patterns
-> Capacity is the first issue. Let’s say the cortex has 32 trillion synapses. If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory. A hard drive on a personal computer today has 100 billion bytes, so we would need about eighty of today’s hard drives to have the same amount of memory as a human cortex.[TODO][#Hawkins:2004]
+
+###### Structure
+Data on the internet is served through pages/documents. Often these pages are scripted in html and linked together with hyperlinks. This way you’re able to browse from page to page end collect your information. Hyperlinks enable you to browse from one server to an other. So the internet is plainly a bunch of file cabinets, pointing to each other within documents. The DNS protocol allows it to directly access a document through a domain name, but the name is not tied to the content. 
+
+The brain doesn’t have pages or domain names. The links are different as well. Patterns display the information, not the nodes (or pages).
+
+###### Capacity
+> Capacity is the first issue. Let’s say the cortex has 32 trillion synapses. If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory. A hard drive on a personal computer today has 100 billion bytes, so we would need about eighty of today’s hard drives to have the same amount of memory as a human cortex.[p. 384][#Hawkins:2004]
 
 #### Persistency
 Longterm Shortterm
 google pagerank
 #### Learning
 Plastisticy
-#### Computation
+#### Computational power
 Parallel
 
-> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [TODO][#Hawkins:2004]
+> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [p. 127][#Hawkins:2004]
 
-> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [TODO][#Hawkins:2004]
+> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [p. 130][#Hawkins:2004]
 
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
