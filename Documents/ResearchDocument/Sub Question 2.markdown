@@ -7,7 +7,7 @@ These are two vastly interesting techniques which allow us to read information f
 ### Neuroprosthetics
 Where MRI and EEG are non-intrusive technologies, there are a lot of interesting advancements being made on the field of neuroprosthetics (or brain implants). One example is a cochlear implant. They stimulate the cochlea (inner most part of the ear) through the use of electric pulses to let it think it's receiving sound.
 
-While part of this implant is in fact a neuroprosthetic, this is no implant in the the human brain. The first true brain implants have already been designed, and they are currently being tested. Take for example the hippocampus, the part of your brain that amongst other tasks takes care of storing and retrieving memories. Currently a brain implant is under development that could mimic part of the hippocampus' abilities and help the user store & retrieve new memories again. [][#Berger:2005]
+While part of this implant is in fact a neuroprosthetic, this is no implant in the the human brain. The first true brain implants have already been designed, and they are currently being tested. Take for example the hippocampus, the part of your brain that amongst other tasks takes care of storing and retrieving memories. Currently a brain implant is under development that could mimic part of the hippocampus' abilities and help someone with brain damage to the hippocampus store & retrieve new memories again. [][#Berger:2005]
 
 ### Optogenetics
 This is a fairly new technique and most likely best suited for reading and writing to the brain. By altering the genetics of individual neurons in the brain, scientists are able to see and alter the state of individual neurons with lasers. By inserting a controlled virus into the brain, certain neurons will be genetically modified which will in turn make the neurons light dependent. This allows the neuron to be controlled and read by light. [05:55][#Boyden:2011]
@@ -16,17 +16,24 @@ Devices for Optogenetics are fairly low cost and it’s possible to utilise this
 
 This is still quite vague, lets give an example of what this technology is capable of. What it does is switch parts of the brain on or off. In a way you can forcefully enable parts of the brain to trigger for example the idea of an earthquake taking place or that you just achieved a goal. Also by disabling part of the brain, you can prevent a fear reaction from taking place. In Ed Boyden's tests, they stopped a pavlovian conditioned mouse from freezing after hearing a tone. This means that optogenetics can possibly cure harsh forms of phobias. [][#Boyden:2011]
 
-Wether or not we can actually read from and write to the human brain remains to be seen. But repeatedly activating parts of the human brain and strengthening synapses is exactly what defines learning. [][#]
+Wether or not we can actually read from and write to the human brain remains to be seen. But repeatedly activating parts of the human brain and strengthening synapses is exactly what defines learning. [][#Hawkins:2004]
 
 ### Neuromorphic microcontrollers
 Neuromorphic microcontrollers are silicon chips which try to mimic the way the human brain works by using memristors & bipolar spin neurons. Current progress in this field is a working chip that's able to play pong like a human does, and which is able to complete digits partially drawn by humans.
 
-The scientists working on the DARPA SyNAPSE program, which is one of the main Neuromorphic chip projects, think this technology could break Moore's law. Looking at their planning they expect to go roughly five times as fast as Moore's law. Of course this is a new technology where huge leaps can be made in relatively short amount of time. But it seems that they're confident that neuromorphic machines can be the solution to breaking free of Moore's law.  [][#Darpa:2012]
+The scientists working on the DARPA SyNAPSE program, which is one of the main neuromorphic chip projects, think this technology could break Moore's law. Looking at their planning they expect to go roughly five times as fast as Moore's law. Of course this is a new technology where huge leaps can be made in relatively short amounts of time. But it seems that they're confident that neuromorphic machines can be the solution to breaking free of Moore's law.  [][#Darpa:2012]
 
-### Making senses, use of alternate input methods
-> The neocortex is amazingly “plastic,” meaning it can change and rewire itself depending on the type of inputs flowing into it. [][#Hawkins:2004]
+### Alternate senses
+> The neocortex is amazingly “plastic,” meaning it can change and rewire itself depending on the type of inputs flowing into it. [p. 106][#Hawkins:2004]
 
-Erik Weihenmayer - Brainport
+The neuroplasticity of the human brain makes it possible for blind people to "see" with their tongues. The brain doesn't care in which way it gets it's information. It will make sense of whatever stream of data you feed it. [p. 110][#Hawkins:2004] In this case translating visual data to pressure points on the tongue allow blind people to see again. Of course it's not as refined as the human retina, but imagine the possibilities. 
+
+Imagine a device that somehow feeds the internet as a sixth sense. Applied properly, your brain could make sense of the patterns being fed to it. The moment you think of a fire-truck, the device would understand that thought, and feed all of the properties of a fire-truck back to you, instantaneously fetched from the internet. 
+
+No device like this currently exists, but we know the human brain itself doesn't see, hear or feel. Rather it makes sense of a non-stop stream of data, and especially the changes in these streams in contrast to it's expectations. [p. 111][#Hawkins:2004]
+
+To make a device like I mentioned before possible we need a better understanding of the streams being fed from the human sense to the brain. We need to know exactly what the streams from different senses look like and how we can mimic them to feed our custom-made "sense" to the human brain.
+
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
 [#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
