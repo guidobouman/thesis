@@ -1,0 +1,305 @@
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 124-25  | Added on Monday, October 15, 2012, 11:26 AM
+
+It is the ability to make predictions about the future that is the crux of intelligence.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 127-28  | Added on Monday, October 15, 2012, 11:37 AM
+
+The seat of intelligence is the neocortex. Even though it has a great number of abilities and powerful flexibility, the neocortex is surprisingly regular in its structural details.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 169-71  | Added on Monday, October 15, 2012, 12:00 PM
+
+It was one of the best Scientific American issues of all time. Several neuroscientists I’ve spoken to have told me it played a significant role in their career choice, just as it did for me.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 388-89  | Added on Monday, October 15, 2012, 02:08 PM
+
+for every fiber feeding information forward into the neocortex, there are ten fibers feeding information back toward the senses.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 548-50  | Added on Monday, October 15, 2012, 10:13 PM
+
+According to functionalism, being intelligent or having a mind is purely a property of organization and has nothing inherently to do with what you’re organized out of. A mind exists in any system whose constituent parts have the right causal relationship with each other, but those parts can just as validly be neurons, silicon chips, or something else.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 318  | Added on Tuesday, October 16, 2012, 06:35 AM
+
+the Chinese Room is exactly analogous to a digital computer.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 380-81  | Added on Tuesday, October 16, 2012, 07:26 AM
+
+A neural network is unlike a computer in that it has no CPU and doesn’t store information in a centralized memory.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 384  | Added on Tuesday, October 16, 2012, 07:27 AM
+
+My first criterion was the inclusion of time in brain function. Real brains process rapidly changing streams of information.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 385-86  | Added on Tuesday, October 16, 2012, 07:28 AM
+
+The second criterion was the importance of feedback.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 392  | Added on Tuesday, October 16, 2012, 07:29 AM
+
+As we will see later, it is organized as a repeating hierarchy.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 443-44  | Added on Tuesday, October 16, 2012, 07:36 AM
+
+In my opinion, the most fundamental problem with most neural networks is a trait they share with AI programs. Both are fatally burdened by their focus on behavior.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 458  | Added on Tuesday, October 16, 2012, 07:41 AM
+
+auto-associative memory.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 491  | Added on Tuesday, October 16, 2012, 08:39 AM
+
+Decades of science fiction have been awash in AI ideas,
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 607  | Added on Tuesday, October 16, 2012, 08:58 AM
+
+Your neocortex is reading this book.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 633-34  | Added on Tuesday, October 16, 2012, 09:03 AM
+
+Humans are smarter because our cortex, relative to body size, covers a larger area,
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 643-44  | Added on Tuesday, October 16, 2012, 09:08 AM
+
+Those thirty billions cells are you. They contain almost all your memories, knowledge, skills, and accumulated life experience.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 673-74  | Added on Tuesday, October 16, 2012, 09:14 AM
+
+What makes one region “higher” or “lower” than another is how they are connected to one another.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 674-75  | Added on Tuesday, October 16, 2012, 09:14 AM
+
+In the cortex, lower areas feed information up to higher areas by way of a certain neural pattern of connectivity, while higher areas send feedback down to lower areas using a different connection pattern.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 676-77  | Added on Tuesday, October 16, 2012, 09:15 AM
+
+A detailed map of the monkey cortex has been worked out by two scientists, Daniel Felleman and David van Essen.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 678-79  | Added on Tuesday, October 16, 2012, 09:17 AM
+
+The lowest of the functional regions, the primary sensory areas, are where sensory information first arrives in the cortex.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 703-5  | Added on Tuesday, October 16, 2012, 10:21 AM
+
+the process is generally treated as though information flows in a single direction, like widgets being built on a factory assembly line. But information in the cortex always flows in the opposite direction as well, and with many more projections feeding back down the hierarchy than up.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 717-18  | Added on Tuesday, October 16, 2012, 10:22 AM
+
+The simplest form of this synaptic change is that when two neurons generate a spike at nearly the same time, the connection strength between the two neurons will be increased.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 722  | Added on Tuesday, October 16, 2012, 10:24 AM
+
+While there are many types of neurons in the neocortex, one broad class of them comprises eight out of every ten cells.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 722-23  | Added on Tuesday, October 16, 2012, 10:25 AM
+
+While there are many types of neurons in the neocortex, one broad class of them comprises eight out of every ten cells. These are the pyramidal neurons,
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 747-48  | Added on Tuesday, October 16, 2012, 10:36 AM
+
+He proposes that the cortex uses the same computational tool to accomplish everything it does.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 758-59  | Added on Tuesday, October 16, 2012, 10:39 AM
+
+the neocortex is remarkably uniform. The same layers, cell types, and connections exist throughout.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 762  | Added on Tuesday, October 16, 2012, 10:39 AM
+
+Mountcastle
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 763-64  | Added on Tuesday, October 16, 2012, 10:39 AM
+
+He concludes that there is a common function, a common algorithm, that is performed by all the cortical regions.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 774-76  | Added on Tuesday, October 16, 2012, 10:43 AM
+
+If Mountcastle is correct, the algorithm of the cortex must be expressed independently of any particular function or sense. The brain uses the same process to see as to hear. The cortex does something universal that can be applied to any type of sensory or motor system.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 799  | Added on Tuesday, October 16, 2012, 11:33 AM
+
+Written language is far too recent an invention for our genes to have evolved a specific mechanism for it.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 800-801  | Added on Tuesday, October 16, 2012, 11:33 AM
+
+The human brain has an incredible capacity to learn and adapt to thousands of environments that didn’t exist until very recently.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 803-4  | Added on Tuesday, October 16, 2012, 11:34 AM
+
+the neocortex is amazingly “plastic,” meaning it can change and rewire itself depending on the type of inputs flowing into it.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 841-43  | Added on Tuesday, October 16, 2012, 11:48 AM
+
+You hear sound, see light, and feel pressure, but inside your brain there isn’t any fundamental difference between these types of information. An action potential is an action potential. These momentary spikes are identical regardless of what originally caused them. All your brain knows is patterns.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 848-49  | Added on Tuesday, October 16, 2012, 11:49 AM
+
+Spatial patterns are coincident patterns in time;
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 861-62  | Added on Tuesday, October 16, 2012, 11:53 AM
+
+Natural vision, experienced as patterns entering the brain, flows like a river. Vision is more like a song than a painting.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 892-93  | Added on Tuesday, October 16, 2012, 12:06 PM
+
+In fact, your brain can’t directly know where your body ends and the world begins.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 915  | Added on Tuesday, October 16, 2012, 12:17 PM
+
+One of the first people to wear the tongue-mounted device is Erik Weihenmayer,
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 921-22  | Added on Tuesday, October 16, 2012, 12:18 PM
+
+These examples show once again that the cortex is extremely flexible and that the inputs to the brain are just patterns. It doesn’t matter where the patterns come from; as long as they correlate over time in consistent ways, the brain can make sense of them.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 970-73  | Added on Tuesday, October 16, 2012, 12:28 PM
+
+Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 975-76  | Added on Tuesday, October 16, 2012, 12:28 PM
+
+“The brain is a parallel computer. It has billions of cells all computing at the same time. This parallelism vastly multiplies the processing power of the biological brain.”
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 1021-22  | Added on Tuesday, October 16, 2012, 02:14 PM
+
+the cortex creates what are called invariant representations, which handle variations in the world automatically.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 995-96  | Added on Tuesday, October 16, 2012, 02:15 PM
+
+gain. No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 1028-32  | Added on Tuesday, October 16, 2012, 02:18 PM
+
+there are four attributes of neocortical memory that are fundamentally different from computer memory: • The neocortex stores sequences of patterns. • The neocortex recalls patterns auto-associatively. • The neocortex stores patterns in an invariant form. • The neocortex stores patterns in a hierarchy.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 1057-58  | Added on Tuesday, October 16, 2012, 06:45 PM
+
+Your memory of the alphabet is a sequence of patterns. It isn’t something stored or recalled in an instant or in an arbitrary order.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 1063  | Added on Tuesday, October 16, 2012, 06:47 PM
+
+you can only recall it in the same way you learned it.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 1088  | Added on Wednesday, October 17, 2012, 05:08 AM
+
+An auto-associative memory system is one that can recall complete patterns when given only partial or distorted inputs.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 1315-17  | Added on Wednesday, October 17, 2012, 06:49 AM
+
+If we want to understand what intelligence is, what creativity is, how your brain works, and how to build intelligent machines, we must understand the nature of these predictions and how the cortex makes them.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 1414-15  | Added on Wednesday, October 17, 2012, 07:50 AM
+
+The human brain is more intelligent than that of other animals because it can make predictions about more abstract kinds of patterns and longer temporal pattern sequences. To
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 1418-20  | Added on Wednesday, October 17, 2012, 07:51 AM
+
+The important point is that higher intelligence is not a different kind of process from perceptual intelligence. It rests fundamentally on the same neocortical memory and prediction algorithm.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 1511-12  | Added on Wednesday, October 17, 2012, 10:42 AM
+
+All brains, especially large ones, divide the cortex into a front half and a back half. Scientists use the words anterior for the front and posterior for the back.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 2994-95  | Added on Wednesday, October 17, 2012, 12:59 PM
+
+Evolution discovered that if it attached a hierarchical memory system to our senses, the memory would model the world and predict the future.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3011-12  | Added on Wednesday, October 17, 2012, 01:01 PM
+
+Intelligence is measured by the predictive ability of a hierarchical memory, not by humanlike behavior.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3015-18  | Added on Wednesday, October 17, 2012, 01:02 PM
+
+Capacity is the first issue. Let’s say the cortex has 32 trillion synapses. If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory. A hard drive on a personal computer today has 100 billion bytes, so we would need about eighty of today’s hard drives to have the same amount of memory as a human cortex.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3030-32  | Added on Wednesday, October 17, 2012, 01:04 PM
+
+But intelligent memory chips will be inherently tolerant of faults. Remember, no single component of your brain holds any indispensable item of data. Your brain loses thousands of neurons each day, yet your mental capacity decays at only a slow pace throughout your adult life.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3035-39  | Added on Wednesday, October 17, 2012, 01:05 PM
+
+The second problem we have to overcome is connectivity. Real brains have large amounts of subcortical white matter. As we noted earlier, the white matter is made up of the millions of axons streaming this way and that just beneath the thin cortical sheet, connecting the different regions of the cortical hierarchy with each other. An individual cell in the cortex may connect to five or ten thousand other cells. This kind of massively parallel wiring is difficult or impossible to implement using traditional silicon manufacturing techniques.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3045-46  | Added on Wednesday, October 17, 2012, 01:06 PM
+
+A real-world example is the telephone system.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3053-54  | Added on Wednesday, October 17, 2012, 01:07 PM
+
+Suffice it to say that connectivity might be the biggest technical obstacle we face in building intelligent machines but we should be able to handle it.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3087-89  | Added on Wednesday, October 17, 2012, 01:10 PM
+
+Neither brains nor computers can directly self-replicate, and brainlike memory systems will be no different. While one of the strengths of intelligent machines will be our ability to mass-produce them, that’s a world apart from selfreplication in the manner of bacteria and viruses. Self-replication does not require intelligence, and intelligence does not require self-replication.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3218  | Added on Wednesday, October 17, 2012, 01:43 PM
+
+Intelligent machines will be able to think as much as a million times faster than the human brain.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3220-22  | Added on Wednesday, October 17, 2012, 01:44 PM
+
+Biological brains evolved with two time-related constraints. One is the speed at which cells can do things and the other is the speed at which the world changes. It might not be too useful for a biological brain to think a million times faster if the world around it is inherently slow.
+==========
+On Intelligence (Sandra Blakeslee and Jeff Hawkins)
+- Highlight Loc. 3328-30  | Added on Wednesday, October 17, 2012, 01:51 PM
+
+With distributed communications mediums such as the Internet, the individual intelligent machines could be distributed around the globe. Larger hierarchies learn deeper patterns and see more complex analogies.
+==========
