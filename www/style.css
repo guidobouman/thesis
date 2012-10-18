@@ -93,7 +93,7 @@ body
 {
   padding-left: 1em;
 }
-#sidebar span.title 
+#sidebar span.title
 {
   color: #ff0000;
   font-weight: bold;
@@ -159,4 +159,9 @@ h4
 h5
 {
   font-size: 1.2em;
+}
+
+sup
+{
+  line-height: 1em;
 }
