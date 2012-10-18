@@ -13,7 +13,7 @@ Memories are stored in the brain as spatial and sequential patterns. For example
  Memory sequences are retrieved exactly the way they are learned. Try spelling the alphabet backwards, you’ll find it very hard, just like a child learning language. 
  
 #### Learning
-If you have learned something you have basically made a memory more permanent in your brain. You’ve strengthened the synapses between the neurons which make the pattern of the memory. The strength of a synapse and thus the strength of a memory is expressed in weights [TODO: source].
+If you have learned something you have basically made a memory more permanent in your brain; You’ve strengthened the synapses between the neurons which make the pattern of the memory. The strength of a synapse and thus the strength of a memory is expressed in weights [TODO: source].
 If you want to learn something the job is to repeatedly fire the pattern of neurons and strengthen the synapses. This repeating has to be done in order to learn. So instead of what the movie The Matrix states, it’s not possible to learn something, for example learning within seconds how to operate a helicopter. Neurons have to fire repeatedly first. [TODO: add dexter’s lab video]
 
 Another thing is when it comes to learning is your reference is the limit of what you’re able to learn. This sounds weird because learning is all about broadening your reference. But when you think of it, how you’re able to learn; you’re not able to fire neurons/pattern which aren't there. So if you want to ‘download’ data into the brain you would have to do it with triggering the existing neurons and make new patterns. [TODO: source], [TODO: Gevolgen]
@@ -49,14 +49,16 @@ Nodebased storage, Sequences/ patterns
 ###### Structure
 Data on the internet is served through pages/documents. Often these pages are scripted in html and linked together with hyperlinks. This way you’re able to browse from page to page end collect your information. Hyperlinks enable you to browse from one server to an other. So the internet is plainly a bunch of file cabinets, pointing to each other within documents. The DNS protocol allows it to directly access a document through a domain name, but the name is not tied to the content. 
 
-The brain doesn’t have pages or domain names. The links are different as well. Patterns display the information, not the nodes (or pages).
+The brain doesn’t have pages or domain names. The links are different as well. Patterns are the storage, not the nodes (or in the case of the internet the pages). The internet itself doesn’t value the storage like the brain does with its weights on synapses. Although you could say that Google’s Pagerank tries to emulate this by storing information about the importance of links by looking how often they are linked and accessed. Google’s pagerank is used to order its results in it’s search engine on importance. But still it doesn’t make a hyperlink a synapse.
+
+
 
 ###### Capacity
 > Capacity is the first issue. Let’s say the cortex has 32 trillion synapses. If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory. A hard drive on a personal computer today has 100 billion bytes, so we would need about eighty of today’s hard drives to have the same amount of memory as a human cortex.[p. 384][#Hawkins:2004]
 
 #### Persistency
 Longterm Shortterm
-google pagerank
+
 #### Learning
 Plastisticy
 #### Computational power
