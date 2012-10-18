@@ -23,6 +23,11 @@ Neuromorphic microcontrollers are silicon chips which try to mimic the way the h
 
 The scientists working on the DARPA SyNAPSE program, which is one of the main Neuromorphic chip projects, think this technology could break Moore's law. Looking at their planning they expect to go roughly five times as fast as Moore's law. Of course this is a new technology where huge leaps can be made in relatively short amount of time. But it seems that they're confident that neuromorphic machines can be the solution to breaking free of Moore's law.  [][#Darpa:2012]
 
+### Making senses, use of alternate input methods
+> the neocortex is amazingly “plastic,” meaning it can change and rewire itself depending on the type of inputs flowing into it. [TODO][#Hawkins:2003]
+Erik Weihenmayer - Brainport
+
+
 ### Future techniques in terms of time
 
 

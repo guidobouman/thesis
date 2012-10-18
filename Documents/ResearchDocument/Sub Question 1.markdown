@@ -11,9 +11,9 @@ Memories are stored in the brain as hierarchical patterns. For example if you wo
 
 [TODO: sequences, Spatial patterns, patterns]
 
-> Your memory of the alphabet is a sequence of patterns. It isn’t something stored or recalled in an instant or in an arbitrary order.
+> Your memory of the alphabet is a sequence of patterns. It isn’t something stored or recalled in an instant or in an arbitrary order. [TODO][#Hawkins:2003]
 
-> An auto-associative memory system is one that can recall complete patterns when given only partial or distorted inputs.
+> An auto-associative memory system is one that can recall complete patterns when given only partial or distorted inputs. [TODO][#Hawkins:2003]
 
 #### Learning
 If you have learned something you have basically made a memory more permanent in your brain. You’ve strengthened the synapses between the neurons which make the pattern of the memory. The strength of a synapse and thus the strength of a memory is expressed in weights [TODO: source].
@@ -35,15 +35,19 @@ While this is a vital function of the brain, this also means any future technolo
 #### Neurogenesis
 Just moving functions from one part of the brain to another part of the brain wouldn't be enough. To help facilitate this, the human brain creates new neurons throughout your whole life, this is called neurogenesis. These newly created neurons usually die away when they're not needed. But while the brain is stimulated or trained, these neurons get a chance to form new connections to other neurons instead of dying away, and thus improve the human brain. [][#Klemm:2008]
 
+### Requirements of a intelligent machine
+> According to functionalism, being intelligent or having a mind is purely a property of organization and has nothing inherently to do with what you’re organized out of. A mind exists in any system whose constituent parts have the right causal relationship with each other, but those parts can just as validly be neurons, silicon chips, or something else. [TODO][#Hawkins:2003]
+
 ### Human Brain vs. the Web
 This thesis is about the internet, so let’s take the above knowledge and mash it together with the knowledge we have about the internet and compare them.
 
 #### Structure
 ##### Web
 Decentralised
+
 ##### Storage
 Nodebased storage, Sequences/ patterns
-> Capacity is the first issue. Let’s say the cortex has 32 trillion synapses. If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory. A hard drive on a personal computer today has 100 billion bytes, so we would need about eighty of today’s hard drives to have the same amount of memory as a human cortex.
+> Capacity is the first issue. Let’s say the cortex has 32 trillion synapses. If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory. A hard drive on a personal computer today has 100 billion bytes, so we would need about eighty of today’s hard drives to have the same amount of memory as a human cortex.[TODO][#Hawkins:2003]
 
 #### Persistency
 Longterm Shortterm
@@ -53,10 +57,9 @@ Plastisticy
 #### Computation
 Parallel
 
-> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second.
+> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [TODO][#Hawkins:2003]
 
-> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers.
-
+> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [TODO][#Hawkins:2003]
 
 
 [#Chorost:2011]: Michael Chorost - World Wide Mind  
