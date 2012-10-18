@@ -30,10 +30,7 @@ The neuroplasticity of the human brain makes it possible for blind people to "se
 
 Imagine a device that somehow feeds the internet as a sixth sense. Applied properly, your brain could make sense of the patterns being fed to it. The moment you think of a fire-truck, the device would understand that thought, and feed all of the properties of a fire-truck back to you, instantaneously fetched from the internet. 
 
-No device like this currently exists, but we know the human brain itself doesn't see, hear or feel. Rather it makes sense of a non-stop stream of data, and especially the changes in these streams in contrast to it's expectations. [p. 111][#Hawkins:2004]
-
-To make a device like I mentioned before possible we need a better understanding of the streams being fed from the human sense to the brain. We need to know exactly what the streams from different senses look like and how we can mimic them to feed our custom-made "sense" to the human brain.
-
+To make a device like the one mentioned before possible we need a better understanding of the streams being fed from the human sense to the brain. We know the human brain itself doesn't see, hear or feel. Rather it makes sense of a non-stop stream of data, and especially the changes in these streams in contrast to it's expectations. [p. 111][#Hawkins:2004] We need to know what the streams from different senses look like and how we can mimic them to feed our custom-made "sense" to the human brain.
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
 [#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
