@@ -68,7 +68,7 @@ var parseRefenceList = function(buffer)
   var inline_reference_list = buffer.match(/\[\#(.*)\]:([^\[\n]+)/g);
 
   if(inline_reference_list === null)
-    return false;
+    return buffer;
 
   var references = [];
   var reference_list = [];
