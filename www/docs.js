@@ -29,7 +29,8 @@ var docs =
         "Introduction.markdown",
         "Sub Question 1.markdown",
         "Sub Question 2.markdown",
-        "Sub Question 3.markdown"
+        //"Sub Question 3.markdown"
+        "Conclusion.markdown"
       ],
       title: "Research Document"
     },
