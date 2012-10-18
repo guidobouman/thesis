@@ -34,7 +34,7 @@ var switchPage = function(pagekey)
       $.ajax({
         url: '/thesis/' + page.dir + page.files[file],
         success: function(data) {
-          pagecontent[file] = converter.makeHtml(data);
+          pagecontent[file] = data;
         }
       });
     })(file);
@@ -58,30 +58,45 @@ var makeMenu = function()
   );
 };
 
-var makeRefenceList = function()
+var parseRefenceList = function(buffer)
 {
-  var buffer = $('#container').html();
-  var inline_reference_list = buffer.match(/\[\#(.*)\]:([^<\[]*)/g);
+  if(typeof buffer === 'undefined')
+  {
+    buffer = $('#container').html();
+  }
+
+  var inline_reference_list = buffer.match(/\[\#(.*)\]:([^\[\n]+)/g);
 
   if(inline_reference_list === null)
     return false;
 
-  references = [];
-  reference_list = [];
+  var references = [];
+  var reference_list = [];
+  var included_references = [];
+
   for(var i in inline_reference_list)
   {
     reference_number = parseInt(i, 10) + 1;
     reference = inline_reference_list[i].replace('[#', '').split(']: ');
 
+    buffer = buffer.replace(inline_reference_list[i], '');
+
+    if($.inArray(reference[0], included_references) !== -1)
+    {
+      continue;
+    }
+
     var re = new RegExp('\\[(.*)\\]\\[\\#' + escapeRegEx(reference[0]) + '\\]', 'g');
     buffer = buffer.replace(re, '<sup><a href="#' + reference[0].replace(':', '_') + '" class="reference">' + reference_number + '</a></sup>');
 
-    buffer = buffer.replace(inline_reference_list[i], '');
-
     reference_list.push('<a id="' + reference[0].replace(':', '_') + '">' + reference[1] + '</a>');
+    included_references.push(reference[0]);
   }
 
-  $('#container').html(buffer).append('<h2 id="sources">Sources</h2><ol><li>' + reference_list.join('</li><li>') + '</li></ol>');
+  var sources = '<h2 id="sources">Sources</h2><ol><li>' + reference_list.join('</li><li>') + '</li></ol>';
+
+  //$('#container').html(buffer).append(sources);
+  return buffer + sources;
 };
 
 var makeTOC = function()
@@ -117,14 +132,17 @@ $(document).ready(function()
     {
       is_loading = false;
 
-      $('#container').html('<h1>' + page.title + '</h1>' + pagecontent.join(''));
+      content = pagecontent.join('\n');
+      content = parseRefenceList(content);
+      content = converter.makeHtml(content);
+
+      $('#container').html('<h1>' + page.title + '</h1>' + content);
 
       $('html,body').animate(
       {
         scrollTop: 0
       }, 500);
 
-      makeRefenceList();
       makeTOC();
     }
     else
