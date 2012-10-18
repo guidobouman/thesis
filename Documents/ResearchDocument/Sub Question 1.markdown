@@ -7,22 +7,25 @@ The brain is an immensely complex part of the human body. It consists out of man
 Neurons are wired in a mesh network trough the use of synapses. Neurons are able to fire and enable or disable connected neurons. “The job of a neuron is to accept spikes of electricity—called action potentials—from its dendrites. Depending on that input, it “decides” whether to send an action potential of its own to other neurons via its axon.” [p. 148][#Chorost:2011]
 
 #### Memory storage
-Memories are stored in the brain as hierarchical patterns. For example if you would think of a memory containing an earthquake the pattern could be like this: Startling → Disturbing motion → Shaking → On Church and Market [p. 285][#Chorost:2011] Interpret the objects in this hierarchy as neurons firing each other, the lines as synapses. 
-
-[TODO: sequences, Spatial patterns, patterns]
+Memories are stored in the brain as spatial and sequential patterns. For example if you would think of a memory containing an earthquake the pattern could be like this: Startling → Disturbing motion → Shaking → On Church and Market [p. 285][#Chorost:2011] Interpret the objects in this hierarchy as neurons firing each other, the lines as synapses. 
 
 > Your memory of the alphabet is a sequence of patterns. It isn’t something stored or recalled in an instant or in an arbitrary order. [TODO][#Hawkins:2003]
-
-> An auto-associative memory system is one that can recall complete patterns when given only partial or distorted inputs. [TODO][#Hawkins:2003]
+ Memory sequences are retained[TODO: right word] exactly the way they are learned. Try spelling the alphabet backwards, you’ll find it very hard, just like a child learning language. 
+ 
+> An auto-associative memory system is one that can recall complete patterns when given only partial or distorted inputs. [TODO][#Hawkins:2003] 
 
 #### Learning
 If you have learned something you have basically made a memory more permanent in your brain. You’ve strengthened the synapses between the neurons which make the pattern of the memory. The strength of a synapse and thus the strength of a memory is expressed in weights [TODO: source].
 If you want to learn something the job is to repeatedly fire the pattern of neurons and strengthen the synapses. This repeating has to be done in order to learn. So instead of what the movie The Matrix states, it’s not possible to learn something, for example learning within seconds how to operate a helicopter. Neurons have to fire repeatedly first. [TODO: add dexter’s lab video]
 
-Another thing is when it comes to learning is your reference [TODO: referentiekader] is the limit of what you’re able to learn. This sounds weird because learning is all about broadening your reference. But when you think of it, how you’re able to learn; you’re not able to fire neurons/pattern which aren't there. So if you want to ‘download’ data into the brain you would have to do it with triggering the existing neurons and make new patterns.[TODO: source], [TODO: Gevolgen]
+Another thing is when it comes to learning is your reference [TODO: referentiekader] is the limit of what you’re able to learn. This sounds weird because learning is all about broadening your reference. But when you think of it, how you’re able to learn; you’re not able to fire neurons/pattern which aren't there. So if you want to ‘download’ data into the brain you would have to do it with triggering the existing neurons and make new patterns. [TODO: source], [TODO: Gevolgen]
+
+The hippocampus plays a big role in the formation of new memories. The hippocampus exists in both parts of the brain and is directly connected to the neocortex. I imagine it as a buffer before writing into the neocortex, the hard drive. Without the hippocampus it is impossible to store new memories, while it’s possible to still remember things before the defect.
 
 #### Confabulation
-Past memories and realtime experiences are stored the same in the human brain, although the parts are divided. “Prediction is not just one of the things your brain does. It is the primary function of the neocortex, and the foundation of intelligence.” [p. 169][#Hawkins:2003] By retrieving past memories from the neocortex the brain predicts what happens realtime. This is how details can be filled in without having to need to interpret them again. This is called confabulation. “What is actually happening flows up, and what you expect to be happening flows down.” [p. 89][#Hawkins:2003] “Plainly the hippocampus is for encoding, the cortex for storing.” [p. 283][#Chorost:2011]
+Past memories and realtime experiences are stored the same in the human brain, although the parts are divided. “Prediction is not just one of the things your brain does. It is the primary function of the neocortex, and the foundation of intelligence.” [p. 169][#Hawkins:2003] By retrieving past memories from the neocortex the brain predicts what happens realtime. This is how details can be filled in without having to need to interpret them again. This is called confabulation. 
+“What is actually happening flows up, and what you expect to be happening flows down.” [p. 89][#Hawkins:2003] 
+“Plainly the hippocampus is for encoding, the cortex for storing.” [p. 283][#Chorost:2011]
 
 #### Neuroplasticity
 Brain plasticity, or neuroplasticity, is the ability of the human brain to change over time. [][#Michelon:2008] This is an amazing feature which allows the human brain to move certain functions to other parts of the brain.
