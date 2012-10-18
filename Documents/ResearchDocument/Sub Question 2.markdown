@@ -24,16 +24,15 @@ Neuromorphic microcontrollers are silicon chips which try to mimic the way the h
 The scientists working on the DARPA SyNAPSE program, which is one of the main Neuromorphic chip projects, think this technology could break Moore's law. Looking at their planning they expect to go roughly five times as fast as Moore's law. Of course this is a new technology where huge leaps can be made in relatively short amount of time. But it seems that they're confident that neuromorphic machines can be the solution to breaking free of Moore's law.  [][#Darpa:2012]
 
 ### Making senses, use of alternate input methods
-> the neocortex is amazingly “plastic,” meaning it can change and rewire itself depending on the type of inputs flowing into it. [TODO][#Hawkins:2003]
+> The neocortex is amazingly “plastic,” meaning it can change and rewire itself depending on the type of inputs flowing into it. [][#Hawkins:2004]
+
 Erik Weihenmayer - Brainport
 
-
-### Future techniques in terms of time
-
-
+[#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
+[#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
 [#Boyden:2011]: Boyden, E. (2011). A light switch for neurons. Retrieved from: http://www.ted.com/talks/ed_boyden.html
 [#SNG:2011]: Synthetic Neurobiology Memo #4. (2011). Very Simple Off-The-Shelf Laser and Viral Injector Systems for In Vivo Optical Neuromodulation. Retrieved from: http://syntheticneurobiology.org/protocols/protocoldetail/35/9
-[#Darpa:2012]: http://nextbigfuture.com/2012/06/darpa-synapse-project-status.html
+[#Darpa:2012]: Next Big Future. (2012). DARPA Synapse Project Status. Retrieved from: http://nextbigfuture.com/2012/06/darpa-synapse-project-status.html
 [#Berger:2005]: Berger, T. W., Ahuja, A., Courellis, S. H., Deadwyler, S. A., Erinjippurath, G., Gerhardt, G. A., et al. (2005). Restoring lost cognitive function. Ieee Engineering in Medicine and Biology Magazine, 24(5), 30-44.
 [#Wiki:BCI]: Wikipedia. (14:30, 15 October 2012) Brain-computer interface. Retrieved from: http://en.wikipedia.org/wiki/Brain-computer_interface
 [#Wiki:Neuroprosthetics]: Wikipedia. (14:41, 28 August 2012‎) Neuroprosthetics. Retrieved from: http://en.wikipedia.org/wiki/Neuroprosthetics
