@@ -1,9 +1,6 @@
 ## Sub question 3
 > What are the differences & similarities between the human brain and the internet?
 
-### Comparison based on properties
-Brains vs The Internet, a property comparison.
-
 ### Data storage
 Synapses vs html pages
 
