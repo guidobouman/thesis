@@ -1,6 +1,12 @@
 ## Sub question 3
 > What are the differences & similarities between the human brain and the internet?
 
+### Capacity
+Upper limit, neurogenesis vs modular computers
+
+### Centralisation / Decentralisation
+Centralised mind, decentralised data vs decentralised computer network
+
 ### Data storage
 Synapses vs html pages
 
@@ -10,15 +16,9 @@ Only few hundred steps vs millions of cycles
 ### Learning
 Able to make sense of any pattern vs everything defined on forehand
 
-### Capacity
-Upper limit, neurogenesis vs modular computers
-
 ### Persistence
 Forgetting information vs backups
 (long term short term)
-
-### Centralisation / Decentralisation
-Centralised mind, decentralised data vs decentralised computer network
 
 ### Portability
 Extremely portable, always with you, yet not transferable vs not so portable but easily transferable
