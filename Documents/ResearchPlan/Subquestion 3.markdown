@@ -2,10 +2,19 @@
 > What are the differences & similarities between the human brain and the internet?
 
 ### Explanation
-
+We need a comparisson between the internet and the human brain before we can decide where the two can extend each other's features.
 
 ### Delimitation
-
+We'll compare the internet and the human brain on the following subjects:
+* Data storage
+* Synapses vs html pages
+* Data retrieval speed
+* Learning
+* Capacity
+* Persistence
+* Centralisation / Decentralisation
+* Portability
+* Sharing
 
 ### Research methods
 #### Interviews
@@ -15,7 +24,7 @@
 
 
 ### Sources
-
+We'll use the knowledge gained from the first two subquestions.
 
 ### Planning
 
