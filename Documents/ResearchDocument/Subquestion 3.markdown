@@ -4,29 +4,29 @@
 ### Comparison based on properties
 Brains vs The Internet, a property comparison.
 
-#### Data storage
+### Data storage
 Synapses vs html pages
 
-#### Data retrieval speed
+### Data retrieval speed
 Only few hundred steps vs millions of cycles
 
-#### Learning
+### Learning
 Able to make sense of any pattern vs everything defined on forehand
 
-#### Capacity
+### Capacity
 Upper limit, neurogenesis vs modular computers
 
-#### Persistence
+### Persistence
 Forgetting information vs backups
 (long term short term)
 
-#### Centralisation / Decentralisation
+### Centralisation / Decentralisation
 Centralised mind, decentralised data vs decentralised computer network
 
-#### Portability
+### Portability
 Extremely portable, always with you, yet not transferable vs not so portable but easily transferable
 
-#### Sharing
+### Sharing
 Conversations vs literal copy, paste, e-mail
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
