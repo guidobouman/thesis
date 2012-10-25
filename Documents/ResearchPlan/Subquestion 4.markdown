@@ -1,4 +1,4 @@
-## Sub Question 3
+## Sub Question 4
 > What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
 
 ### Explanation

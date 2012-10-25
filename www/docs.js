@@ -14,11 +14,11 @@ var docs =
     ResearchPlan: {
       dir: "Documents/ResearchPlan/",
       files: [
-        "Research plan general.markdown",
-        "Subquestion Brain and Memory.markdown",
-        //"Subquestion Current internet.markdown",
-        "Subquestion Current status.markdown",
-        "Subquestion Innovations.markdown",
+        "Introduction.markdown",
+        "Subquestion 1.markdown",
+        "Subquestion 2.markdown",
+        "Subquestion 3.markdown",
+        "Subquestion 4.markdown",
         "Rapid Prototyping.markdown"
       ],
       title: "Research Plan"
@@ -27,9 +27,10 @@ var docs =
       dir: "Documents/ResearchDocument/",
       files: [
         "Introduction.markdown",
-        "Sub Question 1.markdown",
-        "Sub Question 2.markdown",
-        //"Sub Question 3.markdown"
+        "Subquestion 1.markdown",
+        "Subquestion 2.markdown",
+        "Subquestion 3.markdown",
+        "Subquestion 4.markdown",
         "Conclusion.markdown"
       ],
       title: "Research Document"
