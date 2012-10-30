@@ -26,17 +26,20 @@ The brain doesn’t have pages or domain names. The links are different as well.
 Only few hundred steps vs millions of cycles
 
 ### Learning
-Able to make sense of any pattern vs everything defined on forehand
+In the field of learning the human brain and computers differ greatly. Where the human brain can make sense of whatever stream of information is being fed to it, the computer needs everything to be defined in advance. There is a lot of research being done in the field of artificial intelligence, but currently there are no computers that are able to interact with whatever you do if the feature hasn't been implemented. [][#Hawkins:2004]
 
 ### Persistence
-Forgetting information vs backups
-(long term short term)
+The human mind works with a two step progress much like computers do. Information gets stored in the short therm memory. And, if important enough, gets stored in the long therm memory later on. When looking at computers you can compare the short and long therm memory with the system memory and the hard disk drive respectively. Anything in memory which is important enough gets stored on the hard disk. The human brain and the computers have much the same weaknesses. Where the human brain forgets information when not used for a long time, the hard disk can get read & write errors resulting in data getting lost.
 
-### Portability
-Extremely portable, always with you, yet not transferable vs not so portable but easily transferable
+Luckily, for computers we  found a could of solutions to this problem, two of them being backups and version control systems. The first stores a snapshot of a file or set of files at a different location. The second solution does the same as the first, but keeps a snapshot of the file for each moment in history it changed. This allow you to scroll trough versions of the information. A very strong feature the human brain is essentially lacking.
+
+### Portability of data
+One key problem to the human brain is the fact that it's locked up in your skull. You can't make a copy of it, or pull it out and place it in a different body. At least, not with current technology. The current computer model really shines here, hard disk drives are extremely easy to duplicate or move to a different computer. The moment a hard disk gets faulty, you can replace it. The human brain can adapt to parts of the brain being damaged, but the damaged parts can not be replaced.
 
 ### Sharing
-Conversations vs literal copy, paste, e-mail
+Just like the portability of data, sharing is also a problem to the human. The only way for a human to share the information in the brain is in the form of a conversation. We don't have the ability to make connections with other brains like computers can. A conversation can be done over the phone, but the information has to be explained before the receiver can make sense of the data.
+
+With computers you can just send documents, images, sounds or videos to another computer without the need to explain the information. The in advance defined standards of the computer really help here. Because computers expect data to be formatted in a specific way, they can make sense of the raw data. Much like it would be to feed the stream of data coming from your retina (eye) to another human brain.
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
 [#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
