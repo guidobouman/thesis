@@ -20,7 +20,7 @@ How does the current internet relate to the needs of the human brain on the aspe
 ### Sub questions
 * How does information gets stored and exchanged within the human brain according to neuroscientists?
 * What is the current status of communication & information exchange between the human brain and the internet?
-* What are the differences & similarities between the human brain and the internet?
+* What are the differences & similarities between the human brain and the internet when looking at the certain aspects of data storage and retrieval based on our findings?
 * What innovations are there in the field of digital communication and storage structures which would fit the needs of the human brain?
 
 ### Results

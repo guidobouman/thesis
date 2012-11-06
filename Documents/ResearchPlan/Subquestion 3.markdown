@@ -1,5 +1,5 @@
 ## Sub question 3
-> What are the differences & similarities between the human brain and the internet?
+> What are the differences & similarities between the human brain and the internet when looking at the certain aspects of data storage and retrieval based on our findings?
 
 ### Explanation
 We need a comparisson between the internet and the human brain before we can decide where the two can extend each other's features.

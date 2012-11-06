@@ -1,5 +1,7 @@
 ## Sub question 3
-> What are the differences & similarities between the human brain and the internet?
+> What are the differences & similarities between the human brain and the internet when looking at the certain aspects of data storage and retrieval based on our findings?
+
+TODO: semantics
 
 ### Requirements of a intelligent machine
 > According to functionalism, being intelligent or having a mind is purely a property of organization and has nothing inherently to do with what you’re organized out of. A mind exists in any system whose constituent parts have the right causal relationship with each other, but those parts can just as validly be neurons, silicon chips, or something else. [p. 75][#Hawkins:2004]
