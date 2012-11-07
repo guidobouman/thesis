@@ -47,7 +47,7 @@ My visit to Dream Industries in Russia added some spice to this. Together with A
 
 When Andrew started talking about brain implements connected to the internet my mind was blown. Yes, the current web structure is totally not readable by the human brain in it's raw form. The brain would have to surf from page to page to interpreted the info. Which brings the question: how can we make a web structure which is actually readable by the brain?
 
-I have to admit I don't know shit about the neural system. I know the basic about neurons and synapses. But I've never thought about it in combination with the internet. I want to expand my knowledge about the brain, but also about network, hierarchies and taxonomy and do something with the knowledge by connecting it to the knowledge I have about the current internet protocol. I'm getting fed up with the internet as it is now and want to do something about it.
+I have to admit I don’t know much about the neural system. I know the basic about neurons and synapses. But I've never thought about it in combination with the internet. I want to expand my knowledge about the brain, but also about network, hierarchies and taxonomy and do something with the knowledge by connecting it to the knowledge I have about the current internet protocol. I'm getting fed up with the internet as it is now and want to do something about it.
 
 I want to explore the realms of darknets, all sorts of database structures, semantics, namespacing and protocols to mash all the knowledge together to make a new protocol for the internet!
 
