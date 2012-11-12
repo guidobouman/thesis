@@ -36,11 +36,11 @@ How can we make the connection between a human and the internet more efficient?
 * Research plan
 	* In the research plan are the decisions made on how to do the research.
 * Presentation/visualisation of our vision
-	* In order to spread our vision we have to find a way how to communicate it. It maybe in the form of a presentation, a paper, book, concept art or a graphic. We’ll have to choose a congruent way.
+	* In order to spread our vision we have to find a way how to communicate it. It maybe in the form of a presentation, a paper, book, concept art or a graphic. We’ll have to choose a congruent way. This is what we’ll be presenting to the world, so it has to be easily understandable for most of the internet users without a technical background.
 * Prototype
 	* After the research and completion of our vision we’re going to make a prototype. The goal of this prototype is to show a possible feature/enhancement based on our vision. It will not be a way to proof whether it works, but more a hands on presentation of our vision.
 * Thesis 
-	* w/ research, vision and conclusion
+	* A bundled version of the research, vision and conclusion. It’s targeted towards web professionals.
 
 ### Expectations
 #### Jelle
