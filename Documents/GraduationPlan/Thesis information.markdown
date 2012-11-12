@@ -1,21 +1,28 @@
 ## Thesis information
 
 ### Thesis summary
-Lets presume that, based on current advancements in technology, in the nearby future it will be possible to read information from -, and write information to the human brain with computers. With that new technology it would only be a matter of time before the human brain can use services on the internet as extensions of the human brain. Take for example an online encyclopaedia (wikipedia) to quickly access vast amounts of information during conversations, or an online calendar to remember all of our appointments.
+> _A chain is only as strong as its weakest link._
 
-This new technology raises a lot of questions. For this thesis we want to focus on one of them: What is the most efficient way to provide the vast amounts of information & services available on the internet to the human brain? Would an restful JSON api suffice, or would a new technology be required?
+Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't know it by name, you probably played it when you were young. The game starts with a group of people forming a chain. The first person makes up a sentence, which is whispered in the next person's ear. This continues until the sentence reaches the last person. He or she pronounces the sentence out loud. Usually the sentence changes throughout the game. The longer the chain, the higher the chance that the end result will differ from the first sentence. This is due to the increasing amount of steps where something can go wrong. 
+
+This brings us to the quote; "A chain is only as strong as its weakest link" The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of a error occurring, and the chain breaking, can be reduced greatly.
+
+This does not only apply to the game ‘Chinese Whispers’, but can of course also be applied to other communication processes.
+
+Lets presume that, based on current advancements in technology, in the nearby future it will be possible to read information from -, and write information to the human brain with computers. With that new technology it would only be a matter of time before the human brain can use services on the internet as extensions of the human brain. 
+
+We want to slim down the complexity of the chain between the internet and humans. Currently information travels trough a lot of chains or proxies like servers, software and devices (laptops or mobile phones for example). By removing as much steps in the chain as possible, we think we could make the whole process of using internet services easier, and less prone to errors.
 
 ### Main goal
-Designing a future vision and prototype in four months time which allow a new internet to be developed from a technical point of view on data processing to facilitate communication between the human brain and computers.
+Designing a future vision and prototype in four months time, which reduces the complexity of the communication chain between the internet and the human brain by removing as much steps as possible.
 
 ### Sub goals
-* Write a vision on the needs of the human brain in relation to the internet.
+* Write a vision which reduces the steps in the communication chain between the human and the internet.
 * Design a concept for a new internet network structure which fits the vision.
-* Build a prototype of the network structure according to our future concept.
-* (Create a simulation of the human brain and test the new protocol)
+* Build and test a prototype of the network structure according to our future concept.
 
 ### Main question
-How does the current internet relate to the needs of the human brain on the aspect of information exchange?
+How can we make the connection between a human and the internet more efficient?
 
 ### Sub questions
 * How does information gets stored and exchanged within the human brain according to neuroscientists?
