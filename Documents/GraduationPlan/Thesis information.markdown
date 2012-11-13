@@ -44,7 +44,7 @@ How can we make the connection between a human and the internet more efficient?
 
 ### Expectations
 #### Jelle
-This is my second attempt to do my bachelor thesis. I'm really hard to please and to find it difficult keep focused on one subject. My previous subject got really dull after a while. It just didn't had the innovative ingredient I'm always looking for. So after some problems I decided to ditch it and go for something more mind blowing. I want to leave school with a bang! Not with a dull, dime a dozen, thesis.
+This is my second attempt to do my bachelor thesis. I'm really hard to please and find it difficult to keep focused on one subject. My previous subject got really dull after a while. It just didn't had the innovative ingredient I'm always looking for. So after some problems I decided to ditch it and go for something more mind blowing. I want to leave school with a bang! Not with a dull, dime a dozen, thesis.
 
 This is also my last opportunity to do something completely autonomy and under my own name with the label 'student'. In my opinion it's mostly the 'students' who make a change in this world. So yes, I want to do something which is never done before. I want to be 'arrogant' and say I've designed the new internet, just because I can as a student. I want to design a new internet which is completely neutral, just because I'm a student. I want to enjoy my autonomy now as hard as I can, just because it's my last project as a student.
 
@@ -59,7 +59,7 @@ I have to admit I don’t know much about the neural system. I know the basic ab
 I want to explore the realms of darknets, all sorts of database structures, semantics, namespacing and protocols to mash all the knowledge together to make a new protocol for the internet!
 
 #### Guido
-What I expect from my thesis is designing a prototype for the new internet. A future vision which will stay relevant for the upcoming years. Something I can actually use for my curriculum vitae. A project which does not get scratched from my CV in one or two years time because it'll be outdated by then. I hope that even by the time that the vision is outdated, I can still look back at with pride. That people will say it was genuinely revolutionary.
+What I expect from my thesis is designing a prototype for the new internet. A future vision which will stay relevant for the upcoming years. Something I can actually use for my curriculum vitae. A project which does not get scratched from my CV in one or two years time because it'll be outdated by then. I hope that even by the time that the vision is outdated, I can still look back at it with pride. That people will say it was genuinely ambitious.
 
 In the past few weeks I've been looking at [CouchApps](http://www.quirkey.com/blog/2009/09/15/sammy-js-couchdb-and-the-new-web-architecture/), and I truly believe that this is a possible future for building websites and web applications. Even though our focus is not at the future of building web applications, it is a great example of an evolution in the field internet. Another evolution I expect is that the human brain will be connected to the internet on it's own, instead of the proxies (like the phones or laptops) that we're currently using.
 
