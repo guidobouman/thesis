@@ -14,7 +14,10 @@ Memories are stored in the brain as spatial and sequential patterns. For example
  
 #### Learning
 If you have learned something you have basically made a memory more permanent in your brain; You’ve strengthened the synapses between the neurons which make the pattern of the memory. The strength of a synapse and thus the strength of a memory is expressed in weights [TODO: source].
-If you want to learn something the job is to repeatedly fire the pattern of neurons and strengthen the synapses. This repeating has to be done in order to learn. So instead of what the movie The Matrix states, it’s not possible to learn something, for example learning within seconds how to operate a helicopter. Neurons have to fire repeatedly first. [TODO: add dexter’s lab video]
+If you want to learn something the job is to repeatedly fire the pattern of neurons and strengthen the synapses. This repeating has to be done in order to learn. So instead of what the movie The Matrix states, it’s not possible to learn something, for example learning within seconds how to operate a helicopter. Neurons have to fire repeatedly first. 
+
+<iframe width="480" height="300" src="http://www.220.ro/embi/itZCCPlnPb" frameborder="0"></iframe>
+_Video: Dexter’s Laboratory: The Learning Machine_
 
 Another thing is when it comes to learning is your reference is the limit of what you’re able to learn. This sounds weird because learning is all about broadening your reference. But when you think of it, how you’re able to learn; you’re not able to fire neurons/pattern which aren't there. So if you want to ‘download’ data into the brain you would have to do it with triggering the existing neurons and make new patterns. [TODO: source], [TODO: Gevolgen]
 
