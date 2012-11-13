@@ -165,3 +165,18 @@ sup
 {
   line-height: 1em;
 }
+
+@media print
+{
+  body
+  {
+    color: black;
+    background: none;
+    text-shadow: none;
+  }
+
+  #sidebar
+  {
+    display: none;
+  }
+}
