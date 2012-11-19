@@ -9,9 +9,12 @@ To support our future vision, we would really like to design a proof of concept 
 
 For the last phase, we will be finalising our thesis. The thesis summary will be part of our focus. Also will we use this phase to reflect on ourselves and the project. Thinking about what we have learned, and how can we use this knowledge in the upcoming years. This will be our one chance to gain a head start on everyone else in the business.
 
+### Vagueness
+One of the problems with this thesis is that we don't know what we will be building. The whole concept of removing links in the chain of communication is quite vague. Our plan is to put a deadline on the research phase, and create a revision of our thesis planning once we're done with our research. From there on we can decide what we should do afterwards. So, currently we cant exactly plan what we want to build or rapid prototype, but that will be a result of our research phase.
+
 ### Overview
 #### Phase 1
-*Pre-research phase (September):*
+*Pre-research phase*
 
 ##### Focus phase 1
 * Desk research
@@ -23,7 +26,7 @@ For the last phase, we will be finalising our thesis. The thesis summary will be
 * Scheduled appointments for remaining interviews
 
 #### Phase 2
-*Rapid prototyping month (October)*
+*Finishing research & starting vision*
 
 ##### Focus phase 2
 * Delayed interviews
@@ -37,7 +40,7 @@ For the last phase, we will be finalising our thesis. The thesis summary will be
 * Decent draft vision
 
 #### Phase 3
-*Hack away month (November)*
+*Rapid prototyping / Hack away*
 
 ##### Focus phase 3
 * Designing a structure
@@ -50,8 +53,7 @@ For the last phase, we will be finalising our thesis. The thesis summary will be
 * Scheduling presentation
 
 #### Phase 4
-So much to write, yet so little time month (December)
-(OMG, WHY DID MY PRINTER EXPLODE?) 
+*Finishing up the thesis*
 
 ##### Focus phase 4
 * Refining the concept

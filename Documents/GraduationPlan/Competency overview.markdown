@@ -175,6 +175,8 @@ Throughout the thesis I want to apply my own reflection method. I found a techni
 
 To help increase my productivity I'm using "Concentrate" which is a OS X desktop app that allows you to apply the pomodoro technique. For a short amount of time (30 minutes usually) the app can close applications, block websites or perform nearly any other task to boost your productivity. When done you're allowed a five minute break before starting a new session. By applying this throughout the day I want to increase my productivity and minimise procrastination.
 
+Because we're working as a duo, we have the unique chance to do peer reflections throughout and after the project. I think this will help us get new insights we wouldn't have noticed by ourselves.
+
 ##### Jelle
 The problem with justifying my growth process is I’m not good in maintaining the documentation. I need to work on this by starting straightaway. I’m thinking of doing multiple phases of reflection. First write down my expectations and goals of the project. Then write a part about turning points and troubles of the project and conclude with a conclusion if I made my goals, met any troubles and would be do’s and don’t for the next time.
 
@@ -182,4 +184,6 @@ The problem with justifying my growth process is I’m not good in maintaining t
 * Thesis plan
 * A conclusion in the thesis
 * Reflection
-* And git log with pictures
+* Indept self reflection based on different reflection techniques
+* Peer reflection of each other
+* And git log
