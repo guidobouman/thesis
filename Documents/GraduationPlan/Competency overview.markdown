@@ -51,7 +51,7 @@ Based on our research we are going to create a vision which takes into account t
 After distilling our vision from the research we have to make the vision concrete by making a proper concept  and a visualisation of the concept. The concept should be easy to understand by others with little knowledge on the subject. 
 
 ##### Guido
-For concepting I want to master the rapid prototyping method. I feel that I'm at my best working with trail-and-error methods. Quickly building something, testing if it works as expected and iterating small improvements along the way. For me it feels like the most productive way of build something. I prefer iterating over a design based on a prototype, not just a design document.
+For concepting I want to master the rapid prototyping method. I feel that I'm at my best working with trail-and-error methods. Quickly building something, testing if it works as expected and iterating small improvements along the way. For me it feels like the most productive way of building something. I prefer iterating over a design based on a prototype, rather than just a design document.
 
 I would like to create a new habit for myself, using paper more often. I think that especially in our field of work you can look at computer screens too much. By approaching the same subject on paper I think I could come up with new ideas I wouldn't have come up with otherwise.
 
@@ -75,7 +75,7 @@ We’re going to design a structure which should be thoroughly documented so it 
 To learn how to write such documents on an academic level, we're going to look at how other professionals have done this. We want to learn from their mistakes & achievements.
 
 ##### Guido
-Just like with concepting I want to use paper more often, and try to approach my challenges from a different angle. 
+Just like with concepting I want to use paper more often, and try to approach my challenges from a different angle. I would like to work out scenario's, diagrams and other assisting illustrations by hand. 
 
 ##### Jelle
 
@@ -99,6 +99,7 @@ We’ll be creating a prototype out of the vision, concept, structure and techni
 As we can't currently know what we'll be building, it's hard to plan what we want to learn in advance. Looking into various possible versions of creating a proof of concept could prove useful during this phase of our thesis.
 
 ##### Guido
+As we'll be working on a prototype, I want to look into different rapid development tools. Meteor is one of those tools I would like to try. It's a new tool which allows for extremely fast development of interactive web applications. I need to set up a work flow which allows me to switch back and forth between the concepting, design development and monitoring phases.
 
 ##### Jelle
 
