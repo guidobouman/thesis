@@ -40,20 +40,20 @@ My first big official research! I hope to learn how to do proper research on a h
 
 #### Concepting
 ##### Goals
-During this project we'll be applying rapid prototyping. This is not our first try at rapid prototyping, but getting a solid understanding of this technique requires at lot of practice. One of our goals is to master this technique, so we can teach it to others.
+
 
 ##### Possible hazards
-Efficiently switching between different phases of rapid prototyping can be really hard. Sticking to our planning, and really switching phases when required will help us overcome this hazard.
+
 
 ##### Tasks
-Based on our research we are going to create a vision which takes into account the needs of the intended uses. Because we’re going to use the rapid prototyping method the vision and concept will be thoroughly tested on it’s fitness and improved where needed. To be able to efficiently use the rapid prototyping method, we'll have to look into our possible hazards, and on how to dodge them. We will do this by looking online at how seasoned rapid prototype experts have tackled these issues.
+Based on our research we are going to create a vision which takes into account the needs of the intended uses.
 
 After distilling our vision from the research we have to make the vision concrete by making a proper concept  and a visualisation of the concept. The concept should be easy to understand by others with little knowledge on the subject. 
 
 ##### Guido
-For concepting I want to master the rapid prototyping method. I feel that I'm at my best working with trail-and-error methods. Quickly building something, testing if it works as expected and iterating small improvements along the way. For me it feels like the most productive way of building something. I prefer iterating over a design based on a prototype, rather than just a design document.
-
 I would like to create a new habit for myself, using paper more often. I think that especially in our field of work you can look at computer screens too much. By approaching the same subject on paper I think I could come up with new ideas I wouldn't have come up with otherwise.
+
+Drawing techniques I would like to use for my concepting phase include drawing scenario's, brainstorming using persona's and reverse brainstorming.
 
 ##### Jelle
 
@@ -75,7 +75,7 @@ We’re going to design a structure which should be thoroughly documented so it 
 To learn how to write such documents on an academic level, we're going to look at how other professionals have done this. We want to learn from their mistakes & achievements.
 
 ##### Guido
-Just like with concepting I want to use paper more often, and try to approach my challenges from a different angle. I would like to work out scenario's, diagrams and other assisting illustrations by hand. 
+Just like with concepting I want to use paper more often, and try to approach my challenges from a different angle. I would like to work out scenario's, diagrams and other assisting illustrations by hand. I think that by using hand drawn illustrations we can add a more human side to our thesis.
 
 ##### Jelle
 
@@ -112,10 +112,14 @@ As we'll be working on a prototype, I want to look into different rapid developm
 ##### Goals
 We want to design a future vision which will stay relevant for years. To accomplish this we will have to critically look at our own ideas, and find every single possible flaw.
 
+During this project we'll be applying rapid prototyping. This is not our first try at rapid prototyping, but getting a solid understanding of this technique requires at lot of practice. One of our goals is to master this technique, so we can teach it to others.
+
 ##### Possible hazards
-Over iterating on trivial features can be very time consuming and delay the project. Prioritising and sticking to our planning will help us overcoming this problem.
+Efficiently switching between different phases of rapid prototyping can be really hard. For example we could start over iterating on trivial features and delay the project. Prioritising, sticking to our planning, and really switching phases when required will help us overcome this hazard.
 
 ##### Tasks
+ Because we’re going to use the rapid prototyping method the vision and concept will be thoroughly tested on it’s fitness and improved where needed. To be able to efficiently use the rapid prototyping method, we'll have to look into our possible hazards, and on how to dodge them. We will do this by looking online at how seasoned rapid prototype experts have tackled these issues.
+
 Because we’re going to be rapid prototyping, we’re constantly testing out our product, the vision. This way research will continue while developing and thus constantly improve our product.  This will result in an even better vision & proof of concept after testing.
 
 As we want to improve our testing abilities, we'll look into different methods of testing our vision, concept & prototype. Especially, learning how to test a vision will be an interesting parts of our learning progress. Right now we can't tell what we'll be testing on, as we don't know what our final product will be. This will become clear after our researching and first concepting phase.
