@@ -24,6 +24,12 @@ Before getting started on the thesis we need to find the unambiguous questions b
 
 We need to gather information about existing web platforms, structures, databases and thus need to do research. We’ll be collecting this information through interviews and desk research. Prior to doing the research we’ll have to write a research plan. To be able to conduct our interviews properly we'll be reading some books about this subject. This knowledge will be included in the Research plan together with all the choices we make prior to doing the research.
 
+##### Guido
+While I find a lot of information on the internet, documenting these vast amounts of information is not my strong suit. Currently I'm using my browser bookmarks to save all interesting information, but this is far from ideal. I would like to try a service called bo.lt which deals with a lot of the issues that can occur when bookmarking interesting items. It makes your data persistent, locally saving a backup of each item you bookmark. It also lets you add descriptions and categorise the stored items.
+
+##### Jelle
+My first big official research! I hope to learn how to do proper research on a higher level and make a paper which is publishable. I predict I will lose track of the large quantities of information. So some proper information management is needed. Using web bookmarking services and my e reader’s bookmarking engine I hope to keep track of the relevant information. Learn how to set up proper documentation. I also need to learn to start writing documentation at the start of the project. If I keep the phase high, challenge high and interestingness up I’m able to keep motivated
+
 ##### Results
 * Interviews
 * Research plan
@@ -44,6 +50,14 @@ Based on our research we are going to create a vision which takes into account t
 
 After distilling our vision from the research we have to make the vision concrete by making a proper concept  and a visualisation of the concept. The concept should be easy to understand by others with little knowledge on the subject. 
 
+##### Guido
+For concepting I want to master the rapid prototyping method. I feel that I'm at my best working with trail-and-error methods. Quickly building something, testing if it works as expected and iterating small improvements along the way. For me it feels like the most productive way of build something. I prefer iterating over a design based on a prototype, not just a design document.
+
+I would like to create a new habit for myself, using paper more often. I think that especially in our field of work you can look at computer screens too much. By approaching the same subject on paper I think I could come up with new ideas I wouldn't have come up with otherwise.
+
+##### Jelle
+
+
 ##### Results
 * Vision document
 * Vision presentation
@@ -59,6 +73,12 @@ It's hard to think about uninvented technologies on an abstract level. It's easy
 We’re going to design a structure which should be thoroughly documented so it can easily be implemented by others in the future when technology is ready. Together with the vision document will the design document be the main product of our thesis.
 
 To learn how to write such documents on an academic level, we're going to look at how other professionals have done this. We want to learn from their mistakes & achievements.
+
+##### Guido
+Just like with concepting I want to use paper more often, and try to approach my challenges from a different angle. 
+
+##### Jelle
+
 
 ##### Results
 * The technical design
@@ -78,6 +98,11 @@ We’ll be creating a prototype out of the vision, concept, structure and techni
 
 As we can't currently know what we'll be building, it's hard to plan what we want to learn in advance. Looking into various possible versions of creating a proof of concept could prove useful during this phase of our thesis.
 
+##### Guido
+
+##### Jelle
+
+
 ##### Results
 * Creating a prototype/structure
 * Creating a proof of concept
@@ -94,6 +119,12 @@ Because we’re going to be rapid prototyping, we’re constantly testing out ou
 
 As we want to improve our testing abilities, we'll look into different methods of testing our vision, concept & prototype. Especially, learning how to test a vision will be an interesting parts of our learning progress.
 
+##### Guido
+I want to apply the rapid prototyping phase to make sure our final product will be at it's best. To make sure this will be the case I want to introduce an extra step during each iteration of the rapid prototyping phase. At the end of each iteration I want to apply a set of tests to our prototype. Based on our research a list of requirements will made which the prototype has to comply to. Of this is not the case I'll find out how the prototype can be changed to conform to these requirements, and make a change in the design.
+
+##### Jelle
+
+
 ##### Results
 * A logbook full of choices, problems we’ve stumbled upon and their solutions.
 * A lot of git commits ;)
@@ -109,6 +140,14 @@ Because we're writing this thesis in English, it will be more time consuming for
 We’ll be writing all documents in English because we want reach a big audience and open source during our process. This way it will be easy for anyone to follow our progression and findings through Github.
 
 During the writing we'll constantly let native academic English writers check our documents. Through constant feedback we will learn from our previous mistakes, and prevent them in the future.
+
+##### Guido
+I've written quite a lot of english reports already, but none as long as a thesis. For my semester in Sweden I had to pass the official TOEFL test which according to their website "measures your ability to use and understand English at the university level". After my semester in Sweden, I followed the international Art & Sound minor, especially further sharpening my English writing skills.
+
+As our thesis could be of interest for international companies like Dream Industries and professionals like american scientists for example, I want our thesis to be available to an audience as broad as possible. My goal is to write a thesis that's easy and pleasant to read for native English speakers.
+
+##### Jelle
+Although my english is quite okay, I haven’t written any big english texts yet. I hope by writing (and let it being checked) a lot, my english writing skills will improve in terms of speed and level.
 
 ##### Results
 * Full thesis in flawless english
@@ -127,6 +166,16 @@ Slacking on reflecting regularly will slow down our growth.
 Prior to starting our thesis we’ve written down our individual expectations and goals. This way we can constantly secure our focus on the progress and make the most out of ourselves as possible. By setting ambitious and bold goals we keep ourselves motivated and will bring a step closer to world domination.
 
 During the thesis we’ll be reflecting on our progression and results. We’ll bundle this afterwards and write a concluding reflection on the whole project.
+
+##### Guido
+Before starting our thesis I wrote up my expectations for the thesis. Especially when working in a team it's good to have a clear vision on what you expect and what you want to work on. 
+
+Throughout the thesis I want to apply my own reflection method. I found a technique online called Naikan, which with the use of 3 standard questions focuses on self reflection while looking at your relations with other people. I would like to bend this method to self reflection while looking at professional development and apply it during the thesis.
+
+To help increase my productivity I'm using "Concentrate" which is a OS X desktop app that allows you to apply the pomodoro technique. For a short amount of time (30 minutes usually) the app can close applications, block websites or perform nearly any other task to boost your productivity. When done you're allowed a five minute break before starting a new session. By applying this throughout the day I want to increase my productivity and minimise procrastination.
+
+##### Jelle
+The problem with justifying my growth process is I’m not good in maintaining the documentation. I need to work on this by starting straightaway. I’m thinking of doing multiple phases of reflection. First write down my expectations and goals of the project. Then write a part about turning points and troubles of the project and conclude with a conclusion if I made my goals, met any troubles and would be do’s and don’t for the next time.
 
 ##### Results
 * Thesis plan
