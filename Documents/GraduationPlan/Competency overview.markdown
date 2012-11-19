@@ -28,7 +28,7 @@ We need to gather information about existing web platforms, structures, database
 While I find a lot of information on the internet, documenting these vast amounts of information is not my strong suit. Currently I'm using my browser bookmarks to save all interesting information, but this is far from ideal. I would like to try a service called bo.lt which deals with a lot of the issues that can occur when bookmarking interesting items. It makes your data persistent, locally saving a backup of each item you bookmark. It also lets you add descriptions and categorise the stored items.
 
 ##### Jelle
-My first big official research! I hope to learn how to do proper research on a higher level and make a paper which is publishable. I predict I will lose track of the large quantities of information. So some proper information management is needed. Using web bookmarking services and my e reader’s bookmarking engine I hope to keep track of the relevant information. Learn how to set up proper documentation. I also need to learn to start writing documentation at the start of the project. If I keep the phase high, challenge high and interestingness up I’m able to keep motivated
+My first big official research! I hope to learn how to do proper research on a higher level and make a paper which is publishable. I predict I will lose track of the large quantities of information. So some proper information management is needed. Using web bookmarking services and my e reader’s bookmarking engine I hope to keep track of the relevant information. Learn how to set up proper documentation. I also need to learn to start writing documentation at the start of the project. If I keep the phase high, challenge high and interestingness up I’m able to keep motivated.
 
 ##### Results
 * Interviews
@@ -40,15 +40,15 @@ My first big official research! I hope to learn how to do proper research on a h
 
 #### Concepting
 ##### Goals
-
+The concept and vision we want to make is a very long term one, futuristic and sci-fi like, but concrete. After getting answers on the research questions we’ll be able through brainstorming and testing to form a future vision. We’ll have to find a way on how to communicate the concept and vision.
 
 ##### Possible hazards
-
+No inspiration, tunnel vision, too complex ideas, but none of these hazards should be a big deal as long as we get feedback from others.
 
 ##### Tasks
 Based on our research we are going to create a vision which takes into account the needs of the intended uses.
 
-After distilling our vision from the research we have to make the vision concrete by making a proper concept  and a visualisation of the concept. The concept should be easy to understand by others with little knowledge on the subject. 
+After distilling our vision from the research we have to make the vision concrete by making a proper concept and a visualisation of the concept. The concept should be easy to understand by others with little knowledge on the subject. 
 
 ##### Guido
 I would like to create a new habit for myself, using paper more often. I think that especially in our field of work you can look at computer screens too much. By approaching the same subject on paper I think I could come up with new ideas I wouldn't have come up with otherwise.
@@ -56,7 +56,7 @@ I would like to create a new habit for myself, using paper more often. I think t
 Drawing techniques I would like to use for my concepting phase include drawing scenario's, brainstorming using persona's and reverse brainstorming.
 
 ##### Jelle
-
+Being a veteran ‘Concepting’ student, I’m quite used to brainstorm sessions, but to my opinion my output still lacks. I would like to do more with (visual) metaphors and story telling. I will try to find a way find suiting metaphors and story lines next to (and enhancing) the vision document. 
 
 ##### Results
 * Vision document
@@ -78,7 +78,7 @@ To learn how to write such documents on an academic level, we're going to look a
 Just like with concepting I want to use paper more often, and try to approach my challenges from a different angle. I would like to work out scenario's, diagrams and other assisting illustrations by hand. I think that by using hand drawn illustrations we can add a more human side to our thesis.
 
 ##### Jelle
-
+I want to sharpen my skills of making a technical design. In order to make the concept concrete the needs of the product need to be defined. I want to learn more of the technical jargon in order to make the product more suiting to professionals. I’ll be doing this by reading various other technical designs.
 
 ##### Results
 * The technical design
@@ -102,7 +102,7 @@ As we can't currently know what we'll be building, it's hard to plan what we wan
 As we'll be working on a prototype, I want to look into different rapid development tools. Meteor is one of those tools I would like to try. It's a new tool which allows for extremely fast development of interactive web applications. I need to set up a work flow which allows me to switch back and forth between the concepting, design development and monitoring phases.
 
 ##### Jelle
-
+Because I want to be able to communicate the concept and vision through storytelling in drawing/animation form I have to spice up my Illustrator and drawings skills again. I’ll be doing this by following some tutorials and by just doing it often. 
 
 ##### Results
 * Creating a prototype/structure
@@ -128,11 +128,12 @@ As we want to improve our testing abilities, we'll look into different methods o
 I want to apply the rapid prototyping phase to make sure our final product will be at it's best. To make sure this will be the case I want to introduce an extra step during each iteration of the rapid prototyping phase. At the end of each iteration I want to apply a set of tests to our prototype. Based on our research a list of requirements will made which the prototype has to comply to. Of this is not the case I'll find out how the prototype can be changed to conform to these requirements, and make a change in the design.
 
 ##### Jelle
-
+Testing isn’t my strong suit, but I’ve lately learned it’s essential to make something more solid. The way depends on what the product will be, but I’m interested in learning Behaviour Driven Development.
 
 ##### Results
 * A logbook full of choices, problems we’ve stumbled upon and their solutions.
-* A lot of git commits ;)
+* A self developed test suite
+* A lot of git commits
 
 #### Communication
 ##### Goals
@@ -149,10 +150,10 @@ During the writing we'll constantly let native academic English writers check ou
 ##### Guido
 I've written quite a lot of english reports already, but none as long as a thesis. For my semester in Sweden I had to pass the official TOEFL test which according to their website "measures your ability to use and understand English at the university level". After my semester in Sweden, I followed the international Art & Sound minor, especially further sharpening my English writing skills.
 
-As our thesis could be of interest for international companies like Dream Industries and professionals like american scientists for example, I want our thesis to be available to an audience as broad as possible. My goal is to write a thesis that's easy and pleasant to read for native English speakers.
+As our thesis could be of interest for international companies and professionals like scientists, I want our thesis to be available to an audience as broad as possible. My goal is to write a thesis that's easy and pleasant to read for native English speakers.
 
 ##### Jelle
-Although my english is quite okay, I haven’t written any big english texts yet. I hope by writing (and let it being checked) a lot, my english writing skills will improve in terms of speed and level.
+Although my english is quite okay, I haven’t written any big english texts yet. I hope by writing (and let it being checked) a lot, my english writing skills will improve in terms of speed and vocabulary.
 
 ##### Results
 * Full thesis in flawless english
