@@ -118,7 +118,7 @@ Over iterating on trivial features can be very time consuming and delay the proj
 ##### Tasks
 Because we’re going to be rapid prototyping, we’re constantly testing out our product, the vision. This way research will continue while developing and thus constantly improve our product.  This will result in an even better vision & proof of concept after testing.
 
-As we want to improve our testing abilities, we'll look into different methods of testing our vision, concept & prototype. Especially, learning how to test a vision will be an interesting parts of our learning progress.
+As we want to improve our testing abilities, we'll look into different methods of testing our vision, concept & prototype. Especially, learning how to test a vision will be an interesting parts of our learning progress. Right now we can't tell what we'll be testing on, as we don't know what our final product will be. This will become clear after our researching and first concepting phase.
 
 ##### Guido
 I want to apply the rapid prototyping phase to make sure our final product will be at it's best. To make sure this will be the case I want to introduce an extra step during each iteration of the rapid prototyping phase. At the end of each iteration I want to apply a set of tests to our prototype. Based on our research a list of requirements will made which the prototype has to comply to. Of this is not the case I'll find out how the prototype can be changed to conform to these requirements, and make a change in the design.
@@ -184,6 +184,6 @@ The problem with justifying my growth process is I’m not good in maintaining t
 * Thesis plan
 * A conclusion in the thesis
 * Reflection
-* Indept self reflection based on different reflection techniques
+* In dept self reflection based on different reflection techniques
 * Peer reflection of each other
 * And git log
