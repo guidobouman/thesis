@@ -1,6 +1,8 @@
 ## Sub question 2
 > What is the current status of communication & information exchange between the human brain and computers / the internet?
 
+In terms of connectivity there's a lot to explore. At the moment we're using mouse, keyboard and touch screens to interact with computers. This is an extra layer which might be removed to have a more direct connection with the human brain. In this subquestion the realms of brain computer interfaces and their accompanying technologies are explored.
+
 ### MRI & EEG
 These are two vastly interesting techniques which allow us to read information from the human brain. Unfortunately they're unidirectional which means they're only able to read information from the mind, and not write, which we would require.
 

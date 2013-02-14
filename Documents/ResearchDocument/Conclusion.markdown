@@ -1,4 +1,5 @@
 ## Conclusion
+We think the furtesth step which you can go in making communication between the brain and the internet less complex is by making a more direct connection. Brain computer interfaces are the future.
 
 ### Combination
 In what fields can the internet support the brain and vice-versa?

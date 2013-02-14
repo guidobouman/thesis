@@ -1,3 +1,3 @@
 ## Main question
-> How does the current internet relate to the needs of the human brain on the aspect of information exchange?
+> How can we make the connection between a human and the internet more efficient?
 
