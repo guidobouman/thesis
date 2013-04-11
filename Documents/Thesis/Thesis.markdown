@@ -113,6 +113,47 @@ federated data exchange > plug in federated data
  - Knowledge is given, no need to memorize trivial facts
  - Creating relations as future of learning
 
+A sketch on the possibilities with BCI.
+Warning speculations 
+
+## First stage: Brains to internet
+Alot of problems if it would be the current internet. Rethink semantics?
+Connecting a couple of database just like apps to the human mind. From limited to unlimited. I suspect Wikipedia will be first. 
+
+### Problems
+Truth will become a problem. On the current internet there is no difference between truth and lies. Satirical websites like The Union News network and The Speld provide entertainment through fake made up news for example. For a computer, but also for a direct connection to the brain this is a problem. If a lie occurs in the database it is true for the masses because its directly being piped into others people's brain if the query the data.
+
+### Opportunities
+
+### Function of the internet:
+Common knowledge
+Calculation power
+
+### Function of humans:
+Being able to get common knowledge instantly from a limited amount off sources. No more need to learn facts or get common knowledge
+
+## Second stage: brains to brains over the internet
+Directly tap into someones brain. People don't have to put info on the internet in a certain database first. Everybody 'owns' everyones data.
+
+Problem of machine readability and semantics is solved.
+Problem of lies is solved. No more global truth, just individual nodes in a global bank. Just make your own conclusion with others facts.
+
+### Functions of computer 
+will still be computational power and function as a back up for people passing away.
+
+Humans are there to solve problems by connecting the dots. World wide mind.
+
+Humans 
+Privacy issues
+
+
+Does somebodys memory dissapear on death?
+
+## Education
+With the birth of BCI's education in its current for will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People need to be able to make conclusion fast out by connecting dots. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be teached to be creative to train the associative functions. 
+
+Experience is also needed to increase number of nodes in the brain. The more nodes, the easier is its to connect external sources to the brain. 'School' should provide this rich experiences.
+
 ## Short term solution
 Thinking of longterm goals and solutions is fun, but you need tiny steps to move in that directions. There are some optimisations which can be done already.
 
