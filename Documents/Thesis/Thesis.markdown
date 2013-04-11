@@ -1,15 +1,14 @@
 # The communication chain
 Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services, and techniques have been added. But if we got the chance to design the internet all over with our current knowledge of communication systems. What would it look like? Would we use the same protocols?
 
-The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multimedial. Not only the content has changed though. The way this information is presented to the end user has changed a lot aswel. From simple pages filled with text. That until the birth of HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
+The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text. That until the birth of HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
 
 All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decades. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
 
 ### HTML
 Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application.
 
-HTML started out as a simple standardized set of tags, for rich text, based on SGML. Web browsers (like Netscape) began to add own functionality their own functionality to HTML totally not in line with the standards set earlier. This caused many confusion among developers, webbrowsers etc. 
-
+HTML started out as a simple standardised set of tags, for rich text, based on SGML. Web browsers (like Netscape) began to add own functionality their own functionality to HTML totally not in line with the standards set earlier. This caused many confusion among developers, web browsers etc. 
 
 HTML Version
 Try browsing the internet with Lynx...
@@ -44,10 +43,10 @@ The interface for the internet is often a computer, handheld or desktop.
   * Input
      * Keyboard, Mouse, Touchscreen
   * Output
-     * Frontend -> Webbrowser -> Screen
+     * Front-end -> Web browser -> Screen
 
 ### Processing/Backend
-The processing part in the chain is often called the backend. The backend often provides an endpoint (urls, parameters) for the frontend through http requests. This is called an API. The API allows the user to authenticate and access the database.
+The processing part in the chain is often called the backend. The backend often provides an endpoint (urls, parameters) for the front-end through http requests. This is called an API. The API allows the user to authenticate and access the database.
 
 The purpose of having a backend is:
 
@@ -69,7 +68,7 @@ Dataloss
 ### Not finding the stuff you need
 Having the data but not being able find the stuff you need.
 
-### Timeloss because of interpretation
+### Time loss because of interpretation
 
 
 ## Optimisations
@@ -80,7 +79,7 @@ What does optimising the communication chain exactly mean? Should it be more fle
 
 Example: Fat versus lean front- and back-ends
 
-With the arrival of Single Page Web Applications the way of building web apps changed to fat frontend and thin backends. This because
+With the arrival of Single Page Web Applications the way of building web apps changed to fat front-end and thin backends. This because
 
 ### A more direct interface
 Sensory inputs and interpretation of the collected data. The human senses are extremely flexible, they have the power to adjust themselves to whatever is fed to them. [Link to turning vision upside down & seeing with your tongue] On the other hand, because the human senses are a natural interface, they're highly unpredictable.
@@ -110,14 +109,14 @@ federated data exchange > plug in federated data
 
  - A web of brains
  - Collective data
- - Knowledge is given, no need to memorize trivial facts
+ - Knowledge is given, no need to memorise trivial facts
  - Creating relations as future of learning
 
 A sketch on the possibilities with BCI.
 Warning speculations 
 
 ## First stage: Brains to internet
-Alot of problems if it would be the current internet. Rethink semantics?
+A lot of problems if it would be the current internet. Rethink semantics?
 Connecting a couple of database just like apps to the human mind. From limited to unlimited. I suspect Wikipedia will be first. 
 
 ### Problems
@@ -147,10 +146,10 @@ Humans
 Privacy issues
 
 
-Does somebodys memory dissapear on death?
+Does somebody's memory disappear on death?
 
 ## Education
-With the birth of BCI's education in its current for will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People need to be able to make conclusion fast out by connecting dots. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be teached to be creative to train the associative functions. 
+With the birth of BCI's education in its current for will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People need to be able to make conclusion fast out by connecting dots. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be taught to be creative to train the associative functions. 
 
 Experience is also needed to increase number of nodes in the brain. The more nodes, the easier is its to connect external sources to the brain. 'School' should provide this rich experiences.
 
