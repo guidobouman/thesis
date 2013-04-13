@@ -8,27 +8,57 @@ All of these advancements have been achieved on the same structure that was basi
 ### HTML
 Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application.
 
-HTML started out as a simple standardised set of tags, for rich text, based on SGML. Web browsers (like Netscape) began to add own functionality their own functionality to HTML totally not in line with the standards set earlier. This caused many confusion among developers, web browsers etc. 
+HTML started out as a simple standardised set of tags, for rich text, based on SGML. Web browsers (like Netscape) began to add their own functionality to HTML. Most of the time not in line with the standards set earlier. This caused many confusion among developers, web browsers etc. 
 
 HTML Version
 Try browsing the internet with Lynx...
 AJAX
 
-## Flaws and it's solutions
-Even though all of this is possible on a 24 year old structure, it has it's flaws. HTML was designed to serve information and close the connection to the server afterwards. Because there was no reason to keep the connection open, closing it straight after serving the information seemed like a logical design choice. You'd free up resources on the server which in turn could be used to serve information to other users. Back then, web applications didn't exist yet. Though desktop applications had sockets for ongoing communication with the servers. The web didn't have such technologies until 1996. And a native implementation didn't even exist until 13 years later in 2009.
+## Flaws
+Even though all of this is possible on a 24 year old structure, it has it's flaws. HTML was designed to serve information and close the connection to the server afterwards. Because there was no reason to keep the connection open, closing it straight after serving the information seemed like a logical design choice. You'd free up resources on the server which in turn could be used to serve information to other users.
 
-The native implementation of WebSockets was a huge improvement for the internet. WebSockets allow real-time two-way communication between clients and servers. With multiple clients connected to a server this in turn allows for real-time two-way communication between two or more clients. 
+Back then, web applications didn't exist yet. Though desktop applications had sockets for ongoing communication with the servers. The web didn't have such technologies until 1996. And a native implementation didn't even exist until 13 years later in 2009. The native implementation of WebSockets was a huge improvement for the internet. WebSockets allow real-time two-way communication between clients and servers. With multiple clients connected to a server this in turn allows for real-time two-way communication between two or more clients.
+
+> The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web.
+
+[The World Wide Web Consortium][http://www.w3.org/]
+
+Since the creation of HTML 1 in 1989, the internet has been steadily improving. The community behind W3C has been working hard to get browsers to comply to their standards. More and more modern browsers are following the standards and are focused on adopting new technologies and standards as they arise. This behaviour is a great improvement. It has allowed for a lot of flaws to be tackled. Though there are still quite some flaws a browser vendor can't fix.
 
 ### Semantics
-semantics, needed to have machine readability.
+The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in html.
+
+#### The Semantic Web
+The Semantic Web, a W3C movement lead by the Tim Berners Lee aims to make unstructured data into a 'web of data'. 
+semantics, needed to have machine readability. By adding tags to indicate what type the content is.
+
+> Semantic HTML refers to the traditional HTML practice of markup following intention, rather than specifying layout details directly. For example, the use of <em> denoting "emphasis" rather than <i>, which specifies italics.
+
 http://www.schema.org/ (Bloated?)
 
-// Maybe we shouldn't make stuff machine readable? But aim for humans instead?
+#### RDF, SPARQL
 
-Graphical user
-An example of a flaw in of the graphical interface layer of the internet is it's readability. GEOCITIES FTW!
 
-Over time the usage of the internet has vastly shifted from just storing and sharing information to a massive network that currently powers and controls nearly every aspect of the world. Nowadays the internet is also used for a different purpose, entertainment. Because of this extra purpose, people started adding other technologies to enable features. The internet became bloated with new functions and structures.
+#### Metacrap
+Metacrap, or in other words "Metadata is crap" is a term coined by Cory Doctorow in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). Doctorow gives 7 arguments in this essay why metadata is not an option. 
+
+This is not because the internet itself is flawed, but because the end-user, the human, is not perfect. Describing data is free interpretable by humans, and requires work from their side. It's only natural for humans to be lazy or make errors.
+
+> 1. People lie
+2. People are lazy
+3. People are stupid
+4. Mission Impossible: know thyself
+5. Schemas are not neutral
+6. Metrics influence results
+7. There's more than one way to describe something
+http://en.wikipedia.org/wiki/Metacrap
+
+The moral of this essay is that metadata is subjective and not reliable. 
+
+###Graphical interface layer
+Even in a perfect world where all data is structured semantical, The presentation layer is still freely interpretable. Deciding wicht data should be preented to the end-user at what time is something that is decided by the designer of a website. Websites are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing a website is manual labor.
+
+A designer can choose what data is relevant in which situation and present it to the user. The problem with this is that the data decided to be left out is missing. It might have been done because the designer thought the relevant data would be easier to be find. Or because the remaining data just didn't fit the interface. Even though the data might've been available it's just not there for the end-user to be found.
 
 ## Communication chain
 The global overview of communication between user and the internet is like the following diagram:  
@@ -73,11 +103,14 @@ Having the data but not being able find the stuff you need.
 
 ## Optimisations
 ### Tradeoffs
-What does optimising the communication chain exactly mean? Should it be more flexible, or should it be easier to use? Should the communication chain be strengthened against miscommunications or is that the responsibility of the service provider? Each choice always has it's own set of tradeoffs. Which each change you make to improve the current structure, a new set of 
+What does optimising the communication chain exactly mean? Should it be more flexible, or should it be easier to use? Should the communication chain be strengthened against miscommunications or is that the responsibility of the service provider? Each choice always has it's own set of tradeoffs. Which each change you make to improve the current structure, a new set of challenges wil arise.
 
 #### Complexity vs. Flexibility
-
 Example: Fat versus lean front- and back-ends
+
+With each technology you add the work required to keep your service running gets more and more complicated. Every technology added has the potential to break. Even if you install a tool that's designed to help you manage all of the technologies you're using, that tool still requires to be installed, managed and is still able to break in the end.
+
+On the other hand, the more technologies you strip from your stack will increase the stability and prevent technologies from breaking. But it will limit your possibilities at the same time. 
 
 With the arrival of Single Page Web Applications the way of building web apps changed to fat front-end and thin backends. This because
 
@@ -89,10 +122,13 @@ End user <-> Interface <-> Storage
 Find a way how to ditch authentication and security; federated data.
 
 ### Getting rid of the interface layer
-Brain Computer Interface or BCIâ€™s are devices which enable to read the mind by translating electronical activity to signals which can be interpreted by computers. 
+Brain Computer Interface or BCIÕs are devices which enable to read the mind by translating electronical activity to signals which can be interpreted by computers. 
 
 ### Federating data
-[Federated databases](http://en.wikipedia.org/wiki/Federated_database_system)
+One of the flaws of the
+[Federated databases](http://en.wikipedia.org/wiki/Federated_database_system) Darknets
+
+### Revisioned redudant data
 
 ## Utopia (long term solution)
 We think a direct connection between brains and the internet would be the most direct interface possible. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
@@ -132,9 +168,8 @@ Calculation power
 Being able to get common knowledge instantly from a limited amount off sources. No more need to learn facts or get common knowledge
 
 ## Second stage: brains to brains over the internet
-Directly tap into someones brain. People don't have to put info on the internet in a certain database first. Everybody 'owns' everyones data.
-
-Problem of machine readability and semantics is solved.
+Directly tap into someones brain. People don't have to put info on the internet in a certain database first. Everybody 'owns' everyones data.  
+Problem of machine readability and semantics is solved.  
 Problem of lies is solved. No more global truth, just individual nodes in a global bank. Just make your own conclusion with others facts.
 
 ### Functions of computer 
@@ -148,7 +183,7 @@ Privacy issues
 
 Does somebody's memory disappear on death?
 
-## Education
+### Education
 With the birth of BCI's education in its current for will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People need to be able to make conclusion fast out by connecting dots. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be taught to be creative to train the associative functions. 
 
 Experience is also needed to increase number of nodes in the brain. The more nodes, the easier is its to connect external sources to the brain. 'School' should provide this rich experiences.
@@ -163,7 +198,7 @@ CouchDB is a new database which doesn't need a backend.
 Yes, it removes the processing/backend from chain in development, but it brings limitations.
 
 ### Darknets
-Federated data
+To care about decentralisation and federation of data people have invented Darknets and Peer2Peer networks like Tor (UnionNet), FreeNet and Bittorrent. Field research (online) Problem lies in readability. Harder to index, no/less search engines.
 
 ### Kinect, MYO, Leap etc.
 Alternative interfaces for mouse and keyboard
@@ -179,3 +214,5 @@ m@guido.cv
 ## Log
 ### Meetings
 * Conversations with Maarten and Raymond
+
+## Sources
