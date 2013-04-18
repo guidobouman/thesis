@@ -39,7 +39,7 @@ http://www.schema.org/ (Bloated?)
 One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between to other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale"[1](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) and "Interworking among applications: combining data from several applications to arrive at new information."[2](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) SPARQL is the accompanying query language for RDF, which allows to easily search through RDF data.
 
 #### Metacrap
-Unfortunatly there are not many Real World examples of the usage RDF.  Metacrap, or in other words "Metadata is crap" is a term coined by Cory Doctorow in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). Doctorow gives 7 arguments in this essay why metadata is not an option. 
+Unfortunately there are not many Real World examples of the usage RDF.  Metacrap, or in other words "Metadata is crap" is a term coined by Cory Doctorow in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). Doctorow gives 7 arguments in this essay why metadata is not an option. 
 
 This is not because the internet itself is flawed, but because the end-user, the human, is not perfect. Describing data is free interpretable by humans, and requires work from their side. It's only natural for humans to be lazy or make errors.
 
@@ -80,6 +80,8 @@ End user <-> Interface <-> Processing <-> Storage
 ### Enduser
 This is you, the internet user while browsing the web.
 
+Sensory inputs are part of the communication chain as well. Currently we don't have much control over this because information is mostly send visually. Seeing and reading the information on the internet. Interpreting texts.
+
 ### Interface
 The interface for the internet is often a computer, handheld or desktop.
 
@@ -115,8 +117,22 @@ Over the last years web browsers started getting faster. This was not only becau
 
 Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic there would be no need for a back-end. Periodic tasks and heavy calculations should still be done on workers, but they could run on much smaller machines independent from a back-end. In a way they would just behave as end-users, but with higher privileges because of elevated logins.
 
+
 ### A more direct interface
-Sensory inputs and interpretation of the collected data. The human senses are extremely flexible, they have the power to adjust themselves to whatever is fed to them. [Link to turning vision upside down & seeing with your tongue] On the other hand, because the human senses are a natural interface, they're highly unpredictable.
+The human brain is amazing when it comes to input from the senses. It adjust itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [p. 106][#Hawkins:2004] This is due to the fact of that every sense which comes in the form of spikes, electrical pulses. The brain learns how to handle these pulses by recognising patterns.
+  
+There's a [real world example](http://discovermagazine.com/2008/jul/23-the-blind-climber-who-sees-through-his-tongue) of a men with retinoschisis, a rare disease which makes you blind after a couple of years, whom was able to see again through a special device. The device, called [Brainport](http://science.howstuffworks.com/brainport.htm), is basically a webcam which is wired to output electrotactile stimulation to the users tongue.
+
+![](http://static.ddmcdn.com/gif/brainport-vision-diagram.jpg)
+
+An other example is a colourblind man who is able to percieve colours through sound. Movie:
+
+<Zcript src="http://player.ooyala.com/player.js?embedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&video_pcode=JqcWY6ikg5nwtXilzVurvI-vU6Ik&width=640&deepLinkEmbedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&height=360"></script>
+[World's first cyborg](http://motherboard.vice.com/nl/read/met-een-cyborg-naar-het-stedelijk-video)
+
+Imagine a device that somehow feeds the internet as a sixth sense. No need of a screen or keyboard. Applied properly, your brain could make sense of the patterns being fed to it. The moment you think of a fire-truck, the device would understand that thought, and feed all of the properties of a fire-truck back to you, instantaneously fetched from the internet.
+
+Using it just as a screen would make the chain smaller, but imaging what would happen if you would connect it to twitters firehose?
 
 ### Removing the processing layer
 End user <-> Interface <-> Storage
@@ -127,24 +143,36 @@ Brain Computer Interface or BCI¿s are devices which enable to read the mind by t
 
 ### Federating data
 One of the flaws of the
-[Federated databases](http://en.wikipedia.org/wiki/Federated_database_system) Darknets
+[Federated databases](http://en.wikipedia.org/wiki/Federated_database_system)
 
 ### Revisioned redudant data
 
 ## Short term solution
-Thinking of longterm goals and solutions is fun, but you need tiny steps to move in that directions. There are some optimisations which can be done already.
+Thinking of longterm goals and solutions is fun, but you need tiny steps to move in that direction. There is a vast amount of optimisations which have already been put into use or are currently being developed.
 
-### CouchDB
-CouchDB is a new database which doesn't need a backend.
+### API enabled databases
+CouchDB is a new database which doesn't need a backend. It exposes it's data directly over http through the use of a restful API. Which means that you don't need a server to request the data from the database and serve it to the end user. The database can take care of that by itself.
 
-#### Conclusion
-Yes, it removes the processing/backend from chain in development, but it brings limitations. Referring to threshold in complexity/ flexibity
+By exposing your data directly through http you also allow people with malicious intentions to access that same data without a going throught the back-end layer. Data security and the shielding of specific user data is something that the database is also designed to take care of. Here a possible issue arrises. You integrate your data storage and data security into one package. When an exploit becomes available for that package, not only your security but at the same time also your data will be vulnerable.
+
+While it removes the processing / backend layer from the chain of communication, it also brings limitations. Referring to threshold in complexity/ flexibity
 
 ### Darknets
-To care about decentralisation and federation of data people have invented Darknets and Peer2Peer networks like Tor (UnionNet), FreeNet and Bittorrent. Field research (online) Problem lies in readability. Harder to index, no/less search engines.
+To take care of decentralisation and federation of data people have invented Darknets and Peer2Peer networks like Tor (UnionNet), FreeNet and Bittorrent. Field research (online) Problem lies in readability. Harder to index, no/less search engines.
 
-### Kinect, MYO, Leap etc.
-Alternative interfaces for mouse and keyboard
+The design of the Darknet itself is also it's flaw for our purpose. As a Darknet is shielded from the regular internet, it's really hard to access and index data. There are search engines but they are not like google scanning content of the pages, merely titles.
+
+### Alternative input methods
+Keyboards and computer mouses have been a long standing standard but new input methods are arising. Gesture based control seems to be a trend. The apple touchpad allows for touch based gestures. But Devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device. Usually freeing you from your desk.
+
+The Kinect has a camera that tracks your whole body and it movements. It's still quite rough though. Large movements are needed to trigger an action. The LEAP takes a different approach, only tracking your hands in front of a device. By limiting the area, the movements can be tracked on a much more granular level. Precise finger gestures make the LEAP very usable for interaction with electronic devices. The Myo takes this even a step further by removing the camera and tracking muscle tension on the lower arm. Resulting in freeing the user from any location or direction based limitation.
+
+Of these technologies, the only one that's in production and has been actively used for different projects is the Kinect. The LEAP is shipping since May 13, 
+[Write about if it has picked up speed, and is being adopted or not, if it has been able to deliver a new experience, and if that experience is an optimisation of the communication chain. More natural input, less error prone than mouse]
+
+The MYO is set to ship early 2014. If it's able to deliver, it could change the way we control our devices. Using it as a remote for about any electronic device in our home. That is, if it's able to manage target selection well. In other words, the device should know what device you're targeting with every gesture. When you turn the volume of your hifi setup down, you don't want it to go back up when you try to answer an incoming phone call.
+
+[talk about gorilla arm (fatigue of shoulders because of holding your arms horizontally for gestures] Not an issue with MYO, defintely an issue for LEAP.
 
 ## Utopia (long term solution)
 We think a direct connection between brains and the internet would be the most direct interface possible. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
@@ -167,28 +195,30 @@ federated data exchange > plug in federated data
 A sketch on the possibilities with BCI.
 Warning speculations 
 
-## First stage: Brains to internet
+### First stage: Brains to internet
 A lot of problems if it would be the current internet. Rethink semantics?
 Connecting a couple of database just like apps to the human mind. From limited to unlimited. I suspect Wikipedia will be first. 
 
-### Problems
-Truth will become a problem. On the current internet there is no difference between truth and lies. Satirical websites like The Union News network and The Speld provide entertainment through fake made up news for example. For a computer, but also for a direct connection to the brain this is a problem. If a lie occurs in the database it is true for the masses because its directly being piped into others people's brain if the query the data.
+#### Problems
+Truth will become a problem. On the current internet there is no difference between truth and lies. Satirical websites like The Union News network and The Speld provide entertainment through fake made up news for example. For a computer, but also for a direct connection to the brain this is a problem. If a lie occurs in the database it is true for the masses because its directly being piped into others people's brain if they query the data.
 
-### Opportunities
+While the truth will become relative, facts will still be facts. And they could be checked at the source. The issue with that would be, what is the source? And how do we know the source actually is the source we expect it to be? In other words: Is the source legit?
 
-### Function of the internet:
+#### Opportunities
+
+#### Function of the internet:
 Common knowledge
 Calculation power
 
-### Function of humans:
+#### Function of humans:
 Being able to get common knowledge instantly from a limited amount off sources. No more need to learn facts or get common knowledge
 
-## Second stage: brains to brains over the internet
+### Second stage: brains to brains over the internet
 Directly tap into someones brain. People don't have to put info on the internet in a certain database first. Everybody 'owns' everyones data.  
 Problem of machine readability and semantics is solved.  
 Problem of lies is solved. No more global truth, just individual nodes in a global bank. Just make your own conclusion with others facts.
 
-### Functions of computer 
+#### Functions of computer 
 will still be computational power and function as a back up for people passing away.
 
 Humans are there to solve problems by connecting the dots. World wide mind.
@@ -199,12 +229,13 @@ Privacy issues
 
 Does somebody's memory disappear on death?
 
-### Education
+#### Education
 With the birth of BCI's education in its current for will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People need to be able to make conclusion fast out by connecting dots. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be taught to be creative to train the associative functions. 
 
 Experience is also needed to increase number of nodes in the brain. The more nodes, the easier is its to connect external sources to the brain. 'School' should provide this rich experiences.
 
 ## Sources
+[#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
 
 ## Contributors
 
