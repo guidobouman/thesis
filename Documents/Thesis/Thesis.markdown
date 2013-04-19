@@ -1,7 +1,21 @@
 # The communication chain
+> _A chain is only as strong as its weakest link._
+
+Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't know it by name, you probably played it when you were young. The game starts with a group of people forming a chain. The first person makes up a sentence, which is whispered in the next person's ear. This continues until the sentence reaches the last person. He or she pronounces the sentence out loud. Usually the sentence changes throughout the game. The longer the chain, the higher the chance that the end result will differ from the first sentence. This is due to the increasing amount of steps where something can go wrong. 
+
+This brings us to the quote; "A chain is only as strong as its weakest link" The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of a error occurring, and the chain breaking, can be reduced greatly.
+
+> Kandinsky quote
+Kandinsky is an artist whom put a lot of time thinking about effectiveness of a messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything you define excludes other possibilities.
+
 Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services and techniques have been added. The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text. That until the birth of HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
 
 All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decades. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
+
+Is it time to apply Kandinsky’s vision to web technologies? Is it time to slim the stack of layers which make the current internet?
+
+## Slim down or pile up?
+
 
 ### HTML
 Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application.
