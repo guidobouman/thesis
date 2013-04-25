@@ -15,16 +15,20 @@ All of these advancements have been achieved on the same structure that was basi
 Is it time to apply Kandinsky’s vision to web technologies? Is it time to slim the stack of layers which make the current internet?
 
 ## Slim down or pile up?
+If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural diferences between the user and the programming language/framework. The user needs to be able to communicate with the system after all. Think for example of localization and time zone differerences, but also different user roles, security, user preferences etc.
 
+//So imaging you’re programming. Adding features.
+
+//Quotes: Losing Control: Students at the ... university learn that in order to develop the behaviour of a robot, you need to add functionality on top of the faulty once. You need to pile up features.  
+
+This also counts for the protocol and application stack of the www. In order to serve the web to a immensly varied user base a lot of behavior/cultural differences and needs needed to be defined. 
+
+Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible?
 
 ### HTML
 Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application.
 
 HTML started out as a simple standardised set of tags, for rich text, based on SGML. Web browsers (like Netscape) began to add their own functionality to HTML. Most of the time not in line with the standards set earlier. This caused many confusion among developers, web browsers etc. 
-
-HTML Version
-Try browsing the internet with Lynx...
-AJAX
 
 ## Flaws
 Even though all of this is possible on a 24 year old structure, it has it's flaws. HTML was designed to serve information and close the connection to the server afterwards. Because there was no reason to keep the connection open, closing it straight after serving the information seemed like a logical design choice. You'd free up resources on the server which in turn could be used to serve information to other users.
@@ -38,7 +42,7 @@ Back then, web applications didn't exist yet. Though desktop applications had so
 Since the creation of HTML 1 in 1989, the internet has been steadily improving. The community behind W3C has been working hard to get browsers to comply to their standards. More and more modern browsers are following the standards and are focused on adopting new technologies and standards as they arise. This behaviour is a great improvement. It has allowed for a lot of flaws to be tackled. Though there are still quite some flaws a browser vendor can't fix.
 
 ### Semantics
-How do you broadcast information on the internet? The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in html.
+The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in html.
 
 Readable for humans <> Readable for machines.
 
@@ -53,9 +57,7 @@ http://www.schema.org/ (Bloated?)
 One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between to other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale"[1](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) and "Interworking among applications: combining data from several applications to arrive at new information."[2](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) SPARQL is the accompanying query language for RDF, which allows to easily search through RDF data.
 
 #### Metacrap
-Unfortunately there are not many Real World examples of the usage RDF.  Metacrap, or in other words "Metadata is crap" is a term coined by Cory Doctorow in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). Doctorow gives 7 arguments in this essay why metadata is not an option. 
-
-This is not because the internet itself is flawed, but because the end-user, the human, is not perfect. Describing data is free interpretable by humans, and requires work from their side. It's only natural for humans to be lazy or make errors.
+Unfortunately there are not many Real World examples of the usage RDF and Cory Doctorow has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practicly not possible because of the lack of discipline from the users side. In short: describing data is free interpretable, prone to errors, subjective and requires a lot of work from user point of view.
 
 > 1. People lie
 2. People are lazy
@@ -64,9 +66,6 @@ This is not because the internet itself is flawed, but because the end-user, the
 5. Schemas are not neutral
 6. Metrics influence results
 7. There's more than one way to describe something
-http://en.wikipedia.org/wiki/Metacrap
-
-The moral of this essay is that metadata is subjective and not reliable. 
 
 ### Graphical interface layer
 Even in a perfect world where all data is structured semantical, The presentation layer is still freely interpretable. Deciding which data should be presented to the end-user at what time is something that is decided by the designer of a website. Websites are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing a website is manual labor.
