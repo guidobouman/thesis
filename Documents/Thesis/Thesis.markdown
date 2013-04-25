@@ -1,29 +1,32 @@
+Work in Progress, check our [log](https://github.com/jellea/thesis/commits/gh-pages) for latest additions!
+
 # The communication chain
 > _A chain is only as strong as its weakest link._
 
-Lets play a game, it's called ÔChinese WhispersÕ. For those of you who don't know it by name, you probably played it when you were young. The game starts with a group of people forming a chain. The first person makes up a sentence, which is whispered in the next person's ear. This continues until the sentence reaches the last person. He or she pronounces the sentence out loud. Usually the sentence changes throughout the game. The longer the chain, the higher the chance that the end result will differ from the first sentence. This is due to the increasing amount of steps where something can go wrong. 
+Lets play a game, it's called â€˜Chinese Whispersâ€™. For those of you who don't know it by name, you probably played it when you were young. The game starts with a group of people forming a chain. The first person makes up a sentence, which is whispered in the next person's ear. This continues until the sentence reaches the last person. He or she pronounces the sentence out loud. Usually the sentence changes throughout the game. The longer the chain, the higher the chance that the end result will differ from the first sentence. This is due to the increasing amount of steps where something can go wrong. 
 
 This brings us to the quote; "A chain is only as strong as its weakest link" The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of a error occurring, and the chain breaking, can be reduced greatly.
 
 > Kandinsky quote
+
 Kandinsky is an artist whom put a lot of time thinking about effectiveness of a messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything you define excludes other possibilities.
 
 Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services and techniques have been added. The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text. That until the birth of HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
 
 All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decades. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
 
-Is it time to apply KandinskyÕs vision to web technologies? Is it time to slim the stack of layers which make the current internet?
+Is it time to apply Kandinskyâ€™s vision to web technologies? Is it time to slim the stack of layers which make the current internet?
 
 ## Slim down or pile up?
-If youÕre developing software youÕre mostly defining behaviour of the application. This behaviour are the exceptions based on cultural diferences between the user and the programming language/framework. The user needs to be able to communicate with the system after all. Think for example of localization and time zone differerences, but also different user roles, security, user preferences etc.
+If youâ€™re developing software youâ€™re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural diferences between the user and the programming language/framework. The user needs to be able to communicate with the system after all. Think for example of localization and time zone differerences, but also different user roles, security, user preferences etc.
 
-//So imaging youÕre programming. Adding features.
+//So imaging youâ€™re programming. Adding features.
 
 //Quotes: Losing Control: Students at the ... university learn that in order to develop the behaviour of a robot, you need to add functionality on top of the faulty once. You need to pile up features.  
 
 This also counts for the protocol and application stack of the www. In order to serve the web to a immensly varied user base a lot of behavior/cultural differences and needs needed to be defined. 
 
-Is this the right thing or should we go for a minimal approach like KandinskyÕs? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible?
+Is this the right thing or should we go for a minimal approach like Kandinskyâ€™s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible?
 
 ### HTML
 Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application.
@@ -57,7 +60,7 @@ http://www.schema.org/ (Bloated?)
 One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between to other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale"[1](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) and "Interworking among applications: combining data from several applications to arrive at new information."[2](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) SPARQL is the accompanying query language for RDF, which allows to easily search through RDF data.
 
 #### Metacrap
-Unfortunately there are not many Real World examples of the usage RDF and Cory Doctorow has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that itÕs practicly not possible because of the lack of discipline from the users side. In short: describing data is free interpretable, prone to errors, subjective and requires a lot of work from user point of view.
+Unfortunately there are not many Real World examples of the usage RDF and Cory Doctorow has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that itâ€™s practicly not possible because of the lack of discipline from the users side. In short: describing data is free interpretable, prone to errors, subjective and requires a lot of work from user point of view.
 
 > 1. People lie
 2. People are lazy
@@ -152,7 +155,7 @@ End user <-> Interface <-> Storage
 Find a way how to ditch authentication and security; federated data.
 
 ### Removing the interface layer
-Brain Computer Interface or BCI¿s are devices which enable to read the mind by translating electronical activity to signals which can be interpreted by computers. 
+Brain Computer Interface or BCIÃ¸s are devices which enable to read the mind by translating electronical activity to signals which can be interpreted by computers. 
 
 ### Federating data
 One of the flaws of the
@@ -166,9 +169,9 @@ Thinking of longterm goals and solutions is fun, but you need tiny steps to move
 ### API enabled databases
 CouchDB is a new database which doesn't need a backend. It exposes it's data directly over http through the use of a restful API. Which means that you don't need a server to request the data from the database and serve it to the end user. The database can take care of that by itself.
 
-By exposing your data directly through http you also allow people with malicious intentions to access that same data without a going throught the back-end layer. Data security and the shielding of specific user data is something that the database is also designed to take care of. Here a possible issue arrises. You integrate your data storage and data security into one package. When an exploit becomes available for that package, not only your security but at the same time also your data will be vulnerable.
+By exposing your data directly through http you also allow people with malicious intentions to access that same data without going through the back-end layer. Data security and the shielding of specific user data is something that the database is also designed to take care of. Here a possible issue arrises. You integrate your data storage and data security into one package. When an exploit becomes available for that package, not only your security but at the same time also your data will be vulnerable.
 
-While it removes the processing / backend layer from the chain of communication, it also brings limitations. Referring to threshold in complexity/ flexibity
+While it removes the processing / back-end layer from the chain of communication, it also brings limitations. Referring to threshold in complexity / flexibility.
 
 ### Darknets
 To take care of decentralisation and federation of data people have invented Darknets and Peer2Peer networks like Tor (UnionNet), FreeNet and Bittorrent. Field research (online) Problem lies in readability. Harder to index, no/less search engines.
@@ -191,13 +194,41 @@ The MYO is set to ship early 2014. If it's able to deliver, it could change the 
 ## Utopia (long term solution)
 We think a direct connection between brains and the internet would be the most direct interface possible. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
 
-Difference artificial intelligence and singularity
-
 ### Brain <-> Internet
 
 ### Brain & Computer
-#### Calculations are for computers, making connections and conclusions is for humans.
-Unity between humans and computers. Computers are expandable, humans are not.
+> tool|tuËl|noun A device or implement, esp. one held in the hand, used to carry out a particular function.
+
+Tools are extensions of humans to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldnt be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus function as an extension of humans. How would the internet function if it would be a more direct extension of a human?
+
+Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
+
+##### Capacity
+There's not a exact estimation on the total size of the human brain.
+
+##### Computational power
+> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [p. 127][#Hawkins:2004]
+
+> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [p. 130][#Hawkins:2004]
+
+There's also the problem with max connections > Quote.
+
+##### Data Storage
+1TB vs. x amount.
+
+##### Persistence
+
+
+Calculations are for computers, making connections and conclusions is for humans.
+
+// small explanation on how the memory and calculations work in the human brain and in computers
+
+// small explanation on why AI sucks and human brains are cool.
+
+Unity between humans and computers. Computers are expandable, humans are not. Computers are strong in storing data, humans tend to forget. Humans on the other hand can very quickly associate data where computer can only try to associate data through human written algorithms.
+
+Brute forcing, calculating all possible outcomes and trying them one by on. Distributed computing, linking processing power.
+Folding at home, Dutch power cows
 
 federated data exchange > plug in federated data
 
@@ -210,36 +241,50 @@ A sketch on the possibilities with BCI.
 Warning speculations 
 
 ### First stage: Brains to internet
-A lot of problems if it would be the current internet. Rethink semantics?
-Connecting a couple of database just like apps to the human mind. From limited to unlimited. I suspect Wikipedia will be first. 
+A chip in our brains could possibly create a direct link between our brains and the internet. Even though our brains are really flexible (See "A more direct interface" in "Optimisations"), we are unsure if the human brain would be able to cope with the unorganised mess that is the current internet being fed to it.
+
+We think that connecting an open set of databases to the human mind could work well. The databases would function just like apps on a mobile phone. With each new database extra functionality is added, yet none is required. Information in one database can reference to information in another database. It's up to the user to connect to that new database or not.
+
+The available data on this new implementation would be very limited at first. Websites and -services like encyclopedia's or other large data sets would be perfect as first services to start providing data in this way. By providing an open format everyone can contribute to it. The available information would rapidly increase, and services could provide open end-points for their datasets.
 
 #### Problems
-Truth will become a problem. On the current internet there is no difference between truth and lies. Satirical websites like The Union News network and The Speld provide entertainment through fake made up news for example. For a computer, but also for a direct connection to the brain this is a problem. If a lie occurs in the database it is true for the masses because its directly being piped into others people's brain if they query the data.
+Wether or not something is a truth will become a problem. On the current internet there is no difference between truth and lies. Satirical websites like The Union News network and The Speld provide entertainment through fake made up news for example. For a computer, but also for a direct connection to the brain this is a problem. If a lie occurs in the database it can be interpreted as true for the masses because its directly being piped into others people's brain when they query the data.
 
-While the truth will become relative, facts will still be facts. And they could be checked at the source. The issue with that would be, what is the source? And how do we know the source actually is the source we expect it to be? In other words: Is the source legit?
+While the truth will become relative, facts will still be facts. And they could be checked at the source. The issue with that would be, what is the source? And how do we know the source actually is the source we expect it to be? In other words: Is the source legit? Only by providing a proper identity system we can solve this problem. This system would make sure someone is who he says he is. Providing an author is not required, as you want to enable anonymous posts as well. But when you do provide an author, it should be authenticated.
+
+We're only touching the surface here, and  that's by intention. Going into detail about an identity system, its possible weaknesses and how to counter them is something we could write a complete book about. That's not what we want, we're just trying to convey our vision here.
 
 #### Opportunities
+This first step could enable everyone to seamlessly contribute their knowledge to the internet. Creating a collective knowledge if you will. Of course there are already solutions for this on the current internet, but not in a way like this. No interfaces, questions, or programming languages. Just a "share this idea" thought, and it's out there. In your favorite database, anonymous or not, for everyone to be accessed.
 
-#### Function of the internet:
-Common knowledge
-Calculation power
+People can freely reference you or your work. Getting credit for your work has never been more easy. And all the same for giving credit to someone else as well of course.
 
-#### Function of humans:
-Being able to get common knowledge instantly from a limited amount off sources. No more need to learn facts or get common knowledge
+#### Function of computers
+While computers will still be used for serving data and calculation power. There will be a shift in it's use. As there's no need for a graphical interface, websites would be obsolete, and the only thing needed from computers is serving the actual data and performing tasks it's better at than the human brain. Collecting data or calculating statistics for example.
+
+#### Function of humans
+Being able to get common knowledge instantly from a limited amount of sources. No more need to learn facts or get common knowledge. The way we think of learning could completely change. Facts are a given, there's no need to learn them.
 
 ### Second stage: brains to brains over the internet
 Directly tap into someones brain. People don't have to put info on the internet in a certain database first. Everybody 'owns' everyones data.  
 Problem of machine readability and semantics is solved.  
-Problem of lies is solved. No more global truth, just individual nodes in a global bank. Just make your own conclusion with others facts.
+Problem of lies is solved. No more global truth, just individual nodes in a global bank. Just make your own conclusion with others' facts.
 
-#### Functions of computer 
-will still be computational power and function as a back up for people passing away.
+#### Problems
+asd
 
+#### Opportunities
+asd
+
+#### Function of computers
+Computers will still be used for their computational power and function as a back up for people passing away.
+
+
+#### Function of humans
 Humans are there to solve problems by connecting the dots. World wide mind.
 
-Humans 
+Humans
 Privacy issues
-
 
 Does somebody's memory disappear on death?
 
