@@ -1,6 +1,6 @@
 Work in Progress, check our [log](https://github.com/jellea/thesis/commits/gh-pages) for latest additions!
 
-# The communication chain
+## Chinese Whispers
 > _A chain is only as strong as its weakest link._
 
 Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't know it by name, you probably played it when you were young. The game starts with a group of people forming a chain. The first person makes up a sentence, which is whispered in the next person's ear. This continues until the sentence reaches the last person. He or she pronounces the sentence out loud. Usually the sentence changes throughout the game. The longer the chain, the higher the chance that the end result will differ from the first sentence. This is due to the increasing amount of steps where something can go wrong. 
@@ -15,12 +15,12 @@ Since the birth of the internet in 1989, it's underlying structure hasn't change
 
 All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decades. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
 
-Is it time to apply Kandinsky’s vision to web technologies? Is it time to slim the stack of layers which make the current internet?
+Is it time to apply Kandinsky’s vision to web technologies? Should we slim the stack of layers which make the current internet to increase simplicity? Or should extra abstraction layers be added to expand flexibility.
 
 ## Slim down or pile up?
 If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural diferences between the user and the programming language/framework. The user needs to be able to communicate with the system after all. Think for example of localization and time zone differerences, but also different user roles, security, user preferences etc.
 
-//So imaging you’re programming. Adding features.
+//So imagine you’re programming. Adding features.
 
 //Quotes: Losing Control: Students at the ... university learn that in order to develop the behaviour of a robot, you need to add functionality on top of the faulty once. You need to pile up features.  
 
@@ -80,14 +80,14 @@ If you're lucky, a content strategist was present during the creation of a websi
 What can we do about it? Nothing. It's easy like that. Every website needs to be designed. Yes, services like Silk exist to create a semantic web. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the creators of the content.
 
 ### Page based navigation
-The web is designed to be browsed like pages from a book, going from page to page.
+The web is designed to be browsed like pages from a book, going from page to page. Flipping pages to get the knowledge you're looking for, but instead of taking the page corner you use hyperlinks. Because there are more hyperlinks on one page you're able to choose. It's not linear.
 
 Hunting links to find the right data.
 
 ### Data
-Every step in the chain manipulates and loses data. In a typical web application you go from a complete dataset to tiny bit of data. This is because it's easier to transfer, process and / or comprehend.
+During every step in the chain data is being manipulated. Sometimes it means stripping it down, at other times it means putting it in a more usable format. In a typical web application you go from a complete dataset to tiny bits of data. This is because it's easier to transfer, process and / or comprehend.
 
-Having the data but not being able find the stuff you need.
+Having the data but not being able find the stuff you need. 
 
 ## Communication chain
 The global overview of communication between user and the internet is like the following diagram:  
@@ -121,23 +121,19 @@ The purpose of having a backend is:
 The internet is about storing information, often this data is stored in a database.
 
 ## Optimisations
-### Tradeoffs
 What does optimising the communication chain exactly mean? Should it be more flexible, or should it be easier to use? Should the communication chain be strengthened against miscommunications or is that the responsibility of the service provider? Each choice always has it's own set of tradeoffs. With each change you make to improve the current structure, a new set of challenges wil arise.
 
-There's a constant struggle between simplicity and flexibility. Should we allow more ways of working with our data? Hence increasing the flexibility. Or should we make it easier to use? Increasing the simplicity of the communication chain.
-
-Increasing simplicity also has another advantage. It increases the reliability. Doing one task, and doing it really well makes a technology more reliable. Where another one that does a lot of tasks, but is occasionally not working is not reliable at all. At the same time one service doing a lot of different tasks could be flexible and reliable too. Reliable in a way that all of the tasks should be executable in a similar manner.
+There's a constant struggle between simplicity and flexibility. Should we allow more ways of working with our data? Hence increasing the flexibility. Or should we make it easier to use? Increasing the simplicity of the communication chain. Ultimately the suggested optimisation should increase both.
 
 ### Front-end as a server
 Over the last years web browsers started getting faster. This was not only because the computers they're running on are getting ever more powerful. But also because a lot of improvements have been made on the rendering engines for HTML, CSS and Javascript. This means that the browser is slowly getting more and more capable of running application logic without the need of a back-end building HTML pages and processing data.
 
-Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic there would be no need for a back-end. Periodic tasks and heavy calculations should still be done on workers, but they could run on much smaller machines independent from a back-end. In a way they would just behave as end-users, but with higher privileges because of elevated logins.
-
+Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic there would be no need for a back-end. Periodic tasks and heavy calculations should still be done on workers, but they could run on much smaller machines independent from a back-end. In a way they could just behave as end-users, but with higher privileges because of elevated logins.
 
 ### A more direct interface
-The human brain is amazing when it comes to input from the senses. It adjust itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [p. 106][#Hawkins:2004] This is due to the fact of that every sense which comes in the form of spikes, electrical pulses. The brain learns how to handle these pulses by recognising patterns.
-  
-There's a [real world example](http://discovermagazine.com/2008/jul/23-the-blind-climber-who-sees-through-his-tongue) of a men with retinoschisis, a rare disease which makes you blind after a couple of years, whom was able to see again through a special device. The device, called [Brainport](http://science.howstuffworks.com/brainport.htm), is basically a webcam which is wired to output electrotactile stimulation to the users tongue.
+The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain learns how to handle these pulses by recognising patterns.
+
+There's a [real world example][#Levy:2008] of a man with retinoschisis, a rare disease which makes you blind after a couple of years, whom was able to see again through a special device. The device, called [Brainport](http://science.howstuffworks.com/brainport.htm), is basically a webcam which is wired to output electrotactile stimulation to the users tongue.
 
 ![](http://static.ddmcdn.com/gif/brainport-vision-diagram.jpg)
 
@@ -163,13 +159,13 @@ One of the flaws of the
 
 ### Revisioned redudant data
 
-## Short term solution
+## Short term solutions
 Thinking of longterm goals and solutions is fun, but you need tiny steps to move in that direction. There is a vast amount of optimisations which have already been put into use or are currently being developed.
 
 ### API enabled databases
 CouchDB is a new database which doesn't need a backend. It exposes it's data directly over http through the use of a restful API. Which means that you don't need a server to request the data from the database and serve it to the end user. The database can take care of that by itself.
 
-By exposing your data directly through http you also allow people with malicious intentions to access that same data without going through the back-end layer. Data security and the shielding of specific user data is something that the database is also designed to take care of. Here a possible issue arrises. You integrate your data storage and data security into one package. When an exploit becomes available for that package, not only your security but at the same time also your data will be vulnerable.
+By exposing your data directly through HTTP you also allow people with malicious intentions to access that same data without going through the back-end layer. Data security and the shielding of specific user data is something that the database is also part of it's responsibilities. Here a possible issue arrises. You integrate your data storage and data security into one package. When an exploit becomes available for that package, not only your security but at the same time also your data will be vulnerable.
 
 While it removes the processing / back-end layer from the chain of communication, it also brings limitations. Referring to threshold in complexity / flexibility.
 
@@ -179,17 +175,20 @@ To take care of decentralisation and federation of data people have invented Dar
 The design of the Darknet itself is also it's flaw for our purpose. As a Darknet is shielded from the regular internet, it's really hard to access and index data. There are search engines but they are not like google scanning content of the pages, merely titles.
 
 ### Alternative input methods
-Keyboards and computer mouses have been a long standing standard. but new input methods are arising. Gesture based control seems to be a trend. The apple touchpad allows for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. [Natural gestures might be less error prone than manually inputting through a mouse click]
+Keyboards and computer mouses have been a long standing standard. but new input methods are arising.
 
-The Kinect has a camera that tracks your whole body and it movements. It's still quite rough though. Large movements are needed to trigger an action. The LEAP takes a different approach, only tracking your hands in front of a device. By limiting the area, the movements can be tracked on a much more granular level. Precise finger gestures make the LEAP very usable for interaction with applications that require precise control rather than large gestures. The Myo takes this even a step further by removing the camera and tracking muscle tension on the lower arm. Which results in freeing the user from any location or direction based limitation.
+#### Gesture based input
+Gesture based control seems to be a trend. Touchscreens and the Apple touchpad allow for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. [Natural gestures might be less error prone than manually inputting through a mouse click]
 
-Of these technologies, the only one that's in production and has been actively used for different projects is the Kinect. The device was originally intended for Microsoft's XBox360. Even though the device is connected through USB, no drivers had been made available for other platforms than the XBox. Quickly after it's release independent developers created their own drivers, and soon it could be used to control platforms other than the the XBox360. This lack of open support for the device prevented a wide use case.
+The Kinect has a camera that tracks your whole body and it movements. It's still quite rough though. Large movements are needed to trigger an action. The LEAP takes a different approach, only tracking your hands in front of a device. By limiting the area, the movements can be tracked on a much more granular level. Precise finger gestures make the LEAP very usable for interaction with applications that require precise control rather than large gestures. The MYO takes this even a step further by removing the camera and tracking muscle tension on the lower arm. Which results in freeing the user from any location or direction based limitation.
 
-The LEAP has already gone through a developer beta phase and will start shipping first production models starting May 13. A collaboration with HP has been announced, the goal will be to integrate the LEAP into HP's hardware. A device like the LEAP won't appear in mobile devices anytime soon, as its hardware is still to large. But a next iteration of the product in the near future could already slim it down significantly. The involvement of a big partner like HP might provide the company with the needed money and resources to quickly push the LEAP to a certain maturity, and allow it to become an industry standard. Wether or not this technique provides an optimisation to the communication chain still is to be proven. But the granularity of it's control might give it advantage over the kinect. Especially if it gets integrated with mobile devices.
+Of these technologies, the only one that's in production and has been actively used for different projects is the Kinect. The device was originally intended for Microsoft's XBox360. Even though the device is connected through USB, no drivers had been made available for other platforms than the XBox. Quickly after it's release independent developers created their own drivers, and soon it could be used to control platforms other than the the XBox360. Yet, this lack of open support for the device prevented a wide adoption of the product.
 
-The MYO is set to ship early 2014. If it's able to deliver, it could change the way we control our devices. Using it as a remote for about any electronic device in our home. That is, if it's able to manage target selection well. In other words, the device should know what device you're targeting with every gesture. When you turn the volume of your hifi setup down, you don't want it to go back up when you try to answer an incoming phone call.
+The LEAP has already gone through a developer beta phase and will start shipping first production models starting May 13. A collaboration with HP has been announced, the goal will be to integrate the LEAP into HP's hardware. A device like the LEAP won't appear in mobile devices anytime soon, as its hardware is still to large. But a next iteration of the product in the near future could already slim it down significantly. The involvement of a big partner like HP might provide the company with the needed money and resources to quickly push the LEAP to a certain maturity, and allow it to become an industry standard. Wether or not this technique provides an optimisation to the communication chain is still to be proven. But the granularity of it's control might give it advantage over the kinect. Especially if it gets integrated with mobile devices.
 
-[talk about gorilla arm (fatigue of shoulders because of holding your arms horizontally for gestures] Not an issue with MYO, defintely an issue for LEAP.
+The MYO is set to ship late 2013, early 2014. If it's able to deliver, it could change the way we control our devices. Using it as a remote for about any electronic device in our home. That is, if it's able to manage target selection well. In other words, the device should know what device you're targeting with every gesture. When you turn the volume of your hifi setup down, you don't want it to go back up when you try to answer an incoming phone call 5 seconds later.
+
+There is an issue with these alternative inputs though. It's a term from the 1980's called "Gorilla arm". When you use a desktop monitor with touchscreen functionality, your arms and shoulders will quickly fatigue. This happens because of holding your arms horizontally and reaching out to the monitor for long durations to constantly touch the screen. This same phenomenon could be applicable for gesture based input devices. The Kinect requires you to do large gestures, allowing you to use a lot of different muscles, and not stressing a couple of them for a longer period of time. The LEAP on the other hand (for now) relies heavily on pointing to your screen, this could replicate the gorilla arm phenomenon. Because the MYO is completely location & direction agnostic, it would be highly unlikely for it's users to suffer from this problem.  [][#Pogue:2013]
 
 ## Utopia (long term solution)
 We think a direct connection between brains and the internet would be the most direct interface possible. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
@@ -203,27 +202,31 @@ Tools are extensions of humans to do stuff which they normally can't do. A hamme
 
 Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
 
-##### Capacity
-There's not a exact estimation on the total size of the human brain.
+##### Memory
+Let's see what's more capable of storing lots of data, the brain or a computer. There's lots of speculations around the total size of the human brain translated to digital terms. Estimations vary from 1 Terabyte to 1 Petabyte (1000TB) (TODO citation needed).
+
+The big advantage of a computer on terms of capacity is it's ability to scale. Produce more memory, get more storage. With humans this is different. Although the human memory is scaling as well, there's not much know about the limit. (TODO citation needed).
+
+The brain keeps track on what memory is more important and what not. The more important memory have more and thicker connections (citation needed, see appendix) than others. Memory's are forgotten if they are not being accessed often enough. (TODO citation needed) Also there is the transition from short-term to long-term memory which requires a certain threshold in importance of the memory.
+
+Computer harddrives, in contrast, store everything you want for you. No matter how important, no matter how long as long as you can translate it into bits and bytes. 
 
 ##### Computational power
 > Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [p. 127][#Hawkins:2004]
 
 > No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [p. 130][#Hawkins:2004]
 
-There's also the problem with max connections > Quote.
+There's also the problem with max steps between connections. > Quote.
 
-##### Data Storage
-1TB vs. x amount.
+Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for this. Making calculations like this.
 
-##### Persistence
+##### Intelligence
+To be able to make calculations like this doesn't make a computer intelligent. The computer is programmed to do calculations like this, but didn't think and programmed it themselves. Hawkins predicts that computers will never be able to think of themselves, that there's no such thing as Artificial Intelligence. His argument is that they can't reprogram their complete own workings except for some small paramaters (which are programmed in advance as well).
 
+Because of the brain plasticity (TODO described on page X) people are able to 'reprogram' themselves. Any input and conclusion is changing the internal structure of the human brain and making the brain more intelligent.
 
-Calculations are for computers, making connections and conclusions is for humans.
-
-// small explanation on how the memory and calculations work in the human brain and in computers
-
-// small explanation on why AI sucks and human brains are cool.
+##### Roundup
+Calculations are for computers, making connections and conclusions is for humans, said the human. 
 
 Unity between humans and computers. Computers are expandable, humans are not. Computers are strong in storing data, humans tend to forget. Humans on the other hand can very quickly associate data where computer can only try to associate data through human written algorithms.
 
@@ -260,7 +263,7 @@ This first step could enable everyone to seamlessly contribute their knowledge t
 People can freely reference you or your work. Getting credit for your work has never been more easy. And all the same for giving credit to someone else as well of course.
 
 #### Function of computers
-While computers will still be used for serving data and calculation power. There will be a shift in it's use. As there's no need for a graphical interface, websites would be obsolete, and the only thing needed from computers is serving the actual data and performing tasks it's better at than the human brain. Collecting data or calculating statistics for example.
+While computers will be used for serving data and calculation power. There will be a shift in it's use. As there's no need for a graphical interface, websites would be obsolete, and the only thing needed from computers is serving the actual data and performing tasks it's better at than the human brain. Collecting data or calculating statistics for example.
 
 #### Function of humans
 Being able to get common knowledge instantly from a limited amount of sources. No more need to learn facts or get common knowledge. The way we think of learning could completely change. Facts are a given, there's no need to learn them.
@@ -274,19 +277,23 @@ Problem of lies is solved. No more global truth, just individual nodes in a glob
 asd
 
 #### Opportunities
-asd
+aster peer to peer communication and mind sharing.
 
 #### Function of computers
 Computers will still be used for their computational power and function as a back up for people passing away.
 
-
 #### Function of humans
-Humans are there to solve problems by connecting the dots. World wide mind.
+The plus point of the human brain as discussed earlier is intelligence and the power to draw conclusions. We predict this will stay this way and will not be replaced by computers. People are there to combine pieces of knowledge and draw the conclusion.
+
+TODO: not sure if this is the right place for this anecdote
+New ideas and hypothesis sprout after getting new information/data. I’d like to say that a new idea or hypothesis always is knowledge A + knowledge B. A + B makes C. For example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sort of cancer in fast and effective way. [url][#Nosta:2013] It’s  All of this because he found a link between two facts and and saw a connection.
+
+People are able to percieve connections like these and make conclusions over it.  Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. 
 
 Humans
 Privacy issues
 
-Does somebody's memory disappear on death?
+TODO Research on somebody's memory disappearing on death?
 
 #### Education
 With the birth of BCI's education in its current for will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People need to be able to make conclusion fast out by connecting dots. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be taught to be creative to train the associative functions. 
@@ -294,7 +301,12 @@ With the birth of BCI's education in its current for will fade away completely. 
 Experience is also needed to increase number of nodes in the brain. The more nodes, the easier is its to connect external sources to the brain. 'School' should provide this rich experiences.
 
 ## Sources
+[#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
 [#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
+[#Boyden:2011]: Boyden, E. (2011). A light switch for neurons. Retrieved from: http://www.ted.com/talks/ed_boyden.html
+[#Pogue:2013]: Pogue, D. (2013). Why touch screens will not take over. Retrieved from: https://www.scientificamerican.com/article.cfm?id=why-touch-screens-will-not-take-over
+[#Nosta:2013]: Nosta, J. (2013). Cancer, Innovation and a Boy Named Jack. Retrieved from: http://www.forbes.com/sites/johnnosta/2013/02/01/cancer-innovation-and-a-boy-named-jack/
+[#Levy:2008]: Levy, B. (2008). The Blind Climber Who "Sees" With His Tongue. Retrieved from: http://discovermagazine.com/2008/jul/23-the-blind-climber-who-sees-through-his-tongue
 
 ## Contributors
 
