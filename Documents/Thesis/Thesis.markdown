@@ -7,7 +7,7 @@ Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't
 
 This brings us to the quote; "A chain is only as strong as its weakest link" The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of a error occurring, and the chain breaking, can be reduced greatly.
 
-> Kandinsky quote
+// TODO Kandinsky quote
 
 Kandinsky is an artist whom put a lot of time thinking about effectiveness of a messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything you define excludes other possibilities.
 
@@ -18,15 +18,15 @@ All of these advancements have been achieved on the same structure that was basi
 Is it time to apply Kandinsky’s vision to web technologies? Should we slim the stack of layers which make the current internet to increase simplicity? Or should extra abstraction layers be added to expand flexibility.
 
 ## Slim down or pile up?
-If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural diferences between the user and the programming language/framework. The user needs to be able to communicate with the system after all. Think for example of localization and time zone differerences, but also different user roles, security, user preferences etc.
+If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural diferences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
 
-//So imagine you’re programming. Adding features.
+// TODO So imagine you’re programming. Adding features.
 
-//Quotes: Losing Control: Students at the ... university learn that in order to develop the behaviour of a robot, you need to add functionality on top of the faulty once. You need to pile up features.  
+// TODO Quotes: Losing Control: Students at the ... university learn that in order to develop the behaviour of a robot, you need to add functionality on top of the faulty one. You need to pile up features.
 
 This also counts for the protocol and application stack of the www. In order to serve the web to a immensly varied user base a lot of behavior/cultural differences and needs needed to be defined. 
 
-Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible?
+Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible? And letting the users handle the cultural differences themselves, on the much lower brain level.
 
 ### HTML
 Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application.
@@ -45,9 +45,7 @@ Back then, web applications didn't exist yet. Though desktop applications had so
 Since the creation of HTML 1 in 1989, the internet has been steadily improving. The community behind W3C has been working hard to get browsers to comply to their standards. More and more modern browsers are following the standards and are focused on adopting new technologies and standards as they arise. This behaviour is a great improvement. It has allowed for a lot of flaws to be tackled. Though there are still quite some flaws a browser vendor can't fix.
 
 ### Semantics
-The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in html.
-
-Readable for humans <> Readable for machines.
+The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, they need context, and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything it understands.
 
 #### The Semantic Web
 The Semantic Web, a W3C movement lead by the Tim Berners Lee aims to make unstructured data into a 'web of data'. 
@@ -55,9 +53,7 @@ semantics, needed to have machine readability. By adding tags to indicate what t
 
 > Semantic HTML refers to the traditional HTML practice of markup following intention, rather than specifying layout details directly. For example, the use of "em" denoting "emphasis" rather than "i", which specifies italics.
 
-http://www.schema.org/ (Bloated?)
-
-One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between to other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale"[1](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) and "Interworking among applications: combining data from several applications to arrive at new information."[2](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) SPARQL is the accompanying query language for RDF, which allows to easily search through RDF data.
+One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between two other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale"[1](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) and "Interworking among applications: combining data from several applications to arrive at new information."[2](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) SPARQL is the accompanying query language for RDF, which allows the user to easily search through RDF data.
 
 #### Metacrap
 Unfortunately there are not many Real World examples of the usage RDF and Cory Doctorow has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practicly not possible because of the lack of discipline from the users side. In short: describing data is free interpretable, prone to errors, subjective and requires a lot of work from user point of view.
@@ -80,14 +76,21 @@ If you're lucky, a content strategist was present during the creation of a websi
 What can we do about it? Nothing. It's easy like that. Every website needs to be designed. Yes, services like Silk exist to create a semantic web. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the creators of the content.
 
 ### Page based navigation
-The web is designed to be browsed like pages from a book, going from page to page. Flipping pages to get the knowledge you're looking for, but instead of taking the page corner you use hyperlinks. Because there are more hyperlinks on one page you're able to choose. It's not linear.
+The web is designed to be browsed like pages from a book, going from page to page. Flipping pages to get the knowledge you're looking for, but instead of taking the page corner you use hyperlinks. 
 
-Hunting links to find the right data.
+Because there's no specific structure, and search features in websites are often flawed, our means of navigations over the vast amounts of the data that make up the internet has become the hunting down of links. Links that feel like they have the slightest connection with what we're looking for. 
+
+> People feverishly scan webpages, looking for anything that slightly resembles what they're looking for. When the page appears not being the one they were looking for they're back where they started with use one click of the back button.
+[][#Krug:2005]
+
+// TODO check above quote
+
+// MOVE Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data. It's a more efficient way of sorting trough the data as we can decide to skip to desired sections.
 
 ### Data
 During every step in the chain data is being manipulated. Sometimes it means stripping it down, at other times it means putting it in a more usable format. In a typical web application you go from a complete dataset to tiny bits of data. This is because it's easier to transfer, process and / or comprehend.
 
-Having the data but not being able find the stuff you need. 
+// TODO Having the data but not being able find the stuff you need. 
 
 ## Communication chain
 The global overview of communication between user and the internet is like the following diagram:  
@@ -96,17 +99,16 @@ End user <-> Interface <-> Processing <-> Storage
 ### Enduser
 This is you, the internet user while browsing the web.
 
-Sensory inputs are part of the communication chain as well. Currently we don't have much control over this because information is mostly send visually. Seeing and reading the information on the internet. Interpreting texts.
+Sensory inputs are part of the communication chain as well. Currently we don't have much control over this because information is mostly send visually. Seeing and reading the information on the internet. Interpreting texts. Hearing incoming notifications.
+
+We mostly use our hands to interact with the communication chain. Performing an action based on a decision we made with the information that came in through our sensory inputs.
 
 ### Interface
-The interface for the internet is often a computer, handheld or desktop.
+The interface for the internet is often a computer, handheld or desktop. Used to present the information served from the processing layer. Interaction on these devices happens between the end-user and the input methods. Common input methods include the keyboard, mouse and touchscreen. Feedback on the interaction usually happens through a display or speakers. 
 
-  * Input
-     * Keyboard, Mouse, Touchscreen
-  * Output
-     * Front-end -> Web browser -> Screen
+The interface is the gate or a proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and pushes this to the screen. Ready for the user to be interpreted.
 
-### Processing/Backend
+### Processing
 The processing part in the chain is often called the backend. The backend often provides an endpoint (urls, parameters) for the front-end through http requests. This is called an API. The API allows the user to authenticate and access the database.
 
 The purpose of having a backend is:
@@ -156,8 +158,11 @@ Brain Computer Interface or BCIøs are devices which enable to read the mind by 
 ### Federating data
 One of the flaws of the
 [Federated databases](http://en.wikipedia.org/wiki/Federated_database_system)
+TODO
 
 ### Revisioned redudant data
+TODO
+
 
 ## Short term solutions
 Thinking of longterm goals and solutions is fun, but you need tiny steps to move in that direction. There is a vast amount of optimisations which have already been put into use or are currently being developed.
@@ -198,7 +203,7 @@ We think a direct connection between brains and the internet would be the most d
 ### Brain & Computer
 > tool|tuːl|noun A device or implement, esp. one held in the hand, used to carry out a particular function.
 
-Tools are extensions of humans to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldnt be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus function as an extension of humans. How would the internet function if it would be a more direct extension of a human?
+Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldnt be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus function as an extension of humans. How would the internet function if it would be a more direct extension of a human?
 
 Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
 
@@ -216,14 +221,19 @@ Computer harddrives, in contrast, store everything you want for you. No matter h
 
 > No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [p. 130][#Hawkins:2004]
 
-There's also the problem with max steps between connections. > Quote.
+There's also the problem with max steps between connections. > TODO Quote.
 
-Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for this. Making calculations like this.
+Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for this. Making calculations like this. TODO
 
 ##### Intelligence
 To be able to make calculations like this doesn't make a computer intelligent. The computer is programmed to do calculations like this, but didn't think and programmed it themselves. Hawkins predicts that computers will never be able to think of themselves, that there's no such thing as Artificial Intelligence. His argument is that they can't reprogram their complete own workings except for some small paramaters (which are programmed in advance as well).
 
 Because of the brain plasticity (TODO described on page X) people are able to 'reprogram' themselves. Any input and conclusion is changing the internal structure of the human brain and making the brain more intelligent.
+
+##### TODO Sharing
+The only way for a human to share the information in the brain is in the form of a conversation. We don't have the ability to make connections with other brains like computers can. A conversation can be done over the phone, but the information has to be explained before the receiver can make sense of the data.
+
+With computers you can just send documents, images, sounds or videos to another computer without the need to explain the information. The in advance defined standards of the computer really help here. Because computers expect data to be formatted in a specific way, they can make sense of the raw data. Much like it would be to feed the stream of data coming from your retina (eye) to another human brain.
 
 ##### Roundup
 Calculations are for computers, making connections and conclusions is for humans, said the human. 
@@ -232,6 +242,8 @@ Unity between humans and computers. Computers are expandable, humans are not. Co
 
 Brute forcing, calculating all possible outcomes and trying them one by on. Distributed computing, linking processing power.
 Folding at home, Dutch power cows
+
+A conclusion you can draw from this is that computer is meant for linear tasks, where humans are way bette at doing the non lrinear 
 
 federated data exchange > plug in federated data
 
@@ -274,9 +286,11 @@ Problem of machine readability and semantics is solved.
 Problem of lies is solved. No more global truth, just individual nodes in a global bank. Just make your own conclusion with others' facts.
 
 #### Problems
-asd
+// TODO
+Privacy issues
 
 #### Opportunities
+// TODO
 aster peer to peer communication and mind sharing.
 
 #### Function of computers
@@ -286,19 +300,18 @@ Computers will still be used for their computational power and function as a bac
 The plus point of the human brain as discussed earlier is intelligence and the power to draw conclusions. We predict this will stay this way and will not be replaced by computers. People are there to combine pieces of knowledge and draw the conclusion.
 
 TODO: not sure if this is the right place for this anecdote
-New ideas and hypothesis sprout after getting new information/data. I’d like to say that a new idea or hypothesis always is knowledge A + knowledge B. A + B makes C. For example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sort of cancer in fast and effective way. [url][#Nosta:2013] It’s  All of this because he found a link between two facts and and saw a connection.
+New ideas and hypothesis sprout after getting new information/data. I’d like to say that a new idea or hypothesis always is knowledge A + knowledge B. A + B makes C. For example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sorts of cancer in a fast and effective way. [url][#Nosta:2013] All of this because he found a link between two facts and and saw a connection.
 
 People are able to percieve connections like these and make conclusions over it.  Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. 
 
 Humans
-Privacy issues
 
 TODO Research on somebody's memory disappearing on death?
 
 #### Education
-With the birth of BCI's education in its current for will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People need to be able to make conclusion fast out by connecting dots. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be taught to be creative to train the associative functions. 
+With the birth of BCI's education in its current form will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People will need to set up hypothesis and be able to quickly form conclusions by connecting information. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be taught to be creative to train the associative functions.
 
-Experience is also needed to increase number of nodes in the brain. The more nodes, the easier is its to connect external sources to the brain. 'School' should provide this rich experiences.
+As we know that learning is the process of strengthening the synapses in the brain. It's reasonable to conclude that experience is needed to increase the number of nodes in the brain. The more nodes, the easier it is to connect external sources to the brain. 'School' should provide this rich experiences. 
 
 ## Sources
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
@@ -307,6 +320,7 @@ Experience is also needed to increase number of nodes in the brain. The more nod
 [#Pogue:2013]: Pogue, D. (2013). Why touch screens will not take over. Retrieved from: https://www.scientificamerican.com/article.cfm?id=why-touch-screens-will-not-take-over
 [#Nosta:2013]: Nosta, J. (2013). Cancer, Innovation and a Boy Named Jack. Retrieved from: http://www.forbes.com/sites/johnnosta/2013/02/01/cancer-innovation-and-a-boy-named-jack/
 [#Levy:2008]: Levy, B. (2008). The Blind Climber Who "Sees" With His Tongue. Retrieved from: http://discovermagazine.com/2008/jul/23-the-blind-climber-who-sees-through-his-tongue
+[#Krug:2005]: Krug, S. (2005). Don'T Make Me Think! New Jersey: Pearson Education (US)
 
 ## Contributors
 
