@@ -224,9 +224,9 @@ Let's see what's more capable of storing lots of data, the brain or a computer. 
 
 The big advantage of a computer on terms of capacity is it's ability to scale. Produce more memory, get more storage. With humans this is different. Although the human memory is scaling as well, there's not much know about the limit. (TODO citation needed).
 
-The brain keeps track on what memory is more important and what not. The more important memory have more and thicker connections (citation needed, see appendix) than others. Memory's are forgotten if they are not being accessed often enough. (TODO citation needed) Also there is the transition from short-term to long-term memory which requires a certain threshold in importance of the memory.
+The brain keeps track on what memory is more important and what not, it stores data in hierarchy.  The more important memory have more and thicker connections than others. [p. 133][#Hawkins:2004] Memory's are forgotten if they are not being accessed often enough. Also there is the transition from short-term to long-term memory which requires a certain threshold in strength of the memory. [p. 555][#Swaab:2010]
 
-Computer harddrives, in contrast, store everything you want for you. No matter how important, no matter how long as long as you can translate it into bits and bytes. 
+Computer hard drives, in contrast, store everything you want for you. No matter how important, no matter how long as long as you can translate it into bits and bytes. 
 
 ##### Computational power
 > Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [p. 127][#Hawkins:2004]
@@ -236,6 +236,13 @@ Computer harddrives, in contrast, store everything you want for you. No matter h
 There's also the problem with max steps between connections. > TODO Quote.
 
 Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for this. Making calculations like this. TODO
+
+> Computers have memory too, in the form of hard drives and memory chips; however, there are four attributes of neocortical memory that are fundamentally different from computer memory:
+* The neocortex stores sequences of patterns.
+* The neocortex recalls patterns auto-associatively.
+* The neocortex stores patterns in an invariant form.
+* The neocortex stores patterns in a hierarchy.
+
 
 ##### Intelligence
 To be able to make calculations like this doesn't make a computer intelligent. The computer is programmed to do calculations like this, but didn't think and programmed it themselves. Hawkins predicts that computers will never be able to think of themselves, that there's no such thing as Artificial Intelligence. His argument is that they can't reprogram their complete own workings except for some small paramaters (which are programmed in advance as well).
@@ -333,6 +340,7 @@ As we know that learning is the process of strengthening the synapses in the bra
 [#Nosta:2013]: Nosta, J. (2013). Cancer, Innovation and a Boy Named Jack. Retrieved from: http://www.forbes.com/sites/johnnosta/2013/02/01/cancer-innovation-and-a-boy-named-jack/
 [#Levy:2008]: Levy, B. (2008). The Blind Climber Who "Sees" With His Tongue. Retrieved from: http://discovermagazine.com/2008/jul/23-the-blind-climber-who-sees-through-his-tongue
 [#Krug:2005]: Krug, S. (2005). Don'T Make Me Think! New Jersey: Pearson Education (US)
+[#Swaab:2010]: Swaab, D, F. (2010). Wij zijn ons brein. 
 
 ## Contributors
 
