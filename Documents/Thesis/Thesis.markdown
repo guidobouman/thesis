@@ -7,7 +7,7 @@ Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't
 
 This brings us to the quote; "A chain is only as strong as its weakest link" The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of a error occurring, and the chain breaking, can be reduced greatly.
 
-// TODO Kandinsky quote
+> TODO Kandinsky quote
 
 Kandinsky is an artist whom put a lot of time thinking about effectiveness of a messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything you define excludes other possibilities.
 
@@ -152,8 +152,20 @@ Using it just as a screen would make the chain smaller, but imaging what would h
 End user <-> Interface <-> Storage
 Find a way how to ditch authentication and security; federated data.
 
+TODO metaphor
+
+#### Federating data
+> federate verb |ˈfɛdəreɪt | (with reference to a number of states or organisations) form or be formed into a single centralised unit, within which each state or organization keeps some internal autonomy.
+
+
+
+
+[Federated databases](http://en.wikipedia.org/wiki/Federated_database_system)
+TODO
+
+
 ### Removing the interface layer
-Brain Computer Interface or BCIøs are devices which enable to read the mind by translating electronical activity to signals which can be interpreted by computers. 
+Brain Computer Interface or BCI’s are devices which enable to read the mind by translating electronical activity to signals which can be interpreted by computers. 
 
 ### Federating data
 One of the flaws of the
@@ -161,7 +173,7 @@ One of the flaws of the
 TODO
 
 ### Revisioned redudant data
-TODO
+Data gets lost over time, not only because of faults, but also because of iterations in truth. Facts get revisions over time. 
 
 
 ## Short term solutions
@@ -196,14 +208,14 @@ The MYO is set to ship late 2013, early 2014. If it's able to deliver, it could 
 There is an issue with these alternative inputs though. It's a term from the 1980's called "Gorilla arm". When you use a desktop monitor with touchscreen functionality, your arms and shoulders will quickly fatigue. This happens because of holding your arms horizontally and reaching out to the monitor for long durations to constantly touch the screen. This same phenomenon could be applicable for gesture based input devices. The Kinect requires you to do large gestures, allowing you to use a lot of different muscles, and not stressing a couple of them for a longer period of time. The LEAP on the other hand (for now) relies heavily on pointing to your screen, this could replicate the gorilla arm phenomenon. Because the MYO is completely location & direction agnostic, it would be highly unlikely for it's users to suffer from this problem.  [][#Pogue:2013]
 
 ## Utopia (long term solution)
-We think a direct connection between brains and the internet would be the most direct interface possible. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
+Let’s elaborate on the possibilities with BCI as it is the most direct connection between brains and the internet. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
 
 ### Brain <-> Internet
 
 ### Brain & Computer
 > tool|tuːl|noun A device or implement, esp. one held in the hand, used to carry out a particular function.
 
-Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldnt be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus function as an extension of humans. How would the internet function if it would be a more direct extension of a human?
+Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus function as an extension of humans. How would the internet function if it would be a more direct extension of a human?
 
 Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
 
@@ -243,7 +255,7 @@ Unity between humans and computers. Computers are expandable, humans are not. Co
 Brute forcing, calculating all possible outcomes and trying them one by on. Distributed computing, linking processing power.
 Folding at home, Dutch power cows
 
-A conclusion you can draw from this is that computer is meant for linear tasks, where humans are way bette at doing the non lrinear 
+A conclusion you can draw from this is that computer is meant for linear tasks, where humans are way better at doing the non linear tasks.
 
 federated data exchange > plug in federated data
 
