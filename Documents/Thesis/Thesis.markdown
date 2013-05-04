@@ -7,7 +7,7 @@ Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't
 
 This brings us to the quote; "A chain is only as strong as its weakest link" The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of a error occurring, and the chain breaking, can be reduced greatly.
 
-> TODO Kandinsky quote
+// TODO Kandinsky quote
 
 Kandinsky is an artist whom put a lot of time thinking about effectiveness of a messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything you define excludes other possibilities.
 
@@ -20,7 +20,7 @@ Is it time to apply Kandinsky’s vision to web technologies? Should we slim the
 ## Slim down or pile up?
 If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural diferences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
 
-// TODO So imagine you’re programming. Adding features.
+// TODO So imagine you’re programming. For every feature you add a translation from human standards and habits to computer understandable code.
 
 // TODO Quotes: Losing Control: Students at the ... university learn that in order to develop the behaviour of a robot, you need to add functionality on top of the faulty one. You need to pile up features.
 
@@ -29,14 +29,20 @@ This also counts for the protocol and application stack of the www. In order to 
 Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible? And letting the users handle the cultural differences themselves, on the much lower brain level.
 
 ### HTML
-Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application.
+Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application. It started out as a simple standardised set of tags, for rich text, based on SGML.
 
-HTML started out as a simple standardised set of tags, for rich text, based on SGML. Web browsers (like Netscape) began to add their own functionality to HTML. Most of the time not in line with the standards set earlier. This caused many confusion among developers, web browsers etc. 
+// TODO HTML 4 and 5
+
+// MOVE AND USE AS METAPHOR? Web browsers (like Netscape or Internet Explorer) began to add their own functionality to HTML. Most of the time not in line with the standards set earlier. This caused a lot of confusion among developers and browsers alike. Resulting in an era where developers had to adapt their code to nearly every browser on the market. The fragmentation of browser versions and their feature support appeared with the wide adoption of internet explorer 6 in the business sector. When version 7 released, version 6 was tightly integrated in many businesses and homes. And only a small part of the daily version 6 users upgraded to version 7. It turned out that giving the user the power over wether or not upgrading to a new version was a bad idea. It was the essence of browser version fragmentation.
+
+People tend to be unsure wether or not they should update, don't want to update because they don't trust new versions or just be plain lazy. A solution was not found until Google Chrome introduced the in-application updater. A trick which allowed browsers to seamlessly update their feature set without the need of users downloading new browser versions. This allowed browsers to adopt emerging technologies, while making sure that version fragmentation is being kept to a minimum.
 
 ## Flaws
 Even though all of this is possible on a 24 year old structure, it has it's flaws. HTML was designed to serve information and close the connection to the server afterwards. Because there was no reason to keep the connection open, closing it straight after serving the information seemed like a logical design choice. You'd free up resources on the server which in turn could be used to serve information to other users.
 
 Back then, web applications didn't exist yet. Though desktop applications had sockets for ongoing communication with the servers. The web didn't have such technologies until 1996. And a native implementation didn't even exist until 13 years later in 2009. The native implementation of WebSockets was a huge improvement for the internet. WebSockets allow real-time two-way communication between clients and servers. With multiple clients connected to a server this in turn allows for real-time two-way communication between two or more clients.
+
+// TODO: real life example
 
 > The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web.
 
@@ -45,7 +51,7 @@ Back then, web applications didn't exist yet. Though desktop applications had so
 Since the creation of HTML 1 in 1989, the internet has been steadily improving. The community behind W3C has been working hard to get browsers to comply to their standards. More and more modern browsers are following the standards and are focused on adopting new technologies and standards as they arise. This behaviour is a great improvement. It has allowed for a lot of flaws to be tackled. Though there are still quite some flaws a browser vendor can't fix.
 
 ### Semantics
-The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, they need context, and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything it understands.
+The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, computers need context and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything they understand. When there's no ruleset, the computer does not understand the information. 
 
 #### The Semantic Web
 The Semantic Web, a W3C movement lead by the Tim Berners Lee aims to make unstructured data into a 'web of data'. 
@@ -56,7 +62,7 @@ semantics, needed to have machine readability. By adding tags to indicate what t
 One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between two other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale"[1](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) and "Interworking among applications: combining data from several applications to arrive at new information."[2](http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/#section-motivation) SPARQL is the accompanying query language for RDF, which allows the user to easily search through RDF data.
 
 #### Metacrap
-Unfortunately there are not many Real World examples of the usage RDF and Cory Doctorow has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practicly not possible because of the lack of discipline from the users side. In short: describing data is free interpretable, prone to errors, subjective and requires a lot of work from user point of view.
+Unfortunately there are not many Real World examples of the usage RDF and Cory Doctorow has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practicly not possible because of the lack of discipline from the users side. In short: describing data is freely interpretable, prone to errors, subjective and requires a lot of work from the user side.
 
 > 1. People lie
 2. People are lazy
@@ -113,7 +119,7 @@ The processing part in the chain is often called the backend. The backend often 
 
 The purpose of having a backend is:
 
-* to serve information from the database in a less chunky format  
+>* to serve information from the database in a less chunky format  
 * managing access of the database, shielding off certain actions  
 * maintaining the database (often workers, not included in the communication chain)  
 * handling files
