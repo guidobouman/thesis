@@ -346,7 +346,8 @@ As we know that learning is the process of strengthening the synapses in the bra
 [#Nosta:2013]: Nosta, J. (2013). Cancer, Innovation and a Boy Named Jack. Retrieved from: http://www.forbes.com/sites/johnnosta/2013/02/01/cancer-innovation-and-a-boy-named-jack/
 [#Levy:2008]: Levy, B. (2008). The Blind Climber Who "Sees" With His Tongue. Retrieved from: http://discovermagazine.com/2008/jul/23-the-blind-climber-who-sees-through-his-tongue
 [#Krug:2005]: Krug, S. (2005). Don'T Make Me Think! New Jersey: Pearson Education (US)
-[#Swaab:2010]: Swaab, D, F. (2010). Wij zijn ons brein. 
+[#Swaab:2010]: Swaab, D, F. (2010). Wij zijn ons brein.
+[#Gazzaniga:2008]: Michael S. Gazzaniga (2008). Human: The Science Behind What Makes Us Unique.
 
 ## Contributors
 
