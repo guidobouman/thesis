@@ -20,6 +20,8 @@ Is it time to apply Kandinsky’s vision to web technologies? Should we slim the
 ## Slim down or pile up?
 If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural differences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
 
+// TODO So imagine you’re programming. For every feature you add a translation from human standards and habits to computer understandable code.
+
 It becomes really clear when you think about the behaviour of robots. They can’t do anything unless it’s programmed. Grad students at Rodney Brooks’ mobot lab learn that in order to develop a robot you need to be adding new behaviour over the old ones that worked. They need to pile up features, make it from bottom up. Rodney Brooks concluded it by looking at examples in nature: “In natural systems, improvements are "pasted" over an existing debugged system.” [p. 101][#Kelly:1995]
 
 This also counts for the protocol and application stack of the www. In order to serve the web to a immensely varied user base a lot of behavior/cultural differences and needs needed to be defined. 
@@ -149,9 +151,11 @@ What does optimising the communication chain exactly mean? Should it be more fle
 There's a constant struggle between simplicity and flexibility. Should we allow more ways of working with our data? Hence increasing the flexibility. Or should we make it easier to use? Increasing the simplicity of the communication chain. Ultimately the suggested optimisation should increase both.
 
 ### Front-end as a server
-Over the last years web browsers started getting faster. This was not only because the computers they're running on are getting ever more powerful. But also because a lot of improvements have been made on the rendering engines for HTML, CSS and Javascript. This means that the browser is slowly getting more and more capable of running application logic without the need of a back-end building HTML pages and processing data.
+Over the last years web browsers started getting a lot faster. This was not only because the computers they're running on are getting ever more powerful. But also because a lot of improvements have been made on the rendering engines for HTML, CSS and Javascript. Browsers got direct access to hardware, letting the graphic chips in computers compute the heavy lifting where appropriate. This means that the browser is slowly getting more and more capable of running heavy application logic without the need of a back-end building HTML pages and processing data. All of the rendering and processing can nowadays easily be done in a modern-day web browser.
 
-Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic there would be no need for a back-end. Periodic tasks and heavy calculations should still be done on workers, but they could run on much smaller machines independent from a back-end. In a way they could just behave as end-users, but with more privileges.
+Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic. There would be no need for a back-end. Periodic tasks and very heavy calculations which could compromise the user experience should still be done on workers. But they could run on much smaller machines independent from a back-end. In a way they could just behave as end-users, but with more privileges.
+
+Lets take the recent refresh of Soundclound as an example. They switched from the current convention to the emerging SPA (Single Page Application) approach. SPA's are not new though. They used to be popular back in the [80's?]. 
 
 ### A more direct interface
 The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain learns how to handle these pulses by recognising patterns.
@@ -196,7 +200,6 @@ TODO
 ### Revisited redundant data
 Data gets lost over time, not only because of faults, but also because of iterations in truth. Facts get revisions over time. 
 
-
 ## Short term solutions
 Thinking of longterm goals and solutions is fun, but you need tiny steps to move in that direction. There is a vast amount of optimisations which have already been put into use or are currently being developed.
 
@@ -232,6 +235,8 @@ There is an issue with these alternative inputs though. It's a term from the 198
 > In 2057, the internet will be beamed directly to your brain from the cloud. We strongly recommend ad-blocking software.
 [][#Rackspace:2010]
 
+It might have been a small joke, but their expectation does actually align with ours. 
+
 Let’s elaborate on the possibilities with BCI as it is the most direct connection between brains and the internet. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
 
 ### Brain <-> Internet
@@ -257,9 +262,13 @@ Computer hard drives, in contrast, store everything you want for you. No matter 
 
 > No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [p. 130][#Hawkins:2004]
 
-There's also the problem with max steps between connections. > TODO Quote.
+There's also the problem with max steps between connections.
 
-Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for this. Making calculations like this. TODO
+// TODO Quote.
+
+Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for this. Making calculations like this.
+
+// TODO
 
 > Computers have memory too, in the form of hard drives and memory chips; however, there are four attributes of neocortical memory that are fundamentally different from computer memory:
 * The neocortex stores sequences of patterns.
@@ -273,7 +282,7 @@ To be able to make calculations like this doesn't make a computer intelligent. T
 
 Because of the brain plasticity (TODO described on page X) people are able to 'reprogram' themselves. Any input and conclusion is changing the internal structure of the human brain and making the brain more intelligent.
 
-##### TODO Sharing
+##### Sharing
 The only way for a human to share the information in the brain is in the form of a conversation. We don't have the ability to make connections with other brains like computers can. A conversation can be done over the phone, but the information has to be explained before the receiver can make sense of the data.
 
 With computers you can just send documents, images, sounds or videos to another computer without the need to explain the information. The in advance defined standards of the computer really help here. Because computers expect data to be formatted in a specific way, they can make sense of the raw data. Much like it would be to feed the stream of data coming from your retina (eye) to another human brain.
