@@ -18,13 +18,11 @@ All of these advancements have been achieved on the same structure that was basi
 Is it time to apply Kandinsky’s vision to web technologies? Should we slim the stack of layers which make the current internet to increase simplicity? Or should extra abstraction layers be added to expand flexibility.
 
 ## Slim down or pile up?
-If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural diferences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
+If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural differences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
 
-// TODO So imagine you’re programming. For every feature you add a translation from human standards and habits to computer understandable code.
+It becomes really clear when you think about the behaviour of robots. They can’t do anything unless it’s programmed. Grad students at Rodney Brooks’ mobot lab learn that in order to develop a robot you need to be adding new behaviour over the old ones that worked. They need to pile up features, make it from bottom up. Rodney Brooks concluded it by looking at examples in nature: “In natural systems, improvements are "pasted" over an existing debugged system.” [p. 101][#Kelly:1995]
 
-// TODO Quotes: Losing Control: Students at the ... university learn that in order to develop the behaviour of a robot, you need to add functionality on top of the faulty one. You need to pile up features.
-
-This also counts for the protocol and application stack of the www. In order to serve the web to a immensly varied user base a lot of behavior/cultural differences and needs needed to be defined. 
+This also counts for the protocol and application stack of the www. In order to serve the web to a immensely varied user base a lot of behavior/cultural differences and needs needed to be defined. 
 
 Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible? And letting the users handle the cultural differences themselves, on the much lower brain level.
 
@@ -371,6 +369,7 @@ As we know that learning is the process of strengthening the synapses in the bra
 [#Swaab:2010]: Swaab, D, F. (2010). Wij zijn ons brein.
 [#Gazzaniga:2008]: Michael S. Gazzaniga (2008). Human: The Science Behind What Makes Us Unique.
 [#Rackspace:2010]: Rackspace. (2010). The Evolution of HTML. Retrieved from: http://broadcast.rackspace.com/blog/HTMLtimeline/index.html (http://www.rackspace.com/blog/internet-history-html-evolution/)
+[#Kelly:1995]: Kelly, K. (1995). Out of Control: The New Biology of Machines, Social Systems, & the Economic World
 
 ## Contributors
 
