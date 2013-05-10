@@ -125,8 +125,20 @@ The purpose of having a backend is:
 * handling files
 * doing advanced calculations on the database data
 
+This comes mostly in three forms:
+
+#### Server side templating
+A webserver which serves complete html files filled with the requested data.
+
+#### API's (Aardappel Puree Ijsjes)
+Raw requested data, often in json or xml provided. 
+
+#### Plain file serving
+Raw files are being fed back to the user when requested through an url.
+
 ### Storage
-The internet is about storing information, often this data is stored in a database.
+The data a user works with every day
+To store data sets on servers often 
 
 ## Optimisations
 What does optimising the communication chain exactly mean? Should it be more flexible, or should it be easier to use? Should the communication chain be strengthened against miscommunications or is that the responsibility of the service provider? Each choice always has it's own set of tradeoffs. With each change you make to improve the current structure, a new set of challenges wil arise.
@@ -136,7 +148,7 @@ There's a constant struggle between simplicity and flexibility. Should we allow 
 ### Front-end as a server
 Over the last years web browsers started getting faster. This was not only because the computers they're running on are getting ever more powerful. But also because a lot of improvements have been made on the rendering engines for HTML, CSS and Javascript. This means that the browser is slowly getting more and more capable of running application logic without the need of a back-end building HTML pages and processing data.
 
-Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic there would be no need for a back-end. Periodic tasks and heavy calculations should still be done on workers, but they could run on much smaller machines independent from a back-end. In a way they could just behave as end-users, but with higher privileges because of elevated logins.
+Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic there would be no need for a back-end. Periodic tasks and heavy calculations should still be done on workers, but they could run on much smaller machines independent from a back-end. In a way they could just behave as end-users, but with more privileges.
 
 ### A more direct interface
 The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain learns how to handle these pulses by recognising patterns.
@@ -152,7 +164,7 @@ An other example is a colourblind man who is able to percieve colours through so
 
 Imagine a device that somehow feeds the internet as a sixth sense. No need of a screen or keyboard. Applied properly, your brain could make sense of the patterns being fed to it. The moment you think of a fire-truck, the device would understand that thought, and feed all of the properties of a fire-truck back to you, instantaneously fetched from the internet.
 
-Using it just as a screen would make the chain smaller, but imaging what would happen if you would connect it to twitters firehose?
+Using it just as a screen would make the chain smaller, but imaging what would happen if you could connect it to twitters firehose?
 
 ### Removing the processing layer
 End user <-> Interface <-> Storage
@@ -341,6 +353,8 @@ As we know that learning is the process of strengthening the synapses in the bra
 ## Sources
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
 [#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
+[#Michelon:2008]: Michelon, P. (2008). Brain Plasticity: How learning changes your brain. Retrieved from: http://www.sharpbrains.com/blog/2008/02/26/brain-plasticity-how-learning-changes-your-brain/
+[#Klemm:2008]: Klemm, B. (2008) New Neurons: Good News, Bad News. Retrieved from: http://www.sharpbrains.com/blog/2008/04/25/new-neurons-good-news-bad-news/
 [#Boyden:2011]: Boyden, E. (2011). A light switch for neurons. Retrieved from: http://www.ted.com/talks/ed_boyden.html
 [#Pogue:2013]: Pogue, D. (2013). Why touch screens will not take over. Retrieved from: https://www.scientificamerican.com/article.cfm?id=why-touch-screens-will-not-take-over
 [#Nosta:2013]: Nosta, J. (2013). Cancer, Innovation and a Boy Named Jack. Retrieved from: http://www.forbes.com/sites/johnnosta/2013/02/01/cancer-innovation-and-a-boy-named-jack/
