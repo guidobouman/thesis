@@ -32,10 +32,13 @@ Is this the right thing or should we go for a minimal approach like Kandinsky’
 Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application. It started out as a simple standardised set of tags, for rich text, based on SGML.
 
 // TODO HTML 4 and 5
+Over the years HTML has evolved quite a bit, with HTML4 
 
-// MOVE AND USE AS METAPHOR? Web browsers (like Netscape or Internet Explorer) began to add their own functionality to HTML. Most of the time not in line with the standards set earlier. This caused a lot of confusion among developers and browsers alike. Resulting in an era where developers had to adapt their code to nearly every browser on the market. The fragmentation of browser versions and their feature support appeared with the wide adoption of internet explorer 6 in the business sector. When version 7 released, version 6 was tightly integrated in many businesses and homes. And only a small part of the daily version 6 users upgraded to version 7. It turned out that giving the user the power over wether or not upgrading to a new version was a bad idea. It was the essence of browser version fragmentation.
+// MOVE AND USE AS METAPHOR?
+Web browsers (like Netscape or Internet Explorer) began to add their own functionality to HTML. Most of the time not in line with the standards set earlier. This caused a lot of confusion among developers and browsers alike. Resulting in an era where developers had to adapt their code to nearly every browser on the market. The fragmentation of browser versions and their feature support appeared with the wide adoption of internet explorer 6 in the business sector. When version 7 released, version 6 was tightly integrated in many businesses and homes. Only a small part of the daily version 6 users upgraded to version 7. It turned out that giving the user the power over wether or not upgrading to a new version was a bad idea. It was the essence of browser version fragmentation.
 
-People tend to be unsure wether or not they should update, don't want to update because they don't trust new versions or just be plain lazy. A solution was not found until Google Chrome introduced the in-application updater. A trick which allowed browsers to seamlessly update their feature set without the need of users downloading new browser versions. This allowed browsers to adopt emerging technologies, while making sure that version fragmentation is being kept to a minimum.
+People tend to be unsure wether or not they should update, don't want to update because they don't trust new versions or just be plain lazy. A solution was not found until Google Chrome introduced the in-application updater. A trick which allowed browsers to seamlessly update their feature set without the need of users downloading new browser versions. With this solution browsers can adopt emerging technologies, while making sure that version fragmentation is being kept to a minimum.
+// END OF MOVE
 
 ## Flaws
 Even though all of this is possible on a 24 year old structure, it has it's flaws. HTML was designed to serve information and close the connection to the server afterwards. Because there was no reason to keep the connection open, closing it straight after serving the information seemed like a logical design choice. You'd free up resources on the server which in turn could be used to serve information to other users.
@@ -91,7 +94,9 @@ Because there's no specific structure, and search features in websites are often
 
 // TODO check above quote
 
-// MOVE Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data. It's a more efficient way of sorting trough the data as we can decide to skip to desired sections.
+// MOVE
+Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data. It's a more efficient way of sorting trough the data as we can decide to skip to desired sections.
+// END OF MOVE
 
 ### Data
 During every step in the chain data is being manipulated. Sometimes it means stripping it down, at other times it means putting it in a more usable format. In a typical web application you go from a complete dataset to tiny bits of data. This is because it's easier to transfer, process and / or comprehend.
@@ -173,7 +178,7 @@ Find a way how to ditch authentication and security; federated data.
 TODO metaphor
 
 #### Federating data
-> federate verb |ˈfɛdəreɪt | (with reference to a number of states or organisations) form or be formed into a single centralised unit, within which each state or organization keeps some internal autonomy.
+> federate verb |ˈfɛdəreɪt | (with reference to a number of states or organisations) form or be formed into a single centralised unit, within which each state or organisation keeps some internal autonomy.
 
 
 
@@ -190,7 +195,7 @@ One of the flaws of the
 [Federated databases](http://en.wikipedia.org/wiki/Federated_database_system)
 TODO
 
-### Revisioned redudant data
+### Revisited redundant data
 Data gets lost over time, not only because of faults, but also because of iterations in truth. Facts get revisions over time. 
 
 
@@ -226,6 +231,9 @@ The MYO is set to ship late 2013, early 2014. If it's able to deliver, it could 
 There is an issue with these alternative inputs though. It's a term from the 1980's called "Gorilla arm". When you use a desktop monitor with touchscreen functionality, your arms and shoulders will quickly fatigue. This happens because of holding your arms horizontally and reaching out to the monitor for long durations to constantly touch the screen. This same phenomenon could be applicable for gesture based input devices. The Kinect requires you to do large gestures, allowing you to use a lot of different muscles, and not stressing a couple of them for a longer period of time. The LEAP on the other hand (for now) relies heavily on pointing to your screen, this could replicate the gorilla arm phenomenon. Because the MYO is completely location & direction agnostic, it would be highly unlikely for it's users to suffer from this problem.  [][#Pogue:2013]
 
 ## Utopia (long term solution)
+> In 2057, the internet will be beamed directly to your brain from the cloud. We strongly recommend ad-blocking software.
+[][#Rackspace:2010]
+
 Let’s elaborate on the possibilities with BCI as it is the most direct connection between brains and the internet. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
 
 ### Brain <-> Internet
@@ -362,6 +370,7 @@ As we know that learning is the process of strengthening the synapses in the bra
 [#Krug:2005]: Krug, S. (2005). Don'T Make Me Think! New Jersey: Pearson Education (US)
 [#Swaab:2010]: Swaab, D, F. (2010). Wij zijn ons brein.
 [#Gazzaniga:2008]: Michael S. Gazzaniga (2008). Human: The Science Behind What Makes Us Unique.
+[#Rackspace:2010]: Rackspace. (2010). The Evolution of HTML. Retrieved from: http://broadcast.rackspace.com/blog/HTMLtimeline/index.html (http://www.rackspace.com/blog/internet-history-html-evolution/)
 
 ## Contributors
 
