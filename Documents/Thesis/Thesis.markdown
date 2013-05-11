@@ -225,12 +225,12 @@ There is an issue with these alternative inputs though. It's a term from the 198
 
 It might have been a small joke, but their expectation does actually align with ours. 
 
-Let’s elaborate on the possibilities with BCI as it is the most direct connection between brains and the internet. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
+Let’s elaborate on the possibilities with BCIs as it is the most direct connection between brains and the internet. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain? 
 
 ### Brain <-> Internet
 
 ### Brain & Computer
-> tool|tuːl|noun A device or implement, esp. one held in the hand, used to carry out a particular function.
+> tool|tu:l|noun 1. A device or implement, esp. one held in the hand, used to carry out a particular function.
 
 Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus function as an extension of humans. How would the internet function if it would be a more direct extension of a human?
 
@@ -250,13 +250,7 @@ Computer hard drives, in contrast, store everything you want for you. No matter 
 
 > No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [p. 130][#Hawkins:2004]
 
-There's also the problem with max steps between connections.
-
-// TODO Quote.
-
-Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for this. Making calculations like this.
-
-// TODO
+Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for this. Making linear logical calculations like this.
 
 > Computers have memory too, in the form of hard drives and memory chips; however, there are four attributes of neocortical memory that are fundamentally different from computer memory:
 * The neocortex stores sequences of patterns.
@@ -331,7 +325,7 @@ Privacy issues
 
 #### Opportunities
 // TODO
-aster peer to peer communication and mind sharing.
+Faster peer to peer communication and mind sharing.
 
 #### Function of computers
 Computers will still be used for their computational power and function as a back up for people passing away.
@@ -379,3 +373,6 @@ m@guido.cv
 ## Log
 ### Meetings
 * Conversations with Maarten and Raymond
+
+### Interviews
+
