@@ -7,36 +7,63 @@ Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't
 
 This brings us to the quote; "A chain is only as strong as its weakest link" The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of a error occurring, and the chain breaking, can be reduced greatly.
 
-// TODO Kandinsky quote
-
-Kandinsky is an artist whom put a lot of time thinking about effectiveness of a messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything you define excludes other possibilities.
-
+## Slim down or pile up?
 Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services and techniques have been added. The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text. That until the birth of HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
 
-All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decades. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
+All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decade. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
 
-Is it time to apply Kandinsky’s vision to web technologies? Should we slim the stack of layers which make the current internet to increase simplicity? Or should extra abstraction layers be added to expand flexibility.
+Kandinsky is an artist whom put a lot of time thinking about effectiveness of a messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything you define excludes other possibilities. Is it time to apply Kandinsky’s vision to web technologies? Should we slim the stack of layers which make the current internet to increase simplicity? Or should extra abstraction layers be added to expand flexibility.
 
-## Slim down or pile up?
 If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural differences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
 
 It becomes really clear when you think about the behaviour of robots. They can’t do anything unless it’s programmed. Grad students at Rodney Brooks’ mobot lab learn that in order to develop a robot you need to be adding new behaviour over the old ones that worked. They need to pile up features, make it from bottom up. Rodney Brooks concluded it by looking at examples in nature: “In natural systems, improvements are "pasted" over an existing debugged system.” [p. 101][#Kelly:1995]
 
-This also counts for the protocol and application stack of the www. In order to serve the web to a immensely varied user base a lot of behavior/cultural differences and needs needed to be defined. 
+This also counts for the protocol and application stack of the world wide web. In order to serve the web to a immensely varied user base a lot of behaviour/cultural differences and needs needed to be defined. 
 
-Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible? And letting the users handle the cultural differences themselves, on the much lower brain level.
+Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible? And letting the users handle the cultural differences themselves, on the much lower brain level. To form a solid opinion we need to know what technologies the current communication stack exists of.
 
-### HTML
-Let's start with the beginning of HTML. HTML is a markup language designed to publish text with hyperlinks. This allows people to publish articles with references to other articles on other machines. You write a page in html syntax and then serve it with a web server, a computer directly connected to the internet which runs a server application. It started out as a simple standardised set of tags, for rich text, based on SGML.
+## Communication chain
+The global overview of communication between user and the internet is like the following diagram:  
+End user <-> Interface <-> Processing <-> Storage
 
-// TODO HTML 4 and 5
-Over the years HTML has evolved quite a bit, with HTML4 
+### Enduser
+This is you, the internet user while browsing the web.
 
-// MOVE AND USE AS METAPHOR?
-Web browsers (like Netscape or Internet Explorer) began to add their own functionality to HTML. Most of the time not in line with the standards set earlier. This caused a lot of confusion among developers and browsers alike. Resulting in an era where developers had to adapt their code to nearly every browser on the market. The fragmentation of browser versions and their feature support appeared with the wide adoption of internet explorer 6 in the business sector. When version 7 released, version 6 was tightly integrated in many businesses and homes. Only a small part of the daily version 6 users upgraded to version 7. It turned out that giving the user the power over wether or not upgrading to a new version was a bad idea. It was the essence of browser version fragmentation.
+Sensory inputs are part of the communication chain as well. Currently we don't have much control over this because information is mostly send visually. Seeing and reading the information on the internet. Interpreting texts. Hearing incoming notifications.
 
-People tend to be unsure wether or not they should update, don't want to update because they don't trust new versions or just be plain lazy. A solution was not found until Google Chrome introduced the in-application updater. A trick which allowed browsers to seamlessly update their feature set without the need of users downloading new browser versions. With this solution browsers can adopt emerging technologies, while making sure that version fragmentation is being kept to a minimum.
-// END OF MOVE
+We mostly use our hands to interact with the communication chain. Performing an action based on a decision we made with the information that came in through our sensory inputs.
+
+### Interface
+The interface for the internet is often a computer, handheld or desktop. Used to present the information served from the processing layer. Interaction on these devices happens between the end-user and the input methods. Common input methods include the keyboard, mouse and touchscreen. Feedback on the interaction usually happens through a display or speakers. 
+
+The interface is the gate or a proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and pushes this to the screen. Ready for the user to be interpreted.
+
+### Processing
+The processing part in the chain is often called the backend. The backend often provides an endpoint (urls, parameters) for the front-end through http requests. This is called an API. The API allows the user to authenticate and access the database.
+
+The purpose of having a backend is:
+
+>* to serve information from the database in a less chunky format  
+* managing access of the database, shielding off certain actions  
+* maintaining the database (often workers, not included in the communication chain)  
+* handling files
+* doing advanced calculations on the database data
+
+This comes mostly in three forms:
+
+#### Server side templating
+A webserver which serves complete html files filled with the requested data.
+
+#### API's (Aardappel Puree Ijsjes)
+Raw requested data, often in json or xml provided. 
+
+#### Plain file serving
+Raw files are being fed back to the user when requested through an url.
+
+### Storage
+The data a user works with every day
+To store data sets on servers often 
+
 
 ## Flaws
 Even though all of this is possible on a 24 year old structure, it has it's flaws. HTML was designed to serve information and close the connection to the server afterwards. Because there was no reason to keep the connection open, closing it straight after serving the information seemed like a logical design choice. You'd free up resources on the server which in turn could be used to serve information to other users.
@@ -49,7 +76,12 @@ Back then, web applications didn't exist yet. Though desktop applications had so
 
 [The World Wide Web Consortium](http://www.w3.org/)
 
-Since the creation of HTML 1 in 1989, the internet has been steadily improving. The community behind W3C has been working hard to get browsers to comply to their standards. More and more modern browsers are following the standards and are focused on adopting new technologies and standards as they arise. This behaviour is a great improvement. It has allowed for a lot of flaws to be tackled. Though there are still quite some flaws a browser vendor can't fix.
+Since the creation of HTML 1 in 1989, the internet has been steadily improving. The community behind W3C has been working hard to get browsers to comply to their standards. More and more modern browsers are following the standards and are focused on adopting new technologies and standards as they arise. This behaviour is a great improvement. It has allowed for a lot of flaws to be tackled. Though there are still quite some flaws browser vendors can't fix (or haven't fixed yet).
+
+### Feature fragmentation
+Web browsers (like Netscape or Internet Explorer) began to add their own functionality to HTML. Most of the time not in line with the standards set earlier. This caused a lot of confusion among developers and browsers alike. Resulting in an era where developers had to adapt their code to nearly every browser on the market. The fragmentation of browser versions and their feature support appeared with the wide adoption of internet explorer 6 in the business sector. When version 7 released, version 6 was tightly integrated in many businesses and homes. Only a small part of the daily version 6 users upgraded to version 7. It turned out that giving the user the power over wether or not upgrading to a new version was a bad idea. It was the essence of browser version fragmentation.
+
+People tend to be unsure wether or not they should update, don't want to update because they don't trust new versions or just be plain lazy. A solution was not found until Google Chrome introduced the in-application updater. A trick which allowed browsers to seamlessly update their feature set without the need of users downloading new browser versions. With this solution browsers can adopt emerging technologies, while making sure that version fragmentation is being kept to a minimum.
 
 ### Semantics
 The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, computers need context and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything they understand. When there's no ruleset, the computer does not understand the information. 
@@ -100,48 +132,6 @@ Because there can be more than one hyperlink on a webpage, the reading experienc
 During every step in the chain data is being manipulated. Sometimes it means stripping it down, at other times it means putting it in a more usable format. In a typical web application you go from a complete dataset to tiny bits of data. This is because it's easier to transfer, process and / or comprehend.
 
 // TODO Having the data but not being able find the stuff you need. 
-
-## Communication chain
-The global overview of communication between user and the internet is like the following diagram:  
-End user <-> Interface <-> Processing <-> Storage
-
-### Enduser
-This is you, the internet user while browsing the web.
-
-Sensory inputs are part of the communication chain as well. Currently we don't have much control over this because information is mostly send visually. Seeing and reading the information on the internet. Interpreting texts. Hearing incoming notifications.
-
-We mostly use our hands to interact with the communication chain. Performing an action based on a decision we made with the information that came in through our sensory inputs.
-
-### Interface
-The interface for the internet is often a computer, handheld or desktop. Used to present the information served from the processing layer. Interaction on these devices happens between the end-user and the input methods. Common input methods include the keyboard, mouse and touchscreen. Feedback on the interaction usually happens through a display or speakers. 
-
-The interface is the gate or a proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and pushes this to the screen. Ready for the user to be interpreted.
-
-### Processing
-The processing part in the chain is often called the backend. The backend often provides an endpoint (urls, parameters) for the front-end through http requests. This is called an API. The API allows the user to authenticate and access the database.
-
-The purpose of having a backend is:
-
->* to serve information from the database in a less chunky format  
-* managing access of the database, shielding off certain actions  
-* maintaining the database (often workers, not included in the communication chain)  
-* handling files
-* doing advanced calculations on the database data
-
-This comes mostly in three forms:
-
-#### Server side templating
-A webserver which serves complete html files filled with the requested data.
-
-#### API's (Aardappel Puree Ijsjes)
-Raw requested data, often in json or xml provided. 
-
-#### Plain file serving
-Raw files are being fed back to the user when requested through an url.
-
-### Storage
-The data a user works with every day
-To store data sets on servers often 
 
 ## Optimisations
 What does optimising the communication chain exactly mean? Should it be more flexible, or should it be easier to use? Should the communication chain be strengthened against miscommunications or is that the responsibility of the service provider? Each choice always has it's own set of tradeoffs. With each change you make to improve the current structure, a new set of challenges wil arise.
