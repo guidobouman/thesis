@@ -12,11 +12,11 @@ Since the birth of the internet in 1989, it's underlying structure hasn't change
 
 All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decade. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
 
-Kandinsky is an artist whom put a lot of time thinking about effectiveness of a messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything you define excludes other possibilities. Is it time to apply Kandinsky’s vision to web technologies? Should we slim the stack of layers which make the current internet to increase simplicity? Or should extra abstraction layers be added to expand flexibility.
+Kandinsky is an artist who put a lot of time in thinking about effectiveness of messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything which is defined excludes other possibilities. Is it time to apply Kandinsky’s vision to web technologies? Should we slim the stack of layers which make the current internet to increase simplicity? Or should extra abstraction layers be added to expand flexibility.
 
-If you’re developing software you’re mostly defining behaviour of the application. This behaviour are the exceptions based on cultural differences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
+If you’re developing software you’re mostly defining behaviour of the application. This behaviour is a set of exceptions based on cultural differences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
 
-It becomes really clear when you think about the behaviour of robots. They can’t do anything unless it’s programmed. Grad students at Rodney Brooks’ mobot lab learn that in order to develop a robot you need to be adding new behaviour over the old ones that worked. They need to pile up features, make it from bottom up. Rodney Brooks concluded it by looking at examples in nature: “In natural systems, improvements are "pasted" over an existing debugged system.” [p. 101][#Kelly:1995]
+It becomes really clear when you think about the behaviour of robots. They can’t do anything unless it’s programmed. Grad students at Rodney Brooks’ robot lab learn that in order to develop a robot you need to be adding new behaviour over the old ones that worked. They need to pile up features, make it from bottom up. Rodney Brooks concluded it by looking at examples in nature: “In natural systems, improvements are "pasted" over an existing debugged system.” [p. 101][#Kelly:1995]
 
 This also counts for the protocol and application stack of the world wide web. In order to serve the web to a immensely varied user base a lot of behaviour/cultural differences and needs needed to be defined. 
 
@@ -27,7 +27,7 @@ The global overview of communication between user and the internet is like the f
 End user <-> Interface <-> Processing <-> Storage
 
 ### Enduser
-This is you, the internet user while browsing the web.
+This is you, the internet user while browsing the web. Using your hands to control a mouse or other input device. Navigating through pages on the screen which your eyes in turn read.
 
 Sensory inputs are part of the communication chain as well. Currently we don't have much control over this because information is mostly send visually. Seeing and reading the information on the internet. Interpreting texts. Hearing incoming notifications.
 
@@ -49,16 +49,7 @@ The purpose of having a backend is:
 * handling files
 * doing advanced calculations on the database data
 
-This comes mostly in three forms:
-
-#### Server side templating
-A webserver which serves complete html files filled with the requested data.
-
-#### API's (Aardappel Puree Ijsjes)
-Raw requested data, often in json or xml provided. 
-
-#### Plain file serving
-Raw files are being fed back to the user when requested through an url.
+This comes mostly in two forms: Server side templating or an API (Application Programming Interface) or plain file serving. The first is a web server which serves complete html files filled with the requested data. An API serves raw requested data, often in json format. Raw files are being fed back to the user when requested through an url.
 
 ### Storage
 The data a user works with every day
