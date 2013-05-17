@@ -1,15 +1,24 @@
 // This file is for..
 var docs =
   {
-    GraduationPlan: {
-      dir: "Documents/GraduationPlan/",
+    Thesis: {
+      dir: "Documents/Thesis/",
       files: [
-        "General information.markdown",
-        "Thesis information.markdown",
-        "Planning thesis.markdown",
-        "Competency overview.markdown"
+        "Thesis.markdown"
       ],
-      title: "Graduation Plan"
+      title: "Thesis"
+    },
+    Research: {
+      dir: "Documents/Research/",
+      files: [
+        "Introduction.markdown",
+        "Subquestion 1.markdown",
+        "Subquestion 2.markdown",
+        "Subquestion 3.markdown",
+        "Subquestion 4.markdown",
+        "Conclusion.markdown"
+      ],
+      title: "Research"
     },
     ResearchPlan: {
       dir: "Documents/ResearchPlan/",
@@ -23,23 +32,21 @@ var docs =
       ],
       title: "Research Plan"
     },
-    ResearchDocument: {
-      dir: "Documents/ResearchDocument/",
+    GraduationPlan: {
+      dir: "Documents/GraduationPlan/",
       files: [
-        "Introduction.markdown",
-        "Subquestion 1.markdown",
-        "Subquestion 2.markdown",
-        "Subquestion 3.markdown",
-        "Subquestion 4.markdown",
-        "Conclusion.markdown"
+        "General information.markdown",
+        "Thesis information.markdown",
+        "Planning thesis.markdown",
+        "Competency overview.markdown"
       ],
-      title: "Research Document"
+      title: "Graduation Plan"
     },
-    Thesis: {
-      dir: "Documents/Thesis/",
+    Log: {
+      dir: "Documents/Log/",
       files: [
-        "Thesis.markdown"
+        "Log.markdown"
       ],
-      title: "Thesis"
+      title: "Log"
     }
-  }
+  };
