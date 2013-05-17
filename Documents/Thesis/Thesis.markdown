@@ -52,8 +52,7 @@ The purpose of having a backend is:
 This comes mostly in two forms: Server side templating or an API (Application Programming Interface) or plain file serving. The first is a web server which serves complete html files filled with the requested data. An API serves raw requested data, often in json format. Raw files are being fed back to the user when requested through an url.
 
 ### Storage
-The data a user works with every day
-To store data sets on servers often 
+Information served on the web has to be stored in machine readable format. Often this happen in html (xml) files or if it’s a large chunk of data, in a database. 
 
 
 ## Flaws
@@ -125,7 +124,7 @@ During every step in the chain data is being manipulated. Sometimes it means str
 // TODO Having the data but not being able find the stuff you need. 
 
 ## Optimisations
-What does optimising the communication chain exactly mean? Should it be more flexible, or should it be easier to use? Should the communication chain be strengthened against miscommunications or is that the responsibility of the service provider? Each choice always has it's own set of tradeoffs. With each change you make to improve the current structure, a new set of challenges wil arise.
+What does optimising the communication chain exactly mean? Should it be more flexible, or should it be easier to use? Should the communication chain be strengthened against miscommunications or is that the responsibility of the service provider? Each choice always has it's own set of tradeoffs. With each change you make to improve the current structure, a new set of challenges will arise.
 
 There's a constant struggle between simplicity and flexibility. Should we allow more ways of working with our data? Hence increasing the flexibility. Or should we make it easier to use? Increasing the simplicity of the communication chain. Ultimately the suggested optimisation should increase both.
 
@@ -139,11 +138,11 @@ Lets take the recent refresh of Soundclound as an example. They switched from th
 ### A more direct interface
 The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain learns how to handle these pulses by recognising patterns.
 
-There's a [real world example][#Levy:2008] of a man with retinoschisis, a rare disease which makes you blind after a couple of years, whom was able to see again through a special device. The device, called [Brainport](http://science.howstuffworks.com/brainport.htm), is basically a webcam which is wired to output electrotactile stimulation to the users tongue.
+There's a [real world example][#Levy:2008] of a man with retinoschisis, a rare disease which makes you blind after a couple of years, whom was able to see again through a special device. The device, called [Brainport](http://science.howstuffworks.com/brainport.htm), is basically a webcam which is wired to output electrotactile stimulation to the users tongue. So, the webcam sends it digital signals directly to the tongue. After three months the man was able to see again after being accustomed to the signals coming in. This is one amazing example of the plasticity of the brain.
 
 ![](http://static.ddmcdn.com/gif/brainport-vision-diagram.jpg)
 
-An other example is a colourblind man who is able to percieve colours through sound. Movie:
+An other example is a colourblind man who is able to perceive colours through sound. Movie:
 
 <Zcript src="http://player.ooyala.com/player.js?embedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&video_pcode=JqcWY6ikg5nwtXilzVurvI-vU6Ik&width=640&deepLinkEmbedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&height=360"></script>
 [World's first cyborg](http://motherboard.vice.com/nl/read/met-een-cyborg-naar-het-stedelijk-video)
@@ -158,23 +157,9 @@ Find a way how to ditch authentication and security; federated data.
 
 TODO metaphor
 
-#### Federating data
-> federate verb |ˈfɛdəreɪt | (with reference to a number of states or organisations) form or be formed into a single centralised unit, within which each state or organisation keeps some internal autonomy.
-
-
-
-
-[Federated databases](http://en.wikipedia.org/wiki/Federated_database_system)
-TODO
-
-
 ### Removing the interface layer
 Brain Computer Interface or BCI’s are devices which enable to read the mind by translating electronical activity to signals which can be interpreted by computers. 
 
-### Federating data
-One of the flaws of the
-[Federated databases](http://en.wikipedia.org/wiki/Federated_database_system)
-TODO
 
 ### Revisited redundant data
 Data gets lost over time, not only because of faults, but also because of iterations in truth. Facts get revisions over time. 
@@ -221,7 +206,15 @@ Let’s elaborate on the possibilities with BCIs as it is the most direct connec
 ### Brain <-> Internet
 
 ### Brain & Computer
-> tool|tu:l|noun 1. A device or implement, esp. one held in the hand, used to carry out a particular function.
+#### Optogenetics
+Optogenetics is a fairly new technique and best suiting for reading and writing to the brain. By altering the genetics of individual neurons in the brain scientists are able to see and alter the state of individual neurons with lasers.
+
+By inserting a controlled virus into the brain, certain neurons will be genetically modified and will make the neurons light dependent. This allows the spikes of neurons to be controlled and read by light. [video][1]
+
+This is all theoretically possible already, but not tested on humans yet. From the practical perspective, scientists need to find a way to make it easy to implement this.
+
+#### Tool
+> tool|tuːl|noun 1. A device or implement, esp. one held in the hand, used to carry out a particular function.
 
 Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus function as an extension of humans. How would the internet function if it would be a more direct extension of a human?
 
@@ -237,11 +230,15 @@ The brain keeps track on what memory is more important and what not, it stores d
 Computer hard drives, in contrast, store everything you want for you. No matter how important, no matter how long as long as you can translate it into bits and bytes. 
 
 ##### Computational power
-> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [p. 127][#Hawkins:2004]
+> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. 
 
-> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [p. 130][#Hawkins:2004]
+[p. 127][#Hawkins:2004]
 
-Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for this. Making linear logical calculations like this.
+> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. 
+
+[p. 130][#Hawkins:2004]
+
+Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for making linear logical calculations like this.
 
 > Computers have memory too, in the form of hard drives and memory chips; however, there are four attributes of neocortical memory that are fundamentally different from computer memory:
 * The neocortex stores sequences of patterns.
@@ -249,16 +246,14 @@ Try this: How much is 12345 times 54321? While you're grabbing a piece of paper 
 * The neocortex stores patterns in an invariant form.
 * The neocortex stores patterns in a hierarchy.
 
+To be able to make calculations like this doesn't make a computer intelligent. The computer is programmed to do calculations like this, but didn't think and programmed it themselves. Hawkins predicts that computers will never be able to think of themselves, that there's no future in what we call artificial intelligence. His argument is that they can't reprogram their complete own workings except for some small paramaters (which are programmed in advance) and thus are not intelligent, like us humans.
 
-##### Intelligence
-To be able to make calculations like this doesn't make a computer intelligent. The computer is programmed to do calculations like this, but didn't think and programmed it themselves. Hawkins predicts that computers will never be able to think of themselves, that there's no such thing as Artificial Intelligence. His argument is that they can't reprogram their complete own workings except for some small paramaters (which are programmed in advance as well).
-
-Because of the brain plasticity (TODO described on page X) people are able to 'reprogram' themselves. Any input and conclusion is changing the internal structure of the human brain and making the brain more intelligent.
+Because of the brain plasticity, described above, people are able to 'reprogram' themselves. Any input and/or conclusion is changing the internal structure of the brain and making the brain more intelligent. This is also called learning. Computers are not able to learn. There is this thing called machine learning, which is used to make predictions, but it will never be able to stop it’s main task and completely rewrite it. Shure you can make really sophisticated machines and behaviour, but it won’t be able to quit it’s job as a computer and continue on as a butler.
 
 ##### Sharing
-The only way for a human to share the information in the brain is in the form of a conversation. We don't have the ability to make connections with other brains like computers can. A conversation can be done over the phone, but the information has to be explained before the receiver can make sense of the data.
+The only way for a human to share the information is in the form of a conversation and writing. We don't have the ability to make connections with other brains like computers can. A conversation can be done over the phone, but the information has to be explained before the receiver can make sense of the data.
 
-With computers you can just send documents, images, sounds or videos to another computer without the need to explain the information. The in advance defined standards of the computer really help here. Because computers expect data to be formatted in a specific way, they can make sense of the raw data. Much like it would be to feed the stream of data coming from your retina (eye) to another human brain.
+With computers you can just send documents, images, sounds or videos to another computer without the need to explain the information and at great speed. Imagine how long it would take to read the whole wikipedia (18gb)[][#kiwix:2013] for somebody else. The in advance defined standards of the computer really help here. Because computers expect data to be formatted in a specific way, they can make sense of the raw data. Much like it would be to feed the stream of data coming from your retina (eye) to another human brain.
 
 ##### Roundup
 Calculations are for computers, making connections and conclusions is for humans, said the human. 
@@ -285,17 +280,17 @@ A chip in our brains could possibly create a direct link between our brains and 
 
 We think that connecting an open set of databases to the human mind could work well. The databases would function just like apps on a mobile phone. With each new database extra functionality is added, yet none is required. Information in one database can reference to information in another database. It's up to the user to connect to that new database or not.
 
-The available data on this new implementation would be very limited at first. Websites and -services like encyclopedia's or other large data sets would be perfect as first services to start providing data in this way. By providing an open format everyone can contribute to it. The available information would rapidly increase, and services could provide open end-points for their datasets.
+The available data on this new implementation would be very limited at first. Websites and -services like encyclopaedias or other large data sets would be perfect as first services to start providing data in this way. By providing an open format everyone can contribute to it. The available information would rapidly increase, and services could provide open end-points for their datasets.
 
 #### Problems
 Wether or not something is a truth will become a problem. On the current internet there is no difference between truth and lies. Satirical websites like The Union News network and The Speld provide entertainment through fake made up news for example. For a computer, but also for a direct connection to the brain this is a problem. If a lie occurs in the database it can be interpreted as true for the masses because its directly being piped into others people's brain when they query the data.
 
 While the truth will become relative, facts will still be facts. And they could be checked at the source. The issue with that would be, what is the source? And how do we know the source actually is the source we expect it to be? In other words: Is the source legit? Only by providing a proper identity system we can solve this problem. This system would make sure someone is who he says he is. Providing an author is not required, as you want to enable anonymous posts as well. But when you do provide an author, it should be authenticated.
 
-We're only touching the surface here, and  that's by intention. Going into detail about an identity system, its possible weaknesses and how to counter them is something we could write a complete book about. That's not what we want, we're just trying to convey our vision here.
+We're only touching the surface here, and that's by intention. Going into detail about an identity system, its possible weaknesses and how to counter them is something we could write a complete book about. That's not what we want, we're just trying to convey our vision here.
 
 #### Opportunities
-This first step could enable everyone to seamlessly contribute their knowledge to the internet. Creating a collective knowledge if you will. Of course there are already solutions for this on the current internet, but not in a way like this. No interfaces, questions, or programming languages. Just a "share this idea" thought, and it's out there. In your favorite database, anonymous or not, for everyone to be accessed.
+This first step could enable everyone to seamlessly contribute their knowledge to the internet. Creating a collective knowledge if you will. Of course there are already solutions for this on the current internet, but not in a way like this. No interfaces, questions, or programming languages. Just a "share this idea" thought, and it's out there. In your favourite database, anonymous or not, for everyone to be accessed.
 
 People can freely reference you or your work. Getting credit for your work has never been more easy. And all the same for giving credit to someone else as well of course.
 
@@ -324,14 +319,7 @@ Computers will still be used for their computational power and function as a bac
 #### Function of humans
 The plus point of the human brain as discussed earlier is intelligence and the power to draw conclusions. We predict this will stay this way and will not be replaced by computers. People are there to combine pieces of knowledge and draw the conclusion.
 
-TODO: not sure if this is the right place for this anecdote
-New ideas and hypothesis sprout after getting new information/data. I’d like to say that a new idea or hypothesis always is knowledge A + knowledge B. A + B makes C. For example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sorts of cancer in a fast and effective way. [url][#Nosta:2013] All of this because he found a link between two facts and and saw a connection.
-
-People are able to percieve connections like these and make conclusions over it.  Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. 
-
-Humans
-
-TODO Research on somebody's memory disappearing on death?
+People are able to perceive connections like these and make conclusions over it.  Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. New ideas and hypothesis sprout after getting new information/data. A new idea or hypothesis always is the combination of two pieces of information. A beautiful example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sorts of cancer in a fast and effective way. [url][#Nosta:2013] All of this because he found a link between two facts and and saw a connection. What if we could fully facilitate this discovery?
 
 #### Education
 With the birth of BCI's education in its current form will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People will need to set up hypothesis and be able to quickly form conclusions by connecting information. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be taught to be creative to train the associative functions.
@@ -352,6 +340,7 @@ As we know that learning is the process of strengthening the synapses in the bra
 [#Gazzaniga:2008]: Michael S. Gazzaniga (2008). Human: The Science Behind What Makes Us Unique.
 [#Rackspace:2010]: Rackspace. (2010). The Evolution of HTML. Retrieved from: http://broadcast.rackspace.com/blog/HTMLtimeline/index.html (http://www.rackspace.com/blog/internet-history-html-evolution/)
 [#Kelly:1995]: Kelly, K. (1995). Out of Control: The New Biology of Machines, Social Systems, & the Economic World
+[#Kiwix:2013]: Kiwix. (2013). Retrieved from http://kiwix.org
 
 ## Contributors
 
