@@ -338,7 +338,7 @@ With the birth of BCI's education in its current form will fade away completely.
 
 As we know that learning is the process of strengthening the synapses in the brain. It's reasonable to conclude that experience is needed to increase the number of nodes in the brain. The more nodes, the easier it is to connect external sources to the brain. 'School' should provide this rich experiences. 
 
-## Sources
+
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
 [#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
 [#Michelon:2008]: Michelon, P. (2008). Brain Plasticity: How learning changes your brain. Retrieved from: http://www.sharpbrains.com/blog/2008/02/26/brain-plasticity-how-learning-changes-your-brain/
