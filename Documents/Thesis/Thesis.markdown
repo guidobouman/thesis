@@ -5,7 +5,7 @@ Work in Progress, check our [log](https://github.com/jellea/thesis/commits/gh-pa
 
 Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't know it by name, you probably played it when you were young. The game starts with a group of people forming a chain. The first person makes up a sentence, which is whispered in the next person's ear. This continues until the sentence reaches the last person. He or she pronounces the sentence out loud. Usually the sentence changes throughout the game. The longer the chain, the higher the chance that the end result will differ from the first sentence. This is due to the increasing amount of steps where something can go wrong. 
 
-This brings us to the quote; "A chain is only as strong as its weakest link" The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of a error occurring, and the chain breaking, can be reduced greatly.
+This brings us to the quote; "A chain is only as strong as its weakest link". The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of an error occurring, and the chain breaking, can be reduced greatly.
 
 ## Slim down or pile up?
 Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services and techniques have been added. The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text. That until the birth of HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
@@ -326,7 +326,7 @@ With the birth of BCI's education in its current form will fade away completely.
 
 As we know that learning is the process of strengthening the synapses in the brain. It's reasonable to conclude that experience is needed to increase the number of nodes in the brain. The more nodes, the easier it is to connect external sources to the brain. 'School' should provide this rich experiences. 
 
-## Sources
+
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
 [#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
 [#Michelon:2008]: Michelon, P. (2008). Brain Plasticity: How learning changes your brain. Retrieved from: http://www.sharpbrains.com/blog/2008/02/26/brain-plasticity-how-learning-changes-your-brain/
@@ -341,18 +341,4 @@ As we know that learning is the process of strengthening the synapses in the bra
 [#Rackspace:2010]: Rackspace. (2010). The Evolution of HTML. Retrieved from: http://broadcast.rackspace.com/blog/HTMLtimeline/index.html (http://www.rackspace.com/blog/internet-history-html-evolution/)
 [#Kelly:1995]: Kelly, K. (1995). Out of Control: The New Biology of Machines, Social Systems, & the Economic World
 [#Kiwix:2013]: Kiwix. (2013). Retrieved from http://kiwix.org
-
-## Contributors
-
-### Jelle Akkerman
-m@jellea.nl
-
-### Guido Bouman
-m@guido.cv
-
-## Log
-### Meetings
-* Conversations with Maarten and Raymond
-
-### Interviews
 
