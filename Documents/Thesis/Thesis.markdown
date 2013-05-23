@@ -278,12 +278,12 @@ Warning speculations
 ### First stage: Brains to internet
 A chip in our brains could possibly create a direct link between our brains and the internet. Even though our brains are really flexible (See "A more direct interface" in "Optimisations"), we are unsure if the human brain would be able to cope with the unorganised mess that is the current internet being fed to it.
 
-We think that connecting an open set of databases to the human mind could work well. The databases would function just like apps on a mobile phone. With each new database extra functionality is added, yet none is required. Information in one database can reference to information in another database. It's up to the user to connect to that new database or not.
+We think that connecting an open set of databases to the human mind could work well. The databases would function just like apps on a mobile phone. With each new database extra functionality is added, yet none is required. Information in one database can reference to information in another database. It's up to the user to connect to that new database or not. Much like the original design of the internet, but with raw data and no markup. Your brain is the reader, it will process the data.
 
 The available data on this new implementation would be very limited at first. Websites and -services like encyclopaedias or other large data sets would be perfect as first services to start providing data in this way. By providing an open format everyone can contribute to it. The available information would rapidly increase, and services could provide open end-points for their datasets.
 
 #### Problems
-Wether or not something is a truth will become a problem. On the current internet there is no difference between truth and lies. Satirical websites like The Union News network and The Speld provide entertainment through fake made up news for example. For a computer, but also for a direct connection to the brain this is a problem. If a lie occurs in the database it can be interpreted as true for the masses because its directly being piped into others people's brain when they query the data.
+Wether or not something is a truth will become a problem. On the current internet there is no difference between truth and lies. Satirical websites like The Union News network and De Speld provide entertainment through fake made up news for example. For a computer, but also for a direct connection to the brain this is a problem. If a lie occurs in the database it can be interpreted as true for the masses because its directly being piped into others people's brain when they query the data.
 
 While the truth will become relative, facts will still be facts. And they could be checked at the source. The issue with that would be, what is the source? And how do we know the source actually is the source we expect it to be? In other words: Is the source legit? Only by providing a proper identity system we can solve this problem. This system would make sure someone is who he says he is. Providing an author is not required, as you want to enable anonymous posts as well. But when you do provide an author, it should be authenticated.
 
@@ -308,10 +308,14 @@ Problem of lies is solved. No more global truth, just individual nodes in a glob
 #### Problems
 // TODO
 Privacy issues
+Not connected
+People pulling their knowledge
 
 #### Opportunities
 // TODO
 Faster peer to peer communication and mind sharing.
+
+The opportunities are vast. Linking brains to each other & creating a distributed opt-out network could 
 
 #### Function of computers
 Computers will still be used for their computational power and function as a back up for people passing away.
@@ -324,7 +328,7 @@ People are able to perceive connections like these and make conclusions over it.
 #### Education
 With the birth of BCI's education in its current form will fade away completely. Education is no longer about knowledge, but about creativity and experience instead. People will need to set up hypothesis and be able to quickly form conclusions by connecting information. The speed of these conclusions are fed by the associative functions of the brain, the creative part. Children need to be taught to be creative to train the associative functions.
 
-As we know that learning is the process of strengthening the synapses in the brain. It's reasonable to conclude that experience is needed to increase the number of nodes in the brain. The more nodes, the easier it is to connect external sources to the brain. 'School' should provide this rich experiences. 
+As we know learning is the process of strengthening the synapses in the brain. It's reasonable to conclude that experience is needed to increase the number of nodes in the brain. The more nodes, the easier it is to connect external sources to the brain. 'School' should provide this rich experiences. 
 
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
