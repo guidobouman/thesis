@@ -55,5 +55,9 @@ Recommended reads:
 15-05-2013
 Jelle & Guido: Consult with Raymond van Dongelen
 
+24-05-2013
+Massive restructure of the thesis. We came to the conclusion that most of our writings are about the development process and not about the actual communication chain.
+
 29-05-2013
 Jelle & Guido: Consult with Raymond van Dongelen
+
