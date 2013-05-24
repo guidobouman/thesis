@@ -22,38 +22,24 @@ This also counts for the protocol and application stack of the world wide web. I
 
 Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible? And letting the users handle the cultural differences themselves, on the much lower brain level. To form a solid opinion we need to know what technologies the current communication stack exists of.
 
-## Communication chain
+### The problem
+We want to slim down the complexity of the chain between the internet and humans. Currently information travels trough a lot of chains or proxies like servers, software and devices (laptops or mobile phones for example). By removing as much steps in the chain as possible, we think we could make the whole process of using internet services easier, and less prone to errors.
+
+## Communication chain overview
 The global overview of communication between user and the internet is like the following diagram:  
 End user <-> Interface <-> Processing <-> Storage
 
 ### Enduser
 This is you, the internet user while browsing the web. Using your hands to control a mouse or other input device. Navigating through pages on the screen which your eyes in turn read.
 
-Sensory inputs are part of the communication chain as well. Currently we don't have much control over this because information is mostly send visually. Seeing and reading the information on the internet. Interpreting texts. Hearing incoming notifications.
-
-We mostly use our hands to interact with the communication chain. Performing an action based on a decision we made with the information that came in through our sensory inputs.
-
 ### Interface
-The interface for the internet is often a computer, handheld or desktop. Used to present the information served from the processing layer. Interaction on these devices happens between the end-user and the input methods. Common input methods include the keyboard, mouse and touchscreen. Feedback on the interaction usually happens through a display or speakers. 
-
 The interface is the gate or a proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and pushes this to the screen. Ready for the user to be interpreted.
 
-### Processing
-The processing part in the chain is often called the backend. The backend often provides an endpoint (urls, parameters) for the front-end through http requests. This is called an API. The API allows the user to authenticate and access the database.
+### Server
+// Het serveren van de data
 
-The purpose of having a backend is:
-
->* to serve information from the database in a less chunky format  
-* managing access of the database, shielding off certain actions  
-* maintaining the database (often workers, not included in the communication chain)  
-* handling files
-* doing advanced calculations on the database data
-
-This comes mostly in two forms: Server side templating or an API (Application Programming Interface) or plain file serving. The first is a web server which serves complete html files filled with the requested data. An API serves raw requested data, often in json format. Raw files are being fed back to the user when requested through an url.
-
-### Storage
-Information served on the web has to be stored in machine readable format. Often this happen in html (xml) files or if it’s a large chunk of data, in a database. 
-
+### Data
+// TODO
 
 ## Flaws
 Even though all of this is possible on a 24 year old structure, it has it's flaws. HTML was designed to serve information and close the connection to the server afterwards. Because there was no reason to keep the connection open, closing it straight after serving the information seemed like a logical design choice. You'd free up resources on the server which in turn could be used to serve information to other users.
