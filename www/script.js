@@ -39,7 +39,8 @@ var switchPage = function(pagekey)
             pagecontent[file] = "## Activity"
             g.forEach(function(commit)
             {
-              pagecontent[file] = pagecontent[file]+ "\n* "+commit.commit.author.name+": "+commit.commit.message.split("\n")[0];
+              pagecontent[file] = pagecontent[file]+ "\n  \n"+ commit.commit.author.name
+              +" - "+commit.commit.committer.date.split("T")[0]+":  \n"+commit.commit.message.split("\n")[0];
             })
           }
         )
