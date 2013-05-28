@@ -1,4 +1,4 @@
-Work in Progress, check our [log](http://0.0.0.0:8000/thesis/#/Log) for latest additions!
+Work in Progress, check our [log](/thesis/#/Log) for latest additions!
 
 
 ## Introduction
