@@ -31,12 +31,28 @@ var switchPage = function(pagekey)
   {
     (function (file)
     {
-      $.ajax({
-        url: '/thesis/' + page.dir + page.files[file],
-        success: function(data) {
-          pagecontent[file] = data;
-        }
-      });
+      if (page.files[file] === "!Github")
+      {
+        $.getJSON("https://api.github.com/repos/jellea/thesis/commits?per_page=100",
+          function(g){
+            console.log(g)
+            pagecontent[file] = "## Activity"
+            g.forEach(function(commit)
+            {
+              pagecontent[file] = pagecontent[file]+ "\n* "+commit.commit.author.name+": "+commit.commit.message.split("\n")[0];
+            })
+          }
+        )
+      }
+      else
+      {
+        $.ajax({
+          url: '/thesis/' + page.dir + page.files[file],
+          success: function(data) {
+            pagecontent[file] = data;
+          }
+        });
+      }
     })(file);
   }
 };

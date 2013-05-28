@@ -45,7 +45,8 @@ var docs =
     Log: {
       dir: "Documents/Log/",
       files: [
-        "Log.markdown"
+        "Log.markdown",
+        "!Github"
       ],
       title: "Log"
     }
