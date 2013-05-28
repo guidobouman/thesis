@@ -1,4 +1,4 @@
-Work in Progress, check our [log](https://github.com/jellea/thesis/commits/gh-pages) for latest additions!
+Work in Progress, check our [log](http://0.0.0.0:8000/thesis/#/Log) for latest additions!
 
 
 ## Introduction
