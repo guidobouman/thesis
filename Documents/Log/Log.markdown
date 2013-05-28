@@ -1,6 +1,3 @@
-## Activity
-[GithubLog]
-
 ## Meetings
 23-5-2012
 Jelle: Talk with Andrew Pantyukhin.
