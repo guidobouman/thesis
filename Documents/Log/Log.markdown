@@ -16,9 +16,9 @@ Jelle & Guido: Consult Maarten Kloppenburg
 
 26-9-2012
 Jelle: Talk with Nikita Vasilyev and Samat Galimov
-Recommended reads:
-* Brave New World (Aldous Huxley)
-* Island (Aldous Huxley)
+Recommended reads:  
+* Brave New World (Aldous Huxley)  
+* Island (Aldous Huxley)  
 
 09-10-2012
 Jelle & Guido: Consult with Maarten Kloppenburg about Thesis Plan.
@@ -36,9 +36,9 @@ Jelle & Guido: Signing of Thesis Plan by Raymond van Dongelen & Maarten Kloppenb
 Jelle: Talk with Denis Drachyov on BCI’s
 
 11-2-2013
-Jelle: Talk with Askar Ramazanov and Richard Trovatten on future of BCI’s
-Recommended reads: 
-* [The computing deployment phase](http://cdixon.org/2013/02/10/the-computing-deployment-phase/)
+Jelle: Talk with Askar Ramazanov and Richard Trovatten on future of BCI’s. 
+Recommended reads:   
+* [The computing deployment phase](http://cdixon.org/2013/02/10/the-computing-deployment-phase/)  
 * [Systems Thinking](http://www.systems-thinking.org/dikw/dikw.htm)
 
 17-3-2013
