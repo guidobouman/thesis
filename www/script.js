@@ -124,8 +124,9 @@ var makeTOC = function()
       this.textContent = i_h2 + '.' + i_h3 + '.' + i_h4 + ' ' + this.textContent;
     }
 
-
-    titles.push('<li class="toc-' + this.nodeName + '"><a href="#' + this.id + '" class="reference">' + this.textContent + '</a></li>');
+    if(this.nodeName !== 'H4') {
+      titles.push('<li class="toc-' + this.nodeName + '"><a href="#' + this.id + '" class="reference">' + this.textContent + '</a></li>');
+    }
   });
 
   $('#toc').html(
