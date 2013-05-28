@@ -144,6 +144,9 @@ h1
 h2
 {
   font-size: 2.4em;
+  page-break-before: always;
+  page: content;
+  string-set: header content();
 }
 
 h3
@@ -178,5 +181,40 @@ sup
   #sidebar
   {
     display: none;
+  }
+}
+
+@page {
+  size: 7in 9.25in;
+  margin: 27mm 16mm 27mm 16mm;
+}
+
+@page :left {
+  @top-left {
+    content: normal;
+  }
+
+  @bottom-left {
+    content: normal;
+  }
+}
+
+@page :right {
+  @top-right {
+    content: normal;
+  }
+
+  @bottom-right {
+    content: normal;
+  }
+}
+
+@page content :right {
+  @top-right {
+    content: string(header, first);
+  }
+
+  @bottom-right {
+    content: counter(page);
   }
 }
