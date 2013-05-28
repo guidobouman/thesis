@@ -103,8 +103,28 @@ var makeTOC = function()
 {
   var titles = ['<li><span class="title">Table of Contents</span>'];
 
-  $("h2,h3").each(function()
+  var i_h2 = 0,
+      i_h3 = 0,
+      i_h4 = 0;
+  $("h2,h3,h4").each(function()
   {
+    if(this.nodeName === 'H2') {
+      i_h2++;
+      i_h3 = 0;
+      i_h4 = 0;
+      this.textContent = i_h2 + '. ' + this.textContent;
+    }
+    else if(this.nodeName === 'H3') {
+      i_h3++;
+      i_h4 = 0;
+      this.textContent = i_h2 + '.' + i_h3 + ' ' + this.textContent;
+    }
+    else if(this.nodeName === 'H4') {
+      i_h4++;
+      this.textContent = i_h2 + '.' + i_h3 + '.' + i_h4 + ' ' + this.textContent;
+    }
+
+
     titles.push('<li class="toc-' + this.nodeName + '"><a href="#' + this.id + '" class="reference">' + this.textContent + '</a></li>');
   });
 
