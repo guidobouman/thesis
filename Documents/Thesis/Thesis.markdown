@@ -26,7 +26,13 @@ This also counts for the protocol and application stack of the world wide web. I
 Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible? And letting the users handle the cultural differences themselves, on the much lower brain level. To form a solid opinion we need to know what technologies the current communication stack exists of.
 
 ### The problem
-We want to slim down the complexity of the chain between the internet and humans. Currently information travels trough a lot of chains or proxies like servers, software and devices (laptops or mobile phones for example). By removing as much steps in the chain as possible, we think we could make the whole process of using internet services easier, and less prone to errors.
+We think the communication process might have the posibility to be improved. We want to slim down the complexity of the chain between a resource and humans. Currently information travels through a lot of chains or proxies like servers, software and devices (laptops or mobile phones for example). By removing or optimising as much steps in the chain as possible, we think we could make the whole process of using internet services easier, and less prone to errors.
+
+We asked ourselves:
+
+    How can we make the connection between a human and the internet more efficient?
+
+To allow us to create a new future vision in which we answer that question, we need a solid understanding of the current communication chain.
 
 ## Communication chain overview
 The global overview of communication between user and the internet is like the following diagram:
@@ -43,9 +49,6 @@ The interface is the gate or a proxy between the end-user and the data. The proc
 
 ### Data
 // TODO
-
-## Main Question
-How can we make the connection between a human and the internet more efficient?
 
 ## Optimisations
 ### Semantics
