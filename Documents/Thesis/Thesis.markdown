@@ -51,6 +51,8 @@ The interface is the gate or a proxy between the end-user and the data. The proc
 // TODO
 
 ## Optimisations
+Now that we know about the current communication chain, what do we think could be improved, and why?
+
 ### Semantics
 The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, computers need context and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything they understand. When there's no ruleset, the computer does not understand the information.
 
@@ -78,7 +80,7 @@ Over the last years web browsers started getting a lot faster. This was not only
 
 Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic. There would be no need for a back-end. Periodic tasks and very heavy calculations which could compromise the user experience should still be done on workers. But they could run on much smaller machines independent from a back-end. In a way they could just behave as end-users, but with more privileges.
 
-Lets take the recent refresh of Soundclound as an example. They switched from the current convention to the emerging SPA (Single Page Application) approach. SPA's are not new though. They used to be popular back in the [80's?].
+Lets take the recent refresh of Soundclound as an example. They switched from the current convention to the emerging SPA (Single Page Application) approach.
 
 ### API enabled databases
 CouchDB is a new database which doesn't need a backend. It exposes it's data directly over http through the use of a restful API. Which means that you don't need a server to request the data from the database and serve it to the end user. The database can take care of that by itself.
@@ -88,7 +90,7 @@ By exposing your data directly through HTTP you also allow people with malicious
 While it removes the processing / back-end layer from the chain of communication, it also brings limitations. Referring to threshold in complexity / flexibility.
 
 ### Alternative input
-Keyboards and computer mouses have been a long standing standard. but new input methods are arising.
+Keyboards and computer mouses have been a long standing standard. but new input methods are arising. The reason for this is that the current input methods aren't as natural as our everyday interactions with objects. The level of control in real life is so much more granular. A lot of improvements can still be made in the field of input methods. [Victor, 2011][#Victor:2011]
 
 #### Gesture based input
 Gesture based control seems to be a trend. Touchscreens and the Apple touchpad allow for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. [Natural gestures might be less error prone than manually inputting through a mouse click]
@@ -102,6 +104,9 @@ The LEAP has already gone through a developer beta phase and will start shipping
 The MYO is set to ship late 2013, early 2014. If it's able to deliver, it could change the way we control our devices. Using it as a remote for about any electronic device in our home. That is, if it's able to manage target selection well. In other words, the device should know what device you're targeting with every gesture. When you turn the volume of your hifi setup down, you don't want it to go back up when you try to answer an incoming phone call 5 seconds later. [Thalmic Labs, 2013][#Thalmic:2013]
 
 There is an issue with these alternative inputs though. It's a term from the 1980's called "Gorilla arm". When you use a desktop monitor with touchscreen functionality, your arms and shoulders will quickly fatigue. This happens because of holding your arms horizontally and reaching out to the monitor for long durations to constantly touch the screen. This same phenomenon could be applicable for gesture based input devices. The Kinect requires you to do large gestures, allowing you to use a lot of different muscles, and not stressing a couple of them for a longer period of time. The LEAP on the other hand (for now) relies heavily on pointing to your screen, this could replicate the gorilla arm phenomenon. Because the MYO is completely location & direction agnostic, it would be highly unlikely for it's users to suffer from this problem. [Pogue, 2013][#Pogue:2013]
+
+#### Voice based input
+Voice command algorhitms have been around since the 1970's. [Berkman, 2013][#Berkman:2013] But only recently have they become decently usable. Because of the high variation in voices, tonal, speed and melodic, it's hard to write good algorithms that understand each person's voice. Using simple commands to control a phone, to call for example a friend, van often prove difficult.
 
 ### Graphical interface layer
 Even in a perfect world where all data is structured semantical, The presentation layer is still freely interpretable. Deciding which data should be presented to the end-user at what time is something that is decided by the designer of a website. Websites are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing a website is manual labor.
@@ -289,3 +294,5 @@ Concepts and Abstract Syntax. Retrieved from: http://www.w3.org/TR/2004/REC-rdf-
 [#Microsoft:2013]: Microsoft. (2013). Kinect for Windows. Retrieved from: http://www.microsoft.com/en-us/kinectforwindows/
 [#Leap:2013]: Leap Motion. (2013). Leap Motion. Retrieved from: https://www.leapmotion.com
 [#Thalmic:2013]: Thalmic Labs. (2013) MYO - The Gesture Control Armband. Retrieved from: https://www.thalmic.com/myo/
+[#Berkman:2013]: Berkman, F. (2012). Voice Command: Capturing Nerdy Imaginations Since the 1800s. Retrieved from: http://mashable.com/2012/10/26/voice-command/
+[#Victor:2011]: Victor, B. (2011) A Brief Rant on the Future of Interaction Design. Retrieved from: http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/
