@@ -11,7 +11,7 @@ Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't
 This brings us to the quote; "A chain is only as strong as its weakest link". The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of an error occurring, and the chain breaking, can be reduced greatly.
 
 ### Slim down or pile up?
-Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services and techniques have been added. The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text. That until the birth of HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
+Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services and techniques have been added. The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text, structured through a script language called HTML. That until the birth of version HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
 
 All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decade. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
 
@@ -35,8 +35,10 @@ We asked ourselves:
 To allow us to create a new future vision in which we answer that question, we need a solid understanding of the current communication chain.
 
 ## Communication chain overview
-The global overview of communication between user and the internet is like the following diagram:
-End user <-> Interface <-> Server <-> Data
+// What does the communication chain in general? Purpose.
+
+The global overview of communication between user and the internet is like the following diagram, we’ll try to explain it as abstract as possible without going into details.
+End user <-> Interface <-> Server <-> Resource
 
 ### Enduser
 This is you, the internet user while browsing the web. Using your hands to control a mouse or other input device. Navigating through pages on the screen which your eyes in turn read.
@@ -45,15 +47,15 @@ This is you, the internet user while browsing the web. Using your hands to contr
 The interface is the gate or a proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and pushes this to the screen. Ready for the user to be interpreted.
 
 ### Server
-// Het serveren van de data
+The server simple serves the resource, making it accessible (for the people allowed to see it)
 
-### Data
-// TODO
+### Resource
+The resource is the thing the user is requesting . Whether it be data from database or self provided data processed by a special algorithm.
 
 ## Optimisations
 Now that we know about the current communication chain, what do we think could be improved, and why?
 
-### Semantics
+### Semantics, Optimising data itself
 The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, computers need context and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything they understand. When there's no ruleset, the computer does not understand the information.
 
 #### The Semantic Web
@@ -65,7 +67,7 @@ semantics, needed to have machine readability. By adding tags to indicate what t
 One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between two other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale" and "Interworking among applications: combining data from several applications to arrive at new information." [Klyne, 2004][#Klyne:2004] SPARQL is the accompanying query language for RDF, which allows the user to easily search through RDF data.
 
 #### Metacrap
-Unfortunately there are not many Real World examples of the usage RDF and Cory Doctorow has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practicly not possible because of the lack of discipline from the users side. In short: describing data is freely interpretable, prone to errors, subjective and requires a lot of work from the user side.
+Unfortunately there are not many Real World examples of the usage RDF and Cory Doctorow has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practically not possible because of the lack of discipline from the users side. In short: describing data is freely interpretable, prone to errors, subjective and requires a lot of work from the user side.
 
 > 1. People lie
 2. People are lazy
@@ -76,6 +78,8 @@ Unfortunately there are not many Real World examples of the usage RDF and Cory D
 7. There's more than one way to describe something
 
 ### Frontend as server
+//TODO needs more abstraction...
+
 Over the last years web browsers started getting a lot faster. This was not only because the computers they're running on are getting ever more powerful. But also because a lot of improvements have been made on the rendering engines for HTML, CSS and Javascript. Browsers got direct access to hardware, letting the graphic chips in computers compute the heavy lifting where appropriate. This means that the browser is slowly getting more and more capable of running heavy application logic without the need of a back-end building HTML pages and processing data. All of the rendering and processing can nowadays easily be done in a modern-day web browser.
 
 Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic. There would be no need for a back-end. Periodic tasks and very heavy calculations which could compromise the user experience should still be done on workers. But they could run on much smaller machines independent from a back-end. In a way they could just behave as end-users, but with more privileges.
@@ -83,30 +87,34 @@ Back-ends could literally be rendered useless. With a database that serves it's 
 Lets take the recent refresh of Soundclound as an example. They switched from the current convention to the emerging SPA (Single Page Application) approach.
 
 ### API enabled databases
+CouchDB is a database with a server included. It allows the interface to read data directly from the database. //TODO needs a rewrite
+
 CouchDB is a new database which doesn't need a backend. It exposes it's data directly over http through the use of a restful API. Which means that you don't need a server to request the data from the database and serve it to the end user. The database can take care of that by itself.
 
 By exposing your data directly through HTTP you also allow people with malicious intentions to access that same data without going through the back-end layer. Data security and the shielding of specific user data is something that the database is also part of it's responsibilities. Here a possible issue arrises. You integrate your data storage and data security into one package. When an exploit becomes available for that package, not only your security but at the same time also your data will be vulnerable.
 
-While it removes the processing / back-end layer from the chain of communication, it also brings limitations. Referring to threshold in complexity / flexibility.
+
+
+// Why is this not the long term solution, according to our experiment?
 
 ### Alternative input
 Keyboards and computer mouses have been a long standing standard. but new input methods are arising. The reason for this is that the current input methods aren't as natural as our everyday interactions with objects. The level of control in real life is so much more granular. A lot of improvements can still be made in the field of input methods. [Victor, 2011][#Victor:2011]
 
 #### Gesture based input
-Gesture based control seems to be a trend. Touchscreens and the Apple touchpad allow for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. [Natural gestures might be less error prone than manually inputting through a mouse click]
+Gesture based control seems to be a trend. Touch screens and the Apple touchpad allow for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. [Natural gestures might be less error prone than manually inputting through a mouse click]
 
 The Kinect has a camera that tracks your whole body and it movements. It's still quite rough though. Large movements are needed to trigger an action. The LEAP takes a different approach, only tracking your hands in front of a device. By limiting the area, the movements can be tracked on a much more granular level. Precise finger gestures make the LEAP very usable for interaction with applications that require precise control rather than large gestures. The MYO takes this even a step further by removing the camera and tracking muscle tension on the lower arm. Which results in freeing the user from any location or direction based limitation.
 
-Of these technologies, the only one that's in production and has been actively used for different projects is the Kinect. The device was originally intended for Microsoft's XBox360. Even though the device is connected through USB, no drivers had been made available for other platforms than the XBox. Quickly after it's release independent developers created their own drivers, and soon it could be used to control platforms other than the the XBox360. Yet, this lack of open support for the device prevented a wide adoption of the product. Nowadays Microsoft does provide an SDK and drivers for windows. Unfortunately, it did not help the device become a standard. Mainly because it lacks ganular control which newer announced devices do have. [Microsoft, 2013][#Microsoft:2013]
+Of these technologies, the only one that's in production and has been actively used for different projects is the Kinect. The device was originally intended for Microsoft's XBox360. Even though the device is connected through USB, no drivers had been made available for other platforms than the XBox. Quickly after it's release independent developers created their own drivers, and soon it could be used to control platforms other than the the XBox360. Yet, this lack of open support for the device prevented a wide adoption of the product. Nowadays Microsoft does provide an SDK and drivers for windows. Unfortunately, it did not help the device become a standard. Mainly because it lacks granular control which newer announced devices do have. [Microsoft, 2013][#Microsoft:2013]
 
 The LEAP has already gone through a developer beta phase and will start shipping first production models starting May 13. A collaboration with HP has been announced, the goal will be to integrate the LEAP into HP's hardware. A device like the LEAP won't appear in mobile devices anytime soon, as its hardware is still to large. But a next iteration of the product in the near future could already slim it down significantly. The involvement of a big partner like HP might provide the company with the needed money and resources to quickly push the LEAP to a certain maturity, and allow it to become an industry standard. Wether or not this technique provides an optimisation to the communication chain is still to be proven. But the granularity of it's control might give it advantage over the kinect. Especially if it gets integrated with mobile devices. [Leap Motion, 2013][#Leap:2013]
 
-The MYO is set to ship late 2013, early 2014. If it's able to deliver, it could change the way we control our devices. Using it as a remote for about any electronic device in our home. That is, if it's able to manage target selection well. In other words, the device should know what device you're targeting with every gesture. When you turn the volume of your hifi setup down, you don't want it to go back up when you try to answer an incoming phone call 5 seconds later. [Thalmic Labs, 2013][#Thalmic:2013]
+The MYO is set to ship late 2013, early 2014. If it's able to deliver, it could change the way we control our devices. Using it as a remote for about any electronic device in our home. That is, if it's able to manage target selection well. In other words, the device should know what device you're targeting with every gesture. When you turn the volume of your hi fi setup down, you don't want it to go back up when you try to answer an incoming phone call 5 seconds later. [Thalmic Labs, 2013][#Thalmic:2013]
 
 There is an issue with these alternative inputs though. It's a term from the 1980's called "Gorilla arm". When you use a desktop monitor with touchscreen functionality, your arms and shoulders will quickly fatigue. This happens because of holding your arms horizontally and reaching out to the monitor for long durations to constantly touch the screen. This same phenomenon could be applicable for gesture based input devices. The Kinect requires you to do large gestures, allowing you to use a lot of different muscles, and not stressing a couple of them for a longer period of time. The LEAP on the other hand (for now) relies heavily on pointing to your screen, this could replicate the gorilla arm phenomenon. Because the MYO is completely location & direction agnostic, it would be highly unlikely for it's users to suffer from this problem. [Pogue, 2013][#Pogue:2013]
 
 #### Voice based input
-Voice command algorhitms have been around since the 1970's. [Berkman, 2013][#Berkman:2013] But only recently have they become decently usable. Because of the high variation in voices, tonal, speed and melodic, it's hard to write good algorithms that understand each person's voice. Using simple commands to control a phone, to call for example a friend, van often prove difficult.
+Voice command algorithms have been around since the 1970's. [Berkman, 2013][#Berkman:2013] But only recently have they become decently usable. Because of the high variation in voices, tonal, speed and melodic, it's hard to write good algorithms that understand each person's voice. Using simple commands to control a phone, to call for example a friend, van often prove difficult.
 
 ### Graphical interface layer
 Even in a perfect world where all data is structured semantical, The presentation layer is still freely interpretable. Deciding which data should be presented to the end-user at what time is something that is decided by the designer of a website. Websites are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing a website is manual labor.
@@ -114,6 +122,8 @@ Even in a perfect world where all data is structured semantical, The presentatio
 A designer can choose what data is relevant in which situation and present it to the user. The problem with this is that the data decided to be left out is missing. It might have been done because the designer thought the relevant data would be easier to be find. Or because the remaining data just didn't fit the interface. Even though the data might've been available it's just not there for the end-user to be found.
 
 If you're lucky, a content strategist was present during the creation of a website. Someone who's specialty it is to find out what information should be presented to the user at each specific moment. But even then, even when all of the right information is present when you need it. The interface layer can still make the information hard to navigate.
+
+// TODO Introduce Silk
 
 What can we do about it? Nothing. It's easy like that. Every website needs to be designed. Yes, services like Silk exist to create a semantic web. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the creators of the content.
 
@@ -125,16 +135,15 @@ According to Steve Krug, interaction designer and author of Don't make me think,
 This behaviour is natural to us humans. While web pages are designed to have a structure and make it easy for us to navigate through websites. We rarely ever read all of the content.
 
 ### Brain Computer Interfaces
-The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [Hawkins, 2004, p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain learns how to handle these pulses by recognising patterns.
+The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [Hawkins, 2004, p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain is capable of learning how to handle these pulses by recognising patterns.
 
-There's a real world example of a man with retinoschisis, a rare disease which makes you blind after a couple of years, whom was able to see again through a special device. The device, called [Brainport](http://science.howstuffworks.com/brainport.htm), is basically a webcam which is wired to output electrotactile stimulation to the users tongue. So, the webcam sends it digital signals directly to the tongue. After three months the man was able to see again after being accustomed to the signals coming in. This is one amazing example of the plasticity of the brain. [Levy, 2008][#Levy:2008]
+There's a real world example of a man with retinoschisis, a rare disease which makes you blind after a couple of years, whom was able to see again through a special device. The device, called [Brainport](http://science.howstuffworks.com/brainport.htm) , is basically a webcam which is wired to output electrotactile stimulation to the users tongue. So, the webcam sends it digital signals directly to the tongue. [Layton, 2006][#Layton:2006] After three months the man was able to see again after being accustomed to the signals coming in. This is one amazing example of the plasticity of the brain. [Levy, 2008][#Levy:2008]
 
 ![](http://static.ddmcdn.com/gif/brainport-vision-diagram.jpg)
 
-An other example is a colourblind man who is able to perceive colours through sound. Movie:
+An other example is a colourblind man who is able to perceive colours through sound. Movie [World's first cyborg](http://motherboard.vice.com/nl/read/met-een-cyborg-naar-het-stedelijk-video)
 
-<Zcript src="http://player.ooyala.com/player.js?embedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&video_pcode=JqcWY6ikg5nwtXilzVurvI-vU6Ik&width=640&deepLinkEmbedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&height=360"></script>
-[World's first cyborg](http://motherboard.vice.com/nl/read/met-een-cyborg-naar-het-stedelijk-video)
+<script src="http://player.ooyala.com/player.js?embedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&video_pcode=JqcWY6ikg5nwtXilzVurvI-vU6Ik&width=640&deepLinkEmbedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&height=360"></script>
 
 Imagine a device that somehow feeds the internet as a sixth sense. No need of a screen or keyboard. Applied properly, your brain could make sense of the patterns being fed to it. The moment you think of a fire-truck, the device would understand that thought, and feed all of the properties of a fire-truck back to you, instantaneously fetched from the internet.
 
@@ -152,7 +161,7 @@ By inserting a controlled virus into the brain, certain neurons will be genetica
 
 This is all theoretically possible already, but not tested on humans yet. From the practical perspective, scientists need to find a way to make it easy to implement this.
 
-<!--- [This is a good methaphor, but in the wrong location]
+<!--- [This is a good metaphor, but in the wrong location]
 #### Tool
 > tool|tuːl|noun 1. A device or implement, esp. one held in the hand, used to carry out a particular function.
 
@@ -160,6 +169,9 @@ Tools are extensions of humans which enables them to do stuff which they normall
 
 Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
 -->
+
+// More about the interface of the BCI, integration. Activatiecommando?
+
 
 <!--- [This is more or less already in the research. Should probably be placed somewhere else structure wise, we're talking about solutions here, no comparissons.]
 ##### Memory
@@ -184,11 +196,13 @@ Try this: How much is 12345 times 54321? While you're grabbing a piece of paper 
 * The neocortex stores patterns in an invariant form.
 * The neocortex stores patterns in a hierarchy.
 
-To be able to make calculations like this doesn't make a computer intelligent. The computer is programmed to do calculations like this, but didn't think and programmed it themselves. Hawkins predicts that computers will never be able to think of themselves, that there's no future in what we call artificial intelligence. His argument is that they can't reprogram their complete own workings except for some small paramaters (which are programmed in advance) and thus are not intelligent, like us humans.
+To be able to make calculations like this doesn't make a computer intelligent. The computer is programmed to do calculations like this, but didn't think and programmed it themselves. Hawkins predicts that computers will never be able to think of themselves, that there's no future in what we call artificial intelligence. His argument is that they can't reprogram their complete own workings except for some small parameters (which are programmed in advance) and thus are not intelligent, like us humans.
 
-Because of the brain plasticity, described above, people are able to 'reprogram' themselves. Any input and/or conclusion is changing the internal structure of the brain and making the brain more intelligent. This is also called learning. Computers are not able to learn. There is this thing called machine learning, which is used to make predictions, but it will never be able to stop it’s main task and completely rewrite it. Shure you can make really sophisticated machines and behaviour, but it won’t be able to quit it’s job as a computer and continue on as a butler.
+Because of the brain plasticity, described above, people are able to 'reprogram' themselves. Any input and/or conclusion is changing the internal structure of the brain and making the brain more intelligent. This is also called learning. Computers are not able to learn. There is this thing called machine learning, which is used to make predictions, but it will never be able to stop it’s main task and completely rewrite it. Sure you can make really sophisticated machines and behaviour, but it won’t be able to quit it’s job as a computer and continue on as a butler.
 
 ##### Sharing
+// Why sharing?
+
 The only way for a human to share the information is in the form of a conversation and writing. We don't have the ability to make connections with other brains like computers can. A conversation can be done over the phone, but the information has to be explained before the receiver can make sense of the data.
 
 With computers you can just send documents, images, sounds or videos to another computer without the need to explain the information and at great speed. Imagine how long it would take to read the whole wikipedia (18gb)[Kiwix, 2013][#kiwix:2013] for somebody else. The in advance defined standards of the computer really help here. Because computers expect data to be formatted in a specific way, they can make sense of the raw data. Much like it would be to feed the stream of data coming from your retina (eye) to another human brain.
@@ -220,6 +234,9 @@ Now that we looked at possible optimisations for the communication chain we woul
 > In 2057, the internet will be beamed directly to your brain from the cloud. We strongly recommend ad-blocking software. [Rackspace, 2010][#Rackspace:2010]
 
 It might have been a small joke, but their expectation does actually align with ours.
+
+// How to implement encyclopedia?
+// Are we going to have apps?
 
 A chip in our brains could possibly create a direct link between our brains and the internet. Even though our brains are really flexible (See "A more direct interface" in "Optimisations"), we are unsure if the human brain would be able to cope with the unorganised mess that is the current internet being fed to it.
 
@@ -282,6 +299,8 @@ People are able to perceive connections like these and make conclusions over it.
 [#Boyden:2011]: Boyden, E. (2011). A light switch for neurons. Retrieved from: http://www.ted.com/talks/ed_boyden.html
 [#Pogue:2013]: Pogue, D. (2013). Why touch screens will not take over. Retrieved from: https://www.scientificamerican.com/article.cfm?id=why-touch-screens-will-not-take-over
 [#Nosta:2013]: Nosta, J. (2013). Cancer, Innovation and a Boy Named Jack. Retrieved from: http://www.forbes.com/sites/johnnosta/2013/02/01/cancer-innovation-and-a-boy-named-jack/
+[#Layton:2006]: Layton, J. (2008). How BrainPort Works. Retrieved from:
+http://www.howstuffworks.com/brainport1.htm
 [#Levy:2008]: Levy, B. (2008). The Blind Climber Who "Sees" With His Tongue. Retrieved from: http://discovermagazine.com/2008/jul/23-the-blind-climber-who-sees-through-his-tongue
 [#Krug:2005]: Krug, S. (2005). Don'T Make Me Think! New Jersey: Pearson Education (US)
 [#Swaab:2010]: Swaab, D, F. (2010). Wij zijn ons brein.
