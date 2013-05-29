@@ -299,8 +299,7 @@ People are able to perceive connections like these and make conclusions over it.
 [#Boyden:2011]: Boyden, E. (2011). A light switch for neurons. Retrieved from: http://www.ted.com/talks/ed_boyden.html
 [#Pogue:2013]: Pogue, D. (2013). Why touch screens will not take over. Retrieved from: https://www.scientificamerican.com/article.cfm?id=why-touch-screens-will-not-take-over
 [#Nosta:2013]: Nosta, J. (2013). Cancer, Innovation and a Boy Named Jack. Retrieved from: http://www.forbes.com/sites/johnnosta/2013/02/01/cancer-innovation-and-a-boy-named-jack/
-[#Layton:2006]: Layton, J. (2008). How BrainPort Works. Retrieved from:
-http://www.howstuffworks.com/brainport1.htm
+[#Layton:2006]: Layton, J. (2008). How BrainPort Works. Retrieved from: http://www.howstuffworks.com/brainport1.htm
 [#Levy:2008]: Levy, B. (2008). The Blind Climber Who "Sees" With His Tongue. Retrieved from: http://discovermagazine.com/2008/jul/23-the-blind-climber-who-sees-through-his-tongue
 [#Krug:2005]: Krug, S. (2005). Don'T Make Me Think! New Jersey: Pearson Education (US)
 [#Swaab:2010]: Swaab, D, F. (2010). Wij zijn ons brein.
@@ -308,8 +307,7 @@ http://www.howstuffworks.com/brainport1.htm
 [#Rackspace:2010]: Rackspace. (2010). The Evolution of HTML. Retrieved from: http://broadcast.rackspace.com/blog/HTMLtimeline/index.html (http://www.rackspace.com/blog/internet-history-html-evolution/)
 [#Kelly:1995]: Kelly, K. (1995). Out of Control: The New Biology of Machines, Social Systems, & the Economic World
 [#Kiwix:2013]: Kiwix. (2013). Retrieved from http://kiwix.org
-[#Klyne:2004]: Klyne, G, Jeremy, J & McBride B. (2004). Resource Description Framework (RDF):
-Concepts and Abstract Syntax. Retrieved from: http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/
+[#Klyne:2004]: Klyne, G, Jeremy, J & McBride B. (2004). Resource Description Framework (RDF): Concepts and Abstract Syntax. Retrieved from: http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/
 [#Microsoft:2013]: Microsoft. (2013). Kinect for Windows. Retrieved from: http://www.microsoft.com/en-us/kinectforwindows/
 [#Leap:2013]: Leap Motion. (2013). Leap Motion. Retrieved from: https://www.leapmotion.com
 [#Thalmic:2013]: Thalmic Labs. (2013) MYO - The Gesture Control Armband. Retrieved from: https://www.thalmic.com/myo/
