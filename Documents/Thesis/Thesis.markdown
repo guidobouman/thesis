@@ -11,6 +11,10 @@ Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't
 This brings us to the quote; "A chain is only as strong as its weakest link". The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of an error occurring, and the chain breaking, can be reduced greatly.
 
 ### Slim down or pile up?
+> tool|tuːl|noun 1. A device or implement, esp. one held in the hand, used to carry out a particular function.
+
+Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus functions as an extension of humans.
+
 Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services and techniques have been added. The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text, structured through a script language called HTML. That until the birth of version HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
 
 All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decade. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
@@ -33,6 +37,7 @@ We asked ourselves:
 > How can the connection between a human and the internet become more efficient?
 
 To allow us to create a new future vision in which we answer that question, we need a solid understanding of the current communication chain.
+
 
 ## Communication chain overview
 The following is our take on the overview of the communication chain between a user and a resource.
@@ -97,6 +102,7 @@ By exposing your data directly through HTTP you also allow people with malicious
 
 
 // Why is this not the long term solution, according to our experiment?
+// Because this is not a solution for the communication chain, its only for developers.
 
 ### Alternative input
 Keyboards and computer mouses have been a long standing standard. but new input methods are arising. The reason for this is that the current input methods aren't as natural as our everyday interactions with objects. The level of control in real life is so much more granular. A lot of improvements can still be made in the field of input methods. [Victor, 2011][#Victor:2011]
@@ -162,17 +168,10 @@ By inserting a controlled virus into the brain, certain neurons will be genetica
 
 This is all theoretically possible already, but not tested on humans yet. From the practical perspective, scientists need to find a way to make it easy to implement this.
 
-<!--- [This is a good metaphor, but in the wrong location]
-#### Tool
-> tool|tuːl|noun 1. A device or implement, esp. one held in the hand, used to carry out a particular function.
-
-Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus function as an extension of humans. How would the internet function if it would be a more direct extension of a human?
-
-Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
--->
-
 // More about the interface of the BCI, integration. Activatiecommando?
 
+#### The internet as an extension
+Let’s refer back to the metaphor of the hammer. Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
 
 <!--- [This is more or less already in the research. Should probably be placed somewhere else structure wise, we're talking about solutions here, no comparissons.]
 ##### Memory
@@ -185,6 +184,8 @@ The brain keeps track on what memory is more important and what not, it stores d
 Computer hard drives, in contrast, store everything you want for you. No matter how important, no matter how long as long as you can translate it into bits and bytes.
 
 ##### Computational power
+//wolfram alpha example
+
 > Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [Hawkins, 2004, p. 127][#Hawkins:2004]
 
 > No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [Hawkins, 2004, p. 130][#Hawkins:2004]
@@ -218,6 +219,7 @@ Folding at home, Dutch power cows
 
 A conclusion you can draw from this is that computer is meant for linear tasks, where humans are way better at doing the non linear tasks.
 
+// TODO
 federated data exchange > plug in federated data
 
  - A web of brains
@@ -229,7 +231,11 @@ federated data exchange > plug in federated data
 ## Vision
 Now that we looked at possible optimisations for the communication chain we would like to share our future vision with these possibilities.
 
-### Stage one: Optimizations
+
+<iframe src='http://embed.verite.co/timeline/?source=0Aka4DvTeP82GdFpWcjlVOEJWU1YxUFBtRkN6OF9SSnc&font=Georgia-Helvetica&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
+
+
+### Stage one: Optimisations
 
 ### Stage Two: Brains on the internet
 > In 2057, the internet will be beamed directly to your brain from the cloud. We strongly recommend ad-blocking software. [Rackspace, 2010][#Rackspace:2010]
@@ -240,7 +246,7 @@ It might have been a small joke, but their expectation does actually align with 
 // Are we going to have apps?
 
 A chip in our brains could possibly create a direct link between our brains and the internet. Even though our brains are really flexible (See "A more direct interface" in "Optimisations"), we are unsure if the human brain would be able to cope with the unorganised mess that is the current internet being fed to it.
-
+ 
 We think that connecting an open set of databases to the human mind could work well. The databases would function just like apps on a mobile phone. With each new database extra functionality is added, yet none is required. Information in one database can reference to information in another database. It's up to the user to connect to that new database or not. Much like the original design of the internet, but with raw data and no markup. Your brain is the reader, it will process the data.
 
 The available data on this new implementation would be very limited at first. Websites and -services like encyclopaedias or other large data sets would be perfect as first services to start providing data in this way. By providing an open format everyone can contribute to it. The available information would rapidly increase, and services could provide open end-points for their datasets.
