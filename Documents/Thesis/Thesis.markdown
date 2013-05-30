@@ -30,7 +30,7 @@ We think the communication process might have the posibility to be improved. We 
 
 We asked ourselves:
 
-    How can we make the connection between a human and the internet more efficient?
+> How can the connection between a human and the internet become more efficient?
 
 To allow us to create a new future vision in which we answer that question, we need a solid understanding of the current communication chain.
 
