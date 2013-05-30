@@ -169,6 +169,16 @@ sup
   line-height: 1em;
 }
 
+iframe {
+  position: absolute;
+  padding-right: 150px;
+  margin-bottom: 600px;
+}
+
+iframe + h3 {
+  margin-top: 675px;
+}
+
 @media print
 {
   body
