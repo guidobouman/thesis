@@ -11,26 +11,24 @@ Lets play a game, it's called ‘Chinese Whispers’. For those of you who don't
 This brings us to the quote; "A chain is only as strong as its weakest link". The problem is that information is interpreted and processed during each step of a chain. After interpretation and processing, it's passed through to the next step. It's only logical to conclude that with every step an error can occur. By reducing the the amount of steps, and thus the complexity of the chain, the chance of an error occurring, and the chain breaking, can be reduced greatly.
 
 ### Slim down or pile up?
-> tool|tuːl|noun 1. A device or implement, esp. one held in the hand, used to carry out a particular function.
-
-Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood. The internet is functioning as a tool for exchange of information and communication and thus functions as an extension of humans.
-
 Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services and techniques have been added. The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text, structured through a script language called HTML. That until the birth of version HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
 
 All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decade. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
 
-Kandinsky is an artist who put a lot of time in thinking about effectiveness of messages through his paintings. He wanted to put a message into the world with minimal effort and concreteness, because everything which is defined excludes other possibilities. Is it time to apply Kandinsky’s vision to web technologies? Should we slim the stack of layers which make the current internet to increase simplicity? Or should extra abstraction layers be added to expand flexibility.
-
 If you’re developing software you’re mostly defining behaviour of the application. This behaviour is a set of exceptions based on cultural differences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
 
-It becomes really clear when you think about the behaviour of robots. They can’t do anything unless it’s programmed. Grad students at Rodney Brooks’ robot lab learn that in order to develop a robot you need to be adding new behaviour over the old ones that worked. They need to pile up features, make it from bottom up. Rodney Brooks concluded it by looking at examples in nature: “In natural systems, improvements are "pasted" over an existing debugged system.” [Kelly, 1995, p. 101][#Kelly:1995]
+This also counts for the protocol and application stack of the world wide web. In order to serve the web to a immensely varied user base a lot of behaviour/cultural differences and needs needed to be defined. But somehow this feels wrong.
 
-This also counts for the protocol and application stack of the world wide web. In order to serve the web to a immensely varied user base a lot of behaviour/cultural differences and needs needed to be defined.
+### The internet can be seen as a tool for humans
 
-Is this the right thing or should we go for a minimal approach like Kandinsky’s? Going for a minimal interaction by defining as less as possible? Handing over information as abstract as possible? And letting the users handle the cultural differences themselves, on the much lower brain level. To form a solid opinion we need to know what technologies the current communication stack exists of.
+> tool|tuːl|noun 1. A device or implement, esp. one held in the hand, used to carry out a particular function.
+
+Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood. 
+
+The internet is functioning as a tool for exchange of information and communication and thus functions as an extension of humans. Where as you wouldn’t create a hammer with laser pointer and interchangeable head and all other sorts of extra features to achieve your goal. The same applies to communication. You want to keep it as simple and effective as possible.
 
 ### The problem
-We think the communication process might have the posibility to be improved. We want to slim down the complexity of the chain between a resource and humans. Currently information travels through a lot of chains or proxies like servers, software and devices (laptops or mobile phones for example). By removing or optimising as much steps in the chain as possible, we think we could make the whole process of using internet services easier, and less prone to errors.
+We think the communication process might have the possibility to be improved. We want to slim down the complexity of the chain between humans and the resource. Currently information travels through a lot of chains or proxies like servers, software and devices (laptops or mobile phones for example). By removing or optimising as much steps in the chain as possible, we think we could make the whole process of using internet services easier, and less prone to errors.
 
 We asked ourselves:
 
@@ -85,7 +83,7 @@ Unfortunately there are not many Real World examples of the usage RDF and Cory D
 ### Frontend as server
 //TODO needs more abstraction...
 
-Over the last years web browsers started getting a lot faster. This was not only because the computers they're running on are getting ever more powerful. But also because a lot of improvements have been made on the rendering engines for HTML, CSS and Javascript. Browsers got direct access to hardware, letting the graphic chips in computers compute the heavy lifting where appropriate. This means that the browser is slowly getting more and more capable of running heavy application logic without the need of a back-end building HTML pages and processing data. All of the rendering and processing can nowadays easily be done in a modern-day web browser.
+Over the last years web browsers and computers started getting a lot faster. Browsers got direct access to hardware, letting the graphic chips in computers compute the heavy lifting where appropriate. This means that the browser is slowly getting more and more capable of running heavy application logic without the need of a back-end building HTML pages and processing data. All of the rendering and processing can nowadays easily be done in a modern-day web browser.
 
 Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic. There would be no need for a back-end. Periodic tasks and very heavy calculations which could compromise the user experience should still be done on workers. But they could run on much smaller machines independent from a back-end. In a way they could just behave as end-users, but with more privileges.
 
@@ -149,7 +147,7 @@ There's a real world example of a man with retinoschisis, a rare disease which m
 
 An other example is a colourblind man who is able to perceive colours through sound. Movie [World's first cyborg](http://motherboard.vice.com/nl/read/met-een-cyborg-naar-het-stedelijk-video)
 
-<script src="http://player.ooyala.com/player.js?embedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&video_pcode=JqcWY6ikg5nwtXilzVurvI-vU6Ik&width=640&deepLinkEmbedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&height=360"></script>
+<object type="application/x-shockwave-flash" width="640" height="360" id="ooyalaPlayer227306431_th1ga0tw90" class="OoyalaVideoPlayer" data="http://player.ooyala.com/player_v2.swf"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="true"><param name="bgcolor" value="#000000"><param name="wmode" value="window"><param name="flashvars" value="me=ooyalaPlayer227306431_th1ga0tw90&amp;embedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&amp;width=640&amp;height=360&amp;deepLinkEmbedCode=1wOWpuYTpGxn6mxeyoAmXnnbLp-NUEzt&amp;video_pcode=JqcWY6ikg5nwtXilzVurvI-vU6Ik&amp;contactServer=player.ooyala.com/Q2HGKJ-PryQsG7CT&amp;docUrl=http%3A//localhost%3A8889/thesis/&amp;loadStartTime=1369906122211"></object>
 
 Imagine a device that somehow feeds the internet as a sixth sense. No need of a screen or keyboard. Applied properly, your brain could make sense of the patterns being fed to it. The moment you think of a fire-truck, the device would understand that thought, and feed all of the properties of a fire-truck back to you, instantaneously fetched from the internet.
 
@@ -183,23 +181,19 @@ The brain keeps track on what memory is more important and what not, it stores d
 Computer hard drives, in contrast, store everything you want for you. No matter how important, no matter how long as long as you can translate it into bits and bytes.
 
 ##### Computational power
-//wolfram alpha example
-
 > Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [Hawkins, 2004, p. 127][#Hawkins:2004]
 
 > No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [Hawkins, 2004, p. 130][#Hawkins:2004]
 
 Try this: How much is 12345 times 54321? While you're grabbing a piece of paper and a pen, the computer already gave the result in a millisecond: 670 592 745. The computer is made for making linear logical calculations like this.
 
-> Computers have memory too, in the form of hard drives and memory chips; however, there are four attributes of neocortical memory that are fundamentally different from computer memory:
-* The neocortex stores sequences of patterns.
-* The neocortex recalls patterns auto-associatively.
-* The neocortex stores patterns in an invariant form.
-* The neocortex stores patterns in a hierarchy.
-
 To be able to make calculations like this doesn't make a computer intelligent. The computer is programmed to do calculations like this, but didn't think and programmed it themselves. Hawkins predicts that computers will never be able to think of themselves, that there's no future in what we call artificial intelligence. His argument is that they can't reprogram their complete own workings except for some small parameters (which are programmed in advance) and thus are not intelligent, like us humans.
 
 Because of the brain plasticity, described above, people are able to 'reprogram' themselves. Any input and/or conclusion is changing the internal structure of the brain and making the brain more intelligent. This is also called learning. Computers are not able to learn. There is this thing called machine learning, which is used to make predictions, but it will never be able to stop it’s main task and completely rewrite it. Sure you can make really sophisticated machines and behaviour, but it won’t be able to quit it’s job as a computer and continue on as a butler.
+
+A good example of the power of computer calculations is computational knowledge platform Wolfram Alpha. It allows you to do advanced mathematical computations, but also analysis over big data sets on the internet.
+
+So, the computer is perfect for making advanced calculations like they do with the Wolfram Alpha platform. If you look from the tool perspective, this is one of the things computers are made for, making it an advanced calculator with a simple interface.
 
 ##### Sharing
 // Why sharing?
@@ -211,28 +205,11 @@ With computers you can just send documents, images, sounds or videos to another 
 ##### Roundup
 Calculations are for computers, making connections and conclusions is for humans, said the human.
 
-Unity between humans and computers. Computers are expandable, humans are not. Computers are strong in storing data, humans tend to forget. Humans on the other hand can very quickly associate data where computer can only try to associate data through human written algorithms.
-
-Brute forcing, calculating all possible outcomes and trying them one by on. Distributed computing, linking processing power.
-Folding at home, Dutch power cows
-
 A conclusion you can draw from this is that computer is meant for linear tasks, where humans are way better at doing the non linear tasks.
-
-// TODO
-federated data exchange > plug in federated data
-
- - A web of brains
- - Collective data
- - Knowledge is given, no need to memorise trivial facts
- - Creating relations as future of learning
 -->
 
 ## Vision
 Now that we looked at possible optimisations for the communication chain we would like to share our future vision with these possibilities.
-
-
-<iframe src='http://embed.verite.co/timeline/?source=0Aka4DvTeP82GdFpWcjlVOEJWU1YxUFBtRkN6OF9SSnc&font=Georgia-Helvetica&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
-
 
 ### Stage one: Optimisations
 
@@ -292,6 +269,10 @@ Computers will still be used for their computational power and function as a bac
 The advantage of the human brain as discussed earlier is intelligence and the power to draw conclusions. We predict this will stay this way and will not be replaced by computers. People are there to combine pieces of knowledge and draw the conclusion.
 
 People are able to perceive connections like these and make conclusions over it.  Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. New ideas and hypothesis sprout after getting new information/data. A new idea or hypothesis always is the combination of two pieces of information. A beautiful example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sorts of cancer in a fast and effective way. [Nosta, 2013][#Nosta:2013] All of this because he found a link between two facts and and saw a connection. What if we could fully facilitate this discovery?
+
+### Timeline
+
+<iframe class='timeline' src='http://embed.verite.co/timeline/?source=0Aka4DvTeP82GdFpWcjlVOEJWU1YxUFBtRkN6OF9SSnc&font=Georgia-Helvetica&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
 
 
 ## Conclusion
