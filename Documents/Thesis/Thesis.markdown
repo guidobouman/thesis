@@ -38,10 +38,11 @@ To allow us to create a new future vision in which we answer that question, we n
 
 
 ## Communication chain overview
-// What does the communication chain in general? Purpose.
+The following is our take on the overview of the communication chain between a user and a resource.
 
-The global overview of communication between user and the internet is like the following diagram, we’ll try to explain it as abstract as possible without going into details.
-End user <-> Interface <-> Server <-> Resource
+![Communication chain overview](communication%20chain%20overview-03.png)
+
+For each step and connection in the chain technologies are being used.
 
 ### Enduser
 This is you, the internet user while browsing the web. Using your hands to control a mouse or other input device. Navigating through pages on the screen which your eyes in turn read.
