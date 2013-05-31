@@ -21,7 +21,8 @@ This also counts for the protocol and application stack of the world wide web. I
 
 ### The internet can be seen as a tool for humans
 
-> tool|tuːl|noun 1. A device or implement, esp. one held in the hand, used to carry out a particular function.
+> **tool|tuːl|noun**  
+A device or implement, esp. one held in the hand, used to carry out a particular function.
 
 Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood. 
 
@@ -36,74 +37,63 @@ We asked ourselves:
 
 To allow us to create a new future vision in which we answer that question, we need a solid understanding of the current communication chain.
 
-
 ## Communication chain overview
 The following is our take on the overview of the communication chain between a user and a resource.
 
 ![Communication chain overview](communication%20chain%20overview-03.png)
 
-For each step and connection in the chain technologies are being used.
-
-### Enduser
+### End user
 This is you, the internet user while browsing the web. Using your hands to control a mouse or other input device. Navigating through pages on the screen which your eyes in turn read.
 
 ### Interface
-The interface is the gate or a proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and pushes this to the screen. Ready for the user to be interpreted.
+The interface is the gate or a proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and presents this to the user, ready for the user to be interpreted.
 
 ### Server
-The server simple serves the resource, making it accessible (for the people allowed to see it)
+The server simple serves the resource, making it accessible (for the people allowed to see it). It processes the request from the interface and returns a usable form of the resource to the interface.
 
 ### Resource
-The resource is the thing the user is requesting . Whether it be data from database or self provided data processed by a special algorithm.
+The resource is the data the user is requesting . Whether it be data from a database or self provided data processed by a special algorithm.
 
 ## Optimisations
 Now that we know about the current communication chain, what do we think could be improved, and why?
 
 ### Semantics, Optimising data itself
-The internet is not easily readable by machines. The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, computers need context and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything they understand. When there's no ruleset, the computer does not understand the information.
+> **semantics |sɪˈmantɪks| plural noun**  
+The branch of linguistics and logic concerned with meaning. The two main areas are logical semantics, concerned with matters such as sense and reference and presupposition and implication, and lexical semantics, concerned with the analysis of word meanings and relations between them.
+
+The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, computers need context and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything they understand. When there's no ruleset, the computer does not understand the information.
 
 #### The Semantic Web
 The Semantic Web, a W3C movement lead by the Tim Berners Lee aims to make unstructured data into a 'web of data'.
-semantics, needed to have machine readability. By adding tags to indicate what type the content is.
 
 > Semantic HTML refers to the traditional HTML practice of markup following intention, rather than specifying layout details directly. For example, the use of "em" denoting "emphasis" rather than "i", which specifies italics.
 
 One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between two other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale" and "Interworking among applications: combining data from several applications to arrive at new information." [Klyne, 2004][#Klyne:2004] SPARQL is the accompanying query language for RDF, which allows the user to easily search through RDF data.
 
 #### Metacrap
-Unfortunately there are not many Real World examples of the usage RDF and Cory Doctorow has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practically not possible because of the lack of discipline from the users side. In short: describing data is freely interpretable, prone to errors, subjective and requires a lot of work from the user side.
+Unfortunately there are not many Real World examples of the usage RDF and [Cory Doctorow](http://craphound.com/) has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practically not possible because of the lack of discipline from the users side. In short: describing data is freely interpretable, prone to errors, subjective and requires a lot of work from the user side.
 
-> 1. People lie
-2. People are lazy
-3. People are stupid
-4. Mission Impossible: know thyself
-5. Schemas are not neutral
-6. Metrics influence results
-7. There's more than one way to describe something
-
-### Frontend as server
-//TODO needs more abstraction...
-
-Over the last years web browsers and computers started getting a lot faster. Browsers got direct access to hardware, letting the graphic chips in computers compute the heavy lifting where appropriate. This means that the browser is slowly getting more and more capable of running heavy application logic without the need of a back-end building HTML pages and processing data. All of the rendering and processing can nowadays easily be done in a modern-day web browser.
-
-Back-ends could literally be rendered useless. With a database that serves it's data over http, and a front-end which contains all of the application logic. There would be no need for a back-end. Periodic tasks and very heavy calculations which could compromise the user experience should still be done on workers. But they could run on much smaller machines independent from a back-end. In a way they could just behave as end-users, but with more privileges.
-
-Lets take the recent refresh of Soundclound as an example. They switched from the current convention to the emerging SPA (Single Page Application) approach.
-
-### API enabled databases
-CouchDB is a database with a server included. It allows the interface to read data directly from the database. //TODO needs a rewrite
-
-CouchDB is a new database which doesn't need a backend. It exposes it's data directly over http through the use of a restful API. Which means that you don't need a server to request the data from the database and serve it to the end user. The database can take care of that by itself.
-
-By exposing your data directly through HTTP you also allow people with malicious intentions to access that same data without going through the back-end layer. Data security and the shielding of specific user data is something that the database is also part of it's responsibilities. Here a possible issue arrises. You integrate your data storage and data security into one package. When an exploit becomes available for that package, not only your security but at the same time also your data will be vulnerable.
+We can’t expect people to organise their data semantically. There’s a big difference between ordered data for computers to calculations over and unordered data for humans. The easiest way would be by not having to add an extra translation layer. Keep data from humans for humans and data from computers for computers. Unfortunately this is not yet the case. We still need to pipe data from humans through computers.
 
 
+### Interface taking over processing
+Over the last years interfaces started getting a lot more powerful. This means that the interface is slowly getting more and more capable of running heavy calculations without the need of a processing layer parsing and formatting data. All of the processing and formatting can nowadays easily be done in a modern-day interface.
 
-// Why is this not the long term solution, according to our experiment?
-// Because this is not a solution for the communication chain, its only for developers.
+The processing step in the communication chain could literally be rendered useless. With a resource which is directly accessible from the interface, and an interface which contains all  the processing, there would be no need for the processing step. Periodic tasks and very heavy calculations on large datasets can be delegated to dedicated processing platforms where needed.
+
+This allows us to strip one of the steps in the communication chain, and thus move towards a better optimised communication chain. There is one issue though, we need an internet faced resource to make this happen.
+
+### Internet faced resource
+Typical resources as we know it (databases for example) are not accessible to the interface. And even when they are, are not designed to be accessed directly by a large public of users through the interface. Resources which are designed to handle a direct connection from the interface can help in rendering the processing step useless. 
+
+The problem is that, these resources have to be able to take care of different users and their privileges. When a resource is exposed to the public, you want to make sure that your personal data actually is personal and can not be viewed or even altered by someone else. This increases the responsibilities for the resource layer. Managing authentication, and who has access to what data is currently one of the responsibilities of the processing layer. 
+
+During our research we’ve tested a resource called CouchDB. Essentially it’s a resource which exposes it’s data to the internet. It allows the interface to read data directly from the resource. Which means that you don't need a processing layer to request the data from the database, process it and serve it to the interface. The database can take care of the serving of information by itself. And the interface can do it’s own processing on the incoming data.
+
+A setup which, combined with the previous step of the interface taking over the processing layer, truly renders the current processing layer useless.
 
 ### Alternative input
-Keyboards and computer mouses have been a long standing standard. but new input methods are arising. The reason for this is that the current input methods aren't as natural as our everyday interactions with objects. The level of control in real life is so much more granular. A lot of improvements can still be made in the field of input methods. [Victor, 2011][#Victor:2011]
+Keyboards and computer mouses have been a standard for a long time, but new more intuitive input methods are arising. The reason for this is that the current input methods aren't as natural as our everyday interactions with objects. The level of control in real life is so much more granular. A lot of improvements can still be made in the field of input methods. [Victor, 2011][#Victor:2011] Allowing the end user to have a more efficient connection with the interface.
 
 #### Gesture based input
 Gesture based control seems to be a trend. Touch screens and the Apple touchpad allow for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. [Natural gestures might be less error prone than manually inputting through a mouse click]
@@ -121,6 +111,8 @@ There is an issue with these alternative inputs though. It's a term from the 198
 #### Voice based input
 Voice command algorithms have been around since the 1970's. [Berkman, 2013][#Berkman:2013] But only recently have they become decently usable. Because of the high variation in voices, tonal, speed and melodic, it's hard to write good algorithms that understand each person's voice. Using simple commands to control a phone, to call for example a friend, van often prove difficult.
 
+// Conclusion
+
 ### Graphical interface layer
 Even in a perfect world where all data is structured semantical, The presentation layer is still freely interpretable. Deciding which data should be presented to the end-user at what time is something that is decided by the designer of a website. Websites are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing a website is manual labor.
 
@@ -128,9 +120,7 @@ A designer can choose what data is relevant in which situation and present it to
 
 If you're lucky, a content strategist was present during the creation of a website. Someone who's specialty it is to find out what information should be presented to the user at each specific moment. But even then, even when all of the right information is present when you need it. The interface layer can still make the information hard to navigate.
 
-// TODO Introduce Silk
-
-What can we do about it? Nothing. It's easy like that. Every website needs to be designed. Yes, services like Silk exist to create a semantic web. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the creators of the content.
+What can we do about it? Nothing. It's easy like that. Every website needs to be designed. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the creators of the content.
 
 ### Page based navigation
 The web is designed to be browsed like pages from a book. Going from one page to another by flipping pages. Searching the knowledge we're looking for. But instead of taking the page corner the web provides hyperlinks. Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data.
@@ -139,10 +129,16 @@ According to Steve Krug, interaction designer and author of Don't make me think,
 
 This behaviour is natural to us humans. While web pages are designed to have a structure and make it easy for us to navigate through websites. We rarely ever read all of the content.
 
-### Brain Computer Interfaces
-The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [Hawkins, 2004, p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain is capable of learning how to handle these pulses by recognising patterns.
+// What’s the optimisation?
 
-There's a real world example of a man with retinoschisis, a rare disease which makes you blind after a couple of years, whom was able to see again through a special device. The device, called [Brainport](http://science.howstuffworks.com/brainport.htm) , is basically a webcam which is wired to output electrotactile stimulation to the users tongue. So, the webcam sends it digital signals directly to the tongue. [Layton, 2006][#Layton:2006] After three months the man was able to see again after being accustomed to the signals coming in. This is one amazing example of the plasticity of the brain. [Levy, 2008][#Levy:2008]
+### Brain Computer Interfaces
+Let’s take a closer look at the end user. The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [Hawkins, 2004, p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain is capable of learning how to handle these pulses by recognising patterns. This way you could design a completely new type of interface which integrates better with the end user.
+
+These interfaces are called Brain Computer Interface or BCI’s which are devices  which enable to read (and in the future write to) the mind by translating electrical activity to signals which can be interpreted by computers.
+
+#### The plasticity of the brain
+There's a real world example of a man with retinoschisis, a rare disease which makes you blind after a couple of years, whom was able to see again through a special device. The device, called [Brainport](http://science.howstuffworks.com/brainport.htm)
+, is basically a webcam which is wired to output little electrical pulses to the users tongue. So, the webcam sends its digital signals directly to the tongue. [Layton, 2006][#Layton:2006] After three months the man was able to see again after being accustomed to the signals coming in. This is one amazing example of the plasticity of the brain. [Levy, 2008][#Levy:2008]
 
 ![](http://static.ddmcdn.com/gif/brainport-vision-diagram.jpg)
 
@@ -152,12 +148,9 @@ An other example is a colourblind man who is able to perceive colours through so
 
 Imagine a device that somehow feeds the internet as a sixth sense. No need of a screen or keyboard. Applied properly, your brain could make sense of the patterns being fed to it. The moment you think of a fire-truck, the device would understand that thought, and feed all of the properties of a fire-truck back to you, instantaneously fetched from the internet.
 
-Using it just as a screen would make the chain smaller, but imaging what would happen if you could connect it to twitters firehose?
+Also it would be ideal not to surf pages anymore but retrieving the data directly from the resource as you think. This way the internet becomes an extension of the human brain, like a portable hard drive for a computer. Seamlessly integrating with the users memory.  How would it be to have wikipedia in your brain?
 
-#### BCIs
-Brain Computer Interface or BCI’s are devices which enable to read the mind by translating electronical activity to signals which can be interpreted by computers.
-
-Let’s elaborate on the possibilities with BCIs as it is the most direct connection between brains and the internet. Also it would be ideal not to surf pages anymore but retrieving the data directly from the database as you think. How would it be to have wikipedia in your brain?
+Let’s elaborate on the possibilities with BCIs as it is the most direct connection between brains and the internet.  
 
 #### Optogenetics
 Optogenetics is a fairly new technique and best suiting for reading and writing to the brain. By altering the genetics of individual neurons in the brain scientists are able to see and alter the state of individual neurons with lasers.
@@ -171,7 +164,6 @@ This is all theoretically possible already, but not tested on humans yet. From t
 #### The internet as an extension
 Let’s refer back to the metaphor of the hammer. Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
 
-<!--- [This is more or less already in the research. Should probably be placed somewhere else structure wise, we're talking about solutions here, no comparissons.]
 ##### Memory
 Let's see what's more capable of storing lots of data, the brain or a computer. There's lots of speculations around the total size of the human brain translated to digital terms. Estimations vary from 1 Terabyte to 1 Petabyte (1000TB) (TODO citation needed).
 
@@ -218,9 +210,6 @@ Now that we looked at possible optimisations for the communication chain we woul
 > In 2057, the internet will be beamed directly to your brain from the cloud. We strongly recommend ad-blocking software. [Rackspace, 2010][#Rackspace:2010]
 
 It might have been a small joke, but their expectation does actually align with ours.
-
-// How to implement encyclopedia?
-// Are we going to have apps?
 
 A chip in our brains could possibly create a direct link between our brains and the internet. Even though our brains are really flexible (See "A more direct interface" in "Optimisations"), we are unsure if the human brain would be able to cope with the unorganised mess that is the current internet being fed to it.
  
