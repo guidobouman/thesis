@@ -21,10 +21,10 @@ This also counts for the protocol and application stack of the world wide web. I
 
 ### The internet can be seen as a tool for humans
 
-> **tool|tuːl|noun**  
+> **tool|tuːl|noun**
 A device or implement, esp. one held in the hand, used to carry out a particular function.
 
-Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood. 
+Tools are extensions of humans which enables them to do stuff which they normally can't do. A hammer extends the arm and is able to deliver an precise and more heavy impact to an object, a nail for example. Without this hammer, humans wouldn’t be capable of driving a nail into wood.
 
 The internet is functioning as a tool for exchange of information and communication and thus functions as an extension of humans. Where as you wouldn’t create a hammer with laser pointer and interchangeable head and all other sorts of extra features to achieve your goal. The same applies to communication. You want to keep it as simple and effective as possible.
 
@@ -58,7 +58,7 @@ The resource is the data the user is requesting . Whether it be data from a data
 Now that we know about the current communication chain, what do we think could be improved, and why?
 
 ### Semantics, Optimising data itself
-> **semantics |sɪˈmantɪks| plural noun**  
+> **semantics |sɪˈmantɪks| plural noun**
 The branch of linguistics and logic concerned with meaning. The two main areas are logical semantics, concerned with matters such as sense and reference and presupposition and implication, and lexical semantics, concerned with the analysis of word meanings and relations between them.
 
 The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, computers need context and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything they understand. When there's no ruleset, the computer does not understand the information.
@@ -76,17 +76,20 @@ Unfortunately there are not many Real World examples of the usage RDF and [Cory 
 We can’t expect people to organise their data semantically. There’s a big difference between ordered data for computers to calculations over and unordered data for humans. The easiest way would be by not having to add an extra translation layer. Keep data from humans for humans and data from computers for computers. Unfortunately this is not yet the case. We still need to pipe data from humans through computers.
 
 
-### Interface taking over processing
+### Removing the processing layer
+We believe that removing the processing layer from the communication chain is a possible optimisation. If we want to make this possible we have to come up with a solution that completely renders the processing layer useless. Other layers in the communication chain will have to take over it's current responsibilities.
+
+#### Interface taking over processing
 Over the last years interfaces started getting a lot more powerful. This means that the interface is slowly getting more and more capable of running heavy calculations without the need of a processing layer parsing and formatting data. All of the processing and formatting can nowadays easily be done in a modern-day interface.
 
 The processing step in the communication chain could literally be rendered useless. With a resource which is directly accessible from the interface, and an interface which contains all  the processing, there would be no need for the processing step. Periodic tasks and very heavy calculations on large datasets can be delegated to dedicated processing platforms where needed.
 
 This allows us to strip one of the steps in the communication chain, and thus move towards a better optimised communication chain. There is one issue though, we need an internet faced resource to make this happen.
 
-### Internet faced resource
-Typical resources as we know it (databases for example) are not accessible to the interface. And even when they are, are not designed to be accessed directly by a large public of users through the interface. Resources which are designed to handle a direct connection from the interface can help in rendering the processing step useless. 
+#### Internet faced resource
+Typical resources as we know it (databases for example) are not accessible to the interface. And even when they are, are not designed to be accessed directly by a large public of users through the interface. Resources which are designed to handle a direct connection from the interface can help in rendering the processing step useless.
 
-The problem is that, these resources have to be able to take care of different users and their privileges. When a resource is exposed to the public, you want to make sure that your personal data actually is personal and can not be viewed or even altered by someone else. This increases the responsibilities for the resource layer. Managing authentication, and who has access to what data is currently one of the responsibilities of the processing layer. 
+The problem is that, these resources have to be able to take care of different users and their privileges. When a resource is exposed to the public, you want to make sure that your personal data actually is personal and can not be viewed or even altered by someone else. This increases the responsibilities for the resource layer. Managing authentication, and who has access to what data is currently one of the responsibilities of the processing layer.
 
 During our research we’ve tested a resource called CouchDB. Essentially it’s a resource which exposes it’s data to the internet. It allows the interface to read data directly from the resource. Which means that you don't need a processing layer to request the data from the database, process it and serve it to the interface. The database can take care of the serving of information by itself. And the interface can do it’s own processing on the incoming data.
 
@@ -150,7 +153,7 @@ Imagine a device that somehow feeds the internet as a sixth sense. No need of a 
 
 Also it would be ideal not to surf pages anymore but retrieving the data directly from the resource as you think. This way the internet becomes an extension of the human brain, like a portable hard drive for a computer. Seamlessly integrating with the users memory.  How would it be to have wikipedia in your brain?
 
-Let’s elaborate on the possibilities with BCIs as it is the most direct connection between brains and the internet.  
+Let’s elaborate on the possibilities with BCIs as it is the most direct connection between brains and the internet.
 
 #### Optogenetics
 Optogenetics is a fairly new technique and best suiting for reading and writing to the brain. By altering the genetics of individual neurons in the brain scientists are able to see and alter the state of individual neurons with lasers.
@@ -212,7 +215,7 @@ Now that we looked at possible optimisations for the communication chain we woul
 It might have been a small joke, but their expectation does actually align with ours.
 
 A chip in our brains could possibly create a direct link between our brains and the internet. Even though our brains are really flexible (See "A more direct interface" in "Optimisations"), we are unsure if the human brain would be able to cope with the unorganised mess that is the current internet being fed to it.
- 
+
 We think that connecting an open set of databases to the human mind could work well. The databases would function just like apps on a mobile phone. With each new database extra functionality is added, yet none is required. Information in one database can reference to information in another database. It's up to the user to connect to that new database or not. Much like the original design of the internet, but with raw data and no markup. Your brain is the reader, it will process the data.
 
 The available data on this new implementation would be very limited at first. Websites and -services like encyclopaedias or other large data sets would be perfect as first services to start providing data in this way. By providing an open format everyone can contribute to it. The available information would rapidly increase, and services could provide open end-points for their datasets.
