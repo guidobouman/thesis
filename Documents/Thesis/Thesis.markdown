@@ -19,7 +19,7 @@ If you’re developing software you’re mostly defining behaviour of the applic
 
 This also counts for the protocol and application stack of the world wide web. In order to serve the web to a immensely varied user base a lot of behaviour/cultural differences and needs needed to be defined. But somehow this feels wrong.
 
-### The internet can be seen as a tool for humans
+### The internet as a tool for humans
 
 > **tool|tuːl|noun**
 A device or implement, esp. one held in the hand, used to carry out a particular function.
@@ -37,22 +37,23 @@ We asked ourselves:
 
 To allow us to create a new future vision in which we answer that question, we need a solid understanding of the current communication chain.
 
-## Communication chain overview
-The following is our take on the overview of the communication chain between a user and a resource.
-
+## Communication chain
 ![Communication chain overview](communication%20chain%20overview-03.png)
+*Figure 1.* Overview of the communication chain according to us.
+
+We view the communication chain as a chain of 4 steps, or layers, allowing a user to interact with information in an easy and quick way.
 
 ### End user
-This is you, the internet user while browsing the web. Using your hands to control a mouse or other input device. Navigating through pages on the screen which your eyes in turn read.
+This is you, the user that's trying to interact with a resource. Using your body to control a mouse or any other input device. Navigating through information on the interface which your senses in turn interpret. For example your voice controlling a phone, which gives audio feedback that your ears in turn interpret. Or another example, your fingers controlling a touchscreen which presents information on the screen that your eyes can read.
 
 ### Interface
-The interface is the gate or a proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and presents this to the user, ready for the user to be interpreted.
+The interface is the gate or proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information to the user as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and presents this to the user, ready for the user to be interpreted.
 
-### Server
-The server simple serves the resource, making it accessible (for the people allowed to see it). It processes the request from the interface and returns a usable form of the resource to the interface.
+### Processing
+The processing layer serves the resource, making it accessible to the public. It processes the request from the interface, retrieves the data from the resource, and usually returns a usable form of the resource back to the interface. It often takes care of the shielding of the resource as well. Only granting the right users access to it.
 
 ### Resource
-The resource is the data the user is requesting . Whether it be data from a database or self provided data processed by a special algorithm.
+The resource is the data the user is requesting. It can be stored through the use of a database or any other form of storage, processed by a special algorithm or not. The data can be stored, retrieved, manipulated or removed. 
 
 ## Optimisations
 Now that we know about the current communication chain, what do we think could be improved, and why?
@@ -112,9 +113,16 @@ The MYO is set to ship late 2013, early 2014. If it's able to deliver, it could 
 There is an issue with these alternative inputs though. It's a term from the 1980's called "Gorilla arm". When you use a desktop monitor with touchscreen functionality, your arms and shoulders will quickly fatigue. This happens because of holding your arms horizontally and reaching out to the monitor for long durations to constantly touch the screen. This same phenomenon could be applicable for gesture based input devices. The Kinect requires you to do large gestures, allowing you to use a lot of different muscles, and not stressing a couple of them for a longer period of time. The LEAP on the other hand (for now) relies heavily on pointing to your screen, this could replicate the gorilla arm phenomenon. Because the MYO is completely location & direction agnostic, it would be highly unlikely for it's users to suffer from this problem. [Pogue, 2013][#Pogue:2013]
 
 #### Voice based input
-Voice command algorithms have been around since the 1970's. [Berkman, 2013][#Berkman:2013] But only recently have they become decently usable. Because of the high variation in voices, tonal, speed and melodic, it's hard to write good algorithms that understand each person's voice. Using simple commands to control a phone, to call for example a friend, van often prove difficult.
+Voice command algorithms have been around since the 1970's. [Berkman, 2013][#Berkman:2013] But only recently have they become decently usable. Because of the high complexity of human speech, it's hard to write good algorithms that understand each person's voice. Using simple commands to control a phone, to call a friend for example, can often prove difficult. The recent evolution behind the voice recognition software is driven by the use of a neural network, in short they used an algorithm that works like your brain. [McMillan, 2013][#McMillan:2013]
+
+With the recent breakthrough, voice recognition has the potential to become an input method that could outperform the mouse and keyboard standards we're currently used to for desktop interfaces. The problem is that it's still too error prone to replace either of the two. For mobile interfaces it's already able to enhance the experience significantly. This is because input methods on mobile interfaces are not as effective as on the larger desktop counterparts.
 
 // Conclusion
+
+### Wearable interface
+With the announcement of Google Glass back in april 2012, a new kind of interface has the potential to become a mainstream interface. The wearable or natural interface. The concept of a wearable interface is already rather old, Steve Mann started working on this topic back in the 80's. But with recent developments in wireless technologies, energy and computational power, wearable devices are finally approaching unobtrusive forms. Google Glass for example is almost the size of a regular pair of glasses. And the near future could see the whole technology integrated into the rim of regular glasses.
+
+Manufacturers are expecting their technology to become ever more powerful and smaller. Based on historical progress, we can expect wearable interfaces to integrate into our bodies or accessories in the foreseeable future.
 
 ### Graphical interface layer
 Even in a perfect world where all data is structured semantical, The presentation layer is still freely interpretable. Deciding which data should be presented to the end-user at what time is something that is decided by the designer of a website. Websites are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing a website is manual labor.
@@ -293,3 +301,4 @@ People are able to perceive connections like these and make conclusions over it.
 [#Thalmic:2013]: Thalmic Labs. (2013) MYO - The Gesture Control Armband. Retrieved from: https://www.thalmic.com/myo/
 [#Berkman:2013]: Berkman, F. (2012). Voice Command: Capturing Nerdy Imaginations Since the 1800s. Retrieved from: http://mashable.com/2012/10/26/voice-command/
 [#Victor:2011]: Victor, B. (2011) A Brief Rant on the Future of Interaction Design. Retrieved from: http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/
+[#McMillan:2013]: McMillan, R. (2013). How Google Retooled Android With Help From Your Brain. Retrieved from: http://www.wired.com/wiredenterprise/2013/02/android-neural-network/
