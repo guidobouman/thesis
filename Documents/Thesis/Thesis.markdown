@@ -19,7 +19,7 @@ If you’re developing software you’re mostly defining behaviour of the applic
 
 This also counts for the protocol and application stack of the world wide web. In order to serve the web to a immensely varied user base a lot of behaviour/cultural differences and needs needed to be defined. But somehow this feels wrong.
 
-### The internet can be seen as a tool for humans
+### The internet as a tool for humans
 
 > **tool|tuːl|noun**
 A device or implement, esp. one held in the hand, used to carry out a particular function.
@@ -37,25 +37,26 @@ We asked ourselves:
 
 To allow us to create a new future vision in which we answer that question, we need a solid understanding of the current communication chain.
 
-## Communication chain overview
-The following is our take on the overview of the communication chain between a user and a resource.
-
+## Communication chain
 ![Communication chain overview](communication%20chain%20overview-03.png)
+*Figure 1.* Overview of the communication chain according to us.
+
+We view the communication chain as a chain of 4 steps, or layers, allowing a user to interact with information in an easy and quick way.
 
 ### End user
-This is you, the internet user while browsing the web. Using your hands to control a mouse or other input device. Navigating through pages on the screen which your eyes in turn read.
+This is you, the user that's trying to interact with a resource. Using your body to control a mouse or any other input device. Navigating through information on the interface which your senses in turn interpret. For example your voice controlling a phone, which gives audio feedback that your ears in turn interpret. Or another example, your fingers controlling a touchscreen which presents information on the screen that your eyes can read.
 
 ### Interface
-The interface is the gate or a proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and presents this to the user, ready for the user to be interpreted.
+The interface is the gate or proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information to the user as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and presents this to the user, ready for the user to be interpreted.
 
-### Server
-The server simple serves the resource, making it accessible (for the people allowed to see it). It processes the request from the interface and returns a usable form of the resource to the interface.
+### Processing
+The processing layer serves the resource, making it accessible to the public. It processes the request from the interface, retrieves the data from the resource, and usually returns a usable form of the resource back to the interface. It often takes care of the shielding of the resource as well. Only granting the right users access to it.
 
 ### Resource
-The resource is the data the user is requesting . Whether it be data from a database or self provided data processed by a special algorithm.
+The resource is the data the user is requesting. It can be stored through the use of a database or any other form of storage, processed by a special algorithm or not. The data can be stored, retrieved, manipulated or removed. 
 
 ## Optimisations
-Now that we know about the current communication chain, what do we think could be improved, and why?
+Now that we know about the current communication chain, we would like to suggest a set of optimisations which we think will optimise the communication chain. These optimisations are based on our findings during our research or real-life experiences. Some of which we have already been able to test and find out to be working.
 
 ### Semantics, Optimising data itself
 > **semantics |sɪˈmantɪks| plural noun**
@@ -71,10 +72,27 @@ The Semantic Web, a W3C movement lead by the Tim Berners Lee aims to make unstru
 One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between two other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale" and "Interworking among applications: combining data from several applications to arrive at new information." [Klyne, 2004][#Klyne:2004] SPARQL is the accompanying query language for RDF, which allows the user to easily search through RDF data.
 
 #### Metacrap
-Unfortunately there are not many Real World examples of the usage RDF and [Cory Doctorow](http://craphound.com/) has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practically not possible because of the lack of discipline from the users side. In short: describing data is freely interpretable, prone to errors, subjective and requires a lot of work from the user side.
+Unfortunately there are not many real world examples of the usage of RDF. [Cory Doctorow](http://craphound.com/) has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practically not possible because of the lack of discipline from the users side. In short: describing data is freely interpretable, prone to errors, subjective and requires a lot of work from the user side.
 
 We can’t expect people to organise their data semantically. There’s a big difference between ordered data for computers to calculations over and unordered data for humans. The easiest way would be by not having to add an extra translation layer. Keep data from humans for humans and data from computers for computers. Unfortunately this is not yet the case. We still need to pipe data from humans through computers.
 
+### Graphical interface layer
+Even in a perfect world where all data is structured semantical, the presentation of the interface layer is still freely interpretable. Deciding which data should be presented to the end-user at what time is something that is decided by the interface designer. Interfaces are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing an interface is manual labor.
+
+A designer can choose what data is relevant in which situation and present it to the user. The problem with this is that the data decided to be left out is missing. It might have been done because the designer thought the relevant data would be easier to be find. Or because the remaining data just didn't fit the interface. Even though the data might've been available, it's just not there for the end-user to be found.
+
+If you're lucky, a content strategist was present during the creation of a website. Someone who's specialty it is to find out what information should be presented to the user at each specific moment. But even then, even when all of the right information is present when you need it. The interface layer can still make the information hard to navigate.
+
+What can we do about it? Nothing. It's easy like that. Every website needs to be designed. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the designers of the interface.
+
+### Page based navigation
+The web is designed to be browsed like pages from a book. Going from one page to another by flipping pages. Searching the knowledge we're looking for. But instead of taking the page corner the web provides hyperlinks. Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data.
+
+According to Steve Krug, interaction designer and author of Don't make me think, we feverishly scan webpages. Looking for anything that slightly resembles what we're looking for. When the page appears not being the one we were looking for we're back where we started with one click of the back button. [Krug, 2005, p. 21][#Krug:2005]
+
+This behaviour is natural to us humans. While web pages are designed to have a structure and make it easy for us to navigate through websites. We rarely ever read all of the content.
+
+// What’s the optimisation?
 
 ### Removing the processing layer
 We believe that removing the processing layer from the communication chain is a possible optimisation. If we want to make this possible we have to come up with a solution that completely renders the processing layer useless. Other layers in the communication chain will have to take over it's current responsibilities.
@@ -96,10 +114,10 @@ During our research we’ve tested a resource called CouchDB. Essentially it’s
 A setup which, combined with the previous step of the interface taking over the processing layer, truly renders the current processing layer useless.
 
 ### Alternative input
-Keyboards and computer mouses have been a standard for a long time, but new more intuitive input methods are arising. The reason for this is that the current input methods aren't as natural as our everyday interactions with objects. The level of control in real life is so much more granular. A lot of improvements can still be made in the field of input methods. [Victor, 2011][#Victor:2011] Allowing the end user to have a more efficient connection with the interface.
+Keyboards and computer mouses have been a standard for a long time, but new more intuitive input methods are arising. The reason for this is that the current input methods aren't as natural as our everyday interactions with objects. The level of control in real life is so much more granular. A lot of improvements can still be made in the field of input methods. [Victor, 2011][#Victor:2011] Allowing the end user to have a more efficient or natural connection with the interface.
 
 #### Gesture based input
-Gesture based control seems to be a trend. Touch screens and the Apple touchpad allow for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. [Natural gestures might be less error prone than manually inputting through a mouse click]
+Gesture based control seems to be a trend. Touch screens and the Apple touchpad allow for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device in 3D space. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. Natural gestures could be faster and less error prone than through the use of a mouse click.
 
 The Kinect has a camera that tracks your whole body and it movements. It's still quite rough though. Large movements are needed to trigger an action. The LEAP takes a different approach, only tracking your hands in front of a device. By limiting the area, the movements can be tracked on a much more granular level. Precise finger gestures make the LEAP very usable for interaction with applications that require precise control rather than large gestures. The MYO takes this even a step further by removing the camera and tracking muscle tension on the lower arm. Which results in freeing the user from any location or direction based limitation.
 
@@ -112,27 +130,18 @@ The MYO is set to ship late 2013, early 2014. If it's able to deliver, it could 
 There is an issue with these alternative inputs though. It's a term from the 1980's called "Gorilla arm". When you use a desktop monitor with touchscreen functionality, your arms and shoulders will quickly fatigue. This happens because of holding your arms horizontally and reaching out to the monitor for long durations to constantly touch the screen. This same phenomenon could be applicable for gesture based input devices. The Kinect requires you to do large gestures, allowing you to use a lot of different muscles, and not stressing a couple of them for a longer period of time. The LEAP on the other hand (for now) relies heavily on pointing to your screen, this could replicate the gorilla arm phenomenon. Because the MYO is completely location & direction agnostic, it would be highly unlikely for it's users to suffer from this problem. [Pogue, 2013][#Pogue:2013]
 
 #### Voice based input
-Voice command algorithms have been around since the 1970's. [Berkman, 2013][#Berkman:2013] But only recently have they become decently usable. Because of the high variation in voices, tonal, speed and melodic, it's hard to write good algorithms that understand each person's voice. Using simple commands to control a phone, to call for example a friend, van often prove difficult.
+Voice command algorithms have been around since the 1970's. [Berkman, 2013][#Berkman:2013] But only recently have they become decently usable. Because of the high complexity of human speech, it's hard to write good algorithms that understand each person's voice. Using simple commands to control a phone, to call a friend for example, can often prove difficult. The recent evolution behind the voice recognition software is driven by the use of a neural network, in short they used an algorithm that works like your brain. [McMillan, 2013][#McMillan:2013]
+
+With the recent breakthrough, voice recognition has the potential to become an input method that could outperform the mouse and keyboard standards we're currently used to for desktop interfaces. The problem is that it's still too error prone to replace either of the two. For mobile interfaces it's already able to enhance the experience significantly. This is because input methods on mobile interfaces are not as effective as on the larger desktop counterparts.
 
 // Conclusion
 
-### Graphical interface layer
-Even in a perfect world where all data is structured semantical, The presentation layer is still freely interpretable. Deciding which data should be presented to the end-user at what time is something that is decided by the designer of a website. Websites are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing a website is manual labor.
+### Wearable interface
+With the announcement of Google Glass back in april 2012, a new kind of interface has the potential to become a mainstream interface. The wearable or natural interface. The concept of a wearable interface is already rather old, Steve Mann started working on this topic back in the 80's. But with recent developments in wireless technologies, energy and computational power, wearable devices are finally approaching unobtrusive forms. Google Glass for example is almost the size of a regular pair of glasses. And the near future could see the whole technology integrated into the rim of regular glasses.
 
-A designer can choose what data is relevant in which situation and present it to the user. The problem with this is that the data decided to be left out is missing. It might have been done because the designer thought the relevant data would be easier to be find. Or because the remaining data just didn't fit the interface. Even though the data might've been available it's just not there for the end-user to be found.
+Manufacturers are expecting their technology to become ever more powerful and smaller. Based on historical progress and current developments, we can expect wearable interfaces to integrate into small accessories or even our bodies in the foreseeable future.
 
-If you're lucky, a content strategist was present during the creation of a website. Someone who's specialty it is to find out what information should be presented to the user at each specific moment. But even then, even when all of the right information is present when you need it. The interface layer can still make the information hard to navigate.
-
-What can we do about it? Nothing. It's easy like that. Every website needs to be designed. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the creators of the content.
-
-### Page based navigation
-The web is designed to be browsed like pages from a book. Going from one page to another by flipping pages. Searching the knowledge we're looking for. But instead of taking the page corner the web provides hyperlinks. Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data.
-
-According to Steve Krug, interaction designer and author of Don't make me think, we feverishly scan webpages. Looking for anything that slightly resembles what we're looking for. When the page appears not being the one we were looking for we're back where we started with one click of the back button. [Krug, 2005, p. 21][#Krug:2005]
-
-This behaviour is natural to us humans. While web pages are designed to have a structure and make it easy for us to navigate through websites. We rarely ever read all of the content.
-
-// What’s the optimisation?
+// Conclusion
 
 ### Brain Computer Interfaces
 Let’s take a closer look at the end user. The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [Hawkins, 2004, p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain is capable of learning how to handle these pulses by recognising patterns. This way you could design a completely new type of interface which integrates better with the end user.
@@ -239,3 +248,4 @@ Imagine how a better connectivity with the information on the web could facilita
 [#Thalmic:2013]: Thalmic Labs. (2013) MYO - The Gesture Control Armband. Retrieved from: https://www.thalmic.com/myo/
 [#Berkman:2013]: Berkman, F. (2012). Voice Command: Capturing Nerdy Imaginations Since the 1800s. Retrieved from: http://mashable.com/2012/10/26/voice-command/
 [#Victor:2011]: Victor, B. (2011) A Brief Rant on the Future of Interaction Design. Retrieved from: http://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/
+[#McMillan:2013]: McMillan, R. (2013). How Google Retooled Android With Help From Your Brain. Retrieved from: http://www.wired.com/wiredenterprise/2013/02/android-neural-network/
