@@ -21,7 +21,9 @@ If you want to learn something the job is to repeatedly fire the pattern of neur
 <iframe width="480" height="300" src="http://www.220.ro/embi/itZCCPlnPb" frameborder="0"></iframe>
 _Video: Dexter’s Laboratory: The Learning Machine_
 
-Another thing is when it comes to learning is: your reference is the limit of what you’re able to learn. This sounds weird because learning is all about broadening your reference. But when you think of it, how you’re able to learn; you’re not able to fire neurons/pattern which aren't there. So if you want to ‘download’ data into the brain you would have to do it with triggering the existing neurons and make new patterns.  [TODO: Gevolgen], [Hawkins, 2004][#Hawkins:2004]
+Another thing is when it comes to learning is: your reference is the limit of what you’re able to learn. This sounds weird because learning is all about broadening your reference. But when you think of it, how you’re able to learn; you’re not able to fire neurons/pattern which aren't there. So if you want to ‘download’ data into the brain you would have to do it with triggering the existing neurons and make new patterns. [Hawkins, 2004][#Hawkins:2004]
+
+[TODO: Gevolgen]
 
 The hippocampus plays a big role in the formation of new memories. The hippocampus exists in both parts of the brain and is directly connected to the neocortex. Imagine it as a buffer before writing into the neocortex, the hard drive. Without the hippocampus it is impossible to store new memories, while it’s possible to still remember things before the defect.
 
