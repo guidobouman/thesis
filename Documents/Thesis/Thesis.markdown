@@ -56,7 +56,7 @@ The processing layer serves the resource, making it accessible to the public. It
 The resource is the data the user is requesting. It can be stored through the use of a database or any other form of storage, processed by a special algorithm or not. The data can be stored, retrieved, manipulated or removed. 
 
 ## Optimisations
-Now that we know about the current communication chain, what do we think could be improved, and why?
+Now that we know about the current communication chain, we would like to suggest a set of optimisations which we think will optimise the communication chain. These optimisations are based on our findings during our research or real-life experiences. Some of which we have already been able to test and find out to be working.
 
 ### Semantics, Optimising data itself
 > **semantics |sɪˈmantɪks| plural noun**
@@ -72,7 +72,7 @@ The Semantic Web, a W3C movement lead by the Tim Berners Lee aims to make unstru
 One of the proposals of the Semantic Web movement is RDF (Resource Description Framework). It's is one of the attempts of W3C to bring query-able and machine readable metadata to the web, a specification for  xml. It is designed to be the  Lingua franca (a language bridging between two other languages) "to allow data to be processed outside the particular environment in which it was created, in a fashion that can work at Internet scale" and "Interworking among applications: combining data from several applications to arrive at new information." [Klyne, 2004][#Klyne:2004] SPARQL is the accompanying query language for RDF, which allows the user to easily search through RDF data.
 
 #### Metacrap
-Unfortunately there are not many Real World examples of the usage RDF and [Cory Doctorow](http://craphound.com/) has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practically not possible because of the lack of discipline from the users side. In short: describing data is freely interpretable, prone to errors, subjective and requires a lot of work from the user side.
+Unfortunately there are not many real world examples of the usage of RDF. [Cory Doctorow](http://craphound.com/) has 7 arguments for this in his essay ["Metacrap: Putting the torch to seven straw-men of the meta-utopia"](http://www.well.com/~doctorow/metacrap.htm). He states that it’s practically not possible because of the lack of discipline from the users side. In short: describing data is freely interpretable, prone to errors, subjective and requires a lot of work from the user side.
 
 We can’t expect people to organise their data semantically. There’s a big difference between ordered data for computers to calculations over and unordered data for humans. The easiest way would be by not having to add an extra translation layer. Keep data from humans for humans and data from computers for computers. Unfortunately this is not yet the case. We still need to pipe data from humans through computers.
 
@@ -97,10 +97,10 @@ During our research we’ve tested a resource called CouchDB. Essentially it’s
 A setup which, combined with the previous step of the interface taking over the processing layer, truly renders the current processing layer useless.
 
 ### Alternative input
-Keyboards and computer mouses have been a standard for a long time, but new more intuitive input methods are arising. The reason for this is that the current input methods aren't as natural as our everyday interactions with objects. The level of control in real life is so much more granular. A lot of improvements can still be made in the field of input methods. [Victor, 2011][#Victor:2011] Allowing the end user to have a more efficient connection with the interface.
+Keyboards and computer mouses have been a standard for a long time, but new more intuitive input methods are arising. The reason for this is that the current input methods aren't as natural as our everyday interactions with objects. The level of control in real life is so much more granular. A lot of improvements can still be made in the field of input methods. [Victor, 2011][#Victor:2011] Allowing the end user to have a more efficient or natural connection with the interface.
 
 #### Gesture based input
-Gesture based control seems to be a trend. Touch screens and the Apple touchpad allow for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. [Natural gestures might be less error prone than manually inputting through a mouse click]
+Gesture based control seems to be a trend. Touch screens and the Apple touchpad allow for touch based gestures. Where devices like Kinect, Leap and Myo take a different approach. They track your movements and allow you to freely interact with an electronic device in 3D space. Usually freeing you from your desk or at least replacing (partial) functionality of the mouse. Natural gestures could be faster and less error prone than through the use of a mouse click.
 
 The Kinect has a camera that tracks your whole body and it movements. It's still quite rough though. Large movements are needed to trigger an action. The LEAP takes a different approach, only tracking your hands in front of a device. By limiting the area, the movements can be tracked on a much more granular level. Precise finger gestures make the LEAP very usable for interaction with applications that require precise control rather than large gestures. The MYO takes this even a step further by removing the camera and tracking muscle tension on the lower arm. Which results in freeing the user from any location or direction based limitation.
 
