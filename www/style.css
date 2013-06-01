@@ -173,15 +173,25 @@ sup
   line-height: 1em;
 }
 
-iframe {
+.timeline {
   position: absolute;
   padding-right: 150px;
   margin-bottom: 600px;
 }
 
-iframe + h3 {
+.timeline + h1,
+.timeline + h2,
+.timeline + h3,
+.timeline + p,
+.timeline + blockquote {
   margin-top: 675px;
 }
+
+.timeline body, .storyjs-embed, .vco-storyjs {
+  background-color: transparent;
+}
+
+
 
 @media print
 {
