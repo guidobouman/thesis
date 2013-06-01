@@ -76,6 +76,23 @@ Unfortunately there are not many real world examples of the usage of RDF. [Cory 
 
 We can’t expect people to organise their data semantically. There’s a big difference between ordered data for computers to calculations over and unordered data for humans. The easiest way would be by not having to add an extra translation layer. Keep data from humans for humans and data from computers for computers. Unfortunately this is not yet the case. We still need to pipe data from humans through computers.
 
+### Graphical interface layer
+Even in a perfect world where all data is structured semantical, the presentation of the interface layer is still freely interpretable. Deciding which data should be presented to the end-user at what time is something that is decided by the interface designer. Interfaces are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing an interface is manual labor.
+
+A designer can choose what data is relevant in which situation and present it to the user. The problem with this is that the data decided to be left out is missing. It might have been done because the designer thought the relevant data would be easier to be find. Or because the remaining data just didn't fit the interface. Even though the data might've been available, it's just not there for the end-user to be found.
+
+If you're lucky, a content strategist was present during the creation of a website. Someone who's specialty it is to find out what information should be presented to the user at each specific moment. But even then, even when all of the right information is present when you need it. The interface layer can still make the information hard to navigate.
+
+What can we do about it? Nothing. It's easy like that. Every website needs to be designed. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the designers of the interface.
+
+### Page based navigation
+The web is designed to be browsed like pages from a book. Going from one page to another by flipping pages. Searching the knowledge we're looking for. But instead of taking the page corner the web provides hyperlinks. Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data.
+
+According to Steve Krug, interaction designer and author of Don't make me think, we feverishly scan webpages. Looking for anything that slightly resembles what we're looking for. When the page appears not being the one we were looking for we're back where we started with one click of the back button. [Krug, 2005, p. 21][#Krug:2005]
+
+This behaviour is natural to us humans. While web pages are designed to have a structure and make it easy for us to navigate through websites. We rarely ever read all of the content.
+
+// What’s the optimisation?
 
 ### Removing the processing layer
 We believe that removing the processing layer from the communication chain is a possible optimisation. If we want to make this possible we have to come up with a solution that completely renders the processing layer useless. Other layers in the communication chain will have to take over it's current responsibilities.
@@ -124,23 +141,7 @@ With the announcement of Google Glass back in april 2012, a new kind of interfac
 
 Manufacturers are expecting their technology to become ever more powerful and smaller. Based on historical progress, we can expect wearable interfaces to integrate into our bodies or accessories in the foreseeable future.
 
-### Graphical interface layer
-Even in a perfect world where all data is structured semantical, The presentation layer is still freely interpretable. Deciding which data should be presented to the end-user at what time is something that is decided by the designer of a website. Websites are designed by different people and by definition will have different ways of presenting data. Methods and patterns can be copied. But in the end, designing a website is manual labor.
-
-A designer can choose what data is relevant in which situation and present it to the user. The problem with this is that the data decided to be left out is missing. It might have been done because the designer thought the relevant data would be easier to be find. Or because the remaining data just didn't fit the interface. Even though the data might've been available it's just not there for the end-user to be found.
-
-If you're lucky, a content strategist was present during the creation of a website. Someone who's specialty it is to find out what information should be presented to the user at each specific moment. But even then, even when all of the right information is present when you need it. The interface layer can still make the information hard to navigate.
-
-What can we do about it? Nothing. It's easy like that. Every website needs to be designed. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the creators of the content.
-
-### Page based navigation
-The web is designed to be browsed like pages from a book. Going from one page to another by flipping pages. Searching the knowledge we're looking for. But instead of taking the page corner the web provides hyperlinks. Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data.
-
-According to Steve Krug, interaction designer and author of Don't make me think, we feverishly scan webpages. Looking for anything that slightly resembles what we're looking for. When the page appears not being the one we were looking for we're back where we started with one click of the back button. [Krug, 2005, p. 21][#Krug:2005]
-
-This behaviour is natural to us humans. While web pages are designed to have a structure and make it easy for us to navigate through websites. We rarely ever read all of the content.
-
-// What’s the optimisation?
+// Conclusion
 
 ### Brain Computer Interfaces
 Let’s take a closer look at the end user. The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [Hawkins, 2004, p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain is capable of learning how to handle these pulses by recognising patterns. This way you could design a completely new type of interface which integrates better with the end user.
