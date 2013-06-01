@@ -170,11 +170,15 @@ Let’s refer back to the metaphor of the hammer. Often a tool is meant for one 
 ##### Memory
 Let's see what's more capable of storing lots of data, the brain or a computer. There's lots of speculations around the total size of the human brain translated to digital terms. Estimations vary from 1 Terabyte to 1 Petabyte (1000TB) (TODO citation needed).
 
-The big advantage of a computer on terms of capacity is it's ability to scale. Produce more memory, get more storage. With humans this is different. Although the human memory is scaling as well, there's not much know about the limit. (TODO citation needed).
+The big advantage of a computer on terms of capacity is it's ability to scale. Produce more memory, get more storage. The total filesize of the internet for example, grows exponentially. It doubles every 5.32 years. [Zhang, 2007, p. 6][#Zhang:2007]
 
-The brain keeps track on what memory is more important and what not, it stores data in hierarchy.  The more important memory have more and thicker connections than others. [Hawkins, 2004, p. 133][#Hawkins:2004] Memory's are forgotten if they are not being accessed often enough. Also there is the transition from short-term to long-term memory which requires a certain threshold in strength of the memory. [Swaab, 2010, p. 555][#Swaab:2010]
+With humans this is different. Although the human memory is scaling as well, it’s more a matter of evolution and thus grows very slowly.
+
+Also in terms of storage the brain is different. The brain keeps track on what memory is more important and what not, it stores data in hierarchy.  The more important memory have more and thicker connections than others. [Hawkins, 2004, p. 133][#Hawkins:2004] Memory's are forgotten if they are not being accessed often enough. Also there is the transition from short-term to long-term memory which requires a certain threshold in strength of the memory. [Swaab, 2010, p. 555][#Swaab:2010]
 
 Computer hard drives, in contrast, store everything you want for you. No matter how important, no matter how long as long as you can translate it into bits and bytes.
+
+In terms of scalability in size digital memory is the winner. Where digital memory is expandable and in terms of total internet size exponentially growing all the time.
 
 ##### Computational power
 > Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [Hawkins, 2004, p. 127][#Hawkins:2004]
@@ -189,87 +193,28 @@ Because of the brain plasticity, described above, people are able to 'reprogram'
 
 A good example of the power of computer calculations is computational knowledge platform Wolfram Alpha. It allows you to do advanced mathematical computations, but also analysis over big data sets on the internet.
 
-So, the computer is perfect for making advanced calculations like they do with the Wolfram Alpha platform. If you look from the tool perspective, this is one of the things computers are made for, making it an advanced calculator with a simple interface.
+A conclusion you can draw from this is that computer is meant for linear tasks, where humans are way better at doing the non linear tasks. So, the computer is perfect for making advanced calculations like they do with the Wolfram Alpha platform. If you look from the tool perspective, this is one of the things computers are made for, making it an advanced calculator with a simple interface.
 
 ##### Sharing
-// Why sharing?
+One of the main functions of the internet is telecommunication. It allows people to communicate and share data with each other. But is the internet really so useful for communication?
 
 The only way for a human to share the information is in the form of a conversation and writing. We don't have the ability to make connections with other brains like computers can. A conversation can be done over the phone, but the information has to be explained before the receiver can make sense of the data.
 
 With computers you can just send documents, images, sounds or videos to another computer without the need to explain the information and at great speed. Imagine how long it would take to read the whole wikipedia (18gb)[Kiwix, 2013][#kiwix:2013] for somebody else. The in advance defined standards of the computer really help here. Because computers expect data to be formatted in a specific way, they can make sense of the raw data. Much like it would be to feed the stream of data coming from your retina (eye) to another human brain.
 
 ##### Roundup
-Calculations are for computers, making connections and conclusions is for humans, said the human.
-
-A conclusion you can draw from this is that computer is meant for linear tasks, where humans are way better at doing the non linear tasks.
--->
+If you look at internet as an extension of the human brain it needs to extend only certain functions. For instance calculations and sharing are the points the computer exceeds the power of the brain and it’s logical to make them the main function of the internet. The brain is good for drawing conclusions by connecting the dots.
 
 ## Vision
-Now that we looked at possible optimisations for the communication chain we would like to share our future vision with these possibilities.
+Now that we looked at possible optimisations for the communication chain we  can plot out a timeline for the future. What will be the next rough steps?
 
-### Stage one: Optimisations
-
-### Stage Two: Brains on the internet
-> In 2057, the internet will be beamed directly to your brain from the cloud. We strongly recommend ad-blocking software. [Rackspace, 2010][#Rackspace:2010]
-
-It might have been a small joke, but their expectation does actually align with ours.
-
-A chip in our brains could possibly create a direct link between our brains and the internet. Even though our brains are really flexible (See "A more direct interface" in "Optimisations"), we are unsure if the human brain would be able to cope with the unorganised mess that is the current internet being fed to it.
-
-We think that connecting an open set of databases to the human mind could work well. The databases would function just like apps on a mobile phone. With each new database extra functionality is added, yet none is required. Information in one database can reference to information in another database. It's up to the user to connect to that new database or not. Much like the original design of the internet, but with raw data and no markup. Your brain is the reader, it will process the data.
-
-The available data on this new implementation would be very limited at first. Websites and -services like encyclopaedias or other large data sets would be perfect as first services to start providing data in this way. By providing an open format everyone can contribute to it. The available information would rapidly increase, and services could provide open end-points for their datasets.
-
-#### Problems
-Wether or not something is a truth will become a problem. On the current internet there is no difference between truth and lies. Satirical websites like The Union News network and De Speld provide entertainment through fake made up news for example. For a computer, but also for a direct connection to the brain this is a problem. If a lie occurs in the database it can be interpreted as true for the masses because its directly being piped into others people's brain when they query the data.
-
-While the truth will become relative, facts will still be facts. And they could be checked at the source. The issue with that would be, what is the source? And how do we know the source actually is the source we expect it to be? In other words: Is the source legit? Only by providing a proper identity system we can solve this problem. This system would make sure someone is who he says he is. Providing an author is not required, as you want to enable anonymous posts as well. But when you do provide an author, it should be authenticated.
-
-We're only touching the surface here, and that's by intention. Going into detail about an identity system, its possible weaknesses and how to counter them is something we could write a complete book about. That's not what we want, we're just trying to convey our vision here.
-
-#### Opportunities
-This first step could enable everyone to seamlessly contribute their knowledge to the internet. Creating a collective knowledge if you will. Of course there are already solutions for this on the current internet, but not in a way like this. No interfaces, questions, or programming languages. Just a "share this idea" thought, and it's out there. In your favourite database, anonymous or not, for everyone to be accessed.
-
-People can freely reference you or your work. Getting credit for your work has never been more easy. And all the same for giving credit to someone else as well of course.
-
-#### Function of computers
-While computers will be used for serving data and calculation power. There will be a shift in it's use. As there's no need for a graphical interface, websites would be obsolete, and the only thing needed from computers is serving the actual data and performing tasks it's better at than the human brain. Collecting data or calculating statistics for example.
-
-#### Function of humans
-Being able to get common knowledge instantly from a limited amount of sources. No more need to learn facts or get common knowledge. The way we think of learning could completely change. Facts are a given, there's no need to learn them.
-
-### Stage three: Brains to brains over the internet
-Directly tap into someones brain. People don't have to put info on the internet in a certain database first. Everybody 'owns' everyones data.
-Problem of machine readability and semantics is solved.
-Problem of lies is solved. No more global truth, just individual nodes in a global bank. Just make your own conclusion with others' facts.
-
-#### Problems
-// TODO
-Privacy issues
-Not connected
-People pulling their knowledge
-
-#### Opportunities
-// TODO
-Faster peer to peer communication and mind sharing.
-
-The opportunities are vast. Linking brains to each other & creating a distributed opt-out network could
-
-#### Function of computers
-Computers will still be used for their computational power and function as a back up for people passing away.
-
-#### Function of humans
-The advantage of the human brain as discussed earlier is intelligence and the power to draw conclusions. We predict this will stay this way and will not be replaced by computers. People are there to combine pieces of knowledge and draw the conclusion.
-
-People are able to perceive connections like these and make conclusions over it.  Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. New ideas and hypothesis sprout after getting new information/data. A new idea or hypothesis always is the combination of two pieces of information. A beautiful example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sorts of cancer in a fast and effective way. [Nosta, 2013][#Nosta:2013] All of this because he found a link between two facts and and saw a connection. What if we could fully facilitate this discovery?
-
-### Timeline
+Let’s try putting the optimisations on a timeline.
 
 <iframe class='timeline' src='http://embed.verite.co/timeline/?source=0Aka4DvTeP82GdFpWcjlVOEJWU1YxUFBtRkN6OF9SSnc&font=Georgia-Helvetica&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
 
 
 ## Conclusion
-// TODO
+Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. New ideas and hypothesis sprout after getting new information/data. A new idea or hypothesis always is the combination of two pieces of information. A beautiful example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sorts of cancer in a fast and effective way. [Nosta, 2013][#Nosta:2013] All of this because he found a link between two facts and and saw a connection. What if we could fully facilitate this discovery by the optimisations we gave?
 
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
@@ -286,6 +231,7 @@ People are able to perceive connections like these and make conclusions over it.
 [#Gazzaniga:2008]: Michael S. Gazzaniga (2008). Human: The Science Behind What Makes Us Unique.
 [#Rackspace:2010]: Rackspace. (2010). The Evolution of HTML. Retrieved from: http://broadcast.rackspace.com/blog/HTMLtimeline/index.html (http://www.rackspace.com/blog/internet-history-html-evolution/)
 [#Kelly:1995]: Kelly, K. (1995). Out of Control: The New Biology of Machines, Social Systems, & the Economic World
+[#Zhang:2008]: Zhang, G, Q, Zhang, G, Q, Yang, Q, F, Cheng, S, Q & Zhou, T. (2008). Evolution of the Internet and its cores. New Journal of Physics, 10
 [#Kiwix:2013]: Kiwix. (2013). Retrieved from http://kiwix.org
 [#Klyne:2004]: Klyne, G, Jeremy, J & McBride B. (2004). Resource Description Framework (RDF): Concepts and Abstract Syntax. Retrieved from: http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/
 [#Microsoft:2013]: Microsoft. (2013). Kinect for Windows. Retrieved from: http://www.microsoft.com/en-us/kinectforwindows/
