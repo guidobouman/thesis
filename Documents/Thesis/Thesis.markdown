@@ -134,14 +134,13 @@ Voice command algorithms have been around since the 1970's. [Berkman, 2013][#Ber
 
 With the recent breakthrough, voice recognition has the potential to become an input method that could outperform the mouse and keyboard standards we're currently used to for desktop interfaces. The problem is that it's still too error prone to replace either of the two. For mobile interfaces it's already able to enhance the experience significantly. This is because input methods on mobile interfaces are not as effective as on the larger desktop counterparts.
 
-// Conclusion
+#### Conclusion
+We believe that voice based input just like gesture based input can enhance the interaction with the interface. They can make the process of interacting with the interface more natural, less obtrusive. We don't think they will be able to efficiently replace a keyboard for inputting text though. For example: You wouldn't want to dictate a rather large text to your phone or computer in a silent environment. Just the same as you probably would feel a bit uncomfortable making some weird body movement to turn up the music on your headphones or remove a file from your computer while in a public area.
 
 ### Wearable interface
 With the announcement of Google Glass back in april 2012, a new kind of interface has the potential to become a mainstream interface. The wearable or natural interface. The concept of a wearable interface is already rather old, Steve Mann started working on this topic back in the 80's. But with recent developments in wireless technologies, energy and computational power, wearable devices are finally approaching unobtrusive forms. Google Glass for example is almost the size of a regular pair of glasses. And the near future could see the whole technology integrated into the rim of regular glasses.
 
-Manufacturers are expecting their technology to become ever more powerful and smaller. Based on historical progress and current developments, we can expect wearable interfaces to integrate into small accessories or even our bodies in the foreseeable future.
-
-// Conclusion
+Manufacturers are expecting their technology to become ever more powerful and smaller. Based on historical progress and current developments, we can expect wearable interfaces to integrate into small accessories or even our bodies in the foreseeable future. Combined with the removing of the processing layer wearable interfaces could really cause a fundamental change of the communication chain.
 
 ### Brain Computer Interfaces
 Let’s take a closer look at the end user. The human brain is amazing when it comes to input from the senses. It adjusts itself to whatever sensory input it gets and what function is used the most. This is called neuroplasticity. [Hawkins, 2004, p. 106][#Hawkins:2004] This is due to the fact of that every sense comes in the form of spikes, electrical pulses. The brain is capable of learning how to handle these pulses by recognising patterns. This way you could design a completely new type of interface which integrates better with the end user.
