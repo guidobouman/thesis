@@ -139,7 +139,7 @@ With the recent breakthrough, voice recognition has the potential to become an i
 ### Wearable interface
 With the announcement of Google Glass back in april 2012, a new kind of interface has the potential to become a mainstream interface. The wearable or natural interface. The concept of a wearable interface is already rather old, Steve Mann started working on this topic back in the 80's. But with recent developments in wireless technologies, energy and computational power, wearable devices are finally approaching unobtrusive forms. Google Glass for example is almost the size of a regular pair of glasses. And the near future could see the whole technology integrated into the rim of regular glasses.
 
-Manufacturers are expecting their technology to become ever more powerful and smaller. Based on historical progress, we can expect wearable interfaces to integrate into our bodies or accessories in the foreseeable future.
+Manufacturers are expecting their technology to become ever more powerful and smaller. Based on historical progress and current developments, we can expect wearable interfaces to integrate into small accessories or even our bodies in the foreseeable future.
 
 // Conclusion
 
