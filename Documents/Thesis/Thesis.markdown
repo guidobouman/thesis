@@ -223,6 +223,10 @@ Let’s try putting the optimisations on a timeline.
 
 
 ## Conclusion
+It’s impossible to predict the future. You can only guess for the most likely possibilities. We think that BCIs, optogenetics mainly, are the long term solution to the cluttering of the communication chain.
+
+For the short term we think
+
 Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. New ideas and hypothesis sprout after getting new information/data. A new idea or hypothesis always is the combination of two pieces of information. A beautiful example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sorts of cancer in a fast and effective way. [Nosta, 2013][#Nosta:2013] All of this because he found a link between two facts and and saw a connection. What if we could fully facilitate this discovery by the optimisations we gave?
 
 
