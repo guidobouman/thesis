@@ -4,12 +4,12 @@
 TODO: semantics
 
 ### Requirements of a intelligent machine
-> According to functionalism, being intelligent or having a mind is purely a property of organization and has nothing inherently to do with what you’re organized out of. A mind exists in any system whose constituent parts have the right causal relationship with each other, but those parts can just as validly be neurons, silicon chips, or something else. [p. 75][#Hawkins:2004]
+> According to functionalism, being intelligent or having a mind is purely a property of organization and has nothing inherently to do with what you’re organized out of. A mind exists in any system whose constituent parts have the right causal relationship with each other, but those parts can just as validly be neurons, silicon chips, or something else. [Hawkins, 2004, p. 75][#Hawkins:2004]
 
 ### Capacity
 Upper limit, neurogenesis vs modular computers
 
-> Capacity is the first issue. Let’s say the cortex has 32 trillion synapses. If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory. A hard drive on a personal computer today has 100 billion bytes, so we would need about eighty of today’s hard drives to have the same amount of memory as a human cortex.[p. 384][#Hawkins:2004]
+> Capacity is the first issue. Let’s say the cortex has 32 trillion synapses. If we represented each synapse using only two bits (giving us four possible values per synapse) and each byte has eight bits (so one byte could represent four synapses), then we would need roughly 8 trillion bytes of memory. A hard drive on a personal computer today has 100 billion bytes, so we would need about eighty of today’s hard drives to have the same amount of memory as a human cortex.[Hawkins, 2004, p. 384][#Hawkins:2004]
 
 Because of the modular design of computers, doubling or quadrupling the memory is no issue at all. Through neurogenesis a brain can increase it's capacity, but it could never double it's capacity in a day. Even doubling it's capacity throughout a lifetime is highly unlikely.
 
@@ -19,9 +19,9 @@ As the human brain has no option to replicate itself, or distribute data to a di
 Computers are linked together through the internet. Exchanging data and storing information on other computers is rather easy.  The internet by nature is decentralised and refers to different locations throughout the internet. A decentralised computer network.
 
 ### Computational power
-> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [p. 127][#Hawkins:2004]
+> Neurons are quite slow compared to the transistors in a computer. A neuron collects inputs from its synapses, and combines these inputs together to decide when to output a spike to other neurons. A typical neuron can do this and reset itself in about five milliseconds (5 ms), or around two hundred times per second. This may seem fast, but a modern silicon-based computer can do one billion operations in a second. [Hawkins, 2004, p. 127][#Hawkins:2004]
 
-> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [p. 130][#Hawkins:2004]
+> No matter how many workers you hire, the problem cannot be solved in less time than it takes to walk a million steps. The same is true for parallel computers. [Hawkins, 2004, p. 130][#Hawkins:2004]
 
 There's big difference between the computational power of a computer and a human brain.
 
@@ -34,7 +34,7 @@ The brain doesn’t have pages or domain names. The links are different as well.
 How fast are brains able to read from their memories and what is the difference with computers?
 
 ### Learning
-In the field of learning the human brain and computers differ greatly. Where the human brain can make sense of whatever stream of information is being fed to it, the computer needs everything to be defined in advance. There is a lot of research being done in the field of artificial intelligence, but currently there are no computers that are able to interact with whatever you do if the feature hasn't been implemented. [][#Hawkins:2004]
+In the field of learning the human brain and computers differ greatly. Where the human brain can make sense of whatever stream of information is being fed to it, the computer needs everything to be defined in advance. There is a lot of research being done in the field of artificial intelligence, but currently there are no computers that are able to interact with whatever you do if the feature hasn't been implemented. [Hawkins, 2004][#Hawkins:2004]
 
 For example if an intelligent robot was built to play a game of football, that same computer would not be able to have a sophisticated conversation with you. Current artificial intelligence is based on fooling the human the machine is smart. It hasn't learnt itself to talk, it didn't learn itself to walk or play a game of football. All of that intelligence has been defined by it's creator. 
 

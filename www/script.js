@@ -126,7 +126,7 @@ var parseRefenceList = function(buffer)
       continue;
     }
 
-    var re = new RegExp('\\[(.*)\\]\\[\\#' + escapeRegEx(reference[0]) + '\\]', 'g');
+    var re = new RegExp('\\[([^\\[\\]\\n\\r]*)\\]\\[\\#' + escapeRegEx(reference[0]) + '\\]', 'g');
     buffer = buffer.replace(re, '<sup>(<a href="#' + reference[0].replace(':', '_') + '" class="reference">$1</a>)</sup>');
 
     reference_list.push('<a id="' + reference[0].replace(':', '_') + '">' + reference[1] + '</a>');
