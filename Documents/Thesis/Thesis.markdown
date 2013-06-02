@@ -13,7 +13,7 @@ This brings us to the quote; "A chain is only as strong as its weakest link". Th
 ### Slim down or pile up?
 Since the birth of the internet in 1989, it's underlying structure hasn't changed a lot. Sure, a lot of new layers, services and techniques have been added. The internet was officially intended to store and share data. While in the current day this is still the main use, the definition of storing and sharing data has been stretched a lot. There's Netflix for video, Spotify for audio, and Bookmate for complete books. You could conclude that the internet has become truly multi-medial. Not only the content has changed though. The way this information is presented to the end user has changed a lot as well. From simple pages filled with text, structured through a script language called HTML. That until the birth of version HTML4 in 1997 officially didn't even have any form of visual markup. To large web applications with specifically designed interfaces.
 
-All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decade. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
+All of these advancements have been achieved on the same structure that was basically designed back in 1989 by Tim Berners-Lee. Of course, computers have become more powerful, and techniques like css, ajax and sockets were introduced in the last decade. But still, it's a remarkable fact that this is all still possible on the same structure that was built for text pages.
 
 If you’re developing software you’re mostly defining behaviour of the application. This behaviour is a set of exceptions based on cultural differences between the user and the programming language or framework. The user needs to be able to communicate with the system after all. Think for example of localisation and time zone differences, but also different user roles, security, user preferences and authentication. They're all real life habits and standards which we're trying our hardest to port to the computers.
 
@@ -41,13 +41,13 @@ To allow us to create a new future vision in which we answer that question, we n
 ![Communication chain overview](communication%20chain%20overview-03.png)
 *Figure 1.* Overview of the communication chain according to us.
 
-We view the communication chain as a chain of 4 steps, or layers, allowing a user to interact with information in an easy and quick way.
+We view the communication chain as a chain of 4 steps, or layers, allowing a user to interact with information. Each step has it’s own functions and responsibilities.
 
 ### End user
-This is you, the user that's trying to interact with a resource. Using your body to control a mouse or any other input device. Navigating through information on the interface which your senses in turn interpret. For example your voice controlling a phone, which gives audio feedback that your ears in turn interpret. Or another example, your fingers controlling a touchscreen which presents information on the screen that your eyes can read.
+This is you, the user that's trying to interact with a resource. Using your body to control a mouse or any other input device. Navigating through information on the interface which your senses interpret. For example your voice controlling a phone, which gives audio feedback that your ears interpret. Or another example, your fingers controlling a touchscreen which presents information on the screen that your eyes can read.
 
 ### Interface
-The interface is the gate or proxy between the end-user and the data. The processing layer prepares the data, and the interface tries to present this information to the user as seamless as possible. It receives information from the processing (or storage, more on that later) layer which the user requested. Then tries to render the information as intended and presents this to the user, ready for the user to be interpreted.
+The interface is the gate or proxy between the end-user and the data. The processing layer prepares the data. The interface receives information from the processing layer which the user requested. Then tries to render the information as intended and presents this to the user, ready for the user to be interpreted.
 
 ### Processing
 The processing layer serves the resource, making it accessible to the public. It processes the request from the interface, retrieves the data from the resource, and usually returns a usable form of the resource back to the interface. It often takes care of the shielding of the resource as well. Only granting the right users access to it.
@@ -65,7 +65,7 @@ The branch of linguistics and logic concerned with meaning. The two main areas a
 The web unfortunately is not readable like a database with structured data. This is because of the loose structure in HTML. HTML was intended to be easy to use, flexible. But because it's so flexible, you can omit a lot of descriptional information about your data. For easy machine readability, computers need context and a specified set of rules. If a human reads an article on the internet, he could quickly distinguish the topic, writer and other data from the text. On top of that, based on the websites the user was browsing before, and the context of the current one, a lot of extra information could be extracted. Computers don't work this way. By default they're not flexible at all. Based on the rules mentioned before, they will try to interpret the data and it's structure, and grab everything they understand. When there's no ruleset, the computer does not understand the information.
 
 #### The Semantic Web
-The Semantic Web, a W3C movement lead by the Tim Berners Lee aims to make unstructured data into a 'web of data'.
+The Semantic Web, a W3C movement lead by the Tim Berners-Lee aims to make unstructured data into a 'web of data'.
 
 > Semantic HTML refers to the traditional HTML practice of markup following intention, rather than specifying layout details directly. For example, the use of "em" denoting "emphasis" rather than "i", which specifies italics.
 
@@ -83,16 +83,18 @@ A designer can choose what data is relevant in which situation and present it to
 
 If you're lucky, a content strategist was present during the creation of a website. Someone who's specialty it is to find out what information should be presented to the user at each specific moment. But even then, even when all of the right information is present when you need it. The interface layer can still make the information hard to navigate.
 
-What can we do about it? Nothing. It's easy like that. Every website needs to be designed. But we're still limited by the limits of the creator. The information still needs to be entered and presented. The theory behind Metacrap even applies to the designers of the interface.
+What can we do about it? Not much, except for hope for better content strategy. Every website needs to be designed as long as we’re limited to interfaces with screens. The theory behind Metacrap even applies to the designers of the interface.
 
 ### Page based navigation
-The web is designed to be browsed like pages from a book. Going from one page to another by flipping pages. Searching the knowledge we're looking for. But instead of taking the page corner the web provides hyperlinks. Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data.
+> The web was originally conceived and developed to meet the demand for automatic information-sharing between scientists in universities and institutes around the world. [][http://home.web.cern.ch/about/birth-web]
+
+The web is designed for sharing scientific articles. Going from article to article by clicking links. Searching the knowledge we're looking for. But instead of taking the page corner the web provides hyperlinks. Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data.
 
 According to Steve Krug, interaction designer and author of Don't make me think, we feverishly scan webpages. Looking for anything that slightly resembles what we're looking for. When the page appears not being the one we were looking for we're back where we started with one click of the back button. [Krug, 2005, p. 21][#Krug:2005]
 
 This behaviour is natural to us humans. While web pages are designed to have a structure and make it easy for us to navigate through websites. We rarely ever read all of the content.
 
-// What’s the optimisation?
+This is a bit like removing the graphical interface as discussed in the previous section. The web would need better semantics if we want to breach this page to page flow. If it would work tough, it would make search engine not returning pages but answers to the questions you put in, a thing Google is working on.
 
 ### Removing the processing layer
 We believe that removing the processing layer from the communication chain is a possible optimisation. If we want to make this possible we have to come up with a solution that completely renders the processing layer useless. Other layers in the communication chain will have to take over it's current responsibilities.
@@ -135,7 +137,7 @@ Voice command algorithms have been around since the 1970's. [Berkman, 2013][#Ber
 With the recent breakthrough, voice recognition has the potential to become an input method that could outperform the mouse and keyboard standards we're currently used to for desktop interfaces. The problem is that it's still too error prone to replace either of the two. For mobile interfaces it's already able to enhance the experience significantly. This is because input methods on mobile interfaces are not as effective as on the larger desktop counterparts.
 
 #### Conclusion
-We believe that voice based input just like gesture based input can enhance the interaction with the interface. They can make the process of interacting with the interface more natural, less obtrusive. We don't think they will be able to efficiently replace a keyboard for inputting text though. For example: You wouldn't want to dictate a rather large text to your phone or computer in a silent environment. Just the same as you probably would feel a bit uncomfortable making some weird body movement to turn up the music on your headphones or remove a file from your computer while in a public area.
+We believe that voice based input just like gesture based input can enhance the interaction with the interface. They can make the process of interacting with the interface more natural, less obtrusive. We don't think they will be able to efficiently replace a keyboard for inputting text though. For example: You wouldn't want to dictate a rather large text to your phone or computer in a crowded environment. Just the same as you probably would feel a bit uncomfortable making some weird body movement to turn up the music on your headphones or remove a file from your computer while in that same environment.
 
 ### Wearable interface
 With the announcement of Google Glass back in april 2012, a new kind of interface has the potential to become a mainstream interface. The wearable or natural interface. The concept of a wearable interface is already rather old, Steve Mann started working on this topic back in the 80's. But with recent developments in wireless technologies, energy and computational power, wearable devices are finally approaching unobtrusive forms. Google Glass for example is almost the size of a regular pair of glasses. And the near future could see the whole technology integrated into the rim of regular glasses.
@@ -169,8 +171,6 @@ Optogenetics is a fairly new technique and best suiting for reading and writing 
 By inserting a controlled virus into the brain, certain neurons will be genetically modified and will make the neurons light dependent. This allows the spikes of neurons to be controlled and read by light. [video][1]
 
 This is all theoretically possible already, but not tested on humans yet. From the practical perspective, scientists need to find a way to make it easy to implement this.
-
-// More about the interface of the BCI, integration. Activatiecommando?
 
 #### The internet as an extension
 Let’s refer back to the metaphor of the hammer. Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
@@ -222,11 +222,13 @@ Let’s try putting the optimisations on a timeline.
 
 
 ## Conclusion
-It’s impossible to predict the future. You can only guess for the most likely possibilities. We think that BCIs, optogenetics mainly, are the long term solution to the cluttering of the communication chain.
+It’s impossible to predict the future. You can only guess for the most likely possibilities. We think that Brain Computer Interfaces, optogenetics mainly, are the long term solution to the cluttering of the communication chain.
 
-For the short term we think
+With semantics being crossed out and the need for GUIs as long we have screens; we think the most likely short term optimisations would be with alternative inputs like with Leap Motion, MYO and voice recognition. Also a small first step is to be achieved with removing the processing layer towards the facilitation of Brain Computer Interfaces.
 
-Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. New ideas and hypothesis sprout after getting new information/data. A new idea or hypothesis always is the combination of two pieces of information. A beautiful example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sorts of cancer in a fast and effective way. [Nosta, 2013][#Nosta:2013] All of this because he found a link between two facts and and saw a connection. What if we could fully facilitate this discovery by the optimisations we gave?
+Wearable interface will also facilitate the transition from traditional interfaces like the desktop computer to body integrated interfaces like Brain Computer Interfaces.
+
+Imagine how a better connectivity with the information on the web could facilitate the sprouting of new ideas. New ideas and hypothesis sprout after getting new information/data. A new idea or hypothesis always is the combination of two pieces of information. A beautiful example: a 15 year old boy called Jack Andraka got an insight after reading a web page connecting the facts from those page to his biology lesson that day. This insight lead him to a hypothesis which made him find a way to test different sorts of cancer in a fast and effective way. [Nosta, 2013][#Nosta:2013] All of this because he found a link between two facts and and saw a connection. What if we could facilitate this discovery by the optimisations we gave?
 
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
