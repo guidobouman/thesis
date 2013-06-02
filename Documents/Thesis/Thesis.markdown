@@ -29,7 +29,7 @@ Tools are extensions of humans which enables them to do stuff which they normall
 The internet is functioning as a tool for exchange of information and communication and thus functions as an extension of humans. Where as you wouldn’t create a hammer with laser pointer and interchangeable head and all other sorts of extra features to achieve your goal. The same applies to communication. You want to keep it as simple and effective as possible.
 
 ### The problem
-We think the communication process might have the possibility to be improved. We want to slim down the complexity of the chain between humans and the resource. Currently information travels through a lot of chains or proxies like servers, software and devices (laptops or mobile phones for example). By removing or optimising as much steps in the chain as possible, we think we could make the whole process of using internet services easier, and less prone to errors.
+We think the communication process might have the possibility to be improved as it’s getting old and the usage changes. We want to slim down the complexity of the chain between humans and the resource. Currently information travels through a lot of chains or proxies like servers, software and devices (laptops or mobile phones for example). By removing or optimising as much steps in the chain as possible, we think we could make the whole process of using internet services easier, and less prone to errors.
 
 We asked ourselves:
 
