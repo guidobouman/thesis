@@ -1,10 +1,20 @@
 ## Sub question 3
 > What are the differences & similarities between the human brain and the internet when looking at the certain aspects of data storage and retrieval based on our findings?
 
-TODO: semantics
-
 ### Requirements of a intelligent machine
 > According to functionalism, being intelligent or having a mind is purely a property of organization and has nothing inherently to do with what you’re organized out of. A mind exists in any system whose constituent parts have the right causal relationship with each other, but those parts can just as validly be neurons, silicon chips, or something else. [Hawkins, 2004, p. 75][#Hawkins:2004]
+
+In ‘On intelligence’ Hawkins predicts that computers will never be able to think of themselves, that there's no future in what is called artificial intelligence. His argument is that they can't reprogram their complete own workings except for some small parameters (which are programmed in advance) and thus are not intelligent, like us humans.
+
+Artificial intelligence tries to emulate human behaviour, but according to Hawkins: ‘Intelligence is measured by the predictive ability of a hierarchical memory, not by humanlike behavior.’ [Hawkins, 2004, 72%][#Hawkins:2004]
+
+Hawking uses the Chinese Room metaphor as an argument why machines will never be intelligent like humans. 
+
+> The Chinese room is a thought experiment presented by John Searle. It supposes that there is a program that gives a computer the ability to carry on an intelligent conversation in written Chinese. If the program is given to someone who speaks only English to execute the instructions of the program by hand, then in theory, the English speaker would also be able to carry on a conversation in written Chinese. However, the English speaker would not be able to understand the conversation. Similarly, Searle concludes, a computer executing the program would not understand the conversation either. [Wikipedia, 2013][#Wikipedia:2013]
+
+Because of the brain plasticity, people are able to 'reprogram' themselves. Any input and/or conclusion is changing the internal structure of the brain and making the brain more intelligent. This is also called learning. Computers are not able to learn. There is this thing called machine learning, which is used to make predictions, but it will never be able to stop it’s main task and completely rewrite it. Sure you can make really sophisticated machines and behaviour, but it won’t be able to quit it’s job as a computer and continue on as a butler.
+
+So, a computer will never be as intelligent as a human. It might be better to use the computer/web as an extension of the human brain.
 
 ### Capacity
 Upper limit, neurogenesis vs modular computers
@@ -53,3 +63,5 @@ With computers you can just send documents, images, sounds or videos to another 
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
 [#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
+[#Wikipedia:2013]:Wikipedia article on Chinese room. (2013). Retrieved from http://en.wikipedia.org/wiki/Chinese_room
+
