@@ -33,12 +33,14 @@ The hippocampus plays a big role in the formation of new memories. The hippocamp
 Past memories and realtime experiences are stored the same way in the human brain, although the parts are divided. By retrieving past memories from the neocortex the brain predicts what happens realtime. This is how details can be filled in without having to need to interpret them again. This is called confabulation. 
 “What is actually happening flows up, and what you expect to be happening flows down.” [Hawkins, 2004, p. 89][#Hawkins:2004] 
 
-“Plainly the hippocampus is for encoding, the cortex for storing.” [Chorost, 2011, p. 283][#Chorost:2011] [TODO: Weg halen?]
+“Plainly the hippocampus is for encoding, the cortex for storing.” [Chorost, 2011, p. 283][#Chorost:2011]
+
+[TODO: Weg halen?]
 
 #### Neuroplasticity
 Brain plasticity, or neuroplasticity, is the ability of the human brain to change over time. [Michelon, 2008][#Michelon:2008] This is an amazing feature which allows the human brain to move certain functions to other parts of the brain.
 
-In one of his articles Michelon (2008) writes the following:
+In one of his articles Michelon [2008][#Michelon:2008] writes the following:
 > A surgeon in his 50s suffers a stroke. His left arm is paralyzed. During his rehabilitation, his good arm and hand are immobilized, and he is set to cleaning tables. The task is at first impossible. Then slowly the bad arm remembers how too move. He learns to write again, to play tennis again: the functions of the brain areas killed in the stroke have transferred themselves to healthy regions!
 
 While this is a vital function of the brain, this also means any future technology like optogenetics -- we'll talk more about that later on in this research -- can't rely on any of the brain's functions being present in one specific area. On the other hand because the brain is so flexible, we have grounds to believe that the human brain will be able to adjust to what ever is being fed to it.

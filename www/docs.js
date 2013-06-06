@@ -11,7 +11,6 @@ var docs =
     Research: {
       dir: "Documents/Research/",
       files: [
-        "Introduction.markdown",
         "Subquestion 1.markdown",
         "Subquestion 2.markdown",
         "Subquestion 3.markdown",
