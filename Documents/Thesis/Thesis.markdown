@@ -1,3 +1,6 @@
+Optimising the communication chain.  
+_by Guido Bouman & Jelle Akkerman_
+
 ## Introduction
 
 ### Chinese Whispers
