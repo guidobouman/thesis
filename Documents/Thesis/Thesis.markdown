@@ -166,7 +166,7 @@ Also it would be ideal not to surf pages anymore but retrieving the data directl
 Let’s elaborate on the possibilities with BCIs as it is the most direct connection between brains and the internet.
 
 #### Optogenetics
-Optogenetics is a fairly new technique and best suiting for reading and writing to the brain. By altering the genetics of individual neurons in the brain scientists are able to see and alter the state of individual neurons with lasers.
+Optogenetics is a fairly new technique and best suiting for reading and writing to the brain. By altering the genetics of individual neurons in the brain scientists are able to see and alter the state of individual neurons with lasers.[Chorost,p. 120][#Chorost:2011]
 
 By inserting a controlled virus into the brain, certain neurons will be genetically modified and will make the neurons light dependent. This allows the spikes of neurons to be controlled and read by light. [video][1]
 
@@ -176,7 +176,7 @@ This is all theoretically possible already, but not tested on humans yet. From t
 Let’s refer back to the metaphor of the hammer. Often a tool is meant for one goal, but the internet got quite diverse in it's functionality. So in order to make it a more precise fit we need to look on both the internet and the human brain it's strengths and weaknesses.
 
 ##### Memory
-Let's see what's more capable of storing lots of data, the brain or a computer. There's lots of speculations around the total size of the human brain translated to digital terms. Estimations vary from 1 Terabyte to 1 Petabyte (1000TB) (TODO citation needed).
+Let's see what's more capable of storing lots of data, the brain or a computer. There's lots of speculations around the total size of the human brain translated to digital terms. Estimations vary from 1 Terabyte to 2,5 Petabyte (2500TB).[Paul Reber, 2010][#Reber:2010]
 
 The big advantage of a computer on terms of capacity is it's ability to scale. Produce more memory, get more storage. The total filesize of the internet for example, grows exponentially. It doubles every 5.32 years. [Zhang, 2007, p. 6][#Zhang:2007]
 
@@ -245,6 +245,7 @@ Imagine how a better connectivity with the information on the web could facilita
 [#Gazzaniga:2008]: Michael S. Gazzaniga (2008). Human: The Science Behind What Makes Us Unique.
 [#Rackspace:2010]: Rackspace. (2010). The Evolution of HTML. Retrieved from: http://broadcast.rackspace.com/blog/HTMLtimeline/index.html (http://www.rackspace.com/blog/internet-history-html-evolution/)
 [#Kelly:1995]: Kelly, K. (1995). Out of Control: The New Biology of Machines, Social Systems, & the Economic World
+[#Reber:2010]: Reber, P. (2010) Scientific American - Mind, May / June 2010 
 [#Zhang:2008]: Zhang, G, Q, Zhang, G, Q, Yang, Q, F, Cheng, S, Q & Zhou, T. (2008). Evolution of the Internet and its cores. New Journal of Physics, 10
 [#Kiwix:2013]: Kiwix. (2013). Retrieved from http://kiwix.org
 [#Klyne:2004]: Klyne, G, Jeremy, J & McBride B. (2004). Resource Description Framework (RDF): Concepts and Abstract Syntax. Retrieved from: http://www.w3.org/TR/2004/REC-rdf-concepts-20040210/
