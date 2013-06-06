@@ -1,6 +1,3 @@
-Work in Progress, check our [log](/thesis/#/Log) for latest additions!
-
-
 ## Introduction
 
 ### Chinese Whispers
