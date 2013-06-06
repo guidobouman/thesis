@@ -86,7 +86,7 @@ If you're lucky, a content strategist was present during the creation of a websi
 What can we do about it? Not much, except for hope for better content strategy. Every website needs to be designed as long as we’re limited to interfaces with screens. The theory behind Metacrap even applies to the designers of the interface.
 
 ### Page based navigation
-> The web was originally conceived and developed to meet the demand for automatic information-sharing between scientists in universities and institutes around the world. [][http://home.web.cern.ch/about/birth-web]
+> The web was originally conceived and developed to meet the demand for automatic information-sharing between scientists in universities and institutes around the world. [CERN, 2013][#CERN:2013]
 
 The web is designed for sharing scientific articles. Going from article to article by clicking links. Searching the knowledge we're looking for. But instead of taking the page corner the web provides hyperlinks. Because there can be more than one hyperlink on a webpage, the reading experience has become non-linear. Different paths can be taken to end up with the desired data.
 
@@ -233,6 +233,7 @@ Imagine how a better connectivity with the information on the web could facilita
 
 [#Chorost:2011]: Chorost, M. (2011). World Wide Mind. New York: Free Press.
 [#Hawkins:2004]: Hawkins, J. & Blakeslee, S. (2004). On intelligence. New York: Times Books.
+[#CERN:2013]: CERN. (2013). The birth of the web. Retrieved from: http://home.web.cern.ch/about/birth-web
 [#Michelon:2008]: Michelon, P. (2008). Brain Plasticity: How learning changes your brain. Retrieved from: http://www.sharpbrains.com/blog/2008/02/26/brain-plasticity-how-learning-changes-your-brain/
 [#Klemm:2008]: Klemm, B. (2008) New Neurons: Good News, Bad News. Retrieved from: http://www.sharpbrains.com/blog/2008/04/25/new-neurons-good-news-bad-news/
 [#Boyden:2011]: Boyden, E. (2011). A light switch for neurons. Retrieved from: http://www.ted.com/talks/ed_boyden.html
